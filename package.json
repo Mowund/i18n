@@ -1,0 +1,21 @@
+{
+  "name": "mowund-i18n",
+  "displayName": "Mowund i18n",
+  "description": "i18n source files for Mowund.",
+  "homepage": "https://github.com/Mowund/i18n#readme",
+  "bugs": {
+    "url": "https://github.com/Mowund/i18n/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mowund/i18n.git"
+  },
+  "author": "Smidul",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
