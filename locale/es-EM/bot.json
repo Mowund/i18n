@@ -1,8 +1,8 @@
 {
   "pets": {
     "cat": {
-      "one": "Cat",
-      "other": "Cats"
+      "one": "Gato",
+      "other": "Gatos"
     }
   }
 }
