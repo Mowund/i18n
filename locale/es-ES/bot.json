@@ -1,0 +1,167 @@
+{
+  "CANVAS_LINE_FIRST": "UNDEFINED",
+  "BOT": {
+    "INFO": {
+      "TITLE": "Bot Info",
+      "NAME_FIELD": "Bot Name",
+      "VERSION_FIELD": "Bot Version",
+      "CREATION_FIELD": "Creation Date",
+      "SERVERS_FIELD": "Servers",
+      "SERVERS_FIELD_DESC": "The bot is currently on **{SERVERS}** servers.",
+      "MEMBERS_FIELD": "Members",
+      "MEMBERS_FIELD_DESC": "There are currently **{MEMBERS}** members in total across all guilds.",
+      "INVITES_BOT": "Invite Bot",
+      "INVITES_SUPPORT": "Support Server"
+    }
+  },
+  "COLOR": {
+    "LIKE": "Would you like this color?",
+    "SPECIFIED": "Specified color",
+    "AVATAR_ESTIMATED": "Estimated color of your avatar",
+    "TARGET_AVATAR_ESTIMATED": "Estimated color in {USER}'s avatar",
+    "USER_CAN_INTERACT": "{USER} can also interact with the system.",
+    "SAME_USER_CAN_INTERACT": "It is not necessary to mention yourself if you're going to change your own color.",
+    "INVALID": "Invalid color",
+    "INVALID_IMG": "Invalid",
+    "CANCELED": "Canceled",
+    "NO_ROLE": "You don't have a color role.",
+    "TARGET_NO_ROLE": "The mentioned user does not have a color role.",
+    "RGB_CONVERT": "Converted to RGB",
+    "CURRENT": "Current color",
+    "TARGET_CURRENT": "{USER}'s current color",
+    "ALREADY_NO_ROLE": "You already has no color role.",
+    "TARGET_ALREADY_NO_ROLE": "The mentioned user already has no color role.",
+    "DELETED_ROLE": "Deleted color",
+    "TARGET_DELETED_ROLE": "Deleted {USER}'s color",
+    "CREATED_ASSIGNED_ROLE": "Created and assigned color",
+    "TARGET_CREATED_ASSIGNED_ROLE": "Color created and assigned to {USER}",
+    "CHANGED_ROLE": "Changed color",
+    "TARGET_CHANGED_ROLE": "Changed {USER}'s color",
+    "CHANGED_ASSIGNED_ROLE": "Changed and assigned color",
+    "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {USER}",
+    "MIX": "Enter a color to mix",
+    "MIX_INVALID": "Invalid color, enter a valid color to mix",
+    "MIXED": "Mixed color",
+    "MIXED_REPEAT": "Mixed color, enter a color to mix again",
+    "EDIT": "Enter a new color",
+    "EDIT_ESTIMATED": "Estimated color of your avatar, enter a valid color to edit again",
+    "EDIT_INVALID": "Invalid color, enter a new valid color",
+    "EDITED": "Edited color",
+    "EDITED_REPEAT": "Edited color, enter a valid color to edit again",
+    "PREVIEW": "You are previewing the color."
+  },
+  "CONFIG": {
+    "SHARD": {
+      "RESPAWNING": "Respawning all shards."
+    }
+  },
+  "ECHO": {
+    "ERROR": {}
+  },
+  "EMOJI": {
+    "FIELD_NAME": "Name",
+    "FIELD_ID": "ID",
+    "FIELD_ROLES": "Roles",
+    "EDIT_EDITING": "Editing Emoji",
+    "EDIT_NAME": "Renaming Emoji",
+    "EDIT_NAME_INVALID": "Invalid Name",
+    "EDITED_NAME": "Renamed Emoji",
+    "EDITED_NAME_REPEAT": "Renamed emoji, enter a name to rename again",
+    "EDIT_ROLES_INVALID": "Invalid Role",
+    "EDIT_ROLES_RESETED": "Reseted emoji's roles",
+    "EDITED_ROLES": "Edited emoji's roles",
+    "EDIT_DELETING": "Deleting Emoji",
+    "EDIT_DELETING_DESC": "Are you sure you want to delete this emoji?",
+    "EDIT_DELETED": "Emoji Deleted",
+    "EDITING_ROLES": "Editing emoji's roles",
+    "EDIT_ROLES_ADDING": "Enter a role to add it to the emoji",
+    "EDIT_ROLES_ADD_INVALID": "Invalid Role",
+    "EDITED_ROLES_ADD_REPEAT": "Role added to emoji, enter another role to add it",
+    "EDIT_ROLES_ADDED_ALREADY": "This role is already defined",
+    "EDIT_ROLES_REMOVING": "Enter a role to remove it from the emoji",
+    "EDITED_ROLES_REMOVE_REPEAT": "Role removed from emoji, enter another role to remove it",
+    "EDIT_ROLES_REMOVE_INVALID": "Invalid Role",
+    "EDIT_ROLES_REMOVED": "This role is already not defined",
+    "EDIT_ROLES_REMOVED_ALREADY": "This role is already not defined",
+    "EDIT_ADDED": "Added Emoji",
+    "EDIT_READDED": "Readded Emoji",
+    "VIEW_VIEWING": "Viewing Emoji",
+    "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server.",
+    "COMPONENT": {
+      "VIEW": "View",
+      "EDIT": "Edit",
+      "EDIT_NAME": "Rename",
+      "EDIT_ROLES": "Edit Roles",
+      "EDIT_ROLES_ADD": "Add Role",
+      "EDIT_ROLES_REMOVE": "Remove Role",
+      "EDIT_ROLES_RESET": "Reset Roles",
+      "EDIT_DELETE": "Delete Emoji",
+      "EDIT_DELETE_CONFIRM": "Yes",
+      "EDIT_ADD": "Add Emoji",
+      "EDIT_READD": "Readd Emoji"
+    }
+  },
+  "KILL": {
+    "DIED": "Fell out of the world.",
+    "pt-BR": "Caiu para fora do mundo.",
+    "LANGUAGE": {
+      "CHANGED": "Changed Language",
+      "CHANGED_TO": "The language of the bot on this server has been set to `{LANG}`.",
+      "CURRENT": "Current Language",
+      "CURRENT_IS": "The current language of the bot on this server is: `{LANG}`.",
+      "NOT_SUPPORTED": "The bot currently does not have support for `{LANG}`."
+    },
+    "PING": {
+      "TITLE": "Pong!",
+      "DEFERRED": "Deferred",
+      "TIME": {
+        "DEFERMENT": "Deferment Time",
+        "EDITING": "Editing Time",
+        "RESPONSE": "Response Time"
+      },
+      "API_LATENCY": "API Latency",
+      "UPTIME": "Uptime",
+      "SHARD": "Shard"
+    },
+    "PERM": {
+      "REQUIRES": "Requires the `{PERM}` permission.",
+      "ROLE_REQUIRES": "{ROLE} requires the `{PERM}` permission for the interaction to work properly.",
+      "MANAGE_EMOJIS": "Manage Emojis",
+      "MANAGE_GUILD": "Manage Guild",
+      "MANAGE_MESSAGES": "Manage Messages",
+      "MANAGE_ROLES": "Manage Roles",
+      "USE_EXTERNAL_EMOJIS": "Use External Emojis"
+    },
+    "ERROR": {
+      "DM": "This command cannot be used in DMs.",
+      "TIMED_OUT": "Timed out",
+      "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
+      "EMOJI_NOT_FOUND": "Emoji not found.",
+      "UNALLOWED": {
+        "CHAT": "You are not allowed to use this command in this chat.",
+        "COMMAND": "You are not allowed to interact with this command."
+      }
+    },
+    "GENERIC": {
+      "TIME": {
+        "SECONDS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}",
+        "MINUTES": "{count, plural, =0 {now} =1 {# hour} other {# hours}}",
+        "HOURS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}"
+      },
+      "COMPONENT": {
+        "BACK": "Back",
+        "REPEAT": "Repeat",
+        "MESSAGE_DELETE": "Delete Message"
+      },
+      "CURRENT": "Current",
+      "TOTAL": "Total",
+      "REQUESTED_BY": "Requested by {USER}",
+      "INTERACTED_BY": "Interacted by {USER}",
+      "ERROR": "Error",
+      "SUCCESS": "Success",
+      "WARNING": "Warning",
+      "WIP": "Work in progress",
+      "WIP_COMMAND": "This command is currently under development."
+    }
+  }
+}
