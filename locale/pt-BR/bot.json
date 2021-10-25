@@ -7,16 +7,16 @@
       "VERSION_FIELD": "Versão do Bot",
       "CREATION_FIELD": "Data de Criação",
       "SERVERS_FIELD": "Servidores",
-      "SERVERS_FIELD_DESC": "The bot is currently on **%s** servers.",
+      "SERVERS_FIELD_DESC": "O bot está em atualmente **%s** servidores.",
       "MEMBERS_FIELD": "Membros",
-      "MEMBERS_FIELD_DESC": "There are currently **%s** members in total across all guilds.",
+      "MEMBERS_FIELD_DESC": "Existem atualmente **%s** membros no total entre todos os servidores.",
       "INVITES_BOT": "Convidar Bot",
       "INVITES_SUPPORT": "Servidor de Suporte"
     }
   },
   "COLOR": {
-    "LIKE": "Would you like this color?",
-    "SPECIFIED": "Specified color",
+    "LIKE": "Você gostaria desta cor?",
+    "SPECIFIED": "Cor especificada",
     "AVATAR_ESTIMATED": "Estimated color of your avatar",
     "TARGET_AVATAR_ESTIMATED": "Estimated color in %s's avatar",
     "USER_CAN_INTERACT": "%s can also interact with the system.",
