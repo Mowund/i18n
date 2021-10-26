@@ -102,14 +102,14 @@
     }
   },
   "KILL": {
-    "DIED": "Caiu para fora do mundo.",
-    "LANGUAGE": {
-      "CHANGED": "Alterar Idioma",
-      "CHANGED_TO": "O idioma do bot neste servidor foi definido para `%s`.",
-      "CURRENT": "Idioma Atual",
-      "CURRENT_IS": "O idioma atual do bot nesse servidor é: `%s`.",
-      "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`."
-    }
+    "DIED": "Caiu para fora do mundo."
+  },
+  "LANGUAGE": {
+    "CHANGED": "Alterar Idioma",
+    "CHANGED_TO": "O idioma do bot neste servidor foi definido para `%s`.",
+    "CURRENT": "Idioma Atual",
+    "CURRENT_IS": "O idioma atual do bot nesse servidor é: `%s`.",
+    "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`."
   },
   "PING": {
     "TITLE": "Pong!",
