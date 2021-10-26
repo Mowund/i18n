@@ -109,58 +109,58 @@
       "CURRENT": "Idioma Atual",
       "CURRENT_IS": "O idioma atual do bot nesse servidor é: `%s`.",
       "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`."
-    },
-    "PING": {
-      "TITLE": "Pong!",
-      "DEFERRED": "Adiado",
-      "TIME": {
-        "DEFERMENT": "Tempo de Adiamento",
-        "EDITING": "Tempo de Edição",
-        "RESPONSE": "Tempo de Resposta"
-      },
-      "API_LATENCY": "Latência da API",
-      "UPTIME": "Tempo Ativo",
-      "SHARD": "Shard"
-    },
-    "PERM": {
-      "REQUIRES": "Requer a permissão `%s`.",
-      "ROLE_REQUIRES": "{{ROLE}} requer a permissão `{{PERM}}` para que a interação funcione corretamente.",
-      "MANAGE_EMOJIS": "Gerenciar Emojis",
-      "MANAGE_GUILD": "Gerenciar Servidor",
-      "MANAGE_MESSAGES": "Gerenciar Mensagens",
-      "MANAGE_ROLES": "Gerenciar Cargos",
-      "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos"
-    },
-    "ERROR": {
-      "DM": "Esse comando não pode ser usado em DMs.",
-      "TIMED_OUT": "Tempo esgotado",
-      "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
-      "EMOJI_NOT_FOUND": "Emoji não encontrado.",
-      "UNALLOWED": {
-        "CHAT": "Você não tem permissão para usar este comando neste chat.",
-        "COMMAND": "Você não tem permissão para interagir com este comando."
-      }
-    },
-    "GENERIC": {
-      "TIME": {
-        "SECONDS": "{count, plural, one {} =0 {agora} =1 {# segundo} other {# segundos}}",
-        "MINUTES": "{count, plural, one {} =0 {agora} =1 {# minuto} other {# minutos}}",
-        "HOURS": "{count, plural, one {} =0 {agora} =1 {# hora} other {# horas}}"
-      },
-      "COMPONENT": {
-        "BACK": "Voltar",
-        "REPEAT": "Repetir",
-        "MESSAGE_DELETE": "Excluir Mensagem"
-      },
-      "CURRENT": "Atual",
-      "TOTAL": "Total",
-      "REQUESTED_BY": "Solicitado por %s",
-      "INTERACTED_BY": "Interagido por %s",
-      "ERROR": "Erro",
-      "SUCCESS": "Sucesso",
-      "WARNING": "Alerta",
-      "WIP": "Trabalho em andamento",
-      "WIP_COMMAND": "Este comando está atualmente em desenvolvimento."
     }
+  },
+  "PING": {
+    "TITLE": "Pong!",
+    "DEFERRED": "Adiado",
+    "TIME": {
+      "DEFERMENT": "Tempo de Adiamento",
+      "EDITING": "Tempo de Edição",
+      "RESPONSE": "Tempo de Resposta"
+    },
+    "API_LATENCY": "Latência da API",
+    "UPTIME": "Tempo Ativo",
+    "SHARD": "Shard"
+  },
+  "PERM": {
+    "REQUIRES": "Requer a permissão `%s`.",
+    "ROLE_REQUIRES": "{{ROLE}} requer a permissão `{{PERM}}` para que a interação funcione corretamente.",
+    "MANAGE_EMOJIS": "Gerenciar Emojis",
+    "MANAGE_GUILD": "Gerenciar Servidor",
+    "MANAGE_MESSAGES": "Gerenciar Mensagens",
+    "MANAGE_ROLES": "Gerenciar Cargos",
+    "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos"
+  },
+  "ERROR": {
+    "DM": "Esse comando não pode ser usado em DMs.",
+    "TIMED_OUT": "Tempo esgotado",
+    "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
+    "EMOJI_NOT_FOUND": "Emoji não encontrado.",
+    "UNALLOWED": {
+      "CHAT": "Você não tem permissão para usar este comando neste chat.",
+      "COMMAND": "Você não tem permissão para interagir com este comando."
+    }
+  },
+  "GENERIC": {
+    "TIME": {
+      "SECONDS": "{count, plural, one {} =0 {agora} =1 {# segundo} other {# segundos}}",
+      "MINUTES": "{count, plural, one {} =0 {agora} =1 {# minuto} other {# minutos}}",
+      "HOURS": "{count, plural, one {} =0 {agora} =1 {# hora} other {# horas}}"
+    },
+    "COMPONENT": {
+      "BACK": "Voltar",
+      "REPEAT": "Repetir",
+      "MESSAGE_DELETE": "Excluir Mensagem"
+    },
+    "CURRENT": "Atual",
+    "TOTAL": "Total",
+    "REQUESTED_BY": "Solicitado por %s",
+    "INTERACTED_BY": "Interagido por %s",
+    "ERROR": "Erro",
+    "SUCCESS": "Sucesso",
+    "WARNING": "Alerta",
+    "WIP": "Trabalho em andamento",
+    "WIP_COMMAND": "Este comando está atualmente em desenvolvimento."
   }
 }
