@@ -146,7 +146,7 @@
     "TIME": {
       "SECONDS": "{count, plural, one {} =0 {agora} =1 {# segundo} other {# segundos}}",
       "MINUTES": "{count, plural, one {} =0 {agora} =1 {# minuto} other {# minutos}}",
-      "HOURS": "{count, plural, one {} =0 {agora} =1 {# segundo} other {# segundos}}"
+      "HOURS": "{count, plural, one {} =0 {agora} =1 {# hora} other {# horas}}"
     },
     "COMPONENT": {
       "BACK": "Voltar",
