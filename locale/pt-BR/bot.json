@@ -159,7 +159,7 @@
     "INTERACTED_BY": "Interagido por %s",
     "ERROR": "Erro",
     "SUCCESS": "Sucesso",
-    "WARNING": "Alerta",
+    "WARNING": "Aviso",
     "WIP": "Trabalho em andamento",
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento."
   }
