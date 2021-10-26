@@ -103,7 +103,6 @@
   },
   "KILL": {
     "DIED": "Fell out of the world.",
-    "pt-BR": "Caiu para fora do mundo.",
     "LANGUAGE": {
       "CHANGED": "Changed Language",
       "CHANGED_TO": "The language of the bot on this server has been set to `%s`.",
