@@ -105,7 +105,7 @@
     "DIED": "Caiu para fora do mundo."
   },
   "LANGUAGE": {
-    "CHANGED": "Alterar Idioma",
+    "CHANGED": "Idioma Alterado",
     "CHANGED_TO": "O idioma do bot neste servidor foi definido para `%s`.",
     "CURRENT": "Idioma Atual",
     "CURRENT_IS": "O idioma atual do bot nesse servidor é: `%s`.",
@@ -159,7 +159,7 @@
     "INTERACTED_BY": "Interagido por %s",
     "ERROR": "Erro",
     "SUCCESS": "Sucesso",
-    "WARNING": "Alerta",
+    "WARNING": "Aviso",
     "WIP": "Trabalho em andamento",
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento."
   }
