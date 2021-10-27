@@ -145,8 +145,8 @@
   "GENERIC": {
     "TIME": {
       "SECONDS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}",
-      "MINUTES": "{count, plural, one {} =0 {now} =1 {# minute} other {# minutes}}",
-      "HOURS": "{count, plural, one {} =0 {now} =1 {# hour} other {# hours}}"
+      "MINUTES": "{count, plural, =0 {now} =1 {# minute} other {# minutes}}",
+      "HOURS": "{count, plural, =0 {now} =1 {# hour} other {# hours}}"
     },
     "COMPONENT": {
       "BACK": "Back",
