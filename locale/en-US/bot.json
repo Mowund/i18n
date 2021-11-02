@@ -109,7 +109,12 @@
     "CHANGED_TO": "The language of the bot on this server has been set to `%s`.",
     "CURRENT": "Current Language",
     "CURRENT_IS": "The current language of the bot on this server is: `%s`.",
-    "NOT_SUPPORTED": "The bot currently does not have support for `%s`."
+    "NOT_SUPPORTED": "The bot currently does not have support for `%s`.",
+    "NAME": {
+      "en-US": "English (United States)",
+      "es-ES": "Spanish (Spain)",
+      "pt-BR": "Portuguese (Brazil)"
+    }
   },
   "PING": {
     "TITLE": "Pong!",
