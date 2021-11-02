@@ -111,9 +111,9 @@
     "CURRENT_IS": "El idioma actual del bot en este servidor es: `%s`.",
     "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
     "NAME": {
-      "en-US": "English (United States)",
-      "es-ES": "Spanish (Spain)",
-      "pt-BR": "Portuguese (Brazil)"
+      "en-US": "Inglés (Estados Unidos)",
+      "es-ES": "Español (España)",
+      "pt-BR": "Portugués (Brasil)"
     }
   },
   "PING": {
