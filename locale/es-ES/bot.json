@@ -53,14 +53,14 @@
   "CONFIG": {
     "INTERACTION": {
       "COMMANDS": {
-        "UPDATED": "Updated Commands",
-        "DELETED": "Deleted Commands",
-        "GLOBAL": "Global Commands",
-        "GUILD": "Guild Commands",
-        "SPECIFIED_GUILD": "%s's Guild Commands"
+        "UPDATED": "Comandos Actualizados",
+        "DELETED": "Comandos Eliminados",
+        "GLOBAL": "Comandos Globales",
+        "GUILD": "Comandos de Servidor",
+        "SPECIFIED_GUILD": "Comandos del Servidor de %s"
       },
-      "NO_UPDATE": "No commands have been updated.",
-      "ERROR_RELOADING": "An error occured while reloading an application command."
+      "NO_UPDATE": "Ningún comando ha sido actualizado.",
+      "ERROR_RELOADING": "Ocurrió un error al recargar cargar un comando de la aplicación."
     },
     "SHARD": {
       "RESPAWNING": "Reapareciendo todos los shards."
@@ -115,7 +115,7 @@
   "LANGUAGE": {
     "CHANGED": "Idioma Cambiado",
     "CURRENT": "Idioma Actual",
-    "CURRENT_IS": "The current language of the bot on this server is `%s`.",
+    "CURRENT_IS": "El idioma actual del bot en este servidor es `%s`.",
     "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
     "NAME": {
       "en-US": "Inglés (Estados Unidos)",
@@ -149,8 +149,8 @@
     "TIMED_OUT": "Tiempo agotado",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "EMOJI_NOT_FOUND": "Emoji no encontrado.",
-    "OWNERS_ONLY": "Only bot owners can use this command.",
-    "GUILD_NOT_FOUND": "Guild not found.",
+    "OWNERS_ONLY": "Solo mis dueños pueden usar este comando.",
+    "GUILD_NOT_FOUND": "Servidor no encontrado.",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
@@ -167,11 +167,11 @@
       "REPEAT": "Repetir",
       "MESSAGE_DELETE": "Borrar Mensaje"
     },
-    "FROM": "From",
-    "TO": "To",
+    "FROM": "De",
+    "TO": "Para",
     "CHAT": "Chat",
-    "MESSAGE": "Message",
-    "USER": "User",
+    "MESSAGE": "Mensaje",
+    "USER": "Usuario",
     "CURRENT": "Actual",
     "TOTAL": "Total",
     "REQUESTED_BY": "Solicitado por %s",
