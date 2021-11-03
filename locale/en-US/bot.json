@@ -149,7 +149,7 @@
     "TIMED_OUT": "Timed out",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
     "EMOJI_NOT_FOUND": "Emoji not found.",
-    "OWNERS_ONLY": "Only bot owners can use this command.",
+    "OWNERS_ONLY": "Only my owners can use this command.",
     "GUILD_NOT_FOUND": "Guild not found.",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat.",
