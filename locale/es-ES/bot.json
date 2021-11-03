@@ -51,12 +51,20 @@
     "PREVIEW": "Estás previsualizando el color."
   },
   "CONFIG": {
+    "INTERACTION": {
+      "COMMANDS": {
+        "UPDATED": "Updated Commands",
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "%s's Guild Commands"
+      },
+      "NO_UPDATE": "No commands have been updated.",
+      "ERROR_RELOADING": "An error occured while reloading an application command."
+    },
     "SHARD": {
       "RESPAWNING": "Reapareciendo todos los shards."
     }
-  },
-  "ECHO": {
-    "ERROR": {}
   },
   "EMOJI": {
     "FIELD_NAME": "Nombre",
@@ -106,9 +114,8 @@
   },
   "LANGUAGE": {
     "CHANGED": "Idioma Cambiado",
-    "CHANGED_TO": "El idioma del bot en este servidor se ha establecido en `%s`.",
     "CURRENT": "Idioma Actual",
-    "CURRENT_IS": "El idioma actual del bot en este servidor es `%s`.",
+    "CURRENT_IS": "The current language of the bot on this server is `%s`.",
     "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
     "NAME": {
       "en-US": "Inglés (Estados Unidos)",
@@ -142,6 +149,8 @@
     "TIMED_OUT": "Tiempo agotado",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "EMOJI_NOT_FOUND": "Emoji no encontrado.",
+    "OWNERS_ONLY": "Only bot owners can use this command.",
+    "GUILD_NOT_FOUND": "Guild not found.",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
@@ -158,6 +167,11 @@
       "REPEAT": "Repetir",
       "MESSAGE_DELETE": "Borrar Mensaje"
     },
+    "FROM": "From",
+    "TO": "To",
+    "CHAT": "Chat",
+    "MESSAGE": "Message",
+    "USER": "User",
     "CURRENT": "Actual",
     "TOTAL": "Total",
     "REQUESTED_BY": "Solicitado por %s",
