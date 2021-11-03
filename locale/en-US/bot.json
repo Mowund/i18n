@@ -51,12 +51,20 @@
     "PREVIEW": "You are previewing the color."
   },
   "CONFIG": {
+    "INTERACTION": {
+      "COMMANDS": {
+        "UPDATED": "Updated Commands",
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "%s's Guild Commands"
+      },
+      "NO_UPDATE": "No commands have been updated.",
+      "ERROR_RELOADING": "An error occured while reloading an application command."
+    },
     "SHARD": {
       "RESPAWNING": "Respawning all shards."
     }
-  },
-  "ECHO": {
-    "ERROR": {}
   },
   "EMOJI": {
     "FIELD_NAME": "Name",
@@ -106,9 +114,8 @@
   },
   "LANGUAGE": {
     "CHANGED": "Changed Language",
-    "CHANGED_TO": "The language of the bot on this server has been set to `%s`.",
     "CURRENT": "Current Language",
-    "CURRENT_IS": "The current language of the bot on this server is: `%s`.",
+    "CURRENT_IS": "The current language of the bot on this server is `%s`.",
     "NOT_SUPPORTED": "The bot currently does not have support for `%s`.",
     "NAME": {
       "en-US": "English (United States)",
@@ -142,6 +149,8 @@
     "TIMED_OUT": "Timed out",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
     "EMOJI_NOT_FOUND": "Emoji not found.",
+    "OWNERS_ONLY": "Only bot owners can use this command.",
+    "GUILD_NOT_FOUND": "Guild not found.",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat.",
       "COMMAND": "You are not allowed to interact with this command."
@@ -158,6 +167,11 @@
       "REPEAT": "Repeat",
       "MESSAGE_DELETE": "Delete Message"
     },
+    "FROM": "From",
+    "TO": "To",
+    "CHAT": "Chat",
+    "MESSAGE": "Message",
+    "USER": "User",
     "CURRENT": "Current",
     "TOTAL": "Total",
     "REQUESTED_BY": "Requested by %s",
