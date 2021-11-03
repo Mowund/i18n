@@ -108,7 +108,7 @@
     "CHANGED": "Idioma Cambiado",
     "CHANGED_TO": "El idioma del bot en este servidor se ha establecido en `%s`.",
     "CURRENT": "Idioma Actual",
-    "CURRENT_IS": "El idioma actual del bot en este servidor es: `%s`.",
+    "CURRENT_IS": "El idioma actual del bot en este servidor es `%s`.",
     "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
     "NAME": {
       "en-US": "Inglés (Estados Unidos)",
