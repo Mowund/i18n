@@ -149,7 +149,7 @@
     "TIMED_OUT": "Tempo esgotado",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "EMOJI_NOT_FOUND": "Emoji não encontrado.",
-    "OWNERS_ONLY": "Apenas meus donos podem usar este comando.",
+    "OWNERS_ONLY": "Only my owners can use this command.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "UNALLOWED": {
       "CHAT": "Você não tem permissão para usar este comando neste chat.",
