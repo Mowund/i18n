@@ -117,7 +117,7 @@
     "CURRENT": "Idioma Atual",
     "CURRENT_IS": "O idioma atual do bot nesse servidor é `%s`.",
     "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`.",
-    "CROWDIN": "Translate on Crowdin",
+    "CROWDIN": "Traduzir no Crowdin",
     "NAME": {
       "en-US": "Inglês (Estados Unidos)",
       "es-ES": "Espanhol (Espanha)",
@@ -138,18 +138,18 @@
   },
   "USER": {
     "INFO": {
-      "TITLE": "User Info",
+      "TITLE": "Informações do Usuário",
       "USER": {
-        "ID": "User ID",
-        "CREATED": "Account Created",
+        "ID": "ID do Usuário",
+        "CREATED": "Conta Criada",
         "AVATAR": "Avatar",
         "BANNER": "Banner"
       },
       "MEMBER": {
-        "JOINED": "Joined Server",
-        "ROLES": "Roles",
-        "AVATAR": "Server Avatar",
-        "BANNER": "Server Banner"
+        "JOINED": "Entrou no Servidor",
+        "ROLES": "Cargos",
+        "AVATAR": "Avatar de Servidor",
+        "BANNER": "Banner de Servidor"
       }
     }
   },
@@ -167,7 +167,7 @@
     "TIMED_OUT": "Tempo esgotado",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "EMOJI_NOT_FOUND": "Emoji não encontrado.",
-    "DEVELOPERS_ONLY": "Only my developers can use this command.",
+    "DEVELOPERS_ONLY": "Apenas meus desenvolvedores podem usar este comando.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "UNALLOWED": {
       "CHAT": "Você não tem permissão para usar este comando neste chat.",
