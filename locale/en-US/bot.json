@@ -117,6 +117,7 @@
     "CURRENT": "Current Language",
     "CURRENT_IS": "The current language of the bot on this server is `%s`.",
     "NOT_SUPPORTED": "The bot currently does not have support for `%s`.",
+    "CROWDIN": "Translate on Crowdin",
     "NAME": {
       "en-US": "English (United States)",
       "es-ES": "Spanish (Spain)",
@@ -135,6 +136,23 @@
     "UPTIME": "Uptime",
     "SHARD": "Shard"
   },
+  "USER": {
+    "INFO": {
+      "TITLE": "User Info",
+      "USER": {
+        "ID": "User ID",
+        "CREATED": "Account Created",
+        "AVATAR": "Avatar",
+        "BANNER": "Banner"
+      },
+      "MEMBER": {
+        "JOINED": "Joined Server",
+        "ROLES": "Roles",
+        "AVATAR": "Server Avatar",
+        "BANNER": "Server Banner"
+      }
+    }
+  },
   "PERM": {
     "REQUIRES": "Requires the `%s` permission.",
     "ROLE_REQUIRES": "{{ROLE}} requires the `{{PERM}}` permission for the interaction to work properly.",
@@ -149,7 +167,7 @@
     "TIMED_OUT": "Timed out",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
     "EMOJI_NOT_FOUND": "Emoji not found.",
-    "OWNERS_ONLY": "Only my owners can use this command.",
+    "DEVELOPERS_ONLY": "Only my developers can use this command.",
     "GUILD_NOT_FOUND": "Guild not found.",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat.",
