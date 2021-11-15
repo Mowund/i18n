@@ -50,7 +50,7 @@
     "EDITED_REPEAT": "Color editado, ingrese un color válido para editar nuevamente",
     "PREVIEW": "Estás previsualizando el color."
   },
-  "CONFIG": {
+  "MOWUND": {
     "INTERACTION": {
       "COMMANDS": {
         "UPDATED": "Comandos Actualizados",
@@ -112,18 +112,6 @@
   "KILL": {
     "DIED": "Cayó para fuera del mundo."
   },
-  "LANGUAGE": {
-    "CHANGED": "Idioma Cambiado",
-    "CURRENT": "Idioma Actual",
-    "CURRENT_IS": "El idioma actual del bot en este servidor es `%s`.",
-    "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
-    "CROWDIN": "Traducir en Crowdin",
-    "NAME": {
-      "en-US": "Inglés (Estados Unidos)",
-      "es-ES": "Español (España)",
-      "pt-BR": "Portugués (Brasil)"
-    }
-  },
   "PING": {
     "TITLE": "Pong!",
     "DEFERRED": "Diferido",
@@ -135,6 +123,20 @@
     "API_LATENCY": "Latencia de API",
     "UPTIME": "Tiempo de Actividad",
     "SHARD": "Shard"
+  },
+  "SETTINGS": {
+    "LANGUAGE": {
+      "CHANGED": "Idioma Cambiado",
+      "CURRENT": "Idioma Actual",
+      "CURRENT_IS": "El idioma actual del bot en este servidor es `%s`.",
+      "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `%s`.",
+      "CROWDIN": "Traducir en Crowdin",
+      "NAME": {
+        "en-US": "Inglés (Estados Unidos)",
+        "es-ES": "Español (España)",
+        "pt-BR": "Portugués (Brasil)"
+      }
+    }
   },
   "USER": {
     "INFO": {
