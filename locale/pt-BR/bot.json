@@ -14,6 +14,9 @@
       "INVITES_SUPPORT": "Servidor de Suporte"
     }
   },
+  "CLEAR": {
+    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} =1 {`#` mensagem excluída} other {`#` mensagens excluídas}}."
+  },
   "COLOR": {
     "LIKE": "Você gostaria desta cor?",
     "SPECIFIED": "Cor especificada",
@@ -63,7 +66,7 @@
       "ERROR_RELOADING": "Ocorreu um erro ao recarregar um comando da aplicação."
     },
     "SHARD": {
-      "RESPAWNING": "Renascendo todos os shards."
+      "RESPAWNING": "Renascendo todas as shards."
     }
   },
   "EMOJI": {

@@ -14,6 +14,9 @@
       "INVITES_SUPPORT": "Servidor de Soporte"
     }
   },
+  "CLEAR": {
+    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} =1 {`#` mensaje eliminado} other {`#` mensajes eliminados}}."
+  },
   "COLOR": {
     "LIKE": "¿Te gustaría este color?",
     "SPECIFIED": "Color especificado",
