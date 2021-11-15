@@ -14,6 +14,9 @@
       "INVITES_SUPPORT": "Servidor de Suporte"
     }
   },
+  "CLEAR": {
+    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}."
+  },
   "COLOR": {
     "LIKE": "Você gostaria desta cor?",
     "SPECIFIED": "Cor especificada",
@@ -50,20 +53,20 @@
     "EDITED_REPEAT": "Cor editada, insira uma cor válida para editar novamente",
     "PREVIEW": "Você está pré-visualizando a cor."
   },
-  "CONFIG": {
+  "MOWUND": {
     "INTERACTION": {
       "COMMANDS": {
-        "UPDATED": "Comandos Atualizados",
-        "DELETED": "Comandos Excluídos",
-        "GLOBAL": "Comandos Globais",
-        "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos do Servidor %s"
+        "UPDATED": "Updated Commands",
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "%s's Guild Commands"
       },
-      "NO_UPDATE": "Nenhum comando foi atualizado.",
-      "ERROR_RELOADING": "Ocorreu um erro ao recarregar um comando da aplicação."
+      "NO_UPDATE": "No commands have been updated.",
+      "ERROR_RELOADING": "An error occured while reloading an application command."
     },
     "SHARD": {
-      "RESPAWNING": "Renascendo todos os shards."
+      "RESPAWNING": "Respawning all shards."
     }
   },
   "EMOJI": {
@@ -112,18 +115,6 @@
   "KILL": {
     "DIED": "Caiu para fora do mundo."
   },
-  "LANGUAGE": {
-    "CHANGED": "Idioma Alterado",
-    "CURRENT": "Idioma Atual",
-    "CURRENT_IS": "O idioma atual do bot nesse servidor é `%s`.",
-    "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`.",
-    "CROWDIN": "Traduzir no Crowdin",
-    "NAME": {
-      "en-US": "Inglês (Estados Unidos)",
-      "es-ES": "Espanhol (Espanha)",
-      "pt-BR": "Português (Brasil)"
-    }
-  },
   "PING": {
     "TITLE": "Pong!",
     "DEFERRED": "Adiado",
@@ -135,6 +126,20 @@
     "API_LATENCY": "Latência da API",
     "UPTIME": "Tempo Ativo",
     "SHARD": "Shard"
+  },
+  "SETTINGS": {
+    "LANGUAGE": {
+      "CHANGED": "Changed Language",
+      "CURRENT": "Current Language",
+      "CURRENT_IS": "The current language of the bot on this server is `%s`.",
+      "NOT_SUPPORTED": "The bot currently does not have support for `%s`.",
+      "CROWDIN": "Translate on Crowdin",
+      "NAME": {
+        "en-US": "English (United States)",
+        "es-ES": "Spanish (Spain)",
+        "pt-BR": "Portuguese (Brazil)"
+      }
+    }
   },
   "USER": {
     "INFO": {
