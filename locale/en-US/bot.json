@@ -202,7 +202,8 @@
     "ERROR": "Error",
     "SUCCESS": "Success",
     "WARNING": "Warning",
-    "WIP": "Work in progress",
-    "WIP_COMMAND": "This command is currently under development."
+    "WIP": "Work in Progress",
+    "WIP_COMMAND": "This command is currently under development.",
+    "WIP_FUNCTION": "This function is currently under development."
   }
 }
