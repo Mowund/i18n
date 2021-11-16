@@ -15,7 +15,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída.} =1 {`%d` mensagem excluída.} other {`%d` mensagens excluídas.}}"
+    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} =1 {`#` mensagem excluída} other {`#` mensagens excluídas}}."
   },
   "COLOR": {
     "LIKE": "Você gostaria desta cor?",
