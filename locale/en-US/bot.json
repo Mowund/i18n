@@ -15,7 +15,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted.} =1 {`#` message deleted.} other {`#` messages deleted.}}"
+    "DELETED": "{count, plural, one {} =0 {No messages were deleted.} =1 {`%d` message deleted.} other {`%d` messages deleted.}}"
   },
   "COLOR": {
     "LIKE": "Would you like this color?",
