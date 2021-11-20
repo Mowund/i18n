@@ -158,9 +158,9 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer has the `{{perm}}` {count, plural, one {permission} other {permissions}}.",
-    "REQUIRES": "You need the `{{perm}}` {count, plural, one {permission} other {permissions}}.",
-    "ROLE_REQUIRES": "{{role}} requires the `{{perm}}` {count, plural, one {permission} other {permissions}} for the interaction to work properly.",
+    "NO_LONGER": "You no longer has the `{perm}` {count, plural, one {permission} other {permissions}}.",
+    "REQUIRES": "You need the `{perm}` {count, plural, one {permission} other {permissions}}.",
+    "ROLE_REQUIRES": "{role} requires the `{perm}` {count, plural, one {permission} other {permissions}} for the interaction to work properly.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
     "KICK_MEMBERS": "Expulsar Membros",
     "BAN_MEMBERS": "Banir Membros",
