@@ -53,22 +53,6 @@
     "EDITED_REPEAT": "Color editado, ingrese un color válido para editar nuevamente",
     "PREVIEW": "Estás previsualizando el color."
   },
-  "MOWUND": {
-    "INTERACTION": {
-      "COMMANDS": {
-        "UPDATED": "Comandos Actualizados",
-        "DELETED": "Comandos Eliminados",
-        "GLOBAL": "Comandos Globales",
-        "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos del Servidor de %s"
-      },
-      "NO_UPDATE": "Ningún comando ha sido actualizado.",
-      "ERROR_RELOADING": "Ocurrió un error al recargar cargar un comando de la aplicación."
-    },
-    "SHARD": {
-      "RESPAWNING": "Reapareciendo todos los shards."
-    }
-  },
   "EMOJI": {
     "FIELD_NAME": "Nombre",
     "FIELD_ID": "ID",
@@ -115,6 +99,21 @@
   "KILL": {
     "DIED": "Cayó para fuera del mundo."
   },
+  "MOWUND": {
+    "INTERACTION": {
+      "COMMANDS": {
+        "UPDATED": "Comandos Actualizados",
+        "DELETED": "Comandos Eliminados",
+        "GLOBAL": "Comandos Globales",
+        "GUILD": "Comandos de Servidor",
+        "SPECIFIED_GUILD": "Comandos del Servidor de %s"
+      },
+      "NO_UPDATE": "Ningún comando ha sido actualizado."
+    },
+    "SHARD": {
+      "RESPAWNING": "Reapareciendo todos los shards."
+    }
+  },
   "PING": {
     "TITLE": "Pong!",
     "DEFERRED": "Diferido",
@@ -159,8 +158,9 @@
     }
   },
   "PERM": {
-    "REQUIRES": "Requiere permiso `%s`.",
-    "ROLE_REQUIRES": "{{ROLE}} requiere el permiso `{{PERM}}` para que la interacción funcione correctamente.",
+    "NO_LONGER": "You no longer has the `{{perm}}` {count, plural, one {permission} other {permissions}}.",
+    "REQUIRES": "You need the `{{perm}}` {count, plural, one {permission} other {permissions}}.",
+    "ROLE_REQUIRES": "{{role}} requires the `{{perm}}` {count, plural, one {permission} other {permissions}} for the interaction to work properly.",
     "CREATE_INSTANT_INVITE": "Crear Invitación",
     "KICK_MEMBERS": "Expulsar Miembros",
     "BAN_MEMBERS": "Banear Miembros",
@@ -211,6 +211,7 @@
     "EMOJI_NOT_FOUND": "Emoji no encontrado.",
     "DEVELOPERS_ONLY": "Sólo mis desarrolladores pueden usar este comando.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
+    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
@@ -239,6 +240,8 @@
     "ERROR": "Error",
     "SUCCESS": "Éxito",
     "WARNING": "Advertencia",
+    "OUTPUT": "Output",
+    "TYPE": "Type",
     "WIP": "Trabajo en Progreso",
     "WIP_COMMAND": "Este comando está actualmente en desarrollo.",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo."
