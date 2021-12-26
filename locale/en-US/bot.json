@@ -153,8 +153,8 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer have the `%s` permission.",
-    "REQUIRES": "You need the `%s`permission.",
+    "NO_LONGER": "You no longer have the required `%s` permission.",
+    "REQUIRES": "You need the required `%s` permission.",
     "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
     "CREATE_INSTANT_INVITE": "Create Instant Invite",
     "KICK_MEMBERS": "Kick Members",
