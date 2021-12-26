@@ -153,8 +153,8 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "Você não tem mais a permissão `%s` necessitada.",
-    "REQUIRES": "You don't have the required `%s` permission.",
+    "NO_LONGER": "Você não tem mais a permissão `%s` necessária.",
+    "REQUIRES": "Você precisa da permissão `%s`.",
     "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
     "KICK_MEMBERS": "Expulsar Membros",
@@ -198,16 +198,16 @@
     "USE_EXTERNAL_STICKERS": "Usar Figurinhas Externos",
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos",
     "START_EMBEDDED_ACTIVITIES": "Começar Atividades",
-    "MODERATE_MEMBERS": "Timeout Members"
+    "MODERATE_MEMBERS": "Membros de Castigo"
   },
   "ERROR": {
     "DM": "Esse comando não pode ser usado em DMs.",
     "TIMED_OUT": "Tempo esgotado",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "EMOJI_NOT_FOUND": "Emoji não encontrado.",
-    "DEVELOPERS_ONLY": "This command can only be used by the bot developers.",
+    "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
-    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
+    "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação.",
     "UNALLOWED": {
       "CHAT": "Você não tem permissão para usar este comando neste chat.",
       "COMMAND": "Você não tem permissão para interagir com este comando."
@@ -227,9 +227,9 @@
     "FROM": "De",
     "TO": "Para",
     "ID": "ID",
-    "NAME": "Name",
-    "ROLES": "Roles",
-    "CREATION_DATE": "Creation Date",
+    "NAME": "Nome",
+    "ROLES": "Cargos",
+    "CREATION_DATE": "Data de Criação",
     "CHAT": "Chat",
     "MESSAGE": "Mensagem",
     "USER": "Usuário",
@@ -240,8 +240,8 @@
     "ERROR": "Erro",
     "SUCCESS": "Sucesso",
     "WARNING": "Aviso",
-    "OUTPUT": "Output",
-    "TYPE": "Type",
+    "OUTPUT": "Saída",
+    "TYPE": "Tipo",
     "WIP": "Trabalho em Progresso",
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento.",
     "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento."
