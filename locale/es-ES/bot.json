@@ -53,26 +53,7 @@
     "EDITED_REPEAT": "Color editado, ingrese un color válido para editar nuevamente",
     "PREVIEW": "Estás previsualizando el color."
   },
-  "MOWUND": {
-    "INTERACTION": {
-      "COMMANDS": {
-        "UPDATED": "Comandos Actualizados",
-        "DELETED": "Comandos Eliminados",
-        "GLOBAL": "Comandos Globales",
-        "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos del Servidor de %s"
-      },
-      "NO_UPDATE": "Ningún comando ha sido actualizado.",
-      "ERROR_RELOADING": "Ocurrió un error al recargar cargar un comando de la aplicación."
-    },
-    "SHARD": {
-      "RESPAWNING": "Reapareciendo todos los shards."
-    }
-  },
   "EMOJI": {
-    "FIELD_NAME": "Nombre",
-    "FIELD_ID": "ID",
-    "FIELD_ROLES": "Roles",
     "EDIT_EDITING": "Edición de Emoji",
     "EDIT_NAME": "Renombrar Emoji",
     "EDIT_NAME_INVALID": "Nombre Invalido",
@@ -109,11 +90,27 @@
       "EDIT_DELETE": "Eliminar Emoji",
       "EDIT_DELETE_CONFIRM": "Sí",
       "EDIT_ADD": "Agregar Emoji",
-      "EDIT_READD": "Reagregar Emoji"
+      "EDIT_READD": "Reagregar Emoji",
+      "LINK": "Abrir Emoji"
     }
   },
   "KILL": {
     "DIED": "Cayó para fuera del mundo."
+  },
+  "MOWUND": {
+    "INTERACTION": {
+      "COMMANDS": {
+        "UPDATED": "Comandos Actualizados",
+        "DELETED": "Comandos Eliminados",
+        "GLOBAL": "Comandos Globales",
+        "GUILD": "Comandos de Servidor",
+        "SPECIFIED_GUILD": "Comandos del Servidor de %s"
+      },
+      "NO_UPDATE": "Ningún comando ha sido actualizado."
+    },
+    "SHARD": {
+      "RESPAWNING": "Reapareciendo todos los shards."
+    }
   },
   "PING": {
     "TITLE": "Pong!",
@@ -145,22 +142,20 @@
     "INFO": {
       "TITLE": "Información del Usuario",
       "USER": {
-        "ID": "ID de Usuario",
-        "CREATED": "Cuenta Creada",
         "AVATAR": "Avatar",
         "BANNER": "Banner"
       },
       "MEMBER": {
         "JOINED": "Se Unió al Servidor",
-        "ROLES": "Roles",
         "AVATAR": "Avatar de Servidor",
         "BANNER": "Banner de Servidor"
       }
     }
   },
   "PERM": {
-    "REQUIRES": "Requiere permiso `%s`.",
-    "ROLE_REQUIRES": "{{ROLE}} requiere el permiso `{{PERM}}` para que la interacción funcione correctamente.",
+    "NO_LONGER": "Ya no tienes el permiso `%s` requerido.",
+    "REQUIRES": "No tienes el permiso `%s` requerido.",
+    "ROLE_REQUIRES": "{role} requiere el permiso `{perm}` para que la interacción funcione correctamente.",
     "CREATE_INSTANT_INVITE": "Crear Invitación",
     "KICK_MEMBERS": "Expulsar Miembros",
     "BAN_MEMBERS": "Banear Miembros",
@@ -202,15 +197,17 @@
     "CREATE_PRIVATE_THREADS": "Crear Hilos Privados",
     "USE_EXTERNAL_STICKERS": "Usar Pegatinas Exteriores",
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Temas",
-    "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades"
+    "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
+    "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros"
   },
   "ERROR": {
     "DM": "Este comando no se puede utilizar en DM.",
     "TIMED_OUT": "Tiempo agotado",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "EMOJI_NOT_FOUND": "Emoji no encontrado.",
-    "DEVELOPERS_ONLY": "Sólo mis desarrolladores pueden usar este comando.",
+    "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
+    "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
@@ -229,6 +226,10 @@
     },
     "FROM": "De",
     "TO": "Para",
+    "ID": "ID",
+    "NAME": "Nombre",
+    "ROLES": "Roles",
+    "CREATION_DATE": "Fecha de Creación",
     "CHAT": "Chat",
     "MESSAGE": "Mensaje",
     "USER": "Usuario",
@@ -239,6 +240,8 @@
     "ERROR": "Error",
     "SUCCESS": "Éxito",
     "WARNING": "Advertencia",
+    "OUTPUT": "Salida",
+    "TYPE": "Tipo",
     "WIP": "Trabajo en Progreso",
     "WIP_COMMAND": "Este comando está actualmente en desarrollo.",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo."
