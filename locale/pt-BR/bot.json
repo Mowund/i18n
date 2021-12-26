@@ -158,7 +158,7 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer has the `%s` permission.",
+    "NO_LONGER": "You no longer have the `%s` permission.",
     "REQUIRES": "You need the `%s`permission.",
     "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
@@ -202,14 +202,15 @@
     "CREATE_PRIVATE_THREADS": "Criar Tópicos Privados",
     "USE_EXTERNAL_STICKERS": "Usar Figurinhas Externos",
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos",
-    "START_EMBEDDED_ACTIVITIES": "Começar Atividades"
+    "START_EMBEDDED_ACTIVITIES": "Começar Atividades",
+    "MODERATE_MEMBERS": "Timeout Members"
   },
   "ERROR": {
     "DM": "Esse comando não pode ser usado em DMs.",
     "TIMED_OUT": "Tempo esgotado",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "EMOJI_NOT_FOUND": "Emoji não encontrado.",
-    "DEVELOPERS_ONLY": "Apenas meus desenvolvedores podem usar este comando.",
+    "DEVELOPERS_ONLY": "This command can only be used by the bot developers.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
     "UNALLOWED": {
