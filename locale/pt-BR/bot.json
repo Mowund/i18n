@@ -93,7 +93,8 @@
       "EDIT_DELETE": "Excluir Emoji",
       "EDIT_DELETE_CONFIRM": "Sim",
       "EDIT_ADD": "Adicionar Emoji",
-      "EDIT_READD": "Readicionar Emoji"
+      "EDIT_READD": "Readicionar Emoji",
+      "LINK": "Open Emoji"
     }
   },
   "KILL": {
