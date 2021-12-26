@@ -54,9 +54,6 @@
     "PREVIEW": "You are previewing the color."
   },
   "EMOJI": {
-    "FIELD_NAME": "Name",
-    "FIELD_ID": "ID",
-    "FIELD_ROLES": "Roles",
     "EDIT_EDITING": "Editing Emoji",
     "EDIT_NAME": "Renaming Emoji",
     "EDIT_NAME_INVALID": "Invalid Name",
@@ -145,14 +142,11 @@
     "INFO": {
       "TITLE": "User Info",
       "USER": {
-        "ID": "User ID",
-        "CREATED": "Account Created",
         "AVATAR": "Avatar",
         "BANNER": "Banner"
       },
       "MEMBER": {
         "JOINED": "Joined Server",
-        "ROLES": "Roles",
         "AVATAR": "Server Avatar",
         "BANNER": "Server Banner"
       }
@@ -232,6 +226,10 @@
     },
     "FROM": "From",
     "TO": "To",
+    "ID": "ID",
+    "NAME": "Name",
+    "ROLES": "Roles",
+    "CREATION_DATE": "Creation Date",
     "CHAT": "Chat",
     "MESSAGE": "Message",
     "USER": "User",
