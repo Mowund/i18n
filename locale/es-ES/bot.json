@@ -93,7 +93,8 @@
       "EDIT_DELETE": "Eliminar Emoji",
       "EDIT_DELETE_CONFIRM": "Sí",
       "EDIT_ADD": "Agregar Emoji",
-      "EDIT_READD": "Reagregar Emoji"
+      "EDIT_READD": "Reagregar Emoji",
+      "LINK": "Open Emoji"
     }
   },
   "KILL": {
