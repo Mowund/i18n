@@ -54,9 +54,6 @@
     "PREVIEW": "Você está pré-visualizando a cor."
   },
   "EMOJI": {
-    "FIELD_NAME": "Nome",
-    "FIELD_ID": "ID",
-    "FIELD_ROLES": "Cargos",
     "EDIT_EDITING": "Editando Emoji",
     "EDIT_NAME": "Renomeando Emoji",
     "EDIT_NAME_INVALID": "Nome Inválido",
@@ -94,7 +91,7 @@
       "EDIT_DELETE_CONFIRM": "Sim",
       "EDIT_ADD": "Adicionar Emoji",
       "EDIT_READD": "Readicionar Emoji",
-      "LINK": "Open Emoji"
+      "LINK": "Abrir Emoji"
     }
   },
   "KILL": {
@@ -145,22 +142,19 @@
     "INFO": {
       "TITLE": "Informações do Usuário",
       "USER": {
-        "ID": "ID do Usuário",
-        "CREATED": "Conta Criada",
         "AVATAR": "Avatar",
         "BANNER": "Banner"
       },
       "MEMBER": {
         "JOINED": "Entrou no Servidor",
-        "ROLES": "Cargos",
         "AVATAR": "Avatar de Servidor",
         "BANNER": "Banner de Servidor"
       }
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer have the `%s` permission.",
-    "REQUIRES": "You need the `%s`permission.",
+    "NO_LONGER": "Você não tem mais a permissão `%s`.",
+    "REQUIRES": "Requer a permissão `%s`.",
     "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
     "KICK_MEMBERS": "Expulsar Membros",
@@ -232,6 +226,10 @@
     },
     "FROM": "De",
     "TO": "Para",
+    "ID": "ID",
+    "NAME": "Name",
+    "ROLES": "Roles",
+    "CREATION_DATE": "Creation Date",
     "CHAT": "Chat",
     "MESSAGE": "Mensagem",
     "USER": "Usuário",
