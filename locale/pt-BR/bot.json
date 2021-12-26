@@ -154,7 +154,7 @@
   },
   "PERM": {
     "NO_LONGER": "Você não tem mais a permissão `%s` necessária.",
-    "REQUIRES": "Você precisa da permissão `%s`.",
+    "REQUIRES": "Você não tem a permissão `%s` necessária.",
     "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
     "KICK_MEMBERS": "Expulsar Membros",
