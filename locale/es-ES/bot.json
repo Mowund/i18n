@@ -91,7 +91,7 @@
       "EDIT_DELETE_CONFIRM": "Sí",
       "EDIT_ADD": "Agregar Emoji",
       "EDIT_READD": "Reagregar Emoji",
-      "LINK": "Open Emoji"
+      "LINK": "Abrir Emoji"
     }
   },
   "KILL": {
@@ -153,9 +153,9 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer have the required `%s` permission.",
-    "REQUIRES": "You don't have the required `%s` permission.",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
+    "NO_LONGER": "Ya no tienes el permiso `%s` requerido.",
+    "REQUIRES": "No tienes el permiso `%s` requerido.",
+    "ROLE_REQUIRES": "{role} requiere el permiso `{perm}` para que la interacción funcione correctamente.",
     "CREATE_INSTANT_INVITE": "Crear Invitación",
     "KICK_MEMBERS": "Expulsar Miembros",
     "BAN_MEMBERS": "Banear Miembros",
@@ -198,16 +198,16 @@
     "USE_EXTERNAL_STICKERS": "Usar Pegatinas Exteriores",
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Temas",
     "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
-    "MODERATE_MEMBERS": "Timeout Members"
+    "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros"
   },
   "ERROR": {
     "DM": "Este comando no se puede utilizar en DM.",
     "TIMED_OUT": "Tiempo agotado",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "EMOJI_NOT_FOUND": "Emoji no encontrado.",
-    "DEVELOPERS_ONLY": "This command can only be used by the bot developers.",
+    "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
-    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
+    "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
@@ -227,9 +227,9 @@
     "FROM": "De",
     "TO": "Para",
     "ID": "ID",
-    "NAME": "Name",
+    "NAME": "Nombre",
     "ROLES": "Roles",
-    "CREATION_DATE": "Creation Date",
+    "CREATION_DATE": "Fecha de Creación",
     "CHAT": "Chat",
     "MESSAGE": "Mensaje",
     "USER": "Usuario",
@@ -240,8 +240,8 @@
     "ERROR": "Error",
     "SUCCESS": "Éxito",
     "WARNING": "Advertencia",
-    "OUTPUT": "Output",
-    "TYPE": "Type",
+    "OUTPUT": "Salida",
+    "TYPE": "Tipo",
     "WIP": "Trabajo en Progreso",
     "WIP_COMMAND": "Este comando está actualmente en desarrollo.",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo."
