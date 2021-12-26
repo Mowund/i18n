@@ -93,7 +93,8 @@
       "EDIT_DELETE": "Delete Emoji",
       "EDIT_DELETE_CONFIRM": "Yes",
       "EDIT_ADD": "Add Emoji",
-      "EDIT_READD": "Readd Emoji"
+      "EDIT_READD": "Readd Emoji",
+      "LINK": "Open Emoji"
     }
   },
   "KILL": {
