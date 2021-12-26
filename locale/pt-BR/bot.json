@@ -153,9 +153,9 @@
     }
   },
   "PERM": {
-    "NO_LONGER": "You no longer have the required `%s` permission.",
-    "REQUIRES": "You need the required `%s` permission.",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
+    "NO_LONGER": "Você não tem mais a permissão `%s` necessitada.",
+    "REQUIRES": "You don't have the required `%s` permission.",
+    "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente.",
     "CREATE_INSTANT_INVITE": "Criar Convite",
     "KICK_MEMBERS": "Expulsar Membros",
     "BAN_MEMBERS": "Banir Membros",
