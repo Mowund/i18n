@@ -204,10 +204,13 @@
     "DM": "This command cannot be used in DMs.",
     "TIMED_OUT": "Timed out",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
-    "EMOJI_NOT_FOUND": "Emoji not found.",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers.",
     "GUILD_NOT_FOUND": "Guild not found.",
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
+    "EMOJI": {
+      "NONEXISTENT": "You can't edit the emoji as it no longer exists.",
+      "NOT_FOUND": "The emoji `%s` was not found."
+    },
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat.",
       "COMMAND": "You are not allowed to interact with this command."
