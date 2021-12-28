@@ -154,7 +154,7 @@
   },
   "PERM": {
     "NO_LONGER": "Ya no tienes el permiso `%s` requerido.",
-    "REQUIRES": "You need the `%s` permission.",
+    "REQUIRES": "Necesitas el permiso `%s`.",
     "ROLE_REQUIRES": "{role} requiere el permiso `{perm}` para que la interacción funcione correctamente.",
     "CREATE_INSTANT_INVITE": "Crear Invitación",
     "KICK_MEMBERS": "Expulsar Miembros",
@@ -204,10 +204,13 @@
     "DM": "Este comando no se puede utilizar en DM.",
     "TIMED_OUT": "Tiempo agotado",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
-    "EMOJI_NOT_FOUND": "Emoji no encontrado.",
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
+    "EMOJI": {
+      "NONEXISTENT": "No puedes editar el emoji ya que ya no existe.",
+      "NOT_FOUND": "El emoji `%s`no fue encontrado."
+    },
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
       "COMMAND": "No se le permite interactuar con este comando."
