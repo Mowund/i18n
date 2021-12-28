@@ -208,8 +208,8 @@
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
     "EMOJI": {
-      "NONEXISTENT": "You can't edit the emoji as it no longer exists.",
-      "NOT_FOUND": "The emoji `%s` was not found."
+      "NONEXISTENT": "No puedes editar el emoji ya que ya no existe.",
+      "NOT_FOUND": "El emoji `%s`no fue encontrado."
     },
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat.",
