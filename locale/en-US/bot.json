@@ -230,6 +230,7 @@
     "FROM": "From",
     "TO": "To",
     "ID": "ID",
+    "MENTION": "Mention",
     "NAME": "Name",
     "ROLES": "Roles",
     "CREATION_DATE": "Creation Date",
