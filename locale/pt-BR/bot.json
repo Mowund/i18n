@@ -230,6 +230,7 @@
     "FROM": "De",
     "TO": "Para",
     "ID": "ID",
+    "MENTION": "Mention",
     "NAME": "Nome",
     "ROLES": "Cargos",
     "CREATION_DATE": "Data de Criação",
