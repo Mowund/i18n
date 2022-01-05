@@ -78,6 +78,7 @@
     "EDIT_ADDED": "Added Emoji",
     "EDIT_ADDED_UNICODE": "Added Unicode Emoji",
     "EDIT_READDED": "Readded Emoji",
+    "ESCAPED": "Escaped Emoji",
     "VIEW_VIEWING": "Viewing Emoji",
     "VIEW_VIEWING_UNICODE": "Viewing Unicode Emoji",
     "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server.",
