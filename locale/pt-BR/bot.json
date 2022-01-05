@@ -80,6 +80,7 @@
     "EDIT_READDED": "Emoji Readicionado",
     "VIEW_VIEWING": "Visualizando Emoji",
     "VIEW_VIEWING_UNICODE": "Viewing Unicode Emoji",
+    "REASON": "Using the emoji system",
     "UNALLOWED_SERVER": "Você não tem permissão para editar um emoji de outro servidor.",
     "COMPONENT": {
       "VIEW": "Visualizar",
