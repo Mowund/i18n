@@ -76,7 +76,7 @@
     "EDITING": "Editing Emoji",
     "READDED": "Readded Emoji",
     "REASON": {
-      "CREATED.FROM": {
+      "CREATED": {
         "ANOTHER_SERVER": "Copied from another server using the emoji system",
         "CDN": "Copied from an emoji found on the discord cdn using the emoji system",
         "DELETED": "Deleted emoji recreated using the emoji system",
