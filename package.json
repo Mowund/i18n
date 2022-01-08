@@ -12,7 +12,8 @@
     "url": "https://github.com/Mowund/i18n.git"
   },
   "author": "Smidul",
-  "main": "./locale/en-US/bot.json",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   }
