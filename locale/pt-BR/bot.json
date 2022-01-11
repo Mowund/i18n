@@ -109,8 +109,10 @@
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot.",
     "DM": "Esse comando não pode ser usado em DMs.",
     "EMOJI": {
-      "MAXIMUM": "Server reached the limit of `%s` emojis.",
-      "MAXIMUM_ANIMATED": "Server reached the limit of `%s` animated emojis.",
+      "MAXIMUM": {
+        "ANIMATED": "Server reached the limit of `%s` animated emojis.",
+        "STATIC": "Server reached the limit of `%s` static emojis."
+      },
       "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais.",
       "NOT_FOUND": "O emoji `%s` não foi encontrado."
     },
