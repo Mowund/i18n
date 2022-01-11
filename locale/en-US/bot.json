@@ -110,8 +110,12 @@
     "DM": "This command cannot be used in DMs.",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "Server reached the limit of `%s` animated emojis.",
-        "STATIC": "Server reached the limit of `%s` static emojis."
+        "ANIMATED": "The server is at the limit of `%s` animated emojis.",
+        "STATIC": "The server is at the limit of `%s` static emojis."
+      },
+      "MAXIMUM_NOW": {
+        "ANIMATED": "The server has now reached the limit of `%s` animated emojis.",
+        "STATIC": "The server has now reached the limit of `%s` static emojis."
       },
       "NONEXISTENT": "You can't edit the emoji as it no longer exists.",
       "NOT_FOUND": "The emoji `%s` was not found."
