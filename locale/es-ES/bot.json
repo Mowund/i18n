@@ -53,57 +53,57 @@
     "USER_CAN_INTERACT": "%s también puede interactuar con el sistema."
   },
   "EMOJI": {
-    "ADDED": "Added Emoji",
-    "ADDED_UNICODE": "Added Unicode Emoji",
-    "ADDING": "Adding Emoji",
-    "ADDING_UNICODE": "Adding Unicode Emoji",
+    "ADDED": "Emoji Agregado",
+    "ADDED_UNICODE": "Emoji Unicode Agregado",
+    "ADDING": "Agregando Emoji",
+    "ADDING_UNICODE": "Agregando Emoji Unicode",
     "COMPONENT": {
-      "ADD": "Add Emoji",
-      "DELETE": "Delete Emoji",
+      "ADD": "Agregar Emoji",
+      "DELETE": "Eliminar Emoji",
       "EDIT": "Editar",
       "LINK": "Abrir Emoji",
-      "READD": "Readd Emoji",
-      "RENAME": "Rename",
+      "READD": "Reagregar Emoji",
+      "RENAME": "Rebautizar",
       "ROLES": {
-        "ADD": "Add Role",
-        "EDIT": "Edit Roles",
-        "REMOVE": "Remove Role",
-        "RESET": "Reset Roles"
+        "ADD": "Agregar Rol",
+        "EDIT": "Editar Roles",
+        "REMOVE": "Eliminar Rol",
+        "RESET": "Restablecer Roles"
       },
       "VIEW": "Vista"
     },
-    "DELETED": "Emoji Deleted",
-    "DELETING": "Deleting Emoji",
-    "DELETING_DESCRIPTION": "Are you sure you want to delete this emoji?",
-    "EDITING": "Editing Emoji",
-    "READDED": "Readded Emoji",
-    "READDING": "Readding Emoji",
+    "DELETED": "Emoji Eliminado",
+    "DELETING": "Eliminando Emoji",
+    "DELETING_DESCRIPTION": "¿Estás seguro de que quieres eliminar este emoji?",
+    "EDITING": "Editando Emoji",
+    "READDED": "Emoji Reagregado",
+    "READDING": "Reagregando Emoji",
     "REASON": {
       "CREATED": {
-        "ANOTHER_SERVER": "Copied from another server using the emoji system",
-        "CDN": "Copied from an emoji found on the discord cdn using the emoji system",
-        "DELETED": "Deleted emoji recreated using the emoji system",
-        "UNICODE": "Copied from an unicode emoji found on the twemoji cdn using the emoji system"
+        "ANOTHER_SERVER": "Copiado desde otro servidor usando el sistema emoji",
+        "CDN": "Copiado de un emoji encontrado en el Discord cdn usando el sistema emoji",
+        "DELETED": "Emoji eliminado recreado usando el sistema de emoji",
+        "UNICODE": "Copiado de un emoji unicode encontrado en el twemoji cdn usando el sistema emoji"
       },
-      "DELETED": "Deleted using the emoji system"
+      "DELETED": "Eliminado usando el sistema de emoji"
     },
-    "RENAMED": "Renamed Emoji",
-    "RENAMED_REPEAT": "Renamed emoji, enter a name to rename again",
-    "RENAMING": "Renaming Emoji",
+    "RENAMED": "Emoji Renombrado",
+    "RENAMED_REPEAT": "Emoji renombrado, ingrese un nombre para cambiar el nombre nuevamente",
+    "RENAMING": "Renombrar Emoji",
     "ROLES": {
-      "ADD": "Enter a role to add it to the emoji",
-      "ADDED_ALREADY": "This role is already defined",
-      "ADDED_REPEAT": "Role added to emoji, enter another role to add it",
-      "EDITED": "Edited emoji's roles",
-      "EDITING": "Editing emoji's roles",
-      "REMOVE": "Enter a role to remove it from the emoji",
-      "REMOVED_ALREADY": "This role is already not defined",
-      "REMOVED_REPEAT": "Role removed from emoji, enter another role to remove it",
-      "RESETED": "Reseted emoji's roles"
+      "ADD": "Ingrese un rol para agregarlo al emoji",
+      "ADDED_ALREADY": "Este rol ya está definido",
+      "ADDED_REPEAT": "Rol agregado a emoji, ingrese otro rol para agregarlo",
+      "EDITED": "Roles de emoji editado",
+      "EDITING": "Editando los roles de emoji",
+      "REMOVE": "Ingresa un rol para eliminarlo del emoji",
+      "REMOVED_ALREADY": "Este rol ya no está definido",
+      "REMOVED_REPEAT": "Rol eliminado de emoji, ingrese otro rol para eliminarlo",
+      "RESETED": "Roles de emoji restablecidos"
     },
     "UNALLOWED_SERVER": "No puedes editar un emoji de otro servidor.",
-    "VIEWING": "Viewing Emoji",
-    "VIEWING_UNICODE": "Viewing Unicode Emoji"
+    "VIEWING": "Viendo Emoji",
+    "VIEWING_UNICODE": "Viendo Emoji Unicode"
   },
   "ERROR": {
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot.",
@@ -135,7 +135,7 @@
   },
   "GENERIC": {
     "CHAT": "Chat",
-    "CODEPOINT": "Code Point",
+    "CODEPOINT": "Código Punto",
     "COMPONENT": {
       "BACK": "Vuelve",
       "MESSAGE_DELETE": "Borrar Mensaje",
@@ -147,7 +147,7 @@
     "FROM": "De",
     "ID": "ID",
     "INTERACTED_BY": "Interactuado por %s",
-    "MENTION": "Mention",
+    "MENTION": "Mención",
     "MESSAGE": "Mensaje",
     "NAME": "Nombre",
     "NO": "No",
@@ -168,7 +168,7 @@
     "WIP": "Trabajo en Progreso",
     "WIP_COMMAND": "Este comando está actualmente en desarrollo.",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo.",
-    "YES": "Yes"
+    "YES": "Sí"
   },
   "KILL": {
     "DIED": "Cayó para fuera del mundo."
