@@ -81,7 +81,7 @@
     "REASON": {
       "CREATED": {
         "ANOTHER_SERVER": "Copiado desde otro servidor usando el sistema emoji",
-        "CDN": "Copiado de un emoji encontrado en el Discord cdn usando el sistema emoji",
+        "CDN": "Copied from an emoji found on the Discord cdn using the emoji system",
         "DELETED": "Emoji eliminado recreado usando el sistema de emoji",
         "UNICODE": "Copiado de un emoji unicode encontrado en el twemoji cdn usando el sistema emoji"
       },
