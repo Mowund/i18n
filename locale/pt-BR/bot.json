@@ -59,7 +59,7 @@
     "ADDING_UNICODE": "Adicionando Emoji Unicode",
     "COMPONENT": {
       "ADD": "Adicionar Emoji",
-      "DELETE": "Excluir emoji",
+      "DELETE": "Excluir Emoji",
       "EDIT": "Editar",
       "LINK": "Abrir Emoji",
       "READD": "Readicionar Emoji",
@@ -81,7 +81,7 @@
     "REASON": {
       "CREATED": {
         "ANOTHER_SERVER": "Copiado de outro servidor usando o sistema de emojis",
-        "CDN": "Copiado de um emoji encontrado no cdn do Discord usando o sistema de emojis",
+        "CDN": "Copied from an emoji found on the Discord cdn using the emoji system",
         "DELETED": "Emoji excluído recriado usando o sistema de emojis",
         "UNICODE": "Copiado de um emoji unicode encontrado no cdn do twemoji usando o sistema de emojis"
       },
