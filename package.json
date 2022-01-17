@@ -1,7 +1,7 @@
 {
   "name": "mowund-i18n",
   "displayName": "Mowund i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "i18n source files for Mowund.",
   "homepage": "https://github.com/Mowund/i18n#readme",
   "bugs": {
@@ -12,7 +12,8 @@
     "url": "https://github.com/Mowund/i18n.git"
   },
   "author": "Smidul",
-  "main": "./locale/en-US/bot.json",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   }
