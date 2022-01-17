@@ -110,12 +110,12 @@
     "DM": "Esse comando não pode ser usado em DMs.",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `%s` animated emojis.",
-        "STATIC": "The server is at the limit of `%s` static emojis."
+        "ANIMATED": "O servidor está no limite de `%s` emojis animados.",
+        "STATIC": "O servidor está no limite de `%s` emojis estáticos."
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `%s` animated emojis.",
-        "STATIC": "The server has now reached the limit of `%s` static emojis."
+        "ANIMATED": "O servidor agora atingiu o limite de `%s` emojis animados.",
+        "STATIC": "O servidor agora atingiu o limite de `%s` emojis estáticos."
       },
       "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais.",
       "NOT_FOUND": "O emoji `%s` não foi encontrado."
@@ -123,8 +123,8 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "INVALID": {
-      "NAME": "Invalid Name",
-      "ROLE": "Invalid Role"
+      "NAME": "Nome Inválido",
+      "ROLE": "Cargo Inválido"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação.",
     "TIMED_OUT": "Tempo esgotado",
