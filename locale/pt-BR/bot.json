@@ -1,16 +1,13 @@
 {
   "BOT": {
     "INFO": {
-      "CREATION_FIELD": "Data de Criação",
-      "INVITES_BOT": "Convidar Bot",
-      "INVITES_SUPPORT": "Servidor de Suporte",
-      "MEMBERS_FIELD": "Membros",
-      "MEMBERS_FIELD_DESC": "Existem atualmente **%s** membros no total entre todos os servidores.",
-      "NAME_FIELD": "Nome do Bot",
-      "SERVERS_FIELD": "Servidores",
-      "SERVERS_FIELD_DESC": "O bot está em atualmente **%s** servidores.",
-      "TITLE": "Informações do Bot",
-      "VERSION_FIELD": "Versão do Bot"
+      "COMPONENT": {
+        "INVITE_BOT": "Invite Bot",
+        "SUPPORT_SERVER": "Support Server"
+      },
+      "TITLE": "Bot Information",
+      "DISCORDJS_VERSION": "Discord.JS Version",
+      "NODEJS_VERSION": "Node.JS Version"
     }
   },
   "CLEAR": {
@@ -146,9 +143,13 @@
     "ERROR": "Erro",
     "FROM": "De",
     "ID": "ID",
+    "COMMANDS": "Commands",
     "INTERACTED_BY": "Interagido por %s",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
+    "MEMBERS": "Members",
+    "SERVERS": "Servers",
+    "UPTIME": "Uptime",
     "NAME": "Nome",
     "NO": "Não",
     "OUTPUT": "Saída",
