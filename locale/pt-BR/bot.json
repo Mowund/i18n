@@ -6,7 +6,7 @@
         "SUPPORT_SERVER": "Servidor de Suporte"
       },
       "DISCORDJS_VERSION": "Versão do Discord.JS",
-      "MEMORY_USAGE": "Memory Usage",
+      "MEMORY_USAGE": "Uso de Memória",
       "NODEJS_VERSION": "Versão do Node.JS",
       "TITLE": "Informação do Bot"
     }
