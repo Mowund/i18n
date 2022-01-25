@@ -2,12 +2,12 @@
   "BOT": {
     "INFO": {
       "COMPONENT": {
-        "INVITE_BOT": "Invite Bot",
-        "SUPPORT_SERVER": "Support Server"
+        "INVITE_BOT": "Convidar Bot",
+        "SUPPORT_SERVER": "Servidor de Suporte"
       },
-      "TITLE": "Bot Information",
-      "DISCORDJS_VERSION": "Discord.JS Version",
-      "NODEJS_VERSION": "Node.JS Version"
+      "TITLE": "Informação do Bot",
+      "DISCORDJS_VERSION": "Versão do Discord.JS",
+      "NODEJS_VERSION": "Versão do Node.JS"
     }
   },
   "CLEAR": {
@@ -78,7 +78,7 @@
     "REASON": {
       "CREATED": {
         "ANOTHER_SERVER": "Copiado de outro servidor usando o sistema de emojis",
-        "CDN": "Copied from an emoji found on the Discord cdn using the emoji system",
+        "CDN": "Copiado de um emoji encontrado no cdn do Discord usando o sistema de emojis",
         "DELETED": "Emoji excluído recriado usando o sistema de emojis",
         "UNICODE": "Copiado de um emoji unicode encontrado no cdn do twemoji usando o sistema de emojis"
       },
@@ -143,13 +143,13 @@
     "ERROR": "Erro",
     "FROM": "De",
     "ID": "ID",
-    "COMMANDS": "Commands",
+    "COMMANDS": "Comandos",
     "INTERACTED_BY": "Interagido por %s",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
-    "MEMBERS": "Members",
-    "SERVERS": "Servers",
-    "UPTIME": "Uptime",
+    "MEMBERS": "Membros",
+    "SERVERS": "Servidores",
+    "UPTIME": "Tempo Ativo",
     "NAME": "Nome",
     "NO": "Não",
     "OUTPUT": "Saída",
@@ -244,8 +244,7 @@
       "EDITING": "Tempo de Edição",
       "RESPONSE": "Tempo de Resposta"
     },
-    "TITLE": "Pong!",
-    "UPTIME": "Tempo Ativo"
+    "TITLE": "Pong!"
   },
   "SETTINGS": {
     "LANGUAGE": {
