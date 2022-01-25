@@ -1,16 +1,13 @@
 {
   "BOT": {
     "INFO": {
-      "CREATION_FIELD": "Data de Criação",
-      "INVITES_BOT": "Convidar Bot",
-      "INVITES_SUPPORT": "Servidor de Suporte",
-      "MEMBERS_FIELD": "Membros",
-      "MEMBERS_FIELD_DESC": "Existem atualmente **%s** membros no total entre todos os servidores.",
-      "NAME_FIELD": "Nome do Bot",
-      "SERVERS_FIELD": "Servidores",
-      "SERVERS_FIELD_DESC": "O bot está em atualmente **%s** servidores.",
-      "TITLE": "Informações do Bot",
-      "VERSION_FIELD": "Versão do Bot"
+      "COMPONENT": {
+        "INVITE_BOT": "Convidar Bot",
+        "SUPPORT_SERVER": "Servidor de Suporte"
+      },
+      "TITLE": "Informação do Bot",
+      "DISCORDJS_VERSION": "Versão do Discord.JS",
+      "NODEJS_VERSION": "Versão do Node.JS"
     }
   },
   "CLEAR": {
@@ -59,7 +56,7 @@
     "ADDING_UNICODE": "Adicionando Emoji Unicode",
     "COMPONENT": {
       "ADD": "Adicionar Emoji",
-      "DELETE": "Excluir emoji",
+      "DELETE": "Excluir Emoji",
       "EDIT": "Editar",
       "LINK": "Abrir Emoji",
       "READD": "Readicionar Emoji",
@@ -146,9 +143,13 @@
     "ERROR": "Erro",
     "FROM": "De",
     "ID": "ID",
+    "COMMANDS": "Comandos",
     "INTERACTED_BY": "Interagido por %s",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
+    "MEMBERS": "Membros",
+    "SERVERS": "Servidores",
+    "UPTIME": "Tempo Ativo",
     "NAME": "Nome",
     "NO": "Não",
     "OUTPUT": "Saída",
@@ -243,8 +244,7 @@
       "EDITING": "Tempo de Edição",
       "RESPONSE": "Tempo de Resposta"
     },
-    "TITLE": "Pong!",
-    "UPTIME": "Tempo Ativo"
+    "TITLE": "Pong!"
   },
   "SETTINGS": {
     "LANGUAGE": {

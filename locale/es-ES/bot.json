@@ -1,16 +1,13 @@
 {
   "BOT": {
     "INFO": {
-      "CREATION_FIELD": "Fecha de Creación",
-      "INVITES_BOT": "Invitar Bot",
-      "INVITES_SUPPORT": "Servidor de Soporte",
-      "MEMBERS_FIELD": "Miembros",
-      "MEMBERS_FIELD_DESC": "Actualmente hay **%s** miembros en total en todos los servidores.",
-      "NAME_FIELD": "Nombre del Bot",
-      "SERVERS_FIELD": "Servidores",
-      "SERVERS_FIELD_DESC": "El bot se encuentra actualmente en **%s** servidores.",
+      "COMPONENT": {
+        "INVITE_BOT": "Invitar Bot",
+        "SUPPORT_SERVER": "Servidor de Soporte"
+      },
       "TITLE": "Información del Bot",
-      "VERSION_FIELD": "Versión del bot"
+      "DISCORDJS_VERSION": "Versión de Discord.JS",
+      "NODEJS_VERSION": "Versión de Node.JS"
     }
   },
   "CLEAR": {
@@ -146,9 +143,13 @@
     "ERROR": "Error",
     "FROM": "De",
     "ID": "ID",
+    "COMMANDS": "Comandos",
     "INTERACTED_BY": "Interactuado por %s",
     "MENTION": "Mención",
     "MESSAGE": "Mensaje",
+    "MEMBERS": "Miembros",
+    "SERVERS": "Servidores",
+    "UPTIME": "Tiempo de Actividad",
     "NAME": "Nombre",
     "NO": "No",
     "OUTPUT": "Salida",
@@ -243,8 +244,7 @@
       "EDITING": "Tiempo de Edición",
       "RESPONSE": "Tiempo de Respuesta"
     },
-    "TITLE": "Pong!",
-    "UPTIME": "Tiempo de Actividad"
+    "TITLE": "Pong!"
   },
   "SETTINGS": {
     "LANGUAGE": {
