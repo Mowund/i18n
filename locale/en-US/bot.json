@@ -5,9 +5,10 @@
         "INVITE_BOT": "Invite Bot",
         "SUPPORT_SERVER": "Support Server"
       },
-      "TITLE": "Bot Information",
       "DISCORDJS_VERSION": "Discord.JS Version",
-      "NODEJS_VERSION": "Node.JS Version"
+      "MEMORY_USAGE": "Memory Usage",
+      "NODEJS_VERSION": "Node.JS Version",
+      "TITLE": "Bot Information"
     }
   },
   "CLEAR": {
@@ -133,6 +134,7 @@
   "GENERIC": {
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
+    "COMMANDS": "Commands",
     "COMPONENT": {
       "BACK": "Back",
       "MESSAGE_DELETE": "Delete Message",
@@ -143,18 +145,16 @@
     "ERROR": "Error",
     "FROM": "From",
     "ID": "ID",
-    "COMMANDS": "Commands",
     "INTERACTED_BY": "Interacted by %s",
+    "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
-    "MEMBERS": "Members",
-    "SERVERS": "Servers",
-    "UPTIME": "Uptime",
     "NAME": "Name",
     "NO": "No",
     "OUTPUT": "Output",
     "REQUESTED_BY": "Requested by %s",
     "ROLES": "Roles",
+    "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
       "HOURS": "{count, plural, =0 {now} =1 {# hour} other {# hours}}",
@@ -164,6 +164,7 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
+    "UPTIME": "Uptime",
     "USER": "User",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
