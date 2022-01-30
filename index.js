@@ -6,7 +6,6 @@ const __filename = fileURLToPath(import.meta.url),
   __dirname = dirname(__filename);
 
 /**
- * Gets the settings of a database's document
  * @returns {Object | Array} The bot static catalog or supported languages
  * @param {boolean} [supportedLanguages=false] Whether the supported languages instead of static catalog
  */
