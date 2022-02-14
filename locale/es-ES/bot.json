@@ -121,8 +121,12 @@
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
     "INVALID": {
-      "NAME": "Nombre Invalido",
-      "ROLE": "Role Invalido"
+      "NAME": {
+        "EMOJI": "[0,2]`%s` is shorter than `2` characters and contains non-alphanumeric characters.|[,32]`%s` contains non-alphanumeric characters.|`%s` is longer than `32` characters and contains non-alphanumeric characters.",
+        "EMOJI_ALPHANUMERICAL": "[0,2]`%s` is shorter than `2` characters.|[,32]`%s` is not a valid emoji name.|`%s` is longer than `32` characters."
+      },
+      "ROLE": "Invalid role",
+      "TIME": "Invalid time"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
     "TIMED_OUT": "Tiempo agotado",
@@ -137,6 +141,7 @@
     "COMMANDS": "Comandos",
     "COMPONENT": {
       "BACK": "Vuelve",
+      "FIX_PERMISSIONS": "Fix Permissions",
       "MESSAGE_DELETE": "Borrar Mensaje",
       "REPEAT": "Repetir"
     },
@@ -210,7 +215,7 @@
     "MANAGE_MESSAGES": "Gestionar Mensajes",
     "MANAGE_NICKNAMES": "Gestionar Apodos",
     "MANAGE_ROLES": "Gestionar Roles",
-    "MANAGE_THREADS": "Gestionar hilos",
+    "MANAGE_THREADS": "Manage Threads and Posts",
     "MANAGE_WEBHOOKS": "Gestionar Webhooks",
     "MENTION_EVERYONE": "Mencionar a Todos",
     "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros",
@@ -222,8 +227,8 @@
     "REQUEST_TO_SPEAK": "Solicitud para Hablar",
     "REQUIRES": "Necesitas el permiso `%s`.",
     "ROLE_REQUIRES": "{role} requiere el permiso `{perm}` para que la interacción funcione correctamente.",
-    "SEND_MESSAGES": "Enviar Mensajes",
-    "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Temas",
+    "SEND_MESSAGES": "Send Messages and Create Posts",
+    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Enviar Mensajes TTS",
     "SPEAK": "Hablar",
     "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
