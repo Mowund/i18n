@@ -121,8 +121,12 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "INVALID": {
-      "NAME": "Nome Inválido",
-      "ROLE": "Cargo Inválido"
+      "NAME": {
+        "EMOJI": "[0,2]`%s` is shorter than `2` characters and contains non-alphanumeric characters.|[,32]`%s` contains non-alphanumeric characters.|`%s` is longer than `32` characters and contains non-alphanumeric characters.",
+        "EMOJI_ALPHANUMERICAL": "[0,2]`%s` is shorter than `2` characters.|[,32]`%s` is not a valid emoji name.|`%s` is longer than `32` characters."
+      },
+      "ROLE": "Invalid role",
+      "TIME": "Invalid time"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação.",
     "TIMED_OUT": "Tempo esgotado",
@@ -137,6 +141,7 @@
     "COMMANDS": "Comandos",
     "COMPONENT": {
       "BACK": "Voltar",
+      "FIX_PERMISSIONS": "Fix Permissions",
       "MESSAGE_DELETE": "Excluir Mensagem",
       "REPEAT": "Repetir"
     },
@@ -210,7 +215,7 @@
     "MANAGE_MESSAGES": "Gerenciar Mensagens",
     "MANAGE_NICKNAMES": "Gerenciar Apelidos",
     "MANAGE_ROLES": "Gerenciar Cargos",
-    "MANAGE_THREADS": "Gerenciar Tópicos",
+    "MANAGE_THREADS": "Manage Threads and Posts",
     "MANAGE_WEBHOOKS": "Gerenciar Webhooks",
     "MENTION_EVERYONE": "Mencionar Todos",
     "MODERATE_MEMBERS": "Membros de Castigo",
@@ -222,8 +227,8 @@
     "REQUEST_TO_SPEAK": "Pedir para Falar",
     "REQUIRES": "Você precisa da permissão `%s`.",
     "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente.",
-    "SEND_MESSAGES": "Enviar Mensagens",
-    "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos",
+    "SEND_MESSAGES": "Send Messages and Create Posts",
+    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Enviar mensagens em TTS",
     "SPEAK": "Falar",
     "START_EMBEDDED_ACTIVITIES": "Começar Atividades",
