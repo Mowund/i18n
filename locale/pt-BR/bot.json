@@ -80,6 +80,7 @@
       "CREATED": {
         "ANOTHER_SERVER": "Copiado de outro servidor usando o sistema de emojis",
         "CDN": "Copiado de um emoji encontrado no cdn do Discord usando o sistema de emojis",
+        "COMMAND": "Created using the emoji system",
         "DELETED": "Emoji excluído recriado usando o sistema de emojis",
         "UNICODE": "Copiado de um emoji unicode encontrado no cdn do twemoji usando o sistema de emojis"
       },
@@ -121,6 +122,7 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "INVALID": {
+      "IMAGE": "The image size is bigger than {size}kb.",
       "NAME": {
         "EMOJI": "The name `{input}` {length, select, longer{is longer than **32** characters} shorter{is shorter than **2** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}."
       },
