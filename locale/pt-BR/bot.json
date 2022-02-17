@@ -8,7 +8,7 @@
       "DISCORDJS_VERSION": "Versão do Discord.JS",
       "MEMORY_USAGE": "Uso de Memória",
       "NODEJS_VERSION": "Versão do Node.JS",
-      "TITLE": "Informações de %s"
+      "TITLE": "{bot}'s Info"
     }
   },
   "CLEAR": {
@@ -41,14 +41,14 @@
     "SAME_USER_CAN_INTERACT": "Não é necessário mencionar a si mesmo se você vai mudar sua própria cor.",
     "SPECIFIED": "Cor especificada",
     "TARGET_ALREADY_NO_ROLE": "O usuário mencionado já não possui um cargo de cor.",
-    "TARGET_AVATAR_ESTIMATED": "Cor estimada do avatar de %s",
-    "TARGET_CHANGED_ASSIGNED_ROLE": "Cor alterada e atribuída a %s",
-    "TARGET_CHANGED_ROLE": "Cor de %s alterada",
-    "TARGET_CREATED_ASSIGNED_ROLE": "Cor criada e atribuída a %s",
-    "TARGET_CURRENT": "Cor atual de %s",
-    "TARGET_DELETED_ROLE": "Cor de %s deletada",
+    "TARGET_AVATAR_ESTIMATED": "Estimated color in {user}'s avatar",
+    "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {user}",
+    "TARGET_CHANGED_ROLE": "Changed {user}'s color",
+    "TARGET_CREATED_ASSIGNED_ROLE": "Color created and assigned to {user}",
+    "TARGET_CURRENT": "{user}'s current color",
+    "TARGET_DELETED_ROLE": "Deleted {user}'s color",
     "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor.",
-    "USER_CAN_INTERACT": "%s também pode interagir com o sistema."
+    "USER_CAN_INTERACT": "{user} can also interact with the system."
   },
   "EMOJI": {
     "ADDED": "Emoji Adicionado",
@@ -109,22 +109,22 @@
     "DM": "Esse comando não pode ser usado em DMs.",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "O servidor está no limite de `%s` emojis animados.",
-        "STATIC": "O servidor está no limite de `%s` emojis estáticos."
+        "ANIMATED": "The server is at the limit of `{limit}` animated emojis.",
+        "STATIC": "The server is at the limit of `{limit}` static emojis."
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "O servidor agora atingiu o limite de `%s` emojis animados.",
-        "STATIC": "O servidor agora atingiu o limite de `%s` emojis estáticos."
+        "ANIMATED": "The server has now reached the limit of `{limit}` animated emojis.",
+        "STATIC": "The server has now reached the limit of `{limit}` static emojis."
       },
       "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais.",
-      "NOT_FOUND": "O emoji `%s` não foi encontrado."
+      "NOT_FOUND": "The emoji `{input}` was not found."
     },
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação.",
     "GUILD_NOT_FOUND": "Servidor não encontrado.",
     "INVALID": {
-      "IMAGE": "The image size is bigger than {size}kb.",
+      "IMAGE": "The image size is bigger than `{size}kb`.",
       "NAME": {
-        "EMOJI": "The name `{input}` {length, select, longer{is longer than **32** characters} shorter{is shorter than **2** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}."
+        "EMOJI": "The name `{input}` {length, select, longer{is longer than **{maxLength}** characters} shorter{is shorter than **{minLength}** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}."
       },
       "ROLE": "Invalid role",
       "TIME": "Invalid time"
@@ -151,14 +151,14 @@
     "ERROR": "Erro",
     "FROM": "De",
     "ID": "ID",
-    "INTERACTED_BY": "Interagido por %s",
+    "INTERACTED_BY": "Interacted by {user}",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
     "NAME": "Nome",
     "NO": "Não",
     "OUTPUT": "Saída",
-    "REQUESTED_BY": "Solicitado por %s",
+    "REQUESTED_BY": "Requested by {user}",
     "ROLES": "Cargos",
     "SERVERS": "Servidores",
     "SUCCESS": "Sucesso",
@@ -187,7 +187,7 @@
         "DELETED": "Comandos Excluídos",
         "GLOBAL": "Comandos Globais",
         "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos do Servidor %s",
+        "SPECIFIED_GUILD": "{guild}'s Guild Commands",
         "UPDATED": "Comandos Atualizados"
       },
       "NO_UPDATE": "Nenhum comando foi atualizado."
@@ -222,11 +222,11 @@
     "MODERATE_MEMBERS": "Membros de Castigo",
     "MOVE_MEMBERS": "Mover Membros",
     "MUTE_MEMBERS": "Silenciar Membros",
-    "NO_LONGER": "Você não tem mais a permissão `%s` necessária.",
+    "NO_LONGER": "You no longer have the required `{perm}` permission.",
     "PRIORITY_SPEAKER": "Voz Prioritária",
     "READ_MESSAGE_HISTORY": "Ver Histórico de Mensagens",
     "REQUEST_TO_SPEAK": "Pedir para Falar",
-    "REQUIRES": "Você precisa da permissão `%s`.",
+    "REQUIRES": "You need the `{perm}` permission.",
     "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente.",
     "SEND_MESSAGES": "Send Messages and Create Posts",
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
@@ -258,13 +258,13 @@
       "CHANGED": "Idioma Alterado",
       "CROWDIN": "Traduzir no Crowdin",
       "CURRENT": "Idioma Atual",
-      "CURRENT_IS": "O idioma atual do bot nesse servidor é `%s`.",
+      "CURRENT_IS": "The current language of the bot on this server is `{lang}`.",
       "NAME": {
         "en-US": "Inglês (Estados Unidos)",
         "es-ES": "Espanhol (Espanha)",
         "pt-BR": "Português (Brasil)"
       },
-      "NOT_SUPPORTED": "No momento, o bot não tem suporte para `%s`."
+      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`."
     }
   },
   "USER": {
