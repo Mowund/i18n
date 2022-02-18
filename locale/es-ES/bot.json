@@ -8,7 +8,7 @@
       "DISCORDJS_VERSION": "Versión de Discord.JS",
       "MEMORY_USAGE": "Uso de Memoria",
       "NODEJS_VERSION": "Versión de Node.JS",
-      "TITLE": "{bot}'s Info"
+      "TITLE": "Información de {bot}"
     }
   },
   "CLEAR": {
@@ -41,14 +41,14 @@
     "SAME_USER_CAN_INTERACT": "No es necesario que te menciones si vas a cambiar tu propio color.",
     "SPECIFIED": "Color especificado",
     "TARGET_ALREADY_NO_ROLE": "El usuario mencionado ya no tiene un rol de color.",
-    "TARGET_AVATAR_ESTIMATED": "Estimated color in {user}'s avatar",
-    "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {user}",
-    "TARGET_CHANGED_ROLE": "Changed {user}'s color",
-    "TARGET_CREATED_ASSIGNED_ROLE": "Color created and assigned to {user}",
-    "TARGET_CURRENT": "{user}'s current color",
-    "TARGET_DELETED_ROLE": "Deleted {user}'s color",
+    "TARGET_AVATAR_ESTIMATED": "Color estimado en el avatar de {user}",
+    "TARGET_CHANGED_ASSIGNED_ROLE": "{user} color cambiado y asignado",
+    "TARGET_CHANGED_ROLE": "Cambiado el color de {user}",
+    "TARGET_CREATED_ASSIGNED_ROLE": "Color creado y asignado a {user}",
+    "TARGET_CURRENT": "Color actual de {user}",
+    "TARGET_DELETED_ROLE": "{user} color eliminado",
     "TARGET_NO_ROLE": "El usuario mencionado no tiene un rol de color.",
-    "USER_CAN_INTERACT": "{user} can also interact with the system."
+    "USER_CAN_INTERACT": "{user} también puede interactuar con el sistema."
   },
   "EMOJI": {
     "ADDED": "Emoji Agregado",
@@ -80,7 +80,7 @@
       "CREATED": {
         "ANOTHER_SERVER": "Copiado desde otro servidor usando el sistema emoji",
         "CDN": "Copiado de un emoji encontrado en el Discord cdn usando el sistema emoji",
-        "COMMAND": "Created using the emoji system",
+        "COMMAND": "Creado usando el sistema de emoji",
         "DELETED": "Emoji eliminado recreado usando el sistema de emoji",
         "UNICODE": "Copiado de un emoji unicode encontrado en el twemoji cdn usando el sistema emoji"
       },
@@ -109,25 +109,25 @@
     "DM": "Este comando no se puede utilizar en DM.",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `{limit}` animated emojis.",
-        "STATIC": "The server is at the limit of `{limit}` static emojis."
+        "ANIMATED": "El servidor está en el límite de `{limit}` emojis animados.",
+        "STATIC": "El servidor está en el límite de `{limit}` emojis estáticos."
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `{limit}` animated emojis.",
-        "STATIC": "The server has now reached the limit of `{limit}` static emojis."
+        "ANIMATED": "El servidor ha alcanzado el límite de `{limit}` emojis animados.",
+        "STATIC": "El servidor ha alcanzado el límite de `{limit}` emojis estáticos."
       },
       "NONEXISTENT": "No puedes editar el emoji ya que ya no existe.",
-      "NOT_FOUND": "The emoji `{input}` was not found."
+      "NOT_FOUND": "El emoji `{input}` no fue encontrado."
     },
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción.",
     "GUILD_NOT_FOUND": "Servidor no encontrado.",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{size}kb`.",
+      "IMAGE": "El tamaño de la imagen es mayor que `{size}kb`.",
       "NAME": {
-        "EMOJI": "The name `{input}` {length, select, longer{is longer than **{maxLength}** characters} shorter{is shorter than **{minLength}** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}."
+        "EMOJI": "El nombre `{input}` {length, select, longer{es más largo que **{maxLength}** caracteres} shorter{és más corto que **{minLength}** caracteres} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}."
       },
-      "ROLE": "Invalid role",
-      "TIME": "Invalid time"
+      "ROLE": "Rol inválido",
+      "TIME": "Tiempo inválido"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación.",
     "TIMED_OUT": "Tiempo agotado",
@@ -142,7 +142,7 @@
     "COMMANDS": "Comandos",
     "COMPONENT": {
       "BACK": "Vuelve",
-      "FIX_PERMISSIONS": "Fix Permissions",
+      "FIX_PERMISSIONS": "Corregir Permisos",
       "MESSAGE_DELETE": "Borrar Mensaje",
       "REPEAT": "Repetir"
     },
@@ -151,14 +151,14 @@
     "ERROR": "Error",
     "FROM": "De",
     "ID": "ID",
-    "INTERACTED_BY": "Interacted by {user}",
+    "INTERACTED_BY": "Interactuado por {user}",
     "MEMBERS": "Miembros",
     "MENTION": "Mención",
     "MESSAGE": "Mensaje",
     "NAME": "Nombre",
     "NO": "No",
     "OUTPUT": "Salida",
-    "REQUESTED_BY": "Requested by {user}",
+    "REQUESTED_BY": "Solicitado por {user}",
     "ROLES": "Roles",
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
@@ -187,7 +187,7 @@
         "DELETED": "Comandos Eliminados",
         "GLOBAL": "Comandos Globales",
         "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "{guild}'s Guild Commands",
+        "SPECIFIED_GUILD": "Comandos del Servidor de {guild}",
         "UPDATED": "Comandos Actualizados"
       },
       "NO_UPDATE": "Ningún comando ha sido actualizado."
@@ -216,20 +216,20 @@
     "MANAGE_MESSAGES": "Gestionar Mensajes",
     "MANAGE_NICKNAMES": "Gestionar Apodos",
     "MANAGE_ROLES": "Gestionar Roles",
-    "MANAGE_THREADS": "Manage Threads and Posts",
+    "MANAGE_THREADS": "Administrar Hilos y Publicaciones",
     "MANAGE_WEBHOOKS": "Gestionar Webhooks",
     "MENTION_EVERYONE": "Mencionar a Todos",
     "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros",
     "MOVE_MEMBERS": "Mover Miembros",
     "MUTE_MEMBERS": "Silenciar Miembros",
-    "NO_LONGER": "You no longer have the required `{perm}` permission.",
+    "NO_LONGER": "Ya no tienes el permiso `{perm}` requerido.",
     "PRIORITY_SPEAKER": "Altavoz Prioritario",
     "READ_MESSAGE_HISTORY": "Leer el Historial de Mensajes",
     "REQUEST_TO_SPEAK": "Solicitud para Hablar",
-    "REQUIRES": "You need the `{perm}` permission.",
+    "REQUIRES": "Necesitas el permiso `{perm}`.",
     "ROLE_REQUIRES": "{role} requiere el permiso `{perm}` para que la interacción funcione correctamente.",
-    "SEND_MESSAGES": "Send Messages and Create Posts",
-    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
+    "SEND_MESSAGES": "Enviar Mensajes y Crear Publicaciones",
+    "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Hilos y Publicaciones",
     "SEND_TTS_MESSAGES": "Enviar Mensajes TTS",
     "SPEAK": "Hablar",
     "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
@@ -258,13 +258,13 @@
       "CHANGED": "Idioma Cambiado",
       "CROWDIN": "Traducir en Crowdin",
       "CURRENT": "Idioma Actual",
-      "CURRENT_IS": "The current language of the bot on this server is `{lang}`.",
+      "CURRENT_IS": "El idioma actual del bot en este servidor es `{lang}`.",
       "NAME": {
         "en-US": "Inglés (Estados Unidos)",
         "es-ES": "Español (España)",
         "pt-BR": "Portugués (Brasil)"
       },
-      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`."
+      "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `{input}`."
     }
   },
   "USER": {
