@@ -8,7 +8,7 @@
       "DISCORDJS_VERSION": "Versión de Discord.JS",
       "MEMORY_USAGE": "Uso de Memoria",
       "NODEJS_VERSION": "Versión de Node.JS",
-      "TITLE": "Información de {bot}"
+      "TITLE": "Información de {botName}"
     }
   },
   "CLEAR": {
@@ -41,14 +41,14 @@
     "SAME_USER_CAN_INTERACT": "No es necesario que te menciones si vas a cambiar tu propio color.",
     "SPECIFIED": "Color especificado",
     "TARGET_ALREADY_NO_ROLE": "El usuario mencionado ya no tiene un rol de color.",
-    "TARGET_AVATAR_ESTIMATED": "Color estimado en el avatar de {user}",
-    "TARGET_CHANGED_ASSIGNED_ROLE": "{user} color cambiado y asignado",
-    "TARGET_CHANGED_ROLE": "Cambiado el color de {user}",
-    "TARGET_CREATED_ASSIGNED_ROLE": "Color creado y asignado a {user}",
-    "TARGET_CURRENT": "Color actual de {user}",
-    "TARGET_DELETED_ROLE": "{user} color eliminado",
+    "TARGET_AVATAR_ESTIMATED": "Color estimado en el avatar de {userName}",
+    "TARGET_CHANGED_ASSIGNED_ROLE": "{userName} color cambiado y asignado",
+    "TARGET_CHANGED_ROLE": "{userName} cambió de color",
+    "TARGET_CREATED_ASSIGNED_ROLE": "Color creado y asignado a {userName}",
+    "TARGET_CURRENT": "Color actual de {userName}",
+    "TARGET_DELETED_ROLE": "{userName} color eliminado",
     "TARGET_NO_ROLE": "El usuario mencionado no tiene un rol de color.",
-    "USER_CAN_INTERACT": "{user} también puede interactuar con el sistema."
+    "USER_CAN_INTERACT": "{userName} también puede interactuar con el sistema."
   },
   "EMOJI": {
     "ADDED": "Emoji Agregado",
@@ -151,14 +151,14 @@
     "ERROR": "Error",
     "FROM": "De",
     "ID": "ID",
-    "INTERACTED_BY": "Interactuado por {user}",
+    "INTERACTED_BY": "Interactuado por {userName}",
     "MEMBERS": "Miembros",
     "MENTION": "Mención",
     "MESSAGE": "Mensaje",
     "NAME": "Nombre",
     "NO": "No",
     "OUTPUT": "Salida",
-    "REQUESTED_BY": "Solicitado por {user}",
+    "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
@@ -187,7 +187,7 @@
         "DELETED": "Comandos Eliminados",
         "GLOBAL": "Comandos Globales",
         "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos del Servidor de {guild}",
+        "SPECIFIED_GUILD": "Comandos del Servidor de {guildName}",
         "UPDATED": "Comandos Actualizados"
       },
       "NO_UPDATE": "Ningún comando ha sido actualizado."
