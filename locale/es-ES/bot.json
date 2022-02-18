@@ -8,7 +8,7 @@
       "DISCORDJS_VERSION": "Versión de Discord.JS",
       "MEMORY_USAGE": "Uso de Memoria",
       "NODEJS_VERSION": "Versión de Node.JS",
-      "TITLE": "Información de {bot}"
+      "TITLE": "{botName}'s Info"
     }
   },
   "CLEAR": {
