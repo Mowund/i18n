@@ -52,6 +52,10 @@
   },
   "ECHO": {
     "GO_TO": "[Click here to go to the message]({msgURL})",
+    "INSUFFICIENT": {
+      "ARGS": "'You need to provide a content for the message or a description for the embed'",
+      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly."
+    },
     "SENT": "Message Sent"
   },
   "EMOJI": {
