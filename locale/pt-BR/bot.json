@@ -50,6 +50,10 @@
     "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor.",
     "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema."
   },
+  "ECHO": {
+    "GO_TO": "[Click here to go to the message]({msgURL})",
+    "SENT": "Message Sent"
+  },
   "EMOJI": {
     "ADDED": "Emoji Adicionado",
     "ADDED_UNICODE": "Emoji Unicode Adicionado",
@@ -105,6 +109,7 @@
     "VIEWING_UNICODE": "Visualizando Emoji Unicode"
   },
   "ERROR": {
+    "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel.",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot.",
     "DM": "Esse comando não pode ser usado em DMs.",
     "EMOJI": {
@@ -137,6 +142,7 @@
     }
   },
   "GENERIC": {
+    "CHANNEL": "Channel",
     "CHAT": "Chat",
     "CODEPOINT": "Ponto de Código",
     "COMMANDS": "Comandos",
