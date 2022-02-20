@@ -12,7 +12,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}"
+    "DELETED": "{count, plural, one {} =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}"
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "You already has no color role",
