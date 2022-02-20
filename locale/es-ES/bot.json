@@ -12,7 +12,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} =1 {`#` mensaje eliminado} other {`# mensajes eliminados}}"
+    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} =1 {`#` mensaje eliminado} other {`#` mensajes eliminados}}"
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "Tu ya no tienes un rol de color",
@@ -49,6 +49,14 @@
     "TARGET_DELETED_ROLE": "{userName} color eliminado",
     "TARGET_NO_ROLE": "El usuario mencionado no tiene un rol de color",
     "USER_CAN_INTERACT": "{userName} también puede interactuar con el sistema"
+  },
+  "ECHO": {
+    "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
+    "INSUFFICIENT": {
+      "ARGS": "Debe proporcionar un contenido para el mensaje o una descripción para el embed",
+      "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
+    },
+    "SENT": "Mensaje Enviado"
   },
   "EMOJI": {
     "ADDED": "Emoji Agregado",
@@ -105,6 +113,7 @@
     "VIEWING_UNICODE": "Viendo Emoji Unicode"
   },
   "ERROR": {
+    "CANNOT_SEND_CHANNEL_MESSAGES": "No se pueden enviar mensajes en el canal especificado",
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EMOJI": {
@@ -137,6 +146,7 @@
     }
   },
   "GENERIC": {
+    "CHANNEL": "Canal",
     "CHAT": "Chat",
     "CODEPOINT": "Código Punto",
     "COMMANDS": "Comandos",
