@@ -12,10 +12,10 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}."
+    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}"
   },
   "COLOR": {
-    "ALREADY_NO_ROLE": "You already has no color role.",
+    "ALREADY_NO_ROLE": "You already has no color role",
     "AVATAR_ESTIMATED": "Estimated color of your avatar",
     "CANCELED": "Canceled",
     "CHANGED_ASSIGNED_ROLE": "Changed and assigned color",
@@ -35,26 +35,26 @@
     "MIX_INVALID": "Invalid color, enter a valid color to mix",
     "MIXED": "Mixed color",
     "MIXED_REPEAT": "Mixed color, enter a color to mix again",
-    "NO_ROLE": "You don't have a color role.",
-    "PREVIEW": "You are previewing the color.",
+    "NO_ROLE": "You don't have a color role",
+    "PREVIEW": "You are previewing the color",
     "RGB_CONVERT": "Converted to RGB",
-    "SAME_USER_CAN_INTERACT": "It is not necessary to mention yourself if you're going to change your own color.",
+    "SAME_USER_CAN_INTERACT": "It is not necessary to mention yourself if you're going to change your own color",
     "SPECIFIED": "Specified color",
-    "TARGET_ALREADY_NO_ROLE": "The mentioned user already has no color role.",
+    "TARGET_ALREADY_NO_ROLE": "The mentioned user already has no color role",
     "TARGET_AVATAR_ESTIMATED": "Estimated color in {userName}'s avatar",
     "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {userName}",
     "TARGET_CHANGED_ROLE": "Changed {userName}'s color",
     "TARGET_CREATED_ASSIGNED_ROLE": "Color created and assigned to {userName}",
     "TARGET_CURRENT": "{userName}'s current color",
     "TARGET_DELETED_ROLE": "Deleted {userName}'s color",
-    "TARGET_NO_ROLE": "The mentioned user does not have a color role.",
-    "USER_CAN_INTERACT": "{userName} can also interact with the system."
+    "TARGET_NO_ROLE": "The mentioned user does not have a color role",
+    "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
   "ECHO": {
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "'You need to provide a content for the message or a description for the embed'",
-      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly."
+      "ARGS": "You need to provide a content for the message or a description for the embed",
+      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
     },
     "SENT": "Message Sent"
   },
@@ -108,41 +108,41 @@
       "REMOVED_REPEAT": "Role removed from emoji, enter another role to remove it",
       "RESETED": "Reseted emoji's roles"
     },
-    "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server.",
+    "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
     "VIEWING": "Viewing Emoji",
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
   "ERROR": {
-    "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel.",
-    "DEVELOPERS_ONLY": "This command can only be used by the bot developers.",
-    "DM": "This command cannot be used in DMs.",
+    "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
+    "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
+    "DM": "This command cannot be used in DMs",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `{limit}` animated emojis.",
-        "STATIC": "The server is at the limit of `{limit}` static emojis."
+        "ANIMATED": "The server is at the limit of `{limit}` animated emojis",
+        "STATIC": "The server is at the limit of `{limit}` static emojis"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `{limit}` animated emojis.",
-        "STATIC": "The server has now reached the limit of `{limit}` static emojis."
+        "ANIMATED": "The server has now reached the limit of `{limit}` animated emojis",
+        "STATIC": "The server has now reached the limit of `{limit}` static emojis"
       },
-      "NONEXISTENT": "You can't edit the emoji as it no longer exists.",
-      "NOT_FOUND": "The emoji `{input}` was not found."
+      "NONEXISTENT": "You can't edit the emoji as it no longer exists",
+      "NOT_FOUND": "The emoji `{input}` was not found"
     },
-    "EXECUTING_INTERACTION": "An error occurred while executing this interaction.",
-    "GUILD_NOT_FOUND": "Guild not found.",
+    "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{size}kb`.",
+      "IMAGE": "The image size is bigger than `{size}kb`",
       "NAME": {
-        "EMOJI": "The name `{input}` {length, select, longer{is longer than **{maxLength}** characters} shorter{is shorter than **{minLength}** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}."
+        "EMOJI": "The name `{input}` {length, select, longer{is longer than **{maxLength}** characters} shorter{is shorter than **{minLength}** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}"
       },
       "ROLE": "Invalid role",
       "TIME": "Invalid time"
     },
-    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command.",
+    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
-      "CHAT": "You are not allowed to use this command in this chat.",
-      "COMMAND": "You are not allowed to interact with this command."
+      "CHAT": "You are not allowed to use this command in this chat",
+      "COMMAND": "You are not allowed to interact with this command"
     }
   },
   "GENERIC": {
@@ -184,12 +184,12 @@
     "USER": "User",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
-    "WIP_COMMAND": "This command is currently under development.",
-    "WIP_FUNCTION": "This function is currently under development.",
+    "WIP_COMMAND": "This command is currently under development",
+    "WIP_FUNCTION": "This function is currently under development",
     "YES": "Yes"
   },
   "KILL": {
-    "DIED": "Fell out of the world."
+    "DIED": "Fell out of the world"
   },
   "MOWUND": {
     "INTERACTION": {
@@ -200,10 +200,10 @@
         "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
         "UPDATED": "Updated Commands"
       },
-      "NO_UPDATE": "No commands have been updated."
+      "NO_UPDATE": "No commands have been updated"
     },
     "SHARD": {
-      "RESPAWNING": "Respawning all shards."
+      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
@@ -232,12 +232,12 @@
     "MODERATE_MEMBERS": "Timeout Members",
     "MOVE_MEMBERS": "Move Members",
     "MUTE_MEMBERS": "Mute Members",
-    "NO_LONGER": "You no longer have the required `{perm}` permission.",
+    "NO_LONGER": "You no longer have the required `{perm}` permission",
     "PRIORITY_SPEAKER": "Priority Speaker",
     "READ_MESSAGE_HISTORY": "Read Message History",
     "REQUEST_TO_SPEAK": "Request to Speak",
-    "REQUIRES": "You need the `{perm}` permission.",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly.",
+    "REQUIRES": "You need the `{perm}` permission",
+    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
     "SEND_MESSAGES": "Send Messages and Create Posts",
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Send TTS Messages",
@@ -268,13 +268,13 @@
       "CHANGED": "Changed Language",
       "CROWDIN": "Translate on Crowdin",
       "CURRENT": "Current Language",
-      "CURRENT_IS": "The current language of the bot on this server is `{lang}`.",
+      "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
       "NAME": {
         "en-US": "English (United States)",
         "es-ES": "Spanish (Spain)",
         "pt-BR": "Portuguese (Brazil)"
       },
-      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`."
+      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
     }
   },
   "USER": {
