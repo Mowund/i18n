@@ -156,6 +156,7 @@
       "MESSAGE_DELETE": "Borrar Mensaje",
       "REPEAT": "Repetir"
     },
+    "CONTENT": "Content",
     "CREATION_DATE": "Fecha de Creación",
     "CURRENT": "Actual",
     "ERROR": "Error",
@@ -177,6 +178,7 @@
       "MINUTES": "{count, plural, =0 {ahora} =1 {# minuto} other {# minutos}}",
       "SECONDS": "{count, plural, =0 {ahora} =1 {# segundo} other {# segundos}}"
     },
+    "TIMESTAMP": "Timestamp",
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
@@ -242,9 +244,9 @@
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Hilos y Publicaciones",
     "SEND_TTS_MESSAGES": "Enviar Mensajes TTS",
     "SPEAK": "Hablar",
-    "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
     "STREAM": "Vídeo",
     "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicación",
+    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
     "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
     "USE_EXTERNAL_STICKERS": "Usar Pegatinas Exteriores",
     "USE_VAD": "Usar Detección de Voz",
