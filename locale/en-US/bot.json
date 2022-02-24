@@ -156,7 +156,6 @@
       "MESSAGE_DELETE": "Delete Message",
       "REPEAT": "Repeat"
     },
-    "CONTENT": "Content",
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
     "ERROR": "Error",
@@ -178,7 +177,6 @@
       "MINUTES": "{count, plural, =0 {now} =1 {# minute} other {# minutes}}",
       "SECONDS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}"
     },
-    "TIMESTAMP": "Timestamp",
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
@@ -244,9 +242,9 @@
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Send TTS Messages",
     "SPEAK": "Speak",
+    "START_EMBEDDED_ACTIVITIES": "Start Embedded Activities",
     "STREAM": "Stream",
     "USE_APPLICATION_COMMANDS": "Use Application Commands",
-    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
     "USE_EXTERNAL_EMOJIS": "Use External Emojis",
     "USE_EXTERNAL_STICKERS": "Use External Stickers",
     "USE_VAD": "Use Voice Activity Detection",
