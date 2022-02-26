@@ -138,6 +138,10 @@
       "ROLE": "Rol inválido",
       "TIME": "Tiempo inválido"
     },
+    "REMINDER": {
+      "EMPTY": "You don't have any reminders",
+      "NOT_FOUND": "The reminder `{reminderId}` was not found"
+    },
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
     "UNALLOWED": {
@@ -264,6 +268,11 @@
       "RESPONSE": "Tiempo de Respuesta"
     },
     "TITLE": "Pong!"
+  },
+  "REMINDER": {
+    "CREATED": "Reminder Created",
+    "INFO": "Reminder Info",
+    "LIST": "Reminder List"
   },
   "SETTINGS": {
     "LANGUAGE": {
