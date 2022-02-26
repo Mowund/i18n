@@ -138,6 +138,10 @@
       "ROLE": "Invalid role",
       "TIME": "Invalid time"
     },
+    "REMINDER": {
+      "EMPTY": "You don't have any reminders",
+      "NOT_FOUND": "The reminder `{reminderId}` was not found"
+    },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
@@ -264,6 +268,11 @@
       "RESPONSE": "Response Time"
     },
     "TITLE": "Pong!"
+  },
+  "REMINDER": {
+    "CREATED": "Reminder Created",
+    "INFO": "Reminder Info",
+    "LIST": "Reminder List"
   },
   "SETTINGS": {
     "LANGUAGE": {
