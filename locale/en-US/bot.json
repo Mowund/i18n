@@ -131,12 +131,12 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{size}kb`",
+      "IMAGE": "The image size is bigger than `{maxSize}kb`",
       "NAME": {
-        "EMOJI": "The name `{input}` {length, select, longer{is longer than **{maxLength}** characters} shorter{is shorter than **{minLength}** characters} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}"
+        "EMOJI": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}"
       },
       "ROLE": "Invalid role",
-      "TIME": "Invalid time"
+      "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
     },
     "REMINDER": {
       "EMPTY": "You don't have any reminders",
@@ -178,9 +178,9 @@
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
-      "HOURS": "{count, plural, =0 {now} =1 {# hour} other {# hours}}",
-      "MINUTES": "{count, plural, =0 {now} =1 {# minute} other {# minutes}}",
-      "SECONDS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}"
+      "HOURS": "{count, plural, =0 {now} =1 {**#** hour} other {**#** hours}}",
+      "MINUTES": "{count, plural, =0 {now} =1 {**#** minute} other {**#** minutes}}",
+      "SECONDS": "{count, plural, =0 {now} =1 {**#** second} other {**#** seconds}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
@@ -272,7 +272,12 @@
   "REMINDER": {
     "CREATED": "Reminder Created",
     "INFO": "Reminder Info",
-    "LIST": "Reminder List"
+    "LIST": "Reminder List",
+    "COMPONENT": {
+      "DELETE": "Delete Reminder",
+      "RECURSIVE": "Recursive",
+      "SELECT_LIST": "Select a reminder"
+    }
   },
   "SETTINGS": {
     "LANGUAGE": {
