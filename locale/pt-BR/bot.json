@@ -95,8 +95,8 @@
       "DELETED": "Excluído usando o sistema de emojis"
     },
     "RENAMED": "Emoji Renomeado",
-    "RENAMED_REPEAT": "Emoji renomeado, digite um nome para renomear novamente",
     "RENAMING": "Renomeando Emoji",
+    "RENAMING_LABEL": "Insert the new emoji name",
     "ROLES": {
       "ADD": "Digite um cargo para adicioná-lo ao emoji",
       "ADDED_ALREADY": "Este cargo já está definido",
@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
       "NAME": {
-        "EMOJI": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
         "SHORT": "Invalid Name"
       },
       "ROLE": "Cargo inválido",
