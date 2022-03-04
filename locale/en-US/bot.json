@@ -118,12 +118,12 @@
     "DM": "This command cannot be used in DMs",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `{limit}` animated emojis",
-        "STATIC": "The server is at the limit of `{limit}` static emojis"
+        "ANIMATED": "The server is at the limit of `{limit, number}` animated emojis",
+        "STATIC": "The server is at the limit of `{limit, number}` static emojis"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `{limit}` animated emojis",
-        "STATIC": "The server has now reached the limit of `{limit}` static emojis"
+        "ANIMATED": "The server has now reached the limit of `{limit, number}` animated emojis",
+        "STATIC": "The server has now reached the limit of `{limit, number}` static emojis"
       },
       "NONEXISTENT": "You can't edit the emoji as it no longer exists",
       "NOT_FOUND": "The emoji `{input}` was not found"
@@ -131,9 +131,10 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{maxSize}kb`",
+      "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
       "NAME": {
-        "EMOJI": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}"
+        "EMOJI": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "SHORT": "Invalid Name"
       },
       "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
@@ -270,14 +271,16 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "CREATED": "Reminder Created",
-    "INFO": "Reminder Info",
-    "LIST": "Reminder List",
     "COMPONENT": {
       "DELETE": "Delete Reminder",
       "RECURSIVE": "Recursive",
       "SELECT_LIST": "Select a reminder"
-    }
+    },
+    "CREATED": "Reminder Created",
+    "INFO": "Reminder Info",
+    "LIST": "Reminder List",
+    "NEW": "New Reminder",
+    "TO": "Reminder to {userName}"
   },
   "SETTINGS": {
     "LANGUAGE": {
