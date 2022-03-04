@@ -95,8 +95,8 @@
       "DELETED": "Eliminado usando el sistema de emoji"
     },
     "RENAMED": "Emoji Renombrado",
-    "RENAMED_REPEAT": "Emoji renombrado, ingrese un nombre para cambiar el nombre nuevamente",
     "RENAMING": "Renombrar Emoji",
+    "RENAMING_LABEL": "Insert the new emoji name",
     "ROLES": {
       "ADD": "Ingrese un rol para agregarlo al emoji",
       "ADDED_ALREADY": "Este rol ya está definido",
@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
       "NAME": {
-        "EMOJI": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
         "SHORT": "Invalid Name"
       },
       "ROLE": "Rol inválido",
