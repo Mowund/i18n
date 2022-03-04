@@ -95,8 +95,8 @@
       "DELETED": "Deleted using the emoji system"
     },
     "RENAMED": "Renamed Emoji",
-    "RENAMED_REPEAT": "Renamed emoji, enter a name to rename again",
     "RENAMING": "Renaming Emoji",
+    "RENAMING_LABEL": "Insert the new emoji name",
     "ROLES": {
       "ADD": "Enter a role to add it to the emoji",
       "ADDED_ALREADY": "This role is already defined",
