@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
       "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one {} =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
         "SHORT": "Invalid Name"
       },
       "ROLE": "Invalid role",
@@ -179,9 +179,9 @@
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
-      "HOURS": "{count, plural, =0 {now} =1 {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} =1 {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} =1 {**#** second} other {**#** seconds}}"
+      "HOURS": "{count, plural, one {} =0 {now} =1 {**#** hour} other {**#** hours}}",
+      "MINUTES": "{count, plural, one {} =0 {now} =1 {**#** minute} other {**#** minutes}}",
+      "SECONDS": "{count, plural, one {} =0 {now} =1 {**#** second} other {**#** seconds}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
