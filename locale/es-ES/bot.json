@@ -96,7 +96,7 @@
     },
     "RENAMED": "Emoji Renombrado",
     "RENAMING": "Renombrar Emoji",
-    "RENAMING_LABEL": "Insert the new emoji name",
+    "RENAMING_LABEL": "Inserta el nuevo nombre de emoji",
     "ROLES": {
       "ADD": "Ingrese un rol para agregarlo al emoji",
       "ADDED_ALREADY": "Este rol ya está definido",
@@ -118,12 +118,12 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `{limit, number}` animated emojis",
-        "STATIC": "The server is at the limit of `{limit, number}` static emojis"
+        "ANIMATED": "El servidor está en el límite de `{limit, number}` emojis animados",
+        "STATIC": "El servidor está en el límite de `{limit, number}` emojis estáticos"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `{limit, number}` animated emojis",
-        "STATIC": "The server has now reached the limit of `{limit, number}` static emojis"
+        "ANIMATED": "El servidor ha alcanzado el límite de `{limit, number}` emojis animados",
+        "STATIC": "El servidor ha alcanzado el límite de `{limit, number}` emojis estáticos"
       },
       "NONEXISTENT": "No puedes editar el emoji ya que ya no existe",
       "NOT_FOUND": "El emoji `{input}` no fue encontrado"
@@ -131,17 +131,17 @@
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
+      "IMAGE": "El tamaño de la imagen es mayor que `{maxSize, number}kb`",
       "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
-        "SHORT": "Invalid Name"
+        "LONG": "La entrada `{input}` {condition, select, longer{es más larga de {maxLength, plural, =1{**#** caractere} other{**#** caracteres}}} shorter{es más corto que {minLength, plural, =1{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}",
+        "SHORT": "Nombre Invalido"
       },
       "ROLE": "Rol inválido",
-      "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
+      "TIME": "El tiempo `{input}` {condition, select, greater{es mayor que {time}} less{es menor que {time}} other{no es válido}}"
     },
     "REMINDER": {
-      "EMPTY": "You don't have any reminders",
-      "NOT_FOUND": "The reminder `{reminderId}` was not found"
+      "EMPTY": "No tienes ningún recordatorio",
+      "NOT_FOUND": "El recordatorio `{reminderId}` no fue encontrado"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
@@ -161,7 +161,7 @@
       "MESSAGE_DELETE": "Borrar Mensaje",
       "REPEAT": "Repetir"
     },
-    "CONTENT": "Content",
+    "CONTENT": "Contenido",
     "CREATION_DATE": "Fecha de Creación",
     "CURRENT": "Actual",
     "ERROR": "Error",
@@ -179,9 +179,9 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
     "TIME": {
-      "HOURS": "{count, plural, =0 {now} =1 {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} =1 {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} =1 {**#** second} other {**#** seconds}}"
+      "HOURS": "{count, plural,  =0 {ahora} =1 {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural,  =0 {ahora} =1 {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural,  =0 {ahora} =1 {**#** segundo} other {**#** segundos}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
@@ -251,7 +251,7 @@
     "SPEAK": "Hablar",
     "STREAM": "Vídeo",
     "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicación",
-    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
+    "USE_EMBEDDED_ACTIVITIES": "Usar Actividades",
     "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
     "USE_EXTERNAL_STICKERS": "Usar Pegatinas Exteriores",
     "USE_VAD": "Usar Detección de Voz",
@@ -272,15 +272,15 @@
   },
   "REMINDER": {
     "COMPONENT": {
-      "DELETE": "Delete Reminder",
-      "RECURSIVE": "Recursive",
-      "SELECT_LIST": "Select a reminder"
+      "DELETE": "Eliminar Recordatorio",
+      "RECURSIVE": "Recursivo",
+      "SELECT_LIST": "Seleccione un recordatorio"
     },
-    "CREATED": "Reminder Created",
-    "INFO": "Reminder Info",
-    "LIST": "Reminder List",
-    "NEW": "New Reminder",
-    "TO": "Reminder to {userName}"
+    "CREATED": "Recordatorio Creado",
+    "INFO": "Información del Recordatorio",
+    "LIST": "Lista de Recordatorios",
+    "NEW": "Nuevo Recordatorio",
+    "TO": "Recordatorio para {userName}"
   },
   "SETTINGS": {
     "LANGUAGE": {
