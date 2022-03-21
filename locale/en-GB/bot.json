@@ -289,7 +289,7 @@
       "CROWDIN": "Translate on Crowdin",
       "CURRENT": "Current Language",
       "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
-      "NAME": "English (United States)",
+      "NAME": "English (United Kingdom)",
       "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
     }
   },
