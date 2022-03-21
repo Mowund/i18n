@@ -12,7 +12,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} =1 {`#` mensaje eliminado} other {`#` mensajes eliminados}}"
+    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} one {`#` mensaje eliminado} other {`#` mensajes eliminados}}"
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "Tu ya no tienes un rol de color",
@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "El tamaño de la imagen es mayor que `{maxSize, number}kb`",
       "NAME": {
-        "LONG": "La entrada `{input}` {condition, select, longer{es más larga de {maxLength, plural, =1{**#** caractere} other{**#** caracteres}}} shorter{es más corto que {minLength, plural, =1{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}",
+        "LONG": "La entrada `{input}` {condition, select, longer{es más larga de {maxLength, plural, one{**#** caractere} other{**#** caracteres}}} shorter{es más corto que {minLength, plural, one{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}",
         "SHORT": "Nombre Invalido"
       },
       "ROLE": "Rol inválido",
@@ -179,9 +179,9 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
     "TIME": {
-      "HOURS": "{count, plural,  =0 {ahora} =1 {**#** hora} other {**#** horas}}",
-      "MINUTES": "{count, plural,  =0 {ahora} =1 {**#** minuto} other {**#** minutos}}",
-      "SECONDS": "{count, plural,  =0 {ahora} =1 {**#** segundo} other {**#** segundos}}"
+      "HOURS": "{count, plural,  =0 {ahora} one {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural,  =0 {ahora} one {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural,  =0 {ahora} one {**#** segundo} other {**#** segundos}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
@@ -288,11 +288,7 @@
       "CROWDIN": "Traducir en Crowdin",
       "CURRENT": "Idioma Actual",
       "CURRENT_IS": "El idioma actual del bot en este servidor es `{lang}`",
-      "NAME": {
-        "en-US": "Inglés (Estados Unidos)",
-        "es-ES": "Español (España)",
-        "pt-BR": "Portugués (Brasil)"
-      },
+      "NAME": "Español (España)",
       "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `{input}`"
     }
   },
