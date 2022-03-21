@@ -12,7 +12,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}"
+    "DELETED": "{count, plural, =0 {No hay mensajes eliminados} one {`#` mensaje eliminado} other {`#` mensajes eliminados}}"
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "Tu ya no tienes un rol de color",
@@ -53,7 +53,7 @@
   "ECHO": {
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "You need to provide a content or an option that enables the embed",
+      "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
       "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
     },
     "SENT": "Mensaje Enviado"
@@ -86,13 +86,13 @@
     "READDING": "Reagregando Emoji",
     "REASON": {
       "CREATED": {
-        "CDN": "Copied from an emoji found on the Discord CDN using the emoji system",
+        "CDN": "Copiado de un emoji encontrado en el CDN de Discord usando el sistema emoji",
         "COMMAND": "Creado usando el sistema de emoji",
         "DELETED": "Emoji eliminado recreado usando el sistema de emoji",
-        "UNICODE": "Copied from an unicode emoji found on the twemoji CDN using the emoji system"
+        "UNICODE": "Copiado de un emoji unicode encontrado en el CDN de twemoji usando el sistema emoji"
       },
       "DELETED": "Eliminado usando el sistema de emoji",
-      "RENAMED": "Renamed using the emoji system"
+      "RENAMED": "Renombrado usando el sistema de emoji"
     },
     "RENAMED": "Emoji Renombrado",
     "RENAMING": "Renombrar Emoji",
@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "El tamaño de la imagen es mayor que `{maxSize, number}kb`",
       "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "La entrada `{input}` {condition, select, longer{es más larga de {maxLength, plural, one{**#** caractere} other{**#** caracteres}}} shorter{es más corto que {minLength, plural, one{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}",
         "SHORT": "Nombre Invalido"
       },
       "ROLE": "Rol inválido",
@@ -179,10 +179,10 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
-      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
+      "DAYS": "{count, plural, =0 {ahora} one {**#** día} other {**#** días}}",
+      "HOURS": "{count, plural, =0 {ahora} one {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural, =0 {ahora} one {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural, =0 {ahora} one {**#** segundo} other {**#** segundos}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
@@ -289,7 +289,7 @@
       "CROWDIN": "Traducir en Crowdin",
       "CURRENT": "Idioma Actual",
       "CURRENT_IS": "El idioma actual del bot en este servidor es `{lang}`",
-      "NAME": "English (United States)",
+      "NAME": "Spanish (Spain)",
       "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `{input}`"
     }
   },
