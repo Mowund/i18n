@@ -53,7 +53,7 @@
   "ECHO": {
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "Debe proporcionar un contenido para el mensaje o una descripción para el embed",
+      "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
       "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
     },
     "SENT": "Mensaje Enviado"
@@ -86,13 +86,13 @@
     "READDING": "Reagregando Emoji",
     "REASON": {
       "CREATED": {
-        "ANOTHER_SERVER": "Copiado desde otro servidor usando el sistema emoji",
-        "CDN": "Copiado de un emoji encontrado en el Discord cdn usando el sistema emoji",
+        "CDN": "Copiado de un emoji encontrado en el CDN de Discord usando el sistema emoji",
         "COMMAND": "Creado usando el sistema de emoji",
         "DELETED": "Emoji eliminado recreado usando el sistema de emoji",
-        "UNICODE": "Copiado de un emoji unicode encontrado en el twemoji cdn usando el sistema emoji"
+        "UNICODE": "Copiado de un emoji unicode encontrado en el CDN de twemoji usando el sistema emoji"
       },
-      "DELETED": "Eliminado usando el sistema de emoji"
+      "DELETED": "Eliminado usando el sistema de emoji",
+      "RENAMED": "Renombrado usando el sistema de emoji"
     },
     "RENAMED": "Emoji Renombrado",
     "RENAMING": "Renombrar Emoji",
@@ -179,9 +179,10 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
     "TIME": {
-      "HOURS": "{count, plural,  =0 {ahora} one {**#** hora} other {**#** horas}}",
-      "MINUTES": "{count, plural,  =0 {ahora} one {**#** minuto} other {**#** minutos}}",
-      "SECONDS": "{count, plural,  =0 {ahora} one {**#** segundo} other {**#** segundos}}"
+      "DAYS": "{count, plural, =0 {ahora} one {**#** día} other {**#** días}}",
+      "HOURS": "{count, plural, =0 {ahora} one {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural, =0 {ahora} one {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural, =0 {ahora} one {**#** segundo} other {**#** segundos}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
@@ -288,7 +289,7 @@
       "CROWDIN": "Traducir en Crowdin",
       "CURRENT": "Idioma Actual",
       "CURRENT_IS": "El idioma actual del bot en este servidor es `{lang}`",
-      "NAME": "Español (España)",
+      "NAME": "Spanish (Spain)",
       "NOT_SUPPORTED": "Actualmente, el bot no tiene soporte para `{input}`"
     }
   },
