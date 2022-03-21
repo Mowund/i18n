@@ -95,8 +95,8 @@
       "DELETED": "Excluído usando o sistema de emojis"
     },
     "RENAMED": "Emoji Renomeado",
-    "RENAMED_REPEAT": "Emoji renomeado, digite um nome para renomear novamente",
     "RENAMING": "Renomeando Emoji",
+    "RENAMING_LABEL": "Insira o novo nome do emoji",
     "ROLES": {
       "ADD": "Digite um cargo para adicioná-lo ao emoji",
       "ADDED_ALREADY": "Este cargo já está definido",
@@ -118,12 +118,12 @@
     "DM": "Esse comando não pode ser usado em DMs",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "O servidor está no limite de `{limit}` emojis animados",
-        "STATIC": "O servidor está no limite de `{limit}` emojis estáticos"
+        "ANIMATED": "O servidor está no limite de `{limit, number}` emojis animados",
+        "STATIC": "O servidor está no limite de `{limit, number}` emojis estáticos"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "O servidor agora atingiu o limite de `{limit}` emojis animados",
-        "STATIC": "O servidor agora atingiu o limite de `{limit}` emojis estáticos"
+        "ANIMATED": "O servidor agora atingiu o limite de `{limit, number}` emojis animados",
+        "STATIC": "O servidor agora atingiu o limite de `{limit, number}` emojis estáticos"
       },
       "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais",
       "NOT_FOUND": "O emoji `{input}` não foi encontrado"
@@ -131,12 +131,17 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID": {
-      "IMAGE": "O tamanho da imagem é maior que `{size}kb`",
+      "IMAGE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
       "NAME": {
-        "EMOJI": "O nome `{input}` {length, select, longer{é maior que **{maxLength}** caracteres} shorter{é menor que **{minLength}** caracteres} other{}}{alphanum, select, also{ e também contém caracteres não alfanuméricos} only{contém caracteres não alfanuméricos} other{}}"
+        "LONG": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, =1{**#** caractere} other{**#** caracteres}}} shorter{é menor que {minLength, plural, =1{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ e também contém caracteres não alfanúmericos} only{contém caracteres não alfanúmericos} other{}}",
+        "SHORT": "Nome Inválido"
       },
       "ROLE": "Cargo inválido",
-      "TIME": "Tempo inválido"
+      "TIME": "O tempo `{input}` {condition, select, greater{é maior que {time}} less{é menor que {time}} other{não é válido}}"
+    },
+    "REMINDER": {
+      "EMPTY": "Você não tem nenhum lembrete",
+      "NOT_FOUND": "O lembrete `{reminderId}` não foi encontrado"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
@@ -156,6 +161,7 @@
       "MESSAGE_DELETE": "Excluir Mensagem",
       "REPEAT": "Repetir"
     },
+    "CONTENT": "Conteúdo",
     "CREATION_DATE": "Data de Criação",
     "CURRENT": "Atual",
     "ERROR": "Erro",
@@ -173,10 +179,11 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Sucesso",
     "TIME": {
-      "HOURS": "{count, plural, =0 {agora} =1 {# hora} other {# horas}}",
-      "MINUTES": "{count, plural, =0 {agora} =1 {# minuto} other {# minutos}}",
-      "SECONDS": "{count, plural, =0 {agora} =1 {# segundo} other {# segundos}}"
+      "HOURS": "{count, plural, =0 {agora} =1 {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural, =0 {agora} =1 {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural, =0 {agora} =1 {**#** segundo} other {**#** segundos}}"
     },
+    "TIMESTAMP": "Horário",
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
@@ -242,9 +249,9 @@
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos e Postagens",
     "SEND_TTS_MESSAGES": "Enviar mensagens em TTS",
     "SPEAK": "Falar",
-    "START_EMBEDDED_ACTIVITIES": "Começar Atividades",
     "STREAM": "Vídeo",
     "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicativo",
+    "USE_EMBEDDED_ACTIVITIES": "Usar Atividades",
     "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
     "USE_EXTERNAL_STICKERS": "Usar Figurinhas Externos",
     "USE_VAD": "Usar Detecção de Voz",
@@ -262,6 +269,18 @@
       "RESPONSE": "Tempo de Resposta"
     },
     "TITLE": "Pong!"
+  },
+  "REMINDER": {
+    "COMPONENT": {
+      "DELETE": "Excluir Lembrete",
+      "RECURSIVE": "Recursivo",
+      "SELECT_LIST": "Selecione um lembrete"
+    },
+    "CREATED": "Lembrete Criado",
+    "INFO": "Informações do Lembrete",
+    "LIST": "Lista de Lembretes",
+    "NEW": "Novo Lembrete",
+    "TO": "Lembrete para {userName}"
   },
   "SETTINGS": {
     "LANGUAGE": {

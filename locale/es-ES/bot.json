@@ -95,8 +95,8 @@
       "DELETED": "Eliminado usando el sistema de emoji"
     },
     "RENAMED": "Emoji Renombrado",
-    "RENAMED_REPEAT": "Emoji renombrado, ingrese un nombre para cambiar el nombre nuevamente",
     "RENAMING": "Renombrar Emoji",
+    "RENAMING_LABEL": "Inserta el nuevo nombre de emoji",
     "ROLES": {
       "ADD": "Ingrese un rol para agregarlo al emoji",
       "ADDED_ALREADY": "Este rol ya está definido",
@@ -118,12 +118,12 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "El servidor está en el límite de `{limit}` emojis animados",
-        "STATIC": "El servidor está en el límite de `{limit}` emojis estáticos"
+        "ANIMATED": "El servidor está en el límite de `{limit, number}` emojis animados",
+        "STATIC": "El servidor está en el límite de `{limit, number}` emojis estáticos"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "El servidor ha alcanzado el límite de `{limit}` emojis animados",
-        "STATIC": "El servidor ha alcanzado el límite de `{limit}` emojis estáticos"
+        "ANIMATED": "El servidor ha alcanzado el límite de `{limit, number}` emojis animados",
+        "STATIC": "El servidor ha alcanzado el límite de `{limit, number}` emojis estáticos"
       },
       "NONEXISTENT": "No puedes editar el emoji ya que ya no existe",
       "NOT_FOUND": "El emoji `{input}` no fue encontrado"
@@ -131,12 +131,17 @@
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID": {
-      "IMAGE": "El tamaño de la imagen es mayor que `{size}kb`",
+      "IMAGE": "El tamaño de la imagen es mayor que `{maxSize, number}kb`",
       "NAME": {
-        "EMOJI": "El nombre `{input}` {length, select, longer{es más largo que **{maxLength}** caracteres} shorter{és más corto que **{minLength}** caracteres} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}"
+        "LONG": "La entrada `{input}` {condition, select, longer{es más larga de {maxLength, plural, =1{**#** caractere} other{**#** caracteres}}} shorter{es más corto que {minLength, plural, =1{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ y también contiene caracteres no alfanuméricos} only{contiene caracteres no alfanuméricos} other{}}",
+        "SHORT": "Nombre Invalido"
       },
       "ROLE": "Rol inválido",
-      "TIME": "Tiempo inválido"
+      "TIME": "El tiempo `{input}` {condition, select, greater{es mayor que {time}} less{es menor que {time}} other{no es válido}}"
+    },
+    "REMINDER": {
+      "EMPTY": "No tienes ningún recordatorio",
+      "NOT_FOUND": "El recordatorio `{reminderId}` no fue encontrado"
     },
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
@@ -156,6 +161,7 @@
       "MESSAGE_DELETE": "Borrar Mensaje",
       "REPEAT": "Repetir"
     },
+    "CONTENT": "Contenido",
     "CREATION_DATE": "Fecha de Creación",
     "CURRENT": "Actual",
     "ERROR": "Error",
@@ -173,10 +179,11 @@
     "SERVERS": "Servidores",
     "SUCCESS": "Éxito",
     "TIME": {
-      "HOURS": "{count, plural, =0 {ahora} =1 {# hora} other {# horas}}",
-      "MINUTES": "{count, plural, =0 {ahora} =1 {# minuto} other {# minutos}}",
-      "SECONDS": "{count, plural, =0 {ahora} =1 {# segundo} other {# segundos}}"
+      "HOURS": "{count, plural,  =0 {ahora} =1 {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural,  =0 {ahora} =1 {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural,  =0 {ahora} =1 {**#** segundo} other {**#** segundos}}"
     },
+    "TIMESTAMP": "Timestamp",
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
@@ -242,9 +249,9 @@
     "SEND_MESSAGES_IN_THREADS": "Enviar Mensajes en Hilos y Publicaciones",
     "SEND_TTS_MESSAGES": "Enviar Mensajes TTS",
     "SPEAK": "Hablar",
-    "START_EMBEDDED_ACTIVITIES": "Iniciar Actividades",
     "STREAM": "Vídeo",
     "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicación",
+    "USE_EMBEDDED_ACTIVITIES": "Usar Actividades",
     "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
     "USE_EXTERNAL_STICKERS": "Usar Pegatinas Exteriores",
     "USE_VAD": "Usar Detección de Voz",
@@ -262,6 +269,18 @@
       "RESPONSE": "Tiempo de Respuesta"
     },
     "TITLE": "Pong!"
+  },
+  "REMINDER": {
+    "COMPONENT": {
+      "DELETE": "Eliminar Recordatorio",
+      "RECURSIVE": "Recursivo",
+      "SELECT_LIST": "Seleccione un recordatorio"
+    },
+    "CREATED": "Recordatorio Creado",
+    "INFO": "Información del Recordatorio",
+    "LIST": "Lista de Recordatorios",
+    "NEW": "Nuevo Recordatorio",
+    "TO": "Recordatorio para {userName}"
   },
   "SETTINGS": {
     "LANGUAGE": {
