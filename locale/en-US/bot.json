@@ -12,7 +12,7 @@
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}"
+    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}"
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "You already has no color role",
@@ -53,7 +53,7 @@
   "ECHO": {
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "You need to provide a content for the message or a description for the embed",
+      "ARGS": "You need to provide a content or an option that enables the embed",
       "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
     },
     "SENT": "Message Sent"
@@ -86,13 +86,13 @@
     "READDING": "Readding Emoji",
     "REASON": {
       "CREATED": {
-        "ANOTHER_SERVER": "Copied from another server using the emoji system",
-        "CDN": "Copied from an emoji found on the Discord cdn using the emoji system",
+        "CDN": "Copied from an emoji found on the Discord CDN using the emoji system",
         "COMMAND": "Created using the emoji system",
         "DELETED": "Deleted emoji recreated using the emoji system",
-        "UNICODE": "Copied from an unicode emoji found on the twemoji cdn using the emoji system"
+        "UNICODE": "Copied from an unicode emoji found on the twemoji CDN using the emoji system"
       },
-      "DELETED": "Deleted using the emoji system"
+      "DELETED": "Deleted using the emoji system",
+      "RENAMED": "Renamed using the emoji system"
     },
     "RENAMED": "Renamed Emoji",
     "RENAMING": "Renaming Emoji",
@@ -133,7 +133,7 @@
     "INVALID": {
       "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
       "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, =1{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, =1{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
         "SHORT": "Invalid Name"
       },
       "ROLE": "Invalid role",
@@ -179,9 +179,10 @@
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
-      "HOURS": "{count, plural, =0 {now} =1 {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} =1 {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} =1 {**#** second} other {**#** seconds}}"
+      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
+      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
+      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
@@ -288,11 +289,7 @@
       "CROWDIN": "Translate on Crowdin",
       "CURRENT": "Current Language",
       "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
-      "NAME": {
-        "en-US": "English (United States)",
-        "es-ES": "Spanish (Spain)",
-        "pt-BR": "Portuguese (Brazil)"
-      },
+      "NAME": "English (United States)",
       "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
     }
   },
