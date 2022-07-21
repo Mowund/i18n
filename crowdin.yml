@@ -1,4 +1,4 @@
 commit_message: 'feat: new translations'
 files:
-  - source: /locale/en-US
-    translation: /locale/%locale%/%original_file_name%
+  - source: /locales/en-US
+    translation: /locales/%locale%/%original_file_name%

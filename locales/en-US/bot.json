@@ -131,7 +131,10 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
-      "IMAGE": "The image size is bigger than `{maxSize, number}kb`",
+      "IMAGE": {
+        "SIZE": "The image size is bigger than `{maxSize, number}kb`",
+        "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
+      },
       "NAME": {
         "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
         "SHORT": "Invalid Name"
