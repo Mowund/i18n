@@ -1,18 +1,37 @@
 {
   "BOT": {
-    "INFO": {
-      "COMPONENT": {
-        "INVITE_BOT": "Invite Bot",
-        "SUPPORT_SERVER": "Support Server"
-      },
-      "DISCORDJS_VERSION": "Discord.JS Version",
-      "MEMORY_USAGE": "Memory Usage",
-      "NODEJS_VERSION": "Node.JS Version",
-      "TITLE": "{botName}'s Info"
+    "DESCRIPTION": "Bot related commands",
+    "NAME": "bot",
+    "OPTIONS": {
+      "INFO": {
+        "COMPONENT": {
+          "INVITE_BOT": "Invite Bot",
+          "SUPPORT_SERVER": "Support Server"
+        },
+        "DESCRIPTION": "Send bot's information",
+        "DISCORDJS_VERSION": "Discord.JS Version",
+        "MEMORY_USAGE": "Memory Usage",
+        "NAME": "info",
+        "NODEJS_VERSION": "Node.JS Version",
+        "TITLE": "{botName}'s Info"
+      }
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}"
+    "DELETE_AFTER_THIS": "Delete After This",
+    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}",
+    "DESCRIPTION": "Deletes chat messages from up to 2 weeks ago",
+    "NAME": "clear",
+    "OPTIONS": {
+      "COUNT": {
+        "DESCRIPTION": "The number of messages to delete",
+        "NAME": "count"
+      },
+      "DELETE_PINNED": {
+        "DESCRIPTION": "Whether to delete pinned messages (Default: False)",
+        "NAME": "delete-pinned"
+      }
+    }
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "You already has no color role",
@@ -50,11 +69,68 @@
     "TARGET_NO_ROLE": "The mentioned user does not have a color role",
     "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
+  "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
+    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "You need to provide a content or an option that enables the embed",
       "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
+    },
+    "NAME": "echo",
+    "OPTIONS": {
+      "ATTACHMENT": {
+        "DESCRIPTION": "An attachment for the message",
+        "NAME": "attachment"
+      },
+      "AUTHOR": {
+        "DESCRIPTION": "Set an author of the embed (Enables embed)",
+        "NAME": "author"
+      },
+      "CHANNEL": {
+        "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+        "NAME": "channel"
+      },
+      "COLOR": {
+        "DESCRIPTION": "The color of the embed (Default: Author's display color)",
+        "NAME": "color"
+      },
+      "CONTENT": {
+        "DESCRIPTION": "The content of the message (Required if embed is disabled)",
+        "NAME": "content"
+      },
+      "DESCRIPTION": {
+        "DESCRIPTION": "The description of the embed (Enables embed)",
+        "NAME": "description"
+      },
+      "FOOTER": {
+        "DESCRIPTION": "The footer of the embed (Enables embed)",
+        "NAME": "footer"
+      },
+      "IMAGE": {
+        "DESCRIPTION": "The image of the embed (Enables embed)",
+        "NAME": "image"
+      },
+      "THUMBNAIL": {
+        "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
+        "NAME": "thumbnail"
+      },
+      "TIMESTAMP": {
+        "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
+        "NAME": "timestamp"
+      },
+      "TITLE": {
+        "DESCRIPTION": "The title of the embed (Enables embed)",
+        "NAME": "title"
+      },
+      "TTS": {
+        "DESCRIPTION": "Echoes the message in TTS (Default: False)",
+        "NAME": "tts"
+      },
+      "URL": {
+        "DESCRIPTION": "The title's URL of the embed",
+        "NAME": "url"
+      }
     },
     "SENT": "Message Sent"
   },
@@ -142,11 +218,11 @@
       "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
     },
+    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
       "EMPTY": "You don't have any reminders",
       "NOT_FOUND": "The reminder `{reminderId}` was not found"
     },
-    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat",
