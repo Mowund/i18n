@@ -306,7 +306,7 @@
   "KILL": {
     "DESCRIPTION": "Kills someone",
     "DIED": "Fell out of the world",
-    "NAME": "name",
+    "NAME": "kill",
     "OPTIONS": {
       "USER": {
         "DESCRIPTION": "An user to kill",
