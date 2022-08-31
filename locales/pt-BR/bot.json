@@ -1,16 +1,16 @@
 {
   "BOT": {
-    "DESCRIPTION": "Bot related commands",
+    "DESCRIPTION": "Comandos relacionados ao bot",
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
         "COMPONENT": {
-          "INVITE_BOT": "Invite Bot",
-          "SUPPORT_SERVER": "Support Server"
+          "INVITE_BOT": "Convidar Bot",
+          "SUPPORT_SERVER": "Servidor de Suporte"
         },
-        "DESCRIPTION": "Send bot's information",
-        "DISCORDJS_VERSION": "Discord.JS Version",
-        "MEMORY_USAGE": "Memory Usage",
+        "DESCRIPTION": "Mostra informações sobre o bot",
+        "DISCORDJS_VERSION": "Versão do Discord.JS",
+        "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
         "NODEJS_VERSION": "Node.JS Version",
         "TITLE": "{botName}'s Info"
@@ -67,7 +67,7 @@
     "TARGET_CURRENT": "{userName}'s current color",
     "TARGET_DELETED_ROLE": "Deleted {userName}'s color",
     "TARGET_NO_ROLE": "The mentioned user does not have a color role",
-    "USER_CAN_INTERACT": "{userName} can also interact with the system"
+    "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema"
   },
   "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
@@ -296,7 +296,7 @@
     "TOTAL": "Total",
     "TYPE": "Type",
     "UPTIME": "Uptime",
-    "USER": "User",
+    "USER": "Usuário",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
@@ -309,8 +309,8 @@
     "NAME": "kill",
     "OPTIONS": {
       "USER": {
-        "DESCRIPTION": "An user to kill",
-        "NAME": "user"
+        "DESCRIPTION": "Um usuário para matar",
+        "NAME": "usuário"
       }
     }
   },
@@ -566,16 +566,16 @@
       },
       "USER": {
         "DESCRIPTION": "The member to timeout",
-        "NAME": "user"
+        "NAME": "usuário"
       }
     }
   },
   "USER": {
-    "DESCRIPTION": "User related commands",
-    "NAME": "user",
+    "DESCRIPTION": "Comandos relacionados à usuários",
+    "NAME": "usuário",
     "OPTIONS": {
       "INFO": {
-        "DESCRIPTION": "Shows information about a user",
+        "DESCRIPTION": "Mostra informações sobre um usuário",
         "MEMBER": {
           "AVATAR": "Server Avatar",
           "BANNER": "Server Banner",
