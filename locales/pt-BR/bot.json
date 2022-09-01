@@ -12,29 +12,29 @@
         "DISCORDJS_VERSION": "Versão do Discord.JS",
         "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
-        "NODEJS_VERSION": "Node.JS Version",
-        "TITLE": "{botName}'s Info"
+        "NODEJS_VERSION": "Versão do Node.JS",
+        "TITLE": "Informações de {botName}"
       }
     }
   },
   "CLEAR": {
-    "DELETE_AFTER_THIS": "Delete After This",
-    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}",
-    "DESCRIPTION": "Deletes chat messages from up to 2 weeks ago",
-    "NAME": "clear",
+    "DELETE_AFTER_THIS": "Deletar Após Esta",
+    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}",
+    "DESCRIPTION": "Exclui mensagens do chat de até 2 semanas atrás",
+    "NAME": "limpar",
     "OPTIONS": {
       "COUNT": {
-        "DESCRIPTION": "The number of messages to delete",
-        "NAME": "count"
+        "DESCRIPTION": "O número de mensagens a serem excluídas",
+        "NAME": "quantidade"
       },
       "DELETE_PINNED": {
-        "DESCRIPTION": "Whether to delete pinned messages (Default: False)",
-        "NAME": "delete-pinned"
+        "DESCRIPTION": "Se as mensagens fixadas devem ser excluídas (Padrão: Falso)",
+        "NAME": "excluir-fixadas"
       }
     }
   },
   "COLOR": {
-    "ALREADY_NO_ROLE": "You already has no color role",
+    "ALREADY_NO_ROLE": "Você já não tem um cargo de cor",
     "AVATAR_ESTIMATED": "Estimated color of your avatar",
     "CANCELED": "Canceled",
     "CHANGED_ASSIGNED_ROLE": "Changed and assigned color",
@@ -57,16 +57,16 @@
     "NO_ROLE": "You don't have a color role",
     "PREVIEW": "You are previewing the color",
     "RGB_CONVERT": "Converted to RGB",
-    "SAME_USER_CAN_INTERACT": "It is not necessary to mention yourself if you're going to change your own color",
+    "SAME_USER_CAN_INTERACT": "Não é necessário mencionar a si mesmo se você vai mudar sua própria cor",
     "SPECIFIED": "Specified color",
-    "TARGET_ALREADY_NO_ROLE": "The mentioned user already has no color role",
-    "TARGET_AVATAR_ESTIMATED": "Estimated color in {userName}'s avatar",
-    "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {userName}",
-    "TARGET_CHANGED_ROLE": "Changed {userName}'s color",
-    "TARGET_CREATED_ASSIGNED_ROLE": "Color created and assigned to {userName}",
-    "TARGET_CURRENT": "{userName}'s current color",
-    "TARGET_DELETED_ROLE": "Deleted {userName}'s color",
-    "TARGET_NO_ROLE": "The mentioned user does not have a color role",
+    "TARGET_ALREADY_NO_ROLE": "O usuário mencionado já não possui um cargo de cor",
+    "TARGET_AVATAR_ESTIMATED": "Cor estimada do avatar de {userName}",
+    "TARGET_CHANGED_ASSIGNED_ROLE": "Cor alterada e atribuída a {userName}",
+    "TARGET_CHANGED_ROLE": "Cor de {userName} alterada",
+    "TARGET_CREATED_ASSIGNED_ROLE": "Cor criada e atribuída a {userName}",
+    "TARGET_CURRENT": "Cor atual de {userName}",
+    "TARGET_DELETED_ROLE": "Cor de {userName} deletada",
+    "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor",
     "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema"
   },
   "DELETE_RESPONSE": "Delete Response",
@@ -274,14 +274,14 @@
     "ERROR": "Error",
     "FROM": "From",
     "ID": "ID",
-    "INTERACTED_BY": "Interacted by {userName}",
+    "INTERACTED_BY": "Interagido por {userName}",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
     "NAME": "Name",
     "NO": "No",
     "OUTPUT": "Output",
-    "REQUESTED_BY": "Requested by {userName}",
+    "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
     "SUCCESS": "Success",
@@ -486,7 +486,7 @@
         "NAME": "list"
       }
     },
-    "TO": "Reminder to {userName}"
+    "TO": "Lembrete para {userName}"
   },
   "ROLEMENU": {
     "DESCRIPTION": "Rolemenu related commands",
@@ -565,7 +565,7 @@
         "NAME": "reason"
       },
       "USER": {
-        "DESCRIPTION": "The member to timeout",
+        "DESCRIPTION": "O membro a receber o castigo",
         "NAME": "usuário"
       }
     }
@@ -577,18 +577,18 @@
       "INFO": {
         "DESCRIPTION": "Mostra informações sobre um usuário",
         "MEMBER": {
-          "AVATAR": "Server Avatar",
-          "BANNER": "Server Banner",
-          "JOINED": "Joined Server"
+          "AVATAR": "Avatar de Servidor",
+          "BANNER": "Banner de Servidor",
+          "JOINED": "Entrou no Servidor"
         },
         "NAME": "info",
         "OPTIONS": {
           "USER": {
-            "DESCRIPTION": "The user to get information about",
-            "NAME": "user"
+            "DESCRIPTION": "O usuário para obter informações sobre",
+            "NAME": "usuário"
           }
         },
-        "TITLE": "User Info",
+        "TITLE": "Informações do Usuário",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
