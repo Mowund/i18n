@@ -8,7 +8,7 @@
           "INVITE_BOT": "Convidar Bot",
           "SUPPORT_SERVER": "Servidor de Suporte"
         },
-        "DESCRIPTION": "Mostra informações sobre o bot",
+        "DESCRIPTION": "Shows information about the bot",
         "DISCORDJS_VERSION": "Versão do Discord.JS",
         "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
@@ -383,8 +383,8 @@
                 "NAME": "shard-delay"
               },
               "TIMEOUT": {
-                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
-                "NAME": "timeout"
+                "DESCRIPTION": "Tempo de espera para uma shard ficar pronta antes de continuar outra",
+                "NAME": "intervalo"
               }
             }
           }
@@ -418,7 +418,7 @@
     "MANAGE_THREADS": "Manage Threads and Posts",
     "MANAGE_WEBHOOKS": "Manage Webhooks",
     "MENTION_EVERYONE": "Mention Everyone",
-    "MODERATE_MEMBERS": "Timeout Members",
+    "MODERATE_MEMBERS": "Membros de Castigo",
     "MOVE_MEMBERS": "Move Members",
     "MUTE_MEMBERS": "Mute Members",
     "NO_LONGER": "You no longer have the required `{perm}` permission",
@@ -553,16 +553,16 @@
     }
   },
   "TIMEOUT": {
-    "DESCRIPTION": "Timeouts a member",
-    "NAME": "timeout",
+    "DESCRIPTION": "Coloca um membro de castigo",
+    "NAME": "castigar",
     "OPTIONS": {
       "DURATION": {
-        "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
-        "NAME": "duration"
+        "DESCRIPTION": "Quanto tempo durará o castigo, até 28 dias (Padrão: 1 hora ou desativar)",
+        "NAME": "duração"
       },
       "REASON": {
-        "DESCRIPTION": "The reason for timeouting",
-        "NAME": "reason"
+        "DESCRIPTION": "O motivo do castigo",
+        "NAME": "motivo"
       },
       "USER": {
         "DESCRIPTION": "O membro a receber o castigo",
@@ -588,7 +588,7 @@
             "NAME": "usuário"
           }
         },
-        "TITLE": "Informações do Usuário",
+        "TITLE": "Información del Usuario",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
