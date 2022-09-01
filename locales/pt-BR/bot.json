@@ -304,9 +304,9 @@
     "YES": "Yes"
   },
   "KILL": {
-    "DESCRIPTION": "Kills someone",
-    "DIED": "Fell out of the world",
-    "NAME": "kill",
+    "DESCRIPTION": "Mata alguém",
+    "DIED": "Caiu para fora do mundo",
+    "NAME": "matar",
     "OPTIONS": {
       "USER": {
         "DESCRIPTION": "Um usuário para matar",
