@@ -1,45 +1,64 @@
 {
   "BOT": {
-    "INFO": {
-      "COMPONENT": {
-        "INVITE_BOT": "Convidar Bot",
-        "SUPPORT_SERVER": "Servidor de Suporte"
-      },
-      "DISCORDJS_VERSION": "Versão do Discord.JS",
-      "MEMORY_USAGE": "Uso de Memória",
-      "NODEJS_VERSION": "Versão do Node.JS",
-      "TITLE": "Informações de {botName}"
+    "DESCRIPTION": "Comandos relacionados ao bot",
+    "NAME": "bot",
+    "OPTIONS": {
+      "INFO": {
+        "COMPONENT": {
+          "INVITE_BOT": "Convidar Bot",
+          "SUPPORT_SERVER": "Servidor de Suporte"
+        },
+        "DESCRIPTION": "Mostra informações sobre o bot",
+        "DISCORDJS_VERSION": "Versão do Discord.JS",
+        "MEMORY_USAGE": "Uso de Memória",
+        "NAME": "info",
+        "NODEJS_VERSION": "Versão do Node.JS",
+        "TITLE": "Informações de {botName}"
+      }
     }
   },
   "CLEAR": {
-    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}"
+    "DELETE_AFTER_THIS": "Deletar Após Esta",
+    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}",
+    "DESCRIPTION": "Exclui mensagens do chat de até 2 semanas atrás",
+    "NAME": "limpar",
+    "OPTIONS": {
+      "COUNT": {
+        "DESCRIPTION": "O número de mensagens a serem excluídas",
+        "NAME": "quantidade"
+      },
+      "DELETE_PINNED": {
+        "DESCRIPTION": "Se as mensagens fixadas devem ser excluídas (Padrão: Falso)",
+        "NAME": "excluir-fixadas"
+      }
+    }
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "Você já não tem um cargo de cor",
-    "AVATAR_ESTIMATED": "Cor estimada do seu avatar",
-    "CANCELED": "Cancelado",
-    "CHANGED_ASSIGNED_ROLE": "Cor alterada e atribuída",
-    "CHANGED_ROLE": "Cor alterada",
-    "CREATED_ASSIGNED_ROLE": "Cor criada e atribuída",
-    "CURRENT": "Cor atual",
-    "DELETED_ROLE": "Cor deletada",
-    "EDIT": "Digite uma nova cor",
-    "EDIT_ESTIMATED": "Cor estimada do seu avatar, insira uma cor válida para editar novamente",
-    "EDIT_INVALID": "Cor inválida, insira uma nova cor válida",
-    "EDITED": "Cor editada",
-    "EDITED_REPEAT": "Cor editada, insira uma cor válida para editar novamente",
-    "INVALID": "Cor inválida",
-    "INVALID_IMG": "Inválido",
-    "LIKE": "Você gostaria desta cor?",
-    "MIX": "Digite uma cor para misturar",
-    "MIX_INVALID": "Cor inválida, insira uma cor válida para misturar",
-    "MIXED": "Cor misturada",
-    "MIXED_REPEAT": "Cor misturada, digite uma cor para misturar novamente",
-    "NO_ROLE": "Você não tem um cargo de cor",
-    "PREVIEW": "Você está pré-visualizando a cor",
-    "RGB_CONVERT": "Convertido para RGB",
+    "AVATAR_ESTIMATED": "Estimated color of your avatar",
+    "CANCELED": "Canceled",
+    "CHANGED_ASSIGNED_ROLE": "Changed and assigned color",
+    "CHANGED_ROLE": "Changed color",
+    "CREATED_ASSIGNED_ROLE": "Created and assigned color",
+    "CURRENT": "Current color",
+    "DELETED_ROLE": "Deleted color",
+    "EDIT": "Enter a new color",
+    "EDIT_ESTIMATED": "Estimated color of your avatar, enter a valid color to edit again",
+    "EDIT_INVALID": "Invalid color, enter a new valid color",
+    "EDITED": "Edited color",
+    "EDITED_REPEAT": "Edited color, enter a valid color to edit again",
+    "INVALID": "Invalid color",
+    "INVALID_IMG": "Invalid",
+    "LIKE": "Would you like this color?",
+    "MIX": "Enter a color to mix",
+    "MIX_INVALID": "Invalid color, enter a valid color to mix",
+    "MIXED": "Mixed color",
+    "MIXED_REPEAT": "Mixed color, enter a color to mix again",
+    "NO_ROLE": "You don't have a color role",
+    "PREVIEW": "You are previewing the color",
+    "RGB_CONVERT": "Converted to RGB",
     "SAME_USER_CAN_INTERACT": "Não é necessário mencionar a si mesmo se você vai mudar sua própria cor",
-    "SPECIFIED": "Cor especificada",
+    "SPECIFIED": "Specified color",
     "TARGET_ALREADY_NO_ROLE": "O usuário mencionado já não possui um cargo de cor",
     "TARGET_AVATAR_ESTIMATED": "Cor estimada do avatar de {userName}",
     "TARGET_CHANGED_ASSIGNED_ROLE": "Cor alterada e atribuída a {userName}",
@@ -50,260 +69,530 @@
     "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor",
     "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema"
   },
+  "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
-    "GO_TO": "[Clique aqui para ir à mensagem]({msgURL})",
+    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
+    "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "Você precisa fornecer um conteúdo ou uma opção que habilite o embed",
-      "PERMS": "Você precisa da permissão `{perm}` para ecoar não efemeramente"
+      "ARGS": "You need to provide a content or an option that enables the embed",
+      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
     },
-    "SENT": "Mensagem Enviada"
+    "NAME": "echo",
+    "OPTIONS": {
+      "ATTACHMENT": {
+        "DESCRIPTION": "An attachment for the message",
+        "NAME": "attachment"
+      },
+      "AUTHOR": {
+        "DESCRIPTION": "Set an author of the embed (Enables embed)",
+        "NAME": "author"
+      },
+      "CHANNEL": {
+        "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+        "NAME": "channel"
+      },
+      "COLOR": {
+        "DESCRIPTION": "The color of the embed (Default: Author's display color)",
+        "NAME": "color"
+      },
+      "CONTENT": {
+        "DESCRIPTION": "The content of the message (Required if embed is disabled)",
+        "NAME": "content"
+      },
+      "DESCRIPTION": {
+        "DESCRIPTION": "The description of the embed (Enables embed)",
+        "NAME": "description"
+      },
+      "FOOTER": {
+        "DESCRIPTION": "The footer of the embed (Enables embed)",
+        "NAME": "footer"
+      },
+      "IMAGE": {
+        "DESCRIPTION": "The image of the embed (Enables embed)",
+        "NAME": "image"
+      },
+      "THUMBNAIL": {
+        "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
+        "NAME": "thumbnail"
+      },
+      "TIMESTAMP": {
+        "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
+        "NAME": "timestamp"
+      },
+      "TITLE": {
+        "DESCRIPTION": "The title of the embed (Enables embed)",
+        "NAME": "title"
+      },
+      "TTS": {
+        "DESCRIPTION": "Echoes the message in TTS (Default: False)",
+        "NAME": "tts"
+      },
+      "URL": {
+        "DESCRIPTION": "The title's URL of the embed",
+        "NAME": "url"
+      }
+    },
+    "SENT": "Message Sent"
   },
   "EMOJI": {
-    "ADDED": "Emoji Adicionado",
-    "ADDED_UNICODE": "Emoji Unicode Adicionado",
-    "ADDING": "Adicionando Emoji",
-    "ADDING_UNICODE": "Adicionando Emoji Unicode",
+    "ADDED": "Added Emoji",
+    "ADDED_UNICODE": "Added Unicode Emoji",
+    "ADDING": "Adding Emoji",
+    "ADDING_UNICODE": "Adding Unicode Emoji",
     "COMPONENT": {
-      "ADD": "Adicionar Emoji",
-      "DELETE": "Excluir Emoji",
-      "EDIT": "Editar",
-      "LINK": "Abrir Emoji",
-      "READD": "Readicionar Emoji",
-      "RENAME": "Renomear",
+      "ADD": "Add Emoji",
+      "DELETE": "Delete Emoji",
+      "EDIT": "Edit",
+      "LINK": "Open Emoji",
+      "READD": "Readd Emoji",
+      "RENAME": "Rename",
       "ROLES": {
-        "ADD": "Adicionar Cargo",
-        "EDIT": "Editar Cargos",
-        "REMOVE": "Remover Cargo",
-        "RESET": "Redefinir Cargos"
+        "ADD": "Add Role",
+        "EDIT": "Edit Roles",
+        "REMOVE": "Remove Role",
+        "RESET": "Reset Roles"
       },
-      "VIEW": "Visualizar"
+      "VIEW": "View"
     },
-    "DELETED": "Emoji Excluído",
-    "DELETING": "Excluindo Emoji",
-    "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este emoji?",
-    "EDITING": "Editando Emoji",
-    "READDED": "Emoji Readicionado",
-    "READDING": "Readicionando Emoji",
+    "DELETED": "Emoji Deleted",
+    "DELETING": "Deleting Emoji",
+    "DELETING_DESCRIPTION": "Are you sure you want to delete this emoji?",
+    "DESCRIPTION": "Emoji related commands",
+    "EDITING": "Editing Emoji",
+    "NAME": "emoji",
+    "OPTIONS": {
+      "ADD": {
+        "DESCRIPTION": "Adds a new emoji",
+        "NAME": "add",
+        "OPTIONS": {
+          "IMAGE": {
+            "DESCRIPTION": "The emoji itself (Maximum size: 256kb)",
+            "NAME": "image"
+          },
+          "NAME": {
+            "DESCRIPTION": "The name of the emoji (Alphanumerical)",
+            "NAME": "name"
+          }
+        }
+      },
+      "INFO": {
+        "DESCRIPTION": "Shows info or manages an emoji",
+        "NAME": "info",
+        "OPTIONS": {
+          "EMOJI": {
+            "DESCRIPTION": "ID, mention, unicode or name (if it's on the same server)",
+            "NAME": "emoji"
+          }
+        }
+      }
+    },
+    "READDED": "Readded Emoji",
+    "READDING": "Readding Emoji",
     "REASON": {
       "CREATED": {
-        "CDN": "Copiado de um emoji encontrado no CDN do Discord usando o sistema de emojis",
-        "COMMAND": "Criado usando o sistema de emojis",
-        "DELETED": "Emoji excluído recriado usando o sistema de emojis",
-        "UNICODE": "Copiado de um emoji unicode encontrado no CDN do twemoji usando o sistema de emojis"
+        "CDN": "Copied from an emoji found on the Discord CDN using the emoji system",
+        "COMMAND": "Created using the emoji system",
+        "DELETED": "Deleted emoji recreated using the emoji system",
+        "UNICODE": "Copied from an unicode emoji found on the twemoji CDN using the emoji system"
       },
-      "DELETED": "Excluído usando o sistema de emojis",
-      "RENAMED": "Renomeado usando o sistema de emojis"
+      "DELETED": "Deleted using the emoji system",
+      "RENAMED": "Renamed using the emoji system"
     },
-    "RENAMED": "Emoji Renomeado",
-    "RENAMING": "Renomeando Emoji",
-    "RENAMING_LABEL": "Insira o novo nome do emoji",
+    "RENAMED": "Renamed Emoji",
+    "RENAMING": "Renaming Emoji",
+    "RENAMING_LABEL": "Insert the new emoji name",
     "ROLES": {
-      "ADD": "Digite um cargo para adicioná-lo ao emoji",
-      "ADDED_ALREADY": "Este cargo já está definido",
-      "ADDED_REPEAT": "Cargo adicionado ao emoji, digite outro cargo para adicioná-lo",
-      "EDITED": "Cargos do emoji editados",
-      "EDITING": "Editando os cargos do emoji",
-      "REMOVE": "Digite um cargo para removê-lo do emoji",
-      "REMOVED_ALREADY": "Este cargo já não está definido",
-      "REMOVED_REPEAT": "Cargo removido do emoji, insira outro cargo para removê-lo",
-      "RESETED": "Cargos do emoji redefinidos"
+      "ADD": "Enter a role to add it to the emoji",
+      "ADDED_ALREADY": "This role is already defined",
+      "ADDED_REPEAT": "Role added to emoji, enter another role to add it",
+      "EDITED": "Edited emoji's roles",
+      "EDITING": "Editing emoji's roles",
+      "REMOVE": "Enter a role to remove it from the emoji",
+      "REMOVED_ALREADY": "This role is already not defined",
+      "REMOVED_REPEAT": "Role removed from emoji, enter another role to remove it",
+      "RESETED": "Reseted emoji's roles"
     },
-    "UNALLOWED_SERVER": "Você não tem permissão para editar um emoji de outro servidor",
-    "VIEWING": "Visualizando Emoji",
-    "VIEWING_UNICODE": "Visualizando Emoji Unicode"
+    "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
+    "VIEWING": "Viewing Emoji",
+    "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
   "ERROR": {
-    "CANNOT_SEND_CHANNEL_MESSAGES": "Não é possível enviar mensagens no canal especificado",
-    "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
-    "DM": "Esse comando não pode ser usado em DMs",
+    "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
+    "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
+    "DM": "This command cannot be used in DMs",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "O servidor está no limite de `{limit, number}` emojis animados",
-        "STATIC": "O servidor está no limite de `{limit, number}` emojis estáticos"
+        "ANIMATED": "The server is at the limit of `{limit, number}` animated emojis",
+        "STATIC": "The server is at the limit of `{limit, number}` static emojis"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "O servidor agora atingiu o limite de `{limit, number}` emojis animados",
-        "STATIC": "O servidor agora atingiu o limite de `{limit, number}` emojis estáticos"
+        "ANIMATED": "The server has now reached the limit of `{limit, number}` animated emojis",
+        "STATIC": "The server has now reached the limit of `{limit, number}` static emojis"
       },
-      "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais",
-      "NOT_FOUND": "O emoji `{input}` não foi encontrado"
+      "NONEXISTENT": "You can't edit the emoji as it no longer exists",
+      "NOT_FOUND": "The emoji `{input}` was not found"
     },
-    "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
-    "GUILD_NOT_FOUND": "Servidor não encontrado",
+    "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
-      "IMAGE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
-      "NAME": {
-        "LONG": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, one{**#** caractere} other{**#** caracteres}}} shorter{é menor que {minLength, plural, one{**#** caractere} other{**#** caracteres}}} other{}}{alphanum, select, also{ e também contém caracteres não alfanúmericos} only{contém caracteres não alfanúmericos} other{}}",
-        "SHORT": "Nome Inválido"
+      "IMAGE": {
+        "SIZE": "The image size is bigger than `{maxSize, number}kb`",
+        "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
-      "ROLE": "Cargo inválido",
-      "TIME": "O tempo `{input}` {condition, select, greater{é maior que {time}} less{é menor que {time}} other{não é válido}}"
+      "NAME": {
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "SHORT": "Invalid Name"
+      },
+      "ROLE": "Invalid role",
+      "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
     },
+    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
-      "EMPTY": "Você não tem nenhum lembrete",
-      "NOT_FOUND": "O lembrete `{reminderId}` não foi encontrado"
+      "EMPTY": "You don't have any reminders",
+      "NOT_FOUND": "The reminder `{reminderId}` was not found"
     },
-    "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
-    "TIMED_OUT": "Tempo esgotado",
+    "TIMED_OUT": "Timed out",
     "UNALLOWED": {
-      "CHAT": "Você não tem permissão para usar este comando neste chat",
-      "COMMAND": "Você não tem permissão para interagir com este comando"
+      "CHAT": "You are not allowed to use this command in this chat",
+      "COMMAND": "You are not allowed to interact with this command"
     }
   },
   "GENERIC": {
-    "CHANNEL": "Canal",
+    "CHANNEL": "Channel",
     "CHAT": "Chat",
-    "CODEPOINT": "Ponto de Código",
-    "COMMANDS": "Comandos",
+    "CODEPOINT": "Code Point",
+    "COMMANDS": "Commands",
     "COMPONENT": {
-      "BACK": "Voltar",
-      "FIX_PERMISSIONS": "Corrigir Permissões",
-      "MESSAGE_DELETE": "Excluir Mensagem",
-      "REPEAT": "Repetir"
+      "BACK": "Back",
+      "FIX_PERMISSIONS": "Fix Permissions",
+      "MESSAGE_DELETE": "Delete Message",
+      "REPEAT": "Repeat"
     },
-    "CONTENT": "Conteúdo",
-    "CREATION_DATE": "Data de Criação",
-    "CURRENT": "Atual",
-    "ERROR": "Erro",
-    "FROM": "De",
+    "CONTENT": "Content",
+    "CREATION_DATE": "Creation Date",
+    "CURRENT": "Current",
+    "ERROR": "Error",
+    "FROM": "From",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
-    "MEMBERS": "Membros",
-    "MENTION": "Menção",
-    "MESSAGE": "Mensagem",
-    "NAME": "Nome",
-    "NO": "Não",
-    "OUTPUT": "Saída",
+    "MEMBERS": "Members",
+    "MENTION": "Mention",
+    "MESSAGE": "Message",
+    "NAME": "Name",
+    "NO": "No",
+    "OUTPUT": "Output",
     "REQUESTED_BY": "Solicitado por {userName}",
-    "ROLES": "Cargos",
-    "SERVERS": "Servidores",
-    "SUCCESS": "Sucesso",
+    "ROLES": "Roles",
+    "SERVERS": "Servers",
+    "SUCCESS": "Success",
     "TIME": {
-      "DAYS": "{count, plural, =0 {agora} one {**#** dia} other {**#** dias}}",
-      "HOURS": "{count, plural, =0 {agora} one {**#** hora} other {**#** horas}}",
-      "MINUTES": "{count, plural, =0 {agora} one {**#** minuto} other {**#** minutos}}",
-      "SECONDS": "{count, plural, =0 {agora} one {**#** segundo} other {**#** segundos}}"
+      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
+      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
+      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
     },
-    "TIMESTAMP": "Horário",
-    "TO": "Para",
+    "TIMESTAMP": "Timestamp",
+    "TO": "To",
     "TOTAL": "Total",
-    "TYPE": "Tipo",
-    "UPTIME": "Tempo Ativo",
+    "TYPE": "Type",
+    "UPTIME": "Uptime",
     "USER": "Usuário",
-    "WARNING": "Aviso",
-    "WIP": "Trabalho em Progresso",
-    "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
-    "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento",
-    "YES": "Sim"
+    "WARNING": "Warning",
+    "WIP": "Work in Progress",
+    "WIP_COMMAND": "This command is currently under development",
+    "WIP_FUNCTION": "This function is currently under development",
+    "YES": "Yes"
   },
   "KILL": {
-    "DIED": "Caiu para fora do mundo"
+    "DESCRIPTION": "Mata alguém",
+    "DIED": "Caiu para fora do mundo",
+    "NAME": "matar",
+    "OPTIONS": {
+      "USER": {
+        "DESCRIPTION": "Um usuário para matar",
+        "NAME": "usuário"
+      }
+    }
   },
-  "MOWUND": {
+  "OWNER": {
+    "DESCRIPTION": "Bot owner only commands",
     "INTERACTION": {
       "COMMANDS": {
-        "DELETED": "Comandos Excluídos",
-        "GLOBAL": "Comandos Globais",
-        "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos do Servidor {guildName}",
-        "UPDATED": "Comandos Atualizados"
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+        "UPDATED": "Updated Commands"
       },
-      "NO_UPDATE": "Nenhum comando foi atualizado"
+      "NO_UPDATE": "No commands have been updated"
+    },
+    "NAME": "owner",
+    "OPTIONS": {
+      "EVAL": {
+        "DESCRIPTION": "Evaluates a script (Bot owner only)",
+        "NAME": "eval",
+        "OPTIONS": {
+          "ASYNC": {
+            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
+            "NAME": "async"
+          },
+          "AWAIT": {
+            "DESCRIPTION": "Awaits the script (Default: True)",
+            "NAME": "await"
+          },
+          "SCRIPT": {
+            "DESCRIPTION": "The script to evaluate",
+            "NAME": "script"
+          }
+        }
+      },
+      "INTERACTION": {
+        "DESCRIPTION": "Configures commands (Bot owner only)",
+        "NAME": "command",
+        "OPTIONS": {
+          "UPDATE": {
+            "DESCRIPTION": "Updates bot commands (Bot owner only)",
+            "NAME": "update",
+            "OPTIONS": {
+              "GUILD": {
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
+                "NAME": "guild"
+              },
+              "ID": {
+                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "NAME": "id"
+              }
+            }
+          }
+        }
+      },
+      "SHARD": {
+        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "NAME": "shard",
+        "OPTIONS": {
+          "RESPAWN_ALL": {
+            "DESCRIPTION": "Respawns all shards (Bot owner only)",
+            "NAME": "respawn-all",
+            "OPTIONS": {
+              "RESPAWN_DELAY": {
+                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
+                "NAME": "respawn-delay"
+              },
+              "SHARD_DELAY": {
+                "DESCRIPTION": "Wait time between shards",
+                "NAME": "shard-delay"
+              },
+              "TIMEOUT": {
+                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
+                "NAME": "timeout"
+              }
+            }
+          }
+        }
+      }
     },
     "SHARD": {
-      "RESPAWNING": "Renascendo todas as shards"
+      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
-    "ADD_REACTIONS": "Adicionar Reações",
-    "ADMINISTRATOR": "Administrador",
-    "ATTACH_FILES": "Anexar Arquivos",
-    "BAN_MEMBERS": "Banir Membros",
-    "CHANGE_NICKNAME": "Alterar Apelido",
-    "CONNECT": "Conectar",
-    "CREATE_INSTANT_INVITE": "Criar Convite",
-    "CREATE_PRIVATE_THREADS": "Criar Tópicos Privados",
-    "CREATE_PUBLIC_THREADS": "Criar Tópicos Públicos",
-    "DEAFEN_MEMBERS": "Ensurdecer Membros",
-    "EMBED_LINKS": "Inserir Links",
-    "KICK_MEMBERS": "Expulsar Membros",
-    "MANAGE_CHANNELS": "Gerenciar Canal",
-    "MANAGE_EMOJIS_AND_STICKERS": "Gerenciar Emojis e Figurinhas",
-    "MANAGE_EVENTS": "Gerenciar Eventos",
-    "MANAGE_GUILD": "Gerenciar Servidor",
-    "MANAGE_MESSAGES": "Gerenciar Mensagens",
-    "MANAGE_NICKNAMES": "Gerenciar Apelidos",
-    "MANAGE_ROLES": "Gerenciar Cargos",
-    "MANAGE_THREADS": "Gerenciar Tópicos e Postagens",
-    "MANAGE_WEBHOOKS": "Gerenciar Webhooks",
-    "MENTION_EVERYONE": "Mencionar Todos",
-    "MODERATE_MEMBERS": "Membros de Castigo",
-    "MOVE_MEMBERS": "Mover Membros",
-    "MUTE_MEMBERS": "Silenciar Membros",
-    "NO_LONGER": "Você não tem mais a permissão `{perm}` necessária",
-    "PRIORITY_SPEAKER": "Voz Prioritária",
-    "READ_MESSAGE_HISTORY": "Ver Histórico de Mensagens",
-    "REQUEST_TO_SPEAK": "Pedir para Falar",
-    "REQUIRES": "Você precisa da permissão `{perm}`",
-    "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente",
-    "SEND_MESSAGES": "Enviar Mensagens e Criar Postagens",
-    "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos e Postagens",
-    "SEND_TTS_MESSAGES": "Enviar mensagens em TTS",
-    "SPEAK": "Falar",
-    "STREAM": "Vídeo",
-    "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicativo",
-    "USE_EMBEDDED_ACTIVITIES": "Usar Atividades",
-    "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
-    "USE_EXTERNAL_STICKERS": "Usar Figurinhas Externos",
-    "USE_VAD": "Usar Detecção de Voz",
-    "VIEW_AUDIT_LOG": "Ver o Registro de Auditoria",
-    "VIEW_CHANNEL": "Ver Canal",
-    "VIEW_GUILD_INSIGHTS": "Ver Análises do Servidor"
+    "ADD_REACTIONS": "Add Reactions",
+    "ADMINISTRATOR": "Administrator",
+    "ATTACH_FILES": "Attach Files",
+    "BAN_MEMBERS": "Ban Members",
+    "CHANGE_NICKNAME": "Change Nickname",
+    "CONNECT": "Connect",
+    "CREATE_INSTANT_INVITE": "Create Instant Invite",
+    "CREATE_PRIVATE_THREADS": "Create Private Threads",
+    "CREATE_PUBLIC_THREADS": "Create Public Threads",
+    "DEAFEN_MEMBERS": "Deafen Members",
+    "EMBED_LINKS": "Embed Links",
+    "KICK_MEMBERS": "Kick Members",
+    "MANAGE_CHANNELS": "Manage Channel",
+    "MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
+    "MANAGE_EVENTS": "Manage Events",
+    "MANAGE_GUILD": "Manage Guild",
+    "MANAGE_MESSAGES": "Manage Messages",
+    "MANAGE_NICKNAMES": "Manage Nicknames",
+    "MANAGE_ROLES": "Manage Roles",
+    "MANAGE_THREADS": "Manage Threads and Posts",
+    "MANAGE_WEBHOOKS": "Manage Webhooks",
+    "MENTION_EVERYONE": "Mention Everyone",
+    "MODERATE_MEMBERS": "Timeout Members",
+    "MOVE_MEMBERS": "Move Members",
+    "MUTE_MEMBERS": "Mute Members",
+    "NO_LONGER": "You no longer have the required `{perm}` permission",
+    "PRIORITY_SPEAKER": "Priority Speaker",
+    "READ_MESSAGE_HISTORY": "Read Message History",
+    "REQUEST_TO_SPEAK": "Request to Speak",
+    "REQUIRES": "You need the `{perm}` permission",
+    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
+    "SEND_MESSAGES": "Send Messages and Create Posts",
+    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
+    "SEND_TTS_MESSAGES": "Send TTS Messages",
+    "SPEAK": "Speak",
+    "STREAM": "Stream",
+    "USE_APPLICATION_COMMANDS": "Use Application Commands",
+    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
+    "USE_EXTERNAL_EMOJIS": "Use External Emojis",
+    "USE_EXTERNAL_STICKERS": "Use External Stickers",
+    "USE_VAD": "Use Voice Activity Detection",
+    "VIEW_AUDIT_LOG": "View Audit Log",
+    "VIEW_CHANNEL": "View Channel",
+    "VIEW_GUILD_INSIGHTS": "View Guild Insights"
   },
   "PING": {
-    "API_LATENCY": "Latência da API",
-    "DEFERRED": "Adiado",
+    "API_LATENCY": "API Latency",
+    "DEFERRED": "Deferred",
+    "DESCRIPTION": "Shows bot's latency",
+    "NAME": "ping",
     "SHARD": "Shard",
     "TIME": {
-      "DEFERMENT": "Tempo de Adiamento",
-      "EDITING": "Tempo de Edição",
-      "RESPONSE": "Tempo de Resposta"
+      "DEFERMENT": "Deferment Time",
+      "EDITING": "Editing Time",
+      "RESPONSE": "Response Time"
     },
     "TITLE": "Pong!"
   },
   "REMINDER": {
     "COMPONENT": {
-      "DELETE": "Excluir Lembrete",
-      "RECURSIVE": "Recursivo",
-      "SELECT_LIST": "Selecione um lembrete"
+      "DELETE": "Delete Reminder",
+      "RECURSIVE": "Recursive",
+      "SELECT_LIST": "Select a reminder"
     },
-    "CREATED": "Lembrete Criado",
-    "INFO": "Informações do Lembrete",
-    "LIST": "Lista de Lembretes",
-    "NEW": "Novo Lembrete",
+    "CREATED": "Reminder Created",
+    "DESCRIPTION": "Reminder related commands",
+    "INFO": "Reminder Info",
+    "LIST": "Reminder List",
+    "NAME": "reminder",
+    "NEW": "New Reminder",
+    "OPTIONS": {
+      "CREATE": {
+        "DESCRIPTION": "Creates a new reminder",
+        "NAME": "create",
+        "OPTIONS": {
+          "REMINDER": {
+            "DESCRIPTION": "What you'll be reminded about",
+            "NAME": "reminder"
+          },
+          "TIME": {
+            "DESCRIPTION": "When you'll be reminded",
+            "NAME": "time"
+          }
+        }
+      },
+      "LIST": {
+        "DESCRIPTION": "Lists all of your reminders",
+        "NAME": "list"
+      }
+    },
     "TO": "Lembrete para {userName}"
   },
+  "ROLEMENU": {
+    "DESCRIPTION": "Rolemenu related commands",
+    "NAME": "rolemenu",
+    "OPTIONS": {
+      "CREATE": {
+        "DESCRIPTION": "Creates a rolemenu",
+        "NAME": "create",
+        "OPTIONS": {
+          "CHANNEL": {
+            "DESCRIPTION": "The channel to create the rolemenu",
+            "NAME": "channel"
+          }
+        }
+      },
+      "EDIT": {
+        "DESCRIPTION": "Edits a rolemenu",
+        "NAME": "edit",
+        "OPTIONS": {
+          "ID": {
+            "DESCRIPTION": "The message id of the rolemenu in the channel",
+            "NAME": "id"
+          }
+        }
+      }
+    }
+  },
+  "ROLLOUT": {
+    "DESCRIPTION": "Shows information about experiments and their rollouts",
+    "NAME": "rollout",
+    "OPTIONS": {
+      "EXPERIMENT": {
+        "DESCRIPTION": "The experiment to get its information",
+        "NAME": "experiment"
+      },
+      "GUILD": {
+        "DESCRIPTION": "A guild to get its experiments' information (Default: Invoked guild)",
+        "NAME": "guild"
+      }
+    }
+  },
   "SETTINGS": {
+    "DESCRIPTION": "Configures the bot",
     "LANGUAGE": {
-      "CHANGED": "Idioma Alterado",
-      "CROWDIN": "Traduzir no Crowdin",
-      "CURRENT": "Idioma Atual",
-      "CURRENT_IS": "O idioma atual do bot nesse servidor é `{lang}`",
-      "NAME": "Português (Brasil)",
-      "NOT_SUPPORTED": "No momento, o bot não tem suporte para `{input}`"
+      "CHANGED": "Changed Language",
+      "CROWDIN": "Translate on Crowdin",
+      "CURRENT": "Current Language",
+      "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
+      "NAME": "English (United States)",
+      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
+    },
+    "NAME": "settings",
+    "OPTIONS": {
+      "LANGUAGE": {
+        "DESCRIPTION": "The language to set the bot to",
+        "NAME": "language",
+        "OPTIONS": {
+          "LANGUAGE": {
+            "DESCRIPTION": "Sets a new language (Requires: Manage guild)",
+            "NAME": "language"
+          }
+        }
+      }
+    }
+  },
+  "TIMEOUT": {
+    "DESCRIPTION": "Timeouts a member",
+    "NAME": "timeout",
+    "OPTIONS": {
+      "DURATION": {
+        "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
+        "NAME": "duration"
+      },
+      "REASON": {
+        "DESCRIPTION": "The reason for timeouting",
+        "NAME": "reason"
+      },
+      "USER": {
+        "DESCRIPTION": "O membro a receber o castigo",
+        "NAME": "usuário"
+      }
     }
   },
   "USER": {
-    "INFO": {
-      "MEMBER": {
-        "AVATAR": "Avatar de Servidor",
-        "BANNER": "Banner de Servidor",
-        "JOINED": "Entrou no Servidor"
-      },
-      "TITLE": "Informações do Usuário",
-      "USER": {
-        "AVATAR": "Avatar",
-        "BANNER": "Banner"
+    "DESCRIPTION": "Comandos relacionados à usuários",
+    "NAME": "usuário",
+    "OPTIONS": {
+      "INFO": {
+        "DESCRIPTION": "Mostra informações sobre um usuário",
+        "MEMBER": {
+          "AVATAR": "Avatar de Servidor",
+          "BANNER": "Banner de Servidor",
+          "JOINED": "Entrou no Servidor"
+        },
+        "NAME": "info",
+        "OPTIONS": {
+          "USER": {
+            "DESCRIPTION": "O usuário para obter informações sobre",
+            "NAME": "usuário"
+          }
+        },
+        "TITLE": "Informações do Usuário",
+        "USER": {
+          "AVATAR": "Avatar",
+          "BANNER": "Banner"
+        }
       }
     }
   }

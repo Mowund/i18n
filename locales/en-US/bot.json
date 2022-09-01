@@ -8,7 +8,7 @@
           "INVITE_BOT": "Invite Bot",
           "SUPPORT_SERVER": "Support Server"
         },
-        "DESCRIPTION": "Send bot's information",
+        "DESCRIPTION": "Shows information about the bot",
         "DISCORDJS_VERSION": "Discord.JS Version",
         "MEMORY_USAGE": "Memory Usage",
         "NAME": "info",
@@ -588,7 +588,7 @@
             "NAME": "user"
           }
         },
-        "TITLE": "User Info",
+        "TITLE": "Información del Usuario",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
