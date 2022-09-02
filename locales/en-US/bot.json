@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "You need to provide a content or an option that enables the embed",
@@ -84,7 +84,7 @@
         "NAME": "attachment"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
+        "DESCRIPTION": "Set an author of the embed (Enables embed)",
         "NAME": "author"
       },
       "CHANNEL": {
@@ -588,7 +588,7 @@
             "NAME": "user"
           }
         },
-        "TITLE": "User Info",
+        "TITLE": "Información del Usuario",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
