@@ -35,30 +35,30 @@
   },
   "COLOR": {
     "ALREADY_NO_ROLE": "Tu ya no tienes un rol de color",
-    "AVATAR_ESTIMATED": "Estimated color of your avatar",
-    "CANCELED": "Canceled",
-    "CHANGED_ASSIGNED_ROLE": "Changed and assigned color",
-    "CHANGED_ROLE": "Changed color",
-    "CREATED_ASSIGNED_ROLE": "Created and assigned color",
-    "CURRENT": "Current color",
-    "DELETED_ROLE": "Deleted color",
-    "EDIT": "Enter a new color",
-    "EDIT_ESTIMATED": "Estimated color of your avatar, enter a valid color to edit again",
-    "EDIT_INVALID": "Invalid color, enter a new valid color",
-    "EDITED": "Edited color",
-    "EDITED_REPEAT": "Edited color, enter a valid color to edit again",
-    "INVALID": "Invalid color",
-    "INVALID_IMG": "Invalid",
-    "LIKE": "Would you like this color?",
-    "MIX": "Enter a color to mix",
-    "MIX_INVALID": "Invalid color, enter a valid color to mix",
-    "MIXED": "Mixed color",
-    "MIXED_REPEAT": "Mixed color, enter a color to mix again",
-    "NO_ROLE": "You don't have a color role",
-    "PREVIEW": "You are previewing the color",
-    "RGB_CONVERT": "Converted to RGB",
+    "AVATAR_ESTIMATED": "Color estimado de tu avatar",
+    "CANCELED": "Cancelado",
+    "CHANGED_ASSIGNED_ROLE": "Color cambiado y asignado",
+    "CHANGED_ROLE": "Color cambiado",
+    "CREATED_ASSIGNED_ROLE": "Color creado y asignado",
+    "CURRENT": "Color actual",
+    "DELETED_ROLE": "Color eliminado",
+    "EDIT": "Ingrese un nuevo color",
+    "EDIT_ESTIMATED": "Color estimado de tu avatar, ingrese un color válido para editar nuevamente",
+    "EDIT_INVALID": "Color inválido, ingresa un nuevo color válido",
+    "EDITED": "Color editado",
+    "EDITED_REPEAT": "Color editado, ingrese un color válido para editar nuevamente",
+    "INVALID": "Color inválido",
+    "INVALID_IMG": "Inválido",
+    "LIKE": "¿Te gustaría este color?",
+    "MIX": "Ingrese un color para mezclar",
+    "MIX_INVALID": "Color no válido, ingrese un color válido para mezclar",
+    "MIXED": "Color mezclado",
+    "MIXED_REPEAT": "Color mezclado, ingrese un color para mezclar nuevamente",
+    "NO_ROLE": "No tienes un rol de color",
+    "PREVIEW": "Estás previsualizando el color",
+    "RGB_CONVERT": "Convertido a RGB",
     "SAME_USER_CAN_INTERACT": "No es necesario que te menciones si vas a cambiar tu propio color",
-    "SPECIFIED": "Specified color",
+    "SPECIFIED": "Color especificado",
     "TARGET_ALREADY_NO_ROLE": "El usuario mencionado ya no tiene un rol de color",
     "TARGET_AVATAR_ESTIMATED": "Color estimado en el avatar de {userName}",
     "TARGET_CHANGED_ASSIGNED_ROLE": "{userName} color cambiado y asignado",
@@ -69,59 +69,59 @@
     "TARGET_NO_ROLE": "El usuario mencionado no tiene un rol de color",
     "USER_CAN_INTERACT": "{userName} también puede interactuar con el sistema"
   },
-  "DELETE_RESPONSE": "Delete Response",
+  "DELETE_RESPONSE": "Eliminar Respuesta",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
-    "GO_TO": "[Click here to go to the message]({msgURL})",
+    "DESCRIPTION": "Hace eco de un mensaje a través del bot (Requiere: Gestionar mensajes si no es efímero)",
+    "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
-      "ARGS": "You need to provide a content or an option that enables the embed",
-      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
+      "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
+      "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
     },
-    "NAME": "echo",
+    "NAME": "eco",
     "OPTIONS": {
       "ATTACHMENT": {
-        "DESCRIPTION": "An attachment for the message",
-        "NAME": "attachment"
+        "DESCRIPTION": "Un archivo adjunto para el mensaje",
+        "NAME": "archivo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Set an author of the embed (Enables embed)",
-        "NAME": "author"
+        "DESCRIPTION": "Define el autor del embed (Habilita el embed)",
+        "NAME": "autor"
       },
       "CHANNEL": {
         "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
-        "NAME": "channel"
+        "NAME": "canal"
       },
       "COLOR": {
-        "DESCRIPTION": "The color of the embed (Default: Author's display color)",
+        "DESCRIPTION": "El color del embed (Predeterminado: Color de visualización del autor)",
         "NAME": "color"
       },
       "CONTENT": {
         "DESCRIPTION": "The content of the message (Required if embed is disabled)",
-        "NAME": "content"
+        "NAME": "contenido"
       },
       "DESCRIPTION": {
         "DESCRIPTION": "The description of the embed (Enables embed)",
-        "NAME": "description"
+        "NAME": "descripción"
       },
       "FOOTER": {
         "DESCRIPTION": "The footer of the embed (Enables embed)",
-        "NAME": "footer"
+        "NAME": "rodapié"
       },
       "IMAGE": {
         "DESCRIPTION": "The image of the embed (Enables embed)",
-        "NAME": "image"
+        "NAME": "imagen"
       },
       "THUMBNAIL": {
         "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
-        "NAME": "thumbnail"
+        "NAME": "miniatura"
       },
       "TIMESTAMP": {
         "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
-        "NAME": "timestamp"
+        "NAME": "tiempo"
       },
       "TITLE": {
         "DESCRIPTION": "The title of the embed (Enables embed)",
-        "NAME": "title"
+        "NAME": "título"
       },
       "TTS": {
         "DESCRIPTION": "Echoes the message in TTS (Default: False)",
@@ -383,8 +383,8 @@
                 "NAME": "shard-delay"
               },
               "TIMEOUT": {
-                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
-                "NAME": "timeout"
+                "DESCRIPTION": "Tiempo de espera para que un fragmento esté listo antes de continuar con otro",
+                "NAME": "intervalo"
               }
             }
           }
@@ -412,13 +412,13 @@
     "MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
     "MANAGE_EVENTS": "Manage Events",
     "MANAGE_GUILD": "Manage Guild",
-    "MANAGE_MESSAGES": "Manage Messages",
+    "MANAGE_MESSAGES": "Gestionar Mensajes",
     "MANAGE_NICKNAMES": "Manage Nicknames",
     "MANAGE_ROLES": "Manage Roles",
     "MANAGE_THREADS": "Manage Threads and Posts",
     "MANAGE_WEBHOOKS": "Manage Webhooks",
     "MENTION_EVERYONE": "Mention Everyone",
-    "MODERATE_MEMBERS": "Timeout Members",
+    "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros",
     "MOVE_MEMBERS": "Move Members",
     "MUTE_MEMBERS": "Mute Members",
     "NO_LONGER": "You no longer have the required `{perm}` permission",
@@ -541,28 +541,28 @@
     "NAME": "settings",
     "OPTIONS": {
       "LANGUAGE": {
-        "DESCRIPTION": "The language to set the bot to",
-        "NAME": "language",
+        "DESCRIPTION": "El idioma para configurar el bot",
+        "NAME": "idioma",
         "OPTIONS": {
           "LANGUAGE": {
-            "DESCRIPTION": "Sets a new language (Requires: Manage guild)",
-            "NAME": "language"
+            "DESCRIPTION": "Define un nuevo idioma (Requiere: Gestionar servidor)",
+            "NAME": "idioma"
           }
         }
       }
     }
   },
   "TIMEOUT": {
-    "DESCRIPTION": "Timeouts a member",
-    "NAME": "timeout",
+    "DESCRIPTION": "Castigar a un miembro",
+    "NAME": "castigar",
     "OPTIONS": {
       "DURATION": {
-        "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
-        "NAME": "duration"
+        "DESCRIPTION": "Cuánto durará el castigo, hasta 28 días (Predeterminado: 1 hora o deshabilitar)",
+        "NAME": "duración"
       },
       "REASON": {
-        "DESCRIPTION": "The reason for timeouting",
-        "NAME": "reason"
+        "DESCRIPTION": "Razon del castigo",
+        "NAME": "razón"
       },
       "USER": {
         "DESCRIPTION": "El miembro que recibirá el castigo",
