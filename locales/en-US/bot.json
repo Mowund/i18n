@@ -575,6 +575,7 @@
     "NAME": "user",
     "OPTIONS": {
       "INFO": {
+        "VIEW_INFO": "View Info",
         "DESCRIPTION": "Shows information about a user",
         "MEMBER": {
           "AVATAR": "Server Avatar",
