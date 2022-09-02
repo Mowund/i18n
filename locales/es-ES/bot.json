@@ -58,7 +58,7 @@
     "PREVIEW": "Estás previsualizando el color",
     "RGB_CONVERT": "Convertido a RGB",
     "SAME_USER_CAN_INTERACT": "No es necesario que te menciones si vas a cambiar tu propio color",
-    "SPECIFIED": "Specified color",
+    "SPECIFIED": "Color especificado",
     "TARGET_ALREADY_NO_ROLE": "El usuario mencionado ya no tiene un rol de color",
     "TARGET_AVATAR_ESTIMATED": "Color estimado en el avatar de {userName}",
     "TARGET_CHANGED_ASSIGNED_ROLE": "{userName} color cambiado y asignado",
@@ -69,10 +69,10 @@
     "TARGET_NO_ROLE": "El usuario mencionado no tiene un rol de color",
     "USER_CAN_INTERACT": "{userName} también puede interactuar con el sistema"
   },
-  "DELETE_RESPONSE": "Delete Response",
+  "DELETE_RESPONSE": "Eliminar Respuesta",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
-    "GO_TO": "[Click here to go to the message]({msgURL})",
+    "DESCRIPTION": "Hace eco de un mensaje a través del bot (Requiere: Gestionar mensajes si no es efímero)",
+    "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
       "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
@@ -80,16 +80,16 @@
     "NAME": "eco",
     "OPTIONS": {
       "ATTACHMENT": {
-        "DESCRIPTION": "An attachment for the message",
-        "NAME": "attachment"
+        "DESCRIPTION": "Un archivo adjunto para el mensaje",
+        "NAME": "archivo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Set an author of the embed (Enables embed)",
-        "NAME": "author"
+        "DESCRIPTION": "Define el autor del embed (Habilita el embed)",
+        "NAME": "autor"
       },
       "CHANNEL": {
         "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
-        "NAME": "channel"
+        "NAME": "canal"
       },
       "COLOR": {
         "DESCRIPTION": "The color of the embed (Default: Author's display color)",
@@ -97,31 +97,31 @@
       },
       "CONTENT": {
         "DESCRIPTION": "The content of the message (Required if embed is disabled)",
-        "NAME": "content"
+        "NAME": "contenido"
       },
       "DESCRIPTION": {
         "DESCRIPTION": "The description of the embed (Enables embed)",
-        "NAME": "description"
+        "NAME": "descripción"
       },
       "FOOTER": {
         "DESCRIPTION": "The footer of the embed (Enables embed)",
-        "NAME": "footer"
+        "NAME": "rodapié"
       },
       "IMAGE": {
         "DESCRIPTION": "The image of the embed (Enables embed)",
-        "NAME": "image"
+        "NAME": "imagen"
       },
       "THUMBNAIL": {
         "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
-        "NAME": "thumbnail"
+        "NAME": "miniatura"
       },
       "TIMESTAMP": {
         "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
-        "NAME": "timestamp"
+        "NAME": "tiempo"
       },
       "TITLE": {
         "DESCRIPTION": "The title of the embed (Enables embed)",
-        "NAME": "title"
+        "NAME": "título"
       },
       "TTS": {
         "DESCRIPTION": "Echoes the message in TTS (Default: False)",
@@ -412,7 +412,7 @@
     "MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
     "MANAGE_EVENTS": "Manage Events",
     "MANAGE_GUILD": "Manage Guild",
-    "MANAGE_MESSAGES": "Manage Messages",
+    "MANAGE_MESSAGES": "Gestionar Mensajes",
     "MANAGE_NICKNAMES": "Manage Nicknames",
     "MANAGE_ROLES": "Manage Roles",
     "MANAGE_THREADS": "Manage Threads and Posts",
@@ -541,12 +541,12 @@
     "NAME": "settings",
     "OPTIONS": {
       "LANGUAGE": {
-        "DESCRIPTION": "The language to set the bot to",
-        "NAME": "language",
+        "DESCRIPTION": "El idioma para configurar el bot",
+        "NAME": "idioma",
         "OPTIONS": {
           "LANGUAGE": {
-            "DESCRIPTION": "Sets a new language (Requires: Manage guild)",
-            "NAME": "language"
+            "DESCRIPTION": "Define un nuevo idioma (Requiere: Gestionar servidor)",
+            "NAME": "idioma"
           }
         }
       }
