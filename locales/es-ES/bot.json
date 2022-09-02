@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Eliminar Respuesta",
   "ECHO": {
-    "DESCRIPTION": "Hace eco de un mensaje a través del bot (Requiere: Gestionar mensajes si no es efímero)",
+    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
@@ -84,7 +84,7 @@
         "NAME": "archivo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Define el autor del embed (Habilita el embed)",
+        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
         "NAME": "autor"
       },
       "CHANNEL": {
@@ -588,7 +588,7 @@
             "NAME": "usuario"
           }
         },
-        "TITLE": "Información del Usuario",
+        "TITLE": "User Info",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
