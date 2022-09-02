@@ -575,6 +575,7 @@
     "NAME": "usuario",
     "OPTIONS": {
       "INFO": {
+        "VIEW_INFO": "View Info",
         "DESCRIPTION": "Muestra información sobre un usuario",
         "MEMBER": {
           "AVATAR": "Avatar de Servidor",
@@ -588,7 +589,7 @@
             "NAME": "usuario"
           }
         },
-        "TITLE": "User Info",
+        "TITLE": "Información del Usuario",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
