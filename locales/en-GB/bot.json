@@ -58,7 +58,7 @@
     "PREVIEW": "You are previewing the colour",
     "RGB_CONVERT": "Converted to RGB",
     "SAME_USER_CAN_INTERACT": "It is not necessary to mention yourself if you're going to change your own color",
-    "SPECIFIED": "Specified color",
+    "SPECIFIED": "Specified colour",
     "TARGET_ALREADY_NO_ROLE": "The mentioned user already has no color role",
     "TARGET_AVATAR_ESTIMATED": "Estimated color in {userName}'s avatar",
     "TARGET_CHANGED_ASSIGNED_ROLE": "Color changed and assigned to {userName}",
@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message from the bot (Requires: Manage messages if non-ephemeral)",
+    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "You need to provide a content or an option that enables the embed",
@@ -84,7 +84,7 @@
         "NAME": "attachment"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Set an author of the embed (Enables embed)",
+        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
         "NAME": "author"
       },
       "CHANNEL": {
@@ -93,7 +93,7 @@
       },
       "COLOR": {
         "DESCRIPTION": "The color of the embed (Default: Author's display color)",
-        "NAME": "color"
+        "NAME": "colour"
       },
       "CONTENT": {
         "DESCRIPTION": "The content of the message (Required if embed is disabled)",
