@@ -92,7 +92,7 @@
         "NAME": "canal"
       },
       "COLOR": {
-        "DESCRIPTION": "The color of the embed (Default: Author's display color)",
+        "DESCRIPTION": "El color del embed (Predeterminado: Color de visualización del autor)",
         "NAME": "color"
       },
       "CONTENT": {
