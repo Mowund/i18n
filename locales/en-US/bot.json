@@ -588,7 +588,7 @@
             "NAME": "user"
           }
         },
-        "TITLE": "Información del Usuario",
+        "TITLE": "User Info",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
