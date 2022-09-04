@@ -443,8 +443,8 @@
   },
   "PING": {
     "API_LATENCY": "Latência da API",
-    "DEFERRED": "Deferred",
-    "DESCRIPTION": "Shows the bot's latency",
+    "DEFERRED": "Adiado",
+    "DESCRIPTION": "Mostra a latência do bot",
     "NAME": "ping",
     "RESPONSE_TIME": "Tempo de Resposta",
     "SHARD": "Shard",
