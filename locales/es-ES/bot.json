@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Eliminar Respuesta",
   "ECHO": {
-    "DESCRIPTION": "Hace eco de un mensaje a través del bot (Requiere: Gestionar mensajes si no es efímero)",
+    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
@@ -84,7 +84,7 @@
         "NAME": "archivo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Define el autor del embed (Habilita el embed)",
+        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
         "NAME": "autor"
       },
       "CHANNEL": {
@@ -383,7 +383,7 @@
                 "NAME": "shard-delay"
               },
               "TIMEOUT": {
-                "DESCRIPTION": "Tiempo de espera para que un fragmento esté listo antes de continuar con otro",
+                "DESCRIPTION": "Tiempo de espera para que una shard esta lista antes de continuar con otra",
                 "NAME": "intervalo"
               }
             }
@@ -442,16 +442,12 @@
     "VIEW_GUILD_INSIGHTS": "View Guild Insights"
   },
   "PING": {
-    "API_LATENCY": "API Latency",
+    "API_LATENCY": "Latencia de API",
     "DEFERRED": "Deferred",
-    "DESCRIPTION": "Shows bot's latency",
+    "DESCRIPTION": "Muestra la latencia del bot",
     "NAME": "ping",
+    "RESPONSE_TIME": "Tiempo de Respuesta",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Deferment Time",
-      "EDITING": "Editing Time",
-      "RESPONSE": "Response Time"
-    },
     "TITLE": "Pong!"
   },
   "REMINDER": {
@@ -592,7 +588,8 @@
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
-        }
+        },
+        "VIEW_INFO": "Ver Información"
       }
     }
   }

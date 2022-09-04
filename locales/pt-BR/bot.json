@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Excluir Resposta",
   "ECHO": {
-    "DESCRIPTION": "Ecoa uma mensagem através do bot (Requer: Gerenciar mensagens caso não-efêmera)",
+    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Clique aqui para ir à mensagem]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Você precisa fornecer um conteúdo ou uma opção que habilite o embed",
@@ -84,7 +84,7 @@
         "NAME": "anexo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Define o autor do embed (Habilita o embed)",
+        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
         "NAME": "autor"
       },
       "CHANNEL": {
@@ -442,16 +442,12 @@
     "VIEW_GUILD_INSIGHTS": "View Guild Insights"
   },
   "PING": {
-    "API_LATENCY": "API Latency",
+    "API_LATENCY": "Latência da API",
     "DEFERRED": "Deferred",
-    "DESCRIPTION": "Shows bot's latency",
+    "DESCRIPTION": "Mostra a latência do bot",
     "NAME": "ping",
+    "RESPONSE_TIME": "Tempo de Resposta",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Deferment Time",
-      "EDITING": "Editing Time",
-      "RESPONSE": "Response Time"
-    },
     "TITLE": "Pong!"
   },
   "REMINDER": {
@@ -592,7 +588,8 @@
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
-        }
+        },
+        "VIEW_INFO": "Ver Informações"
       }
     }
   }
