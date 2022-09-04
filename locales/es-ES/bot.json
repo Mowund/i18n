@@ -444,7 +444,7 @@
   "PING": {
     "API_LATENCY": "Latencia de API",
     "DEFERRED": "Deferred",
-    "DESCRIPTION": "Muestra la latencia del bot",
+    "DESCRIPTION": "Shows the bot's latency",
     "NAME": "ping",
     "RESPONSE_TIME": "Tiempo de Respuesta",
     "SHARD": "Shard",
