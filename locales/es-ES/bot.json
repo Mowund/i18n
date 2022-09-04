@@ -446,12 +446,8 @@
     "DEFERRED": "Deferred",
     "DESCRIPTION": "Shows bot's latency",
     "NAME": "ping",
+    "RESPONSE_TIME": "Response Time",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Deferment Time",
-      "EDITING": "Editing Time",
-      "RESPONSE": "Response Time"
-    },
     "TITLE": "Pong!"
   },
   "REMINDER": {
@@ -575,7 +571,6 @@
     "NAME": "usuario",
     "OPTIONS": {
       "INFO": {
-        "VIEW_INFO": "Ver Información",
         "DESCRIPTION": "Muestra información sobre un usuario",
         "MEMBER": {
           "AVATAR": "Avatar de Servidor",
@@ -593,7 +588,8 @@
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
-        }
+        },
+        "VIEW_INFO": "Ver Información"
       }
     }
   }
