@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Excluir Resposta",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "DESCRIPTION": "Ecoa uma mensagem através do bot (Requer: Gerenciar mensagens caso não-efêmera)",
     "GO_TO": "[Clique aqui para ir à mensagem]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Você precisa fornecer um conteúdo ou uma opção que habilite o embed",
@@ -84,11 +84,11 @@
         "NAME": "anexo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
+        "DESCRIPTION": "Define o autor do embed (Habilita o embed)",
         "NAME": "autor"
       },
       "CHANNEL": {
-        "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+        "DESCRIPTION": "Ecoa em um canal como uma mensagem (Padrão: Canal invocado como resposta)",
         "NAME": "canal"
       },
       "COLOR": {
