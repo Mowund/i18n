@@ -71,7 +71,7 @@
   },
   "DELETE_RESPONSE": "Eliminar Respuesta",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "DESCRIPTION": "Hace eco de un mensaje a través del bot (Requiere: Gestionar mensajes si no es efímero)",
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
@@ -84,11 +84,11 @@
         "NAME": "archivo"
       },
       "AUTHOR": {
-        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
+        "DESCRIPTION": "Define el autor del embed (Habilita el embed)",
         "NAME": "autor"
       },
       "CHANNEL": {
-        "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+        "DESCRIPTION": "Ecos en un canal como un mensaje (Predeterminado: Canal invocado como respuesta)",
         "NAME": "canal"
       },
       "COLOR": {
