@@ -96,7 +96,7 @@
         "NAME": "cor"
       },
       "CONTENT": {
-        "DESCRIPTION": "The content of the message (Required if embed is disabled)",
+        "DESCRIPTION": "O conteúdo da mensagem (Obrigatório se o embed estiver desabilitado)",
         "NAME": "conteúdo"
       },
       "DESCRIPTION": {
@@ -135,16 +135,16 @@
     "SENT": "Message Sent"
   },
   "EMOJI": {
-    "ADDED": "Added Emoji",
-    "ADDED_UNICODE": "Added Unicode Emoji",
-    "ADDING": "Adding Emoji",
-    "ADDING_UNICODE": "Adding Unicode Emoji",
+    "ADDED": "Emoji Adicionado",
+    "ADDED_UNICODE": "Emoji Unicode Adicionado",
+    "ADDING": "Adicionando Emoji",
+    "ADDING_UNICODE": "Adicionando Emoji Unicode",
     "COMPONENT": {
-      "ADD": "Add Emoji",
-      "DELETE": "Delete Emoji",
+      "ADD": "Adicionar Emoji",
+      "DELETE": "Excluir Emoji",
       "EDIT": "Edit",
-      "LINK": "Open Emoji",
-      "READD": "Readd Emoji",
+      "LINK": "Abrir Emoji",
+      "READD": "Readicionar Emoji",
       "RENAME": "Rename",
       "ROLES": {
         "ADD": "Add Role",
@@ -154,19 +154,19 @@
       },
       "VIEW": "View"
     },
-    "DELETED": "Emoji Deleted",
-    "DELETING": "Deleting Emoji",
-    "DELETING_DESCRIPTION": "Are you sure you want to delete this emoji?",
-    "DESCRIPTION": "Emoji related commands",
-    "EDITING": "Editing Emoji",
+    "DELETED": "Emoji Excluído",
+    "DELETING": "Excluindo Emoji",
+    "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este emoji?",
+    "DESCRIPTION": "Comandos relacionados com emoji",
+    "EDITING": "Editando Emoji",
     "NAME": "emoji",
     "OPTIONS": {
       "ADD": {
-        "DESCRIPTION": "Adds a new emoji",
+        "DESCRIPTION": "Adiciona um novo emoji",
         "NAME": "add",
         "OPTIONS": {
           "IMAGE": {
-            "DESCRIPTION": "The emoji itself (Maximum size: 256kb)",
+            "DESCRIPTION": "O emoji em si (Tamanho máximo: 256kb)",
             "NAME": "image"
           },
           "NAME": {
