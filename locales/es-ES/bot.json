@@ -141,7 +141,6 @@
     "ADDING_UNICODE": "Agregando Emoji Unicode",
     "COMPONENT": {
       "ADD": "Agregar Emoji",
-      "EDIT": "Edit",
       "LINK": "Abrir Emoji",
       "READD": "Reagregar Emoji",
       "RENAME": "Rename",
@@ -266,6 +265,7 @@
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
     "DELETE": "Delete",
+    "EDIT": "Edit",
     "ERROR": "Error",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
@@ -276,6 +276,7 @@
     "MESSAGE": "Message",
     "NAME": "Name",
     "NO": "No",
+    "NOT_RECURSIVE": "Not Recursive",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
     "REPEAT": "Repeat",
