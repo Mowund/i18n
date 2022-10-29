@@ -141,7 +141,6 @@
     "ADDING_UNICODE": "Adicionando Emoji Unicode",
     "COMPONENT": {
       "ADD": "Adicionar Emoji",
-      "DELETE": "Excluir Emoji",
       "EDIT": "Edit",
       "LINK": "Abrir Emoji",
       "READD": "Readicionar Emoji",
@@ -258,20 +257,17 @@
     }
   },
   "GENERIC": {
+    "BACK": "Back",
     "CHANNEL": "Channel",
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
-    "COMPONENT": {
-      "BACK": "Back",
-      "FIX_PERMISSIONS": "Fix Permissions",
-      "MESSAGE_DELETE": "Delete Message",
-      "REPEAT": "Repeat"
-    },
     "CONTENT": "Content",
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
+    "DELETE": "Delete",
     "ERROR": "Error",
+    "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
@@ -281,6 +277,8 @@
     "NAME": "Name",
     "NO": "No",
     "OUTPUT": "Output",
+    "RECURSIVE": "Recursive",
+    "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
@@ -451,13 +449,13 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": {
-      "DELETE": "Delete Reminder",
-      "RECURSIVE": "Recursive",
-      "SELECT_LIST": "Select a reminder"
-    },
     "CREATED": "Reminder Created",
     "DESCRIPTION": "Reminder related commands",
+    "DELETED": "Reminder Deleted",
+    "DELETING": "Deleting Reminder",
+    "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
+    "EDITING": "Editing Reminder",
+    "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
     "LIST": "Reminder List",
     "NAME": "reminder",
@@ -482,6 +480,12 @@
         "NAME": "list"
       }
     },
+    "RECURSIVE": {
+      "DESCRIPTION": "You'll be reminded again {timestamp}",
+      "SET": "The reminder has been set as recursive",
+      "UNSET": "The reminder is no longer recursive"
+    },
+    "SELECT_LIST": "Select a reminder",
     "TO": "Lembrete para {userName}"
   },
   "ROLEMENU": {
