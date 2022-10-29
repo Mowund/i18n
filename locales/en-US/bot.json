@@ -481,7 +481,7 @@
       }
     },
     "RECURSIVE": {
-      "DESCRIPTION": "When you'll be reminded again {timestamp}",
+      "DESCRIPTION": "You'll be reminded again {timestamp}",
       "SET": "The reminder has been set as recursive",
       "UNSET": "The reminder is no longer recursive"
     },
