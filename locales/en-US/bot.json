@@ -483,11 +483,11 @@
       }
     },
     "RECURSIVE": {
-      "DESCRIPTION": "You'll be reminded again {timestamp}",
-      "SET": "The reminder has been set as recursive",
-      "UNSET": "The reminder is no longer recursive"
+      "ON": "You'll be reminded again {timestamp}",
+      "OFF": "You won't be reminded again"
     },
     "SELECT_LIST": "Select a reminder",
+    "TIMESTAMP_DESCRIPTION": "You'll be reminded {timestamp}",
     "TO": "Reminder to {userName}"
   },
   "ROLEMENU": {
