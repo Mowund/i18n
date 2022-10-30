@@ -450,7 +450,9 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": { "LIST": "List Reminders" },
+    "COMPONENT": {
+      "LIST": "List Reminders"
+    },
     "CREATED": "Reminder Created",
     "DESCRIPTION": "Reminder related commands",
     "DELETED": "Reminder Deleted",
@@ -472,7 +474,7 @@
             "NAME": "reminder"
           },
           "TIME": {
-            "DESCRIPTION": "When you'll be reminded",
+            "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
             "NAME": "time"
           }
         }
@@ -483,6 +485,7 @@
       }
     },
     "RECURSIVE": {
+      "DISABLED": "Can't set as recursive because the reminder time should be at least {time}",
       "ON": "You'll be reminded again {timestamp}",
       "OFF": "You won't be reminded again"
     },
