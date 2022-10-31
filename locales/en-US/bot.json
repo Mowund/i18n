@@ -238,11 +238,12 @@
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
       "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
+        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
         "SHORT": "Invalid Name"
       },
       "ROLE": "Invalid role",
-      "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
+      "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
+      "TIME_AUTOCOMPLETE": "{condition, select, greater{Greater than {time}} less{Less than {time}} other{Invalid time}}"
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
@@ -286,12 +287,12 @@
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
-      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
-      "MONTHS": "{count, plural, =0 {now} one {**#** month} other {**#** months}}",
-      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}",
-      "YEARS": "{count, plural, =0 {now} one {**#** year} other {**#** years}}"
+      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
+      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
@@ -487,7 +488,7 @@
       }
     },
     "RECURSIVE": {
-      "DISABLED": "Can't set as recursive because the reminder time should be at least {time}",
+      "DISABLED": "Can't set as recursive because the reminder time should be at least **{time}**",
       "ON": "You'll be reminded again {timestamp}",
       "OFF": "You won't be reminded again"
     },
