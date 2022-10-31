@@ -289,7 +289,9 @@
       "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
       "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
       "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
+      "MONTHS": "{count, plural, =0 {now} one {**#** month} other {**#** months}}",
+      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}",
+      "YEARS": "{count, plural, =0 {now} one {**#** year} other {**#** years}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
