@@ -252,7 +252,8 @@
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat",
-      "COMMAND": "You are not allowed to interact with this command"
+      "COMMAND": "You are not allowed to interact with this command",
+      "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
     }
   },
   "GENERIC": {
@@ -450,7 +451,9 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": { "LIST": "List Reminders" },
+    "COMPONENT": {
+      "LIST": "List Reminders"
+    },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
