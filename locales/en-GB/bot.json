@@ -454,6 +454,7 @@
       "LIST": "List Reminders"
     },
     "CREATED": "Reminder Created",
+    "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
     "DELETED": "Reminder Deleted",
     "DELETING": "Deleting Reminder",
@@ -490,7 +491,7 @@
       "OFF": "You won't be reminded again"
     },
     "SELECT_LIST": "Select a reminder",
-    "TIMESTAMP_DESCRIPTION": "You'll be reminded {timestamp}",
+    "TIMESTAMP": "You'll be reminded {timestamp}",
     "TO": "Reminder to {userName}"
   },
   "ROLEMENU": {
