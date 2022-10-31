@@ -243,7 +243,7 @@
       },
       "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
-      "TIME_AUTOCOMPLETE": "{condition, select, greater{Greater than {time}} less{Less than {time}} other{Invalid time}}"
+      "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
@@ -454,9 +454,7 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": {
-      "LIST": "List Reminders"
-    },
+    "COMPONENT": { "LIST": "List Reminders" },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
