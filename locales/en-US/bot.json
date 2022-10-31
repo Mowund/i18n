@@ -450,9 +450,7 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": {
-      "LIST": "List Reminders"
-    },
+    "COMPONENT": { "LIST": "List Reminders" },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
