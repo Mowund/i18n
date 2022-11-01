@@ -576,7 +576,8 @@
         "DESCRIPTION": "The member to timeout",
         "NAME": "user"
       }
-    }
+    },
+    "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{{default, select, set{{time}}, unset{Remove timeout} other{{time} or remove timeout}}}"
   },
   "USER": {
     "DESCRIPTION": "User related commands",
