@@ -454,7 +454,9 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": { "LIST": "List Reminders" },
+    "COMPONENT": {
+      "LIST": "List Reminders"
+    },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
@@ -565,6 +567,7 @@
     "NAME": "timeout",
     "OPTIONS": {
       "DURATION": {
+        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}",
         "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
         "NAME": "duration"
       },
