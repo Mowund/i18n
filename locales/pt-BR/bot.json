@@ -567,6 +567,7 @@
     "NAME": "castigar",
     "OPTIONS": {
       "DURATION": {
+        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}",
         "DESCRIPTION": "Quanto tempo durará o castigo, até 28 dias (Padrão: 1 hora ou desativar)",
         "NAME": "duração"
       },
