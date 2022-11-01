@@ -565,7 +565,7 @@
     "NAME": "timeout",
     "OPTIONS": {
       "DURATION": {
-        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} other{{time} or remove timeout}}",
+        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found}",
         "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
         "NAME": "duration"
       },
