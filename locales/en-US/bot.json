@@ -267,7 +267,7 @@
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": {
-      "": "Roles",
+      "ROLES": "Roles",
       "ADD": "Add Role",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
       "EDIT": "Edit Roles",
@@ -275,7 +275,7 @@
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
       "SELECT": {
-        "": "Select the roles",
+        "DEFAULT": "Select the roles",
         "ADD": "Select the roles to add",
         "REMOVE": "Select the roles to remove"
       }
