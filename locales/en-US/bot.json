@@ -142,15 +142,7 @@
     "COMPONENT": {
       "ADD": "Add Emoji",
       "LINK": "Open Emoji",
-      "READD": "Readd Emoji",
-      "RENAME": "Rename",
-      "ROLES": {
-        "ADD": "Add Role",
-        "EDIT": "Edit Roles",
-        "REMOVE": "Remove Role",
-        "RESET": "Reset Roles"
-      },
-      "VIEW": "View"
+      "READD": "Readd Emoji"
     },
     "DELETED": "Emoji Deleted",
     "DELETING": "Deleting Emoji",
@@ -199,17 +191,6 @@
     "RENAMED": "Renamed Emoji",
     "RENAMING": "Renaming Emoji",
     "RENAMING_LABEL": "Insert the new emoji name",
-    "ROLES": {
-      "ADD": "Enter a role to add it to the emoji",
-      "ADDED_ALREADY": "This role is already defined",
-      "ADDED_REPEAT": "Role added to emoji, enter another role to add it",
-      "EDITED": "Edited emoji's roles",
-      "EDITING": "Editing emoji's roles",
-      "REMOVE": "Enter a role to remove it from the emoji",
-      "REMOVED_ALREADY": "This role is already not defined",
-      "REMOVED_REPEAT": "Role removed from emoji, enter another role to remove it",
-      "RESETED": "Reseted emoji's roles"
-    },
     "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
     "VIEWING": "Viewing Emoji",
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
@@ -248,6 +229,7 @@
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
       "EMPTY": "You don't have any reminders",
+      "EMPTY_CONTENT": "The reminder content is empty",
       "NOT_FOUND": "The reminder `{reminderId}` was not found"
     },
     "TIMED_OUT": "Timed out",
@@ -281,9 +263,23 @@
     "NOT_RECURSIVE": "Not Recursive",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
+    "RENAME": "Rename",
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
-    "ROLES": "Roles",
+    "ROLES": {
+      "": "Roles",
+      "ADD": "Add Role",
+      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+      "EDIT": "Edit Roles",
+      "REMOVE": "Remove Role",
+      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
+      "RESET": "Reset Roles",
+      "SELECT": {
+        "": "Select the roles",
+        "ADD": "Select the roles to add",
+        "REMOVE": "Select the roles to remove"
+      }
+    },
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
@@ -300,6 +296,7 @@
     "TYPE": "Type",
     "UPTIME": "Uptime",
     "USER": "User",
+    "VIEW": "View",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
