@@ -241,7 +241,10 @@
   },
   "GENERIC": {
     "BACK": "Back",
-    "CHANNEL": "Channel",
+    "CHANNEL": {
+      "CHANNEL": "Channel",
+      "SELECT_PLACEHOLDER": "Select the channel to change"
+    },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
@@ -249,6 +252,7 @@
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
     "DELETE": "Delete",
+    "DIRECT_MESSAGE": "Direct Message",
     "EDIT": "Edit",
     "ERROR": "Error",
     "FIX_PERMISSIONS": "Fix Permissions",
@@ -261,6 +265,7 @@
     "NAME": "Name",
     "NO": "No",
     "NOT_RECURSIVE": "Not Recursive",
+    "NOT_DIRECT_MESSAGE": "Not Direct Message",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
     "RENAME": "Rename",
