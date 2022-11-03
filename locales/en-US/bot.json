@@ -469,9 +469,9 @@
         "DESCRIPTION": "Creates a new reminder",
         "NAME": "create",
         "OPTIONS": {
-          "REMINDER": {
+          "CONTENT": {
             "DESCRIPTION": "What you'll be reminded about",
-            "NAME": "reminder"
+            "NAME": "content"
           },
           "TIME": {
             "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
