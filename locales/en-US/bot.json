@@ -243,12 +243,19 @@
     "BACK": "Back",
     "CHANNEL": {
       "CHANNEL": "Channel",
+      "EDIT": "Edit Channel",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
-    "CONTENT": "Content",
+    "CONTENT": {
+      "CONTENT": "Content",
+      "EDIT": "Edit Content",
+      "EDITED": "Edited Content",
+      "EDITING": "Editing Content",
+      "EDITING_LABEL": "Insert the new content"
+    },
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
     "DELETE": "Delete",
