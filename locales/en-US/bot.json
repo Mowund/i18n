@@ -327,16 +327,6 @@
   },
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
-    "INTERACTION": {
-      "COMMANDS": {
-        "DELETED": "Deleted Commands",
-        "GLOBAL": "Global Commands",
-        "GUILD": "Guild Commands",
-        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
-        "UPDATED": "Updated Commands"
-      },
-      "NO_UPDATE": "No commands have been updated"
-    },
     "NAME": "owner",
     "OPTIONS": {
       "EVAL": {
@@ -358,8 +348,16 @@
         }
       },
       "COMMAND": {
+        "COMMANDS": {
+          "DELETED": "Deleted Commands",
+          "GLOBAL": "Global Commands",
+          "GUILD": "Guild Commands",
+          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+          "UPDATED": "Updated Commands"
+        },
         "DESCRIPTION": "Configures commands (Bot owner only)",
         "NAME": "command",
+        "NO_UPDATE": "No commands have been updated",
         "OPTIONS": {
           "UPDATE": {
             "DESCRIPTION": "Updates bot commands (Bot owner only)",
