@@ -218,10 +218,7 @@
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
-      "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
-        "SHORT": "Invalid Name"
-      },
+      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
@@ -360,7 +357,7 @@
           }
         }
       },
-      "INTERACTION": {
+      "COMMAND": {
         "DESCRIPTION": "Configures commands (Bot owner only)",
         "NAME": "command",
         "OPTIONS": {
@@ -547,30 +544,6 @@
       }
     }
   },
-  "SETTINGS": {
-    "DESCRIPTION": "Configures the bot",
-    "LANGUAGE": {
-      "CHANGED": "Changed Language",
-      "CROWDIN": "Translate on Crowdin",
-      "CURRENT": "Current Language",
-      "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
-      "NAME": "English (United States)",
-      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
-    },
-    "NAME": "settings",
-    "OPTIONS": {
-      "LANGUAGE": {
-        "DESCRIPTION": "The language to set the bot to",
-        "NAME": "language",
-        "OPTIONS": {
-          "LANGUAGE": {
-            "DESCRIPTION": "Sets a new language (Requires: Manage guild)",
-            "NAME": "language"
-          }
-        }
-      }
-    }
-  },
   "TIMEOUT": {
     "DESCRIPTION": "Timeouts a member",
     "NAME": "timeout",
@@ -614,6 +587,10 @@
           "BANNER": "Banner"
         },
         "VIEW_INFO": "View Info"
+      },
+      "SETTINGS": {
+        "DESCRIPTION": "Shows your bot settings",
+        "NAME": "settings"
       }
     }
   }
