@@ -266,6 +266,7 @@
     "FROM": "From",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
+    "LOADING": "Loading",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -385,7 +386,9 @@
             "NAME": "update",
             "DESCRIPTION": "Updates localizations (Bot owner only)"
           }
-        }
+        },
+        "UPDATED": "Updated localizations",
+        "UPDATING": "Updating localizations"
       },
       "SHARD": {
         "DESCRIPTION": "Configures shards (Bot owner only)",
