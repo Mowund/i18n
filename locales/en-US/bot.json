@@ -412,11 +412,9 @@
               }
             }
           }
-        }
+        },
+        "RESPAWNING": "Respawning all shards"
       }
-    },
-    "SHARD": {
-      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
