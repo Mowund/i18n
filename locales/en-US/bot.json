@@ -267,10 +267,7 @@
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
-    "LOCALE": {
-      "EMOJI": "🇺🇸",
-      "NAME": "English (United States)"
-    },
+    "LOCALE": { "EMOJI": "🇺🇸", "NAME": "English (United States)" },
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -477,9 +474,7 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": {
-      "LIST": "List Reminders"
-    },
+    "COMPONENT": { "LIST": "List Reminders" },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
