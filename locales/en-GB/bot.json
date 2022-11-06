@@ -141,18 +141,8 @@
     "ADDING_UNICODE": "Adding Unicode Emoji",
     "COMPONENT": {
       "ADD": "Add Emoji",
-      "DELETE": "Delete Emoji",
-      "EDIT": "Edit",
       "LINK": "Open Emoji",
-      "READD": "Readd Emoji",
-      "RENAME": "Rename",
-      "ROLES": {
-        "ADD": "Add Role",
-        "EDIT": "Edit Roles",
-        "REMOVE": "Remove Role",
-        "RESET": "Reset Roles"
-      },
-      "VIEW": "View"
+      "READD": "Readd Emoji"
     },
     "DELETED": "Emoji Deleted",
     "DELETING": "Deleting Emoji",
@@ -201,17 +191,6 @@
     "RENAMED": "Renamed Emoji",
     "RENAMING": "Renaming Emoji",
     "RENAMING_LABEL": "Insert the new emoji name",
-    "ROLES": {
-      "ADD": "Enter a role to add it to the emoji",
-      "ADDED_ALREADY": "This role is already defined",
-      "ADDED_REPEAT": "Role added to emoji, enter another role to add it",
-      "EDITED": "Edited emoji's roles",
-      "EDITING": "Editing emoji's roles",
-      "REMOVE": "Enter a role to remove it from the emoji",
-      "REMOVED_ALREADY": "This role is already not defined",
-      "REMOVED_REPEAT": "Role removed from emoji, enter another role to remove it",
-      "RESETED": "Reseted emoji's roles"
-    },
     "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
     "VIEWING": "Viewing Emoji",
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
@@ -239,57 +218,95 @@
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
-      "NAME": {
-        "LONG": "The input `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**#** character} other{**#** characters}}} shorter{is shorter than {minLength, plural, one{**#** character} other{**#** characters}}} other{}}{alphanum, select, also{ and also contains non-alphanumerical characters} only{contains non-alphanumerical characters} other{}}",
-        "SHORT": "Invalid Name"
-      },
+      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "ROLE": "Invalid role",
-      "TIME": "The time `{input}` {condition, select, greater{is greater than {time}} less{is less than {time}} other{is not valid}}"
+      "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
+      "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
       "EMPTY": "You don't have any reminders",
+      "EMPTY_CONTENT": "The reminder content is empty",
       "NOT_FOUND": "The reminder `{reminderId}` was not found"
     },
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat",
-      "COMMAND": "You are not allowed to interact with this command"
+      "COMMAND": "You are not allowed to interact with this command",
+      "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
     }
   },
   "GENERIC": {
-    "CHANNEL": "Channel",
+    "BACK": "Back",
+    "CHANNEL": {
+      "CHANNEL": "Channel",
+      "EDIT": "Edit Channel",
+      "EDITED": "Edited Channel",
+      "EDITING": "Editing Channel",
+      "SELECT_PLACEHOLDER": "Select the channel to change"
+    },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
-    "COMPONENT": {
-      "BACK": "Back",
-      "FIX_PERMISSIONS": "Fix Permissions",
-      "MESSAGE_DELETE": "Delete Message",
-      "REPEAT": "Repeat"
+    "CONTENT": {
+      "CONTENT": "Content",
+      "EDIT": "Edit Content",
+      "EDITED": "Edited Content",
+      "EDITING": "Editing Content",
+      "EDITING_LABEL": "Insert the new content"
     },
-    "CONTENT": "Content",
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
+    "DELETE": "Delete",
+    "DIRECT_MESSAGE": "Direct Message",
+    "EDIT": "Edit",
+    "EPHEMERAL": "Ephemeral",
     "ERROR": "Error",
+    "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
+    "LOADING": "Loading",
+    "LOCALE": {
+      "EMOJI": "🇺🇸",
+      "NAME": "English (United States)"
+    },
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
     "NAME": "Name",
     "NO": "No",
+    "NOT_RECURSIVE": "Not Recursive",
+    "NOT_DIRECT_MESSAGE": "Not Direct Message",
+    "NOT_EPHEMERAL": "Not Ephemeral",
     "OUTPUT": "Output",
+    "RECURSIVE": "Recursive",
+    "RENAME": "Rename",
+    "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
-    "ROLES": "Roles",
+    "ROLES": {
+      "ROLES": "Roles",
+      "ADD": "Add Roles",
+      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+      "EDIT": "Edit Roles",
+      "REMOVE": "Remove Roles",
+      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
+      "RESET": "Reset Roles",
+      "SELECT": {
+        "DEFAULT": "Select the roles",
+        "ADD": "Select the roles to add",
+        "REMOVE": "Select the roles to remove"
+      }
+    },
     "SERVERS": "Servers",
     "SUCCESS": "Success",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
-      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
+      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
+      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
@@ -297,6 +314,7 @@
     "TYPE": "Type",
     "UPTIME": "Uptime",
     "USER": "User",
+    "VIEW": "View",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
@@ -316,16 +334,6 @@
   },
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
-    "INTERACTION": {
-      "COMMANDS": {
-        "DELETED": "Deleted Commands",
-        "GLOBAL": "Global Commands",
-        "GUILD": "Guild Commands",
-        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
-        "UPDATED": "Updated Commands"
-      },
-      "NO_UPDATE": "No commands have been updated"
-    },
     "NAME": "owner",
     "OPTIONS": {
       "EVAL": {
@@ -346,9 +354,17 @@
           }
         }
       },
-      "INTERACTION": {
+      "COMMAND": {
+        "COMMANDS": {
+          "DELETED": "Deleted Commands",
+          "GLOBAL": "Global Commands",
+          "GUILD": "Guild Commands",
+          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+          "UPDATED": "Updated Commands"
+        },
         "DESCRIPTION": "Configures commands (Bot owner only)",
         "NAME": "command",
+        "NO_UPDATE": "No commands have been updated",
         "OPTIONS": {
           "UPDATE": {
             "DESCRIPTION": "Updates bot commands (Bot owner only)",
@@ -365,6 +381,18 @@
             }
           }
         }
+      },
+      "LOCALIZATION": {
+        "NAME": "localization",
+        "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "OPTIONS": {
+          "UPDATE": {
+            "NAME": "update",
+            "DESCRIPTION": "Updates localizations (Bot owner only)"
+          }
+        },
+        "UPDATED": "Updated localizations",
+        "UPDATING": "Updating localizations"
       },
       "SHARD": {
         "DESCRIPTION": "Configures shards (Bot owner only)",
@@ -388,11 +416,9 @@
               }
             }
           }
-        }
+        },
+        "RESPAWNING": "Respawning all shards"
       }
-    },
-    "SHARD": {
-      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
@@ -452,12 +478,16 @@
   },
   "REMINDER": {
     "COMPONENT": {
-      "DELETE": "Delete Reminder",
-      "RECURSIVE": "Recursive",
-      "SELECT_LIST": "Select a reminder"
+      "LIST": "List Reminders"
     },
     "CREATED": "Reminder Created",
+    "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
+    "DELETED": "Reminder Deleted",
+    "DELETING": "Deleting Reminder",
+    "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
+    "EDITING": "Editing Reminder",
+    "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
     "LIST": "Reminder List",
     "NAME": "reminder",
@@ -467,12 +497,12 @@
         "DESCRIPTION": "Creates a new reminder",
         "NAME": "create",
         "OPTIONS": {
-          "REMINDER": {
+          "CONTENT": {
             "DESCRIPTION": "What you'll be reminded about",
-            "NAME": "reminder"
+            "NAME": "content"
           },
           "TIME": {
-            "DESCRIPTION": "When you'll be reminded",
+            "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
             "NAME": "time"
           }
         }
@@ -482,6 +512,13 @@
         "NAME": "list"
       }
     },
+    "RECURSIVE": {
+      "DISABLED": "Can't set as recursive because the reminder time should be at least **{time}**",
+      "ON": "You'll be reminded again {timestamp}",
+      "OFF": "You won't be reminded again"
+    },
+    "SELECT_LIST": "Select a reminder",
+    "TIMESTAMP": "You'll be reminded {timestamp}",
     "TO": "Reminder to {userName}"
   },
   "ROLEMENU": {
@@ -524,35 +561,12 @@
       }
     }
   },
-  "SETTINGS": {
-    "DESCRIPTION": "Configures the bot",
-    "LANGUAGE": {
-      "CHANGED": "Changed Language",
-      "CROWDIN": "Translate on Crowdin",
-      "CURRENT": "Current Language",
-      "CURRENT_IS": "The current language of the bot on this server is `{lang}`",
-      "NAME": "English (United States)",
-      "NOT_SUPPORTED": "The bot currently does not have support for `{input}`"
-    },
-    "NAME": "settings",
-    "OPTIONS": {
-      "LANGUAGE": {
-        "DESCRIPTION": "The language to set the bot to",
-        "NAME": "language",
-        "OPTIONS": {
-          "LANGUAGE": {
-            "DESCRIPTION": "Sets a new language (Requires: Manage guild)",
-            "NAME": "language"
-          }
-        }
-      }
-    }
-  },
   "TIMEOUT": {
     "DESCRIPTION": "Timeouts a member",
     "NAME": "timeout",
     "OPTIONS": {
       "DURATION": {
+        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}",
         "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
         "NAME": "duration"
       },
@@ -590,6 +604,23 @@
           "BANNER": "Banner"
         },
         "VIEW_INFO": "View Info"
+      },
+      "SETTINGS": {
+        "TITLE": "User Settings",
+        "DESCRIPTION": "Shows your bot settings",
+        "EPHEMERAL_RESPONSES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
+          "ENABLED": "Responses to your commands will always be ephemeral",
+          "NAME": "Ephemeral Responses"
+        },
+        "LOCALE": {
+          "EDIT": "Edit Locale",
+          "EDITING": "Editing Locale",
+          "EDITED": "Edited Locale",
+          "NAME": "Locale",
+          "SELECT_PLACEHOLDER": "Select the language to change"
+        },
+        "NAME": "settings"
       }
     }
   }
