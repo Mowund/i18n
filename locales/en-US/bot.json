@@ -260,6 +260,7 @@
     "DELETE": "Delete",
     "DIRECT_MESSAGE": "Direct Message",
     "EDIT": "Edit",
+    "EPHEMERAL": "Ephemeral",
     "ERROR": "Error",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
@@ -272,6 +273,7 @@
     "NO": "No",
     "NOT_RECURSIVE": "Not Recursive",
     "NOT_DIRECT_MESSAGE": "Not Direct Message",
+    "NOT_EPHEMERAL": "Not Ephemeral",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
     "RENAME": "Rename",
@@ -372,6 +374,16 @@
                 "NAME": "id"
               }
             }
+          }
+        }
+      },
+      "LOCALIZATION": {
+        "NAME": "localization",
+        "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "OPTIONS": {
+          "UPDATE": {
+            "NAME": "update",
+            "DESCRIPTION": "Updates localizations (Bot owner only)"
           }
         }
       },
@@ -587,6 +599,7 @@
         "VIEW_INFO": "View Info"
       },
       "SETTINGS": {
+        "TITLE": "User Settings",
         "DESCRIPTION": "Shows your bot settings",
         "EPHEMERAL_RESPONSES": {
           "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
