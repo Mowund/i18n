@@ -237,6 +237,7 @@
     }
   },
   "GENERIC": {
+    "AUTOMATIC": "Automatic",
     "BACK": "Back",
     "CHANNEL": {
       "CHANNEL": "Channel",
@@ -257,6 +258,7 @@
     },
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
+    "DEFAULT": "Default",
     "DELETE": "Delete",
     "DIRECT_MESSAGE": "Direct Message",
     "EDIT": "Edit",
@@ -267,15 +269,19 @@
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
-    "LOCALE": { "EMOJI": "🇺🇸", "NAME": "English (United States)" },
+    "LOCALE": {
+      "EMOJI": "🇺🇸",
+      "NAME": "English (United States)"
+    },
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
     "NAME": "Name",
     "NO": "No",
-    "NOT_RECURSIVE": "Not Recursive",
+    "NOT_AUTOMATIC": "Not Automatic",
     "NOT_DIRECT_MESSAGE": "Not Direct Message",
     "NOT_EPHEMERAL": "Not Ephemeral",
+    "NOT_RECURSIVE": "Not Recursive",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
     "RENAME": "Rename",
@@ -474,7 +480,9 @@
     "TITLE": "Pong!"
   },
   "REMINDER": {
-    "COMPONENT": { "LIST": "List Reminders" },
+    "COMPONENT": {
+      "LIST": "List Reminders"
+    },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DESCRIPTION": "Reminder related commands",
