@@ -588,6 +588,11 @@
       },
       "SETTINGS": {
         "DESCRIPTION": "Shows your bot settings",
+        "EPHEMERAL_RESPONSES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
+          "ENABLED": "Responses to your commands will always be ephemeral",
+          "NAME": "Ephemeral Responses"
+        },
         "NAME": "settings"
       }
     }
