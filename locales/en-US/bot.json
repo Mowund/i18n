@@ -267,6 +267,7 @@
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
+    "LOCALE": { "EMOJI": "🇺🇸", "NAME": "English (United States)" },
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -606,6 +607,13 @@
           "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
           "ENABLED": "Responses to your commands will always be ephemeral",
           "NAME": "Ephemeral Responses"
+        },
+        "LOCALE": {
+          "EDIT": "Edit Locale",
+          "EDITING": "Editing Locale",
+          "EDITED": "Edited Locale",
+          "NAME": "Locale",
+          "SELECT_PLACEHOLDER": "Select the language to change"
         },
         "NAME": "settings"
       }
