@@ -237,13 +237,13 @@
     }
   },
   "GENERIC": {
-    "AUTOMATIC": "Automatic",
-    "BACK": "Back",
+    "AUTOMATIC": "Automático",
+    "BACK": "Vuelve",
     "CHANNEL": {
-      "CHANNEL": "Channel",
-      "EDIT": "Edit Channel",
-      "EDITED": "Edited Channel",
-      "EDITING": "Editing Channel",
+      "CHANNEL": "Canal",
+      "EDIT": "Editar Canal",
+      "EDITED": "Canal Editado",
+      "EDITING": "Editando Canal",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHAT": "Chat",
@@ -253,8 +253,8 @@
       "CONTENT": "Content",
       "EDIT": "Edit Content",
       "EDITED": "Edited Content",
-      "EDITING": "Editing Content",
-      "EDITING_LABEL": "Insert the new content"
+      "EDITING": "Editando Contenido",
+      "EDITING_LABEL": "Inserta el nuevo contenido"
     },
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
@@ -489,7 +489,7 @@
     "DELETED": "Recordatorio Eliminado",
     "DELETING": "Eliminando Recordatorio",
     "DELETING_DESCRIPTION": "¿Estás seguro de que quieres eliminar este recordatorio?",
-    "EDITING": "Editing Reminder",
+    "EDITING": "Editando Recordatorio",
     "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
     "LIST": "Lista de Recordatorios",
@@ -618,7 +618,7 @@
         },
         "LOCALE": {
           "EDIT": "Editar Idioma",
-          "EDITING": "Editing Locale",
+          "EDITING": "Editando Idioma",
           "EDITED": "Edited Locale",
           "NAME": "Locale",
           "SELECT_PLACEHOLDER": "Select the language to change"
