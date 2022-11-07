@@ -487,8 +487,8 @@
     "CREATED_AT": "El recordatorio ha sido creado {timestamp}",
     "DESCRIPTION": "Comandos relacionados con recordatorios",
     "DELETED": "Recordatorio Eliminado",
-    "DELETING": "Deleting Reminder",
-    "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
+    "DELETING": "Eliminando Recordatorio",
+    "DELETING_DESCRIPTION": "¿Estás seguro de que quieres eliminar este recordatorio?",
     "EDITING": "Editing Reminder",
     "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
@@ -498,15 +498,15 @@
     "OPTIONS": {
       "CREATE": {
         "DESCRIPTION": "Creates a new reminder",
-        "NAME": "create",
+        "NAME": "crear",
         "OPTIONS": {
           "CONTENT": {
             "DESCRIPTION": "What you'll be reminded about",
-            "NAME": "content"
+            "NAME": "contenido"
           },
           "TIME": {
             "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
-            "NAME": "time"
+            "NAME": "tiempo"
           }
         }
       },
@@ -617,7 +617,7 @@
           "NAME": "Ephemeral Responses"
         },
         "LOCALE": {
-          "EDIT": "Edit Locale",
+          "EDIT": "Editar Idioma",
           "EDITING": "Editing Locale",
           "EDITED": "Edited Locale",
           "NAME": "Locale",
