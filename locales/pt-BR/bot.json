@@ -237,13 +237,13 @@
     }
   },
   "GENERIC": {
-    "AUTOMATIC": "Automatic",
-    "BACK": "Back",
+    "AUTOMATIC": "Automático",
+    "BACK": "Voltar",
     "CHANNEL": {
-      "CHANNEL": "Channel",
-      "EDIT": "Edit Channel",
-      "EDITED": "Edited Channel",
-      "EDITING": "Editing Channel",
+      "CHANNEL": "Canal",
+      "EDIT": "Editar Canal",
+      "EDITED": "Canal Editado",
+      "EDITING": "Editando Canal",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHAT": "Chat",
@@ -253,8 +253,8 @@
       "CONTENT": "Content",
       "EDIT": "Edit Content",
       "EDITED": "Edited Content",
-      "EDITING": "Editing Content",
-      "EDITING_LABEL": "Insert the new content"
+      "EDITING": "Editando Conteúdo",
+      "EDITING_LABEL": "Insira o novo conteúdo"
     },
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
@@ -489,7 +489,7 @@
     "DELETED": "Lembrete Excluído",
     "DELETING": "Excluindo Lembrete",
     "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este lembrete?",
-    "EDITING": "Editing Reminder",
+    "EDITING": "Editando Lembrete",
     "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
     "LIST": "Lista de Lembretes",
@@ -618,7 +618,7 @@
         },
         "LOCALE": {
           "EDIT": "Editar Idioma",
-          "EDITING": "Editing Locale",
+          "EDITING": "Editando Idioma",
           "EDITED": "Edited Locale",
           "NAME": "Locale",
           "SELECT_PLACEHOLDER": "Select the language to change"
