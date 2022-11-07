@@ -100,7 +100,7 @@
         "NAME": "contenido"
       },
       "DESCRIPTION": {
-        "DESCRIPTION": "The description of the embed (Enables embed)",
+        "DESCRIPTION": "La descripción del embed (Habilita el embed)",
         "NAME": "descripción"
       },
       "FOOTER": {
@@ -225,7 +225,7 @@
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
-      "EMPTY": "You don't have any reminders",
+      "EMPTY": "No tienes ningún recordatorio",
       "EMPTY_CONTENT": "The reminder content is empty",
       "NOT_FOUND": "The reminder `{reminderId}` was not found"
     },
