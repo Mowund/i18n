@@ -226,8 +226,8 @@
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
       "EMPTY": "No tienes ningún recordatorio",
-      "EMPTY_CONTENT": "The reminder content is empty",
-      "NOT_FOUND": "The reminder `{reminderId}` was not found"
+      "EMPTY_CONTENT": "El contenido del recordatorio está vacío",
+      "NOT_FOUND": "El recordatorio `{reminderId}` no fue encontrado"
     },
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
@@ -481,19 +481,19 @@
   },
   "REMINDER": {
     "COMPONENT": {
-      "LIST": "List Reminders"
+      "LIST": "Listar Recordatorios"
     },
-    "CREATED": "Reminder Created",
-    "CREATED_AT": "The reminder was created {timestamp}",
-    "DESCRIPTION": "Reminder related commands",
-    "DELETED": "Reminder Deleted",
+    "CREATED": "Recordatorio Creado",
+    "CREATED_AT": "El recordatorio ha sido creado {timestamp}",
+    "DESCRIPTION": "Comandos relacionados con recordatorios",
+    "DELETED": "Recordatorio Eliminado",
     "DELETING": "Deleting Reminder",
     "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
     "EDITING": "Editing Reminder",
     "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
-    "LIST": "Reminder List",
-    "NAME": "reminder",
+    "LIST": "Lista de Recordatorios",
+    "NAME": "recordatorio",
     "NEW": "New Reminder",
     "OPTIONS": {
       "CREATE": {
