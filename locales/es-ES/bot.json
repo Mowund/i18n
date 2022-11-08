@@ -611,11 +611,11 @@
       },
       "SETTINGS": {
         "TITLE": "Ajustes de Usuario",
-        "DESCRIPTION": "Shows your bot settings",
+        "DESCRIPTION": "Muestra la configuración de tu bot",
         "EPHEMERAL_RESPONSES": {
-          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
-          "ENABLED": "Responses to your commands will always be ephemeral",
-          "NAME": "Ephemeral Responses"
+          "DISABLED": "Las respuestas a sus comandos serán visibles para cualquier persona siempre que sea posible",
+          "ENABLED": "Las respuestas a sus comandos siempre serán efímeras",
+          "NAME": "Respuestas Efímeras"
         },
         "LOCALE": {
           "EDIT": "Editar Idioma",
@@ -624,7 +624,7 @@
           "NAME": "Idioma",
           "SELECT_PLACEHOLDER": "Seleccione el idioma para cambiar"
         },
-        "NAME": "settings"
+        "NAME": "ajustes"
       }
     }
   }
