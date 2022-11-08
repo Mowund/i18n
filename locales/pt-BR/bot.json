@@ -622,7 +622,7 @@
           "EDITING": "Editando Idioma",
           "EDITED": "Idioma Editado",
           "NAME": "Idioma",
-          "SELECT_PLACEHOLDER": "Selecione o idioma para alternar"
+          "SELECT_PLACEHOLDER": "Select the locale to change"
         },
         "NAME": "configurações"
       }
