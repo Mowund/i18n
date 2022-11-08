@@ -610,7 +610,7 @@
         "VIEW_INFO": "Ver Informações"
       },
       "SETTINGS": {
-        "TITLE": "User Settings",
+        "TITLE": "Configurações do Usuário",
         "DESCRIPTION": "Shows your bot settings",
         "EPHEMERAL_RESPONSES": {
           "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
@@ -620,9 +620,9 @@
         "LOCALE": {
           "EDIT": "Editar Idioma",
           "EDITING": "Editando Idioma",
-          "EDITED": "Edited Locale",
-          "NAME": "Locale",
-          "SELECT_PLACEHOLDER": "Select the language to change"
+          "EDITED": "Idioma Editado",
+          "NAME": "Idioma",
+          "SELECT_PLACEHOLDER": "Selecione o idioma para alternar"
         },
         "NAME": "settings"
       }
