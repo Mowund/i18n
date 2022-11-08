@@ -292,6 +292,7 @@
       "ADD": "Add Roles",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
       "EDIT": "Edit Roles",
+      "EDITING": "Editing Roles",
       "REMOVE": "Remove Roles",
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
@@ -621,7 +622,7 @@
           "EDITING": "Editing Locale",
           "EDITED": "Edited Locale",
           "NAME": "Locale",
-          "SELECT_PLACEHOLDER": "Select the language to change"
+          "SELECT_PLACEHOLDER": "Select the locale to change"
         },
         "NAME": "settings"
       }

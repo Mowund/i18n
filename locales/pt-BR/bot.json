@@ -100,7 +100,7 @@
         "NAME": "conteúdo"
       },
       "DESCRIPTION": {
-        "DESCRIPTION": "The description of the embed (Enables embed)",
+        "DESCRIPTION": "A descrição do embed (Habilita o embed)",
         "NAME": "descrição"
       },
       "FOOTER": {
@@ -225,9 +225,9 @@
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
-      "EMPTY": "You don't have any reminders",
-      "EMPTY_CONTENT": "The reminder content is empty",
-      "NOT_FOUND": "The reminder `{reminderId}` was not found"
+      "EMPTY": "Você não tem nenhum lembrete",
+      "EMPTY_CONTENT": "O conteúdo do lembrete está vazio",
+      "NOT_FOUND": "O lembrete `{reminderId}` não foi encontrado"
     },
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
@@ -237,13 +237,13 @@
     }
   },
   "GENERIC": {
-    "AUTOMATIC": "Automatic",
-    "BACK": "Back",
+    "AUTOMATIC": "Automático",
+    "BACK": "Voltar",
     "CHANNEL": {
-      "CHANNEL": "Channel",
-      "EDIT": "Edit Channel",
-      "EDITED": "Edited Channel",
-      "EDITING": "Editing Channel",
+      "CHANNEL": "Canal",
+      "EDIT": "Editar Canal",
+      "EDITED": "Canal Editado",
+      "EDITING": "Editando Canal",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHAT": "Chat",
@@ -253,8 +253,8 @@
       "CONTENT": "Content",
       "EDIT": "Edit Content",
       "EDITED": "Edited Content",
-      "EDITING": "Editing Content",
-      "EDITING_LABEL": "Insert the new content"
+      "EDITING": "Editando Conteúdo",
+      "EDITING_LABEL": "Insira o novo conteúdo"
     },
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
@@ -292,6 +292,7 @@
       "ADD": "Add Roles",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
       "EDIT": "Edit Roles",
+      "EDITING": "Editing Roles",
       "REMOVE": "Remove Roles",
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
@@ -481,32 +482,32 @@
   },
   "REMINDER": {
     "COMPONENT": {
-      "LIST": "List Reminders"
+      "LIST": "Listar Lembretes"
     },
-    "CREATED": "Reminder Created",
-    "CREATED_AT": "The reminder was created {timestamp}",
-    "DESCRIPTION": "Reminder related commands",
-    "DELETED": "Reminder Deleted",
-    "DELETING": "Deleting Reminder",
-    "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
-    "EDITING": "Editing Reminder",
+    "CREATED": "Lembrete Criado",
+    "CREATED_AT": "O lembrete foi criado {timestamp}",
+    "DESCRIPTION": "Comandos relacionados à lembretes",
+    "DELETED": "Lembrete Excluído",
+    "DELETING": "Excluindo Lembrete",
+    "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este lembrete?",
+    "EDITING": "Editando Lembrete",
     "EDITED": "Reminder Edited",
     "INFO": "Reminder Info",
-    "LIST": "Reminder List",
-    "NAME": "reminder",
+    "LIST": "Lista de Lembretes",
+    "NAME": "lembrete",
     "NEW": "New Reminder",
     "OPTIONS": {
       "CREATE": {
         "DESCRIPTION": "Creates a new reminder",
-        "NAME": "create",
+        "NAME": "criar",
         "OPTIONS": {
           "CONTENT": {
             "DESCRIPTION": "What you'll be reminded about",
-            "NAME": "content"
+            "NAME": "conteúdo"
           },
           "TIME": {
             "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
-            "NAME": "time"
+            "NAME": "tempo"
           }
         }
       },
@@ -609,21 +610,21 @@
         "VIEW_INFO": "Ver Informações"
       },
       "SETTINGS": {
-        "TITLE": "User Settings",
-        "DESCRIPTION": "Shows your bot settings",
+        "TITLE": "Configurações do Usuário",
+        "DESCRIPTION": "Mostra suas configurações do bot",
         "EPHEMERAL_RESPONSES": {
-          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
-          "ENABLED": "Responses to your commands will always be ephemeral",
-          "NAME": "Ephemeral Responses"
+          "DISABLED": "As respostas aos seus comandos serão visíveis para qualquer pessoa sempre que possível",
+          "ENABLED": "As respostas aos seus comandos sempre serão efêmeras",
+          "NAME": "Respostas Efêmeras"
         },
         "LOCALE": {
-          "EDIT": "Edit Locale",
-          "EDITING": "Editing Locale",
-          "EDITED": "Edited Locale",
-          "NAME": "Locale",
-          "SELECT_PLACEHOLDER": "Select the language to change"
+          "EDIT": "Editar Idioma",
+          "EDITING": "Editando Idioma",
+          "EDITED": "Idioma Editado",
+          "NAME": "Idioma",
+          "SELECT_PLACEHOLDER": "Selecione o idioma para alternar"
         },
-        "NAME": "settings"
+        "NAME": "configurações"
       }
     }
   }
