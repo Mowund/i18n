@@ -565,6 +565,21 @@
       }
     }
   },
+  "SERVER": {
+    "DESCRIPTION": "Server related commands",
+    "NAME": "server",
+    "OPTIONS": {
+      "INFO": {
+        "DESCRIPTION": "Shows information about this server",
+        "NAME": "info"
+      },
+      "SETTINGS": {
+        "TITLE": "Server Settings",
+        "DESCRIPTION": "Shows this server's settings",
+        "NAME": "settings"
+      }
+    }
+  },
   "TIMEOUT": {
     "DESCRIPTION": "Timeouts a member",
     "NAME": "timeout",
