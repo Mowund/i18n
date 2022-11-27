@@ -249,6 +249,7 @@
     },
     "CHANNELS_AND_ROLES": {
       "ADDING": "Adding Channels and Roles",
+      "EDITING": "Editing Channels and Roles",
       "REMOVING": "Removing Channels and Roles"
     },
     "CHANNELS": {
