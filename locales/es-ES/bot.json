@@ -239,6 +239,7 @@
   "GENERIC": {
     "AUTOMATIC": "Automático",
     "ADD": "Add",
+    "ALL": "All",
     "BACK": "Vuelve",
     "CHANNEL": {
       "CHANNEL": "Canal",
@@ -600,9 +601,9 @@
         "TITLE": "Server Settings",
         "DESCRIPTION": "Shows this server's settings",
         "NAME": "settings",
-        "FORCE_EPHEMERAL": {
-          "NAME": "Force Ephemeral",
-          "EDIT": "Edit Where to Force Ephemeral"
+        "ALLOW_NON_EPHEMERAL": {
+          "NAME": "Allow Non-Ephemeral Responses",
+          "EDIT": "Edit Ephemerality"
         }
       }
     }
