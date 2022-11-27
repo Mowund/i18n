@@ -595,7 +595,8 @@
     "OPTIONS": {
       "INFO": {
         "DESCRIPTION": "Shows information about this server",
-        "NAME": "info"
+        "NAME": "info",
+        "TITLE": "Server Info"
       },
       "SETTINGS": {
         "TITLE": "Server Settings",
