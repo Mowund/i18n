@@ -238,6 +238,7 @@
   },
   "GENERIC": {
     "AUTOMATIC": "Automático",
+    "ADD": "Add",
     "BACK": "Vuelve",
     "CHANNEL": {
       "CHANNEL": "Canal",
@@ -245,6 +246,25 @@
       "EDITED": "Canal Editado",
       "EDITING": "Editando Canal",
       "SELECT_PLACEHOLDER": "Select the channel to change"
+    },
+    "CHANNELS_AND_ROLES": {
+      "ADDING": "Adding Channels and Roles",
+      "REMOVING": "Removing Channels and Roles"
+    },
+    "CHANNELS": {
+      "CHANNELS": "Channels",
+      "ADD": "Add channels",
+      "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
+      "EDIT": "Edit Channels",
+      "EDITING": "Editing Channels",
+      "REMOVE": "Remove Channels",
+      "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
+      "RESET": "Reset Channels",
+      "SELECT": {
+        "DEFAULT": "Select the channels",
+        "ADD": "Select the channels to add",
+        "REMOVE": "Select the channels to remove"
+      }
     },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
@@ -284,6 +304,7 @@
     "NOT_RECURSIVE": "Not Recursive",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
+    "REMOVE": "Remove",
     "RENAME": "Rename",
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
