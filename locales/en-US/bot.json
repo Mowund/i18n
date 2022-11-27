@@ -248,9 +248,9 @@
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHANNELS_AND_ROLES": {
-      "ADDING": "Adding Channels and Roles",
-      "EDITING": "Editing Channels and Roles",
-      "REMOVING": "Removing Channels and Roles"
+      "ADDING": "Adding Channels & Roles",
+      "EDITING": "Editing Channels & Roles",
+      "REMOVING": "Removing Channels & Roles"
     },
     "CHANNELS": {
       "CHANNELS": "Channels",
