@@ -597,7 +597,11 @@
       "SETTINGS": {
         "TITLE": "Server Settings",
         "DESCRIPTION": "Shows this server's settings",
-        "NAME": "settings"
+        "NAME": "settings",
+        "FORCE_EPHEMERAL": {
+          "NAME": "Force Ephemeral",
+          "EDIT": "Edit Where to Force Ephemeral"
+        }
       }
     }
   },
