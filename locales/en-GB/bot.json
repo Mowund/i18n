@@ -238,7 +238,6 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "{count, plural, =1 {Animated} other {Animated}}",
     "AUTOMATIC": "Automatic",
     "ADD": "Add",
     "ALL": "All",
@@ -282,7 +281,13 @@
       "EDITING_LABEL": "Insert the new content"
     },
     "COUNT": "{count, number}",
-    "COMMON": "{count, plural, =1 {Common} other {Common}}",
+    "COUNTER": {
+      "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+      "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
+      "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
+      "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
+      "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
+    },
     "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
@@ -297,7 +302,6 @@
     "FROM": "From",
     "ID": "ID",
     "IDLE": "Idle",
-    "INTEGRATED": "{count, plural, =1 {Integrated} other {Integrated}}",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
     "LOCALE": {
@@ -355,7 +359,6 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
-    "STATIC": "{count, plural, =1 {Static} other {Static}}",
     "STICKERS": "Stickers",
     "UPTIME": "Uptime",
     "USER": "User",
