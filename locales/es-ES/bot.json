@@ -238,7 +238,7 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "Animated",
+    "ANIMATED": "{count, plural, one{Animated} other{Animated}}",
     "AUTOMATIC": "Automático",
     "ADD": "Add",
     "ALL": "All",
@@ -303,7 +303,7 @@
       "EMOJI": "🇪🇸",
       "NAME": "Español (España)"
     },
-    "MANAGED": "Managed",
+    "MANAGED": "{count, plural, one{Managed} other{Managed}}",
     "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
@@ -329,8 +329,11 @@
       "ROLES": "Roles",
       "ADD": "Add Roles",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+      "BOT": "Bot Roles",
+      "COMMON": "Common Roles",
       "EDIT": "Edit Roles",
       "EDITING": "Editing Roles",
+      "INTEGRATION": "Integration Roles",
       "REMOVE": "Remove Roles",
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
@@ -355,7 +358,7 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
-    "STATIC": "Static",
+    "STATIC": "{count, plural, one{Static} other{Static}}",
     "STICKERS": "Stickers",
     "UPTIME": "Uptime",
     "USER": "Usuario",
