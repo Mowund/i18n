@@ -13,7 +13,7 @@
         "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
         "NODEJS_VERSION": "Versão do Node.JS",
-        "TITLE": "{botName}'s Information"
+        "TITLE": "Informações de {botName}"
       }
     }
   },
@@ -104,35 +104,35 @@
         "NAME": "descrição"
       },
       "FOOTER": {
-        "DESCRIPTION": "The footer of the embed (Enables embed)",
+        "DESCRIPTION": "O rodapé do embed (Habilita o embed)",
         "NAME": "rodapé"
       },
       "IMAGE": {
-        "DESCRIPTION": "The image of the embed (Enables embed)",
+        "DESCRIPTION": "A imagem do embed (Habilita o embed)",
         "NAME": "imagem"
       },
       "THUMBNAIL": {
-        "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
+        "DESCRIPTION": "A miniatura do embed (Habilita o embed)",
         "NAME": "miniatura"
       },
       "TIMESTAMP": {
-        "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
+        "DESCRIPTION": "Habilita ou desabilita o horário no embed (Padrão: Desativado)",
         "NAME": "horário"
       },
       "TITLE": {
-        "DESCRIPTION": "The title of the embed (Enables embed)",
+        "DESCRIPTION": "O título do embed (Habilita o embed)",
         "NAME": "título"
       },
       "TTS": {
-        "DESCRIPTION": "Echoes the message in TTS (Default: False)",
+        "DESCRIPTION": "Ecoa a mensagem em TTS (Padrão: Falso)",
         "NAME": "tts"
       },
       "URL": {
-        "DESCRIPTION": "The title's URL of the embed",
+        "DESCRIPTION": "A URL do título do embed",
         "NAME": "url"
       }
     },
-    "SENT": "Message Sent"
+    "SENT": "Mensagem Enviada"
   },
   "EMOJI": {
     "ADDED": "Emoji Adicionado",
@@ -153,78 +153,78 @@
     "OPTIONS": {
       "ADD": {
         "DESCRIPTION": "Adiciona um novo emoji",
-        "NAME": "add",
+        "NAME": "adicionar",
         "OPTIONS": {
           "IMAGE": {
             "DESCRIPTION": "O emoji em si (Tamanho máximo: 256kb)",
-            "NAME": "image"
+            "NAME": "imagem"
           },
           "NAME": {
-            "DESCRIPTION": "The name of the emoji (Alphanumerical)",
-            "NAME": "name"
+            "DESCRIPTION": "O nome do emoji (Alfanumérico)",
+            "NAME": "nome"
           }
         }
       },
       "INFO": {
-        "DESCRIPTION": "Shows info or manages an emoji",
+        "DESCRIPTION": "Mostra informações ou gerencia um emoji",
         "NAME": "info",
         "OPTIONS": {
           "EMOJI": {
-            "DESCRIPTION": "ID, mention, unicode or name (if it's on the same server)",
+            "DESCRIPTION": "ID, menção, unicode ou nome (se estiver no mesmo servidor)",
             "NAME": "emoji"
           }
         }
       }
     },
-    "READDED": "Readded Emoji",
-    "READDING": "Readding Emoji",
+    "READDED": "Emoji Readicionado",
+    "READDING": "Readicionando Emoji",
     "REASON": {
       "CREATED": {
-        "CDN": "Copied from an emoji found on the Discord CDN using the emoji system",
-        "COMMAND": "Created using the emoji system",
-        "DELETED": "Deleted emoji recreated using the emoji system",
-        "UNICODE": "Copied from an unicode emoji found on the twemoji CDN using the emoji system"
+        "CDN": "Copiado de um emoji encontrado no CDN do Discord usando o sistema de emojis",
+        "COMMAND": "Criado usando o sistema de emojis",
+        "DELETED": "Emoji excluído recriado usando o sistema de emojis",
+        "UNICODE": "Copiado de um emoji unicode encontrado no CDN do twemoji usando o sistema de emojis"
       },
-      "DELETED": "Deleted using the emoji system",
-      "RENAMED": "Renamed using the emoji system"
+      "DELETED": "Excluído usando o sistema de emojis",
+      "RENAMED": "Renomeado usando o sistema de emojis"
     },
-    "RENAMED": "Renamed Emoji",
-    "RENAMING": "Renaming Emoji",
-    "RENAMING_LABEL": "Insert the new emoji name",
-    "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
-    "VIEWING": "Viewing Emoji",
-    "VIEWING_INTEGRATION": "Viewing Integration Emoji",
-    "VIEWING_UNICODE": "Viewing Unicode Emoji"
+    "RENAMED": "Emoji Renomeado",
+    "RENAMING": "Renomeando Emoji",
+    "RENAMING_LABEL": "Insira o novo nome do emoji",
+    "UNALLOWED_SERVER": "Você não tem permissão para editar um emoji de outro servidor",
+    "VIEWING": "Visualizando Emoji",
+    "VIEWING_INTEGRATION": "Visualizando Emoji de Integração",
+    "VIEWING_UNICODE": "Visualizando Emoji Unicode"
   },
   "ERROR": {
-    "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
-    "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
-    "DM": "This command cannot be used in DMs",
+    "CANNOT_SEND_CHANNEL_MESSAGES": "Não é possível enviar mensagens no canal especificado",
+    "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
+    "DM": "Este comando não pode ser usado em mensagens diretas",
     "EMOJI": {
       "MAXIMUM": {
-        "ANIMATED": "The server is at the limit of `{limit, number}` animated emojis",
-        "STATIC": "The server is at the limit of `{limit, number}` static emojis"
+        "ANIMATED": "O servidor está no limite de `{limit, number}` emojis animados",
+        "STATIC": "O servidor está no limite de `{limit, number}` emojis estáticos"
       },
       "MAXIMUM_NOW": {
-        "ANIMATED": "The server has now reached the limit of `{limit, number}` animated emojis",
-        "STATIC": "The server has now reached the limit of `{limit, number}` static emojis"
+        "ANIMATED": "O servidor agora atingiu o limite de `{limit, number}` emojis animados",
+        "STATIC": "O servidor agora atingiu o limite de `{limit, number}` emojis estáticos"
       },
-      "NONEXISTENT": "You can't edit the emoji as it no longer exists",
-      "NOT_FOUND": "The emoji `{input}` was not found"
+      "NONEXISTENT": "Você não pode editar o emoji pois ele não existe mais",
+      "NOT_FOUND": "O emoji `{input}` não foi encontrado"
     },
-    "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
-    "GUILD_NOT_FOUND": "Guild not found",
+    "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
+    "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID": {
       "IMAGE": {
-        "SIZE": "The image size is bigger than `{maxSize, number}kb`",
-        "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
+        "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
+        "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
       },
-      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
-      "ROLE": "Invalid role",
-      "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
-      "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
+      "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, one{**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, one{**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
+      "ROLE": "Cargo inválido",
+      "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
+      "TIME_AUTOCOMPLETE": "{condition, select, greater{(Maior que {time}) {input}} less{(Menor que {time}) {input}} other{Tempo inválido}}"
     },
-    "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
+    "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "REMINDER": {
       "EMPTY": "Você não tem nenhum lembrete",
       "EMPTY_CONTENT": "O conteúdo do lembrete está vazio",
@@ -307,65 +307,65 @@
     "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
-    "MENTION": "Mention",
-    "MESSAGE": "Message",
-    "NAME": "Name",
-    "NO": "No",
-    "NONE": "None",
-    "NOT_AUTOMATIC": "Not Automatic",
-    "NOT_DIRECT_MESSAGE": "Not Direct Message",
-    "NOT_EPHEMERAL": "Not Ephemeral",
-    "NOT_RECURSIVE": "Not Recursive",
+    "MENTION": "Menção",
+    "MESSAGE": "Mensagem",
+    "NAME": "Nome",
+    "NO": "Não",
+    "NONE": "Nenhum",
+    "NOT_AUTOMATIC": "Não Automático",
+    "NOT_DIRECT_MESSAGE": "Não Mensagem Direta",
+    "NOT_EPHEMERAL": "Não Efêmero",
+    "NOT_RECURSIVE": "Não Recursivo",
     "OFFLINE": "Offline",
     "ONLINE": "Online",
-    "OUTPUT": "Output",
-    "OWNER": "Owner",
-    "RECURSIVE": "Recursive",
-    "REMOVE": "Remove",
-    "RENAME": "Rename",
-    "REPEAT": "Repeat",
+    "OUTPUT": "Saída",
+    "OWNER": "Dono",
+    "RECURSIVE": "Recursivo",
+    "REMOVE": "Remover",
+    "RENAME": "Renomear",
+    "REPEAT": "Repetir",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": {
-      "ROLES": "Roles",
-      "ADD": "Add Roles",
-      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
-      "EDIT": "Edit Roles",
-      "EDITING": "Editing Roles",
-      "REMOVE": "Remove Roles",
-      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
-      "RESET": "Reset Roles",
+      "ROLES": "Cargos",
+      "ADD": "Adicionar Cargos",
+      "ADDING": "{count, plural, =0 {Adicionando Cargos} one {# Cargo Adicionado} other {# Cargos Adicionados}}",
+      "EDIT": "Editar Cargos",
+      "EDITING": "Editando Cargos",
+      "REMOVE": "Remover Cargos",
+      "REMOVING": "{count, plural, =0 {Removendo Cargos} one {# Cargo Removido} other {# Cargos Removidos}}",
+      "RESET": "Redefinir Cargos",
       "SELECT": {
-        "DEFAULT": "Select the roles",
-        "ADD": "Select the roles to add",
-        "REMOVE": "Select the roles to remove"
+        "DEFAULT": "Selecione os cargos",
+        "ADD": "Selecione os cargos para adicionar",
+        "REMOVE": "Selecione os cargos para remover"
       }
     },
-    "SERVERS": "Servers",
-    "STREAMING": "Streaming",
-    "SUCCESS": "Success",
+    "SERVERS": "Servidores",
+    "STREAMING": "Transmitindo",
+    "SUCCESS": "Sucesso",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
-      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
-      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
-      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
-      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
+      "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
+      "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
+      "MINUTES": "{count, plural, =0 {agora} one {# minuto} other {# minutos}}",
+      "MONTHS": "{count, plural, =0 {agora} one {# mês} other {# meses}}",
+      "SECONDS": "{count, plural, =0 {agora} one {# segundo} other {# segundos}}",
+      "YEARS": "{count, plural, =0 {agora} one {# ano} other {# anos}}"
     },
-    "TIMESTAMP": "Timestamp",
-    "TO": "To",
+    "TIMESTAMP": "Horário",
+    "TO": "Para",
     "TOTAL": "Total",
-    "TYPE": "Type",
-    "STATIC": "Static",
-    "STICKERS": "Stickers",
-    "UPTIME": "Uptime",
+    "TYPE": "Tipo",
+    "STATIC": "Estático",
+    "STICKERS": "Figurinhas",
+    "UPTIME": "Tempo Ativo",
     "USER": "Usuário",
-    "VIEW": "View",
-    "WARNING": "Warning",
+    "VIEW": "Visualizar",
+    "WARNING": "Aviso",
     "WEBHOOKS": "Webhooks",
-    "WIP": "Work in Progress",
-    "WIP_COMMAND": "This command is currently under development",
-    "WIP_FUNCTION": "This function is currently under development",
-    "YES": "Yes"
+    "WIP": "Trabalho em Progresso",
+    "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
+    "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento",
+    "YES": "Sim"
   },
   "KILL": {
     "DESCRIPTION": "Mata alguém",
@@ -479,39 +479,39 @@
     "CREATE_PUBLIC_THREADS": "Create Public Threads",
     "DEAFEN_MEMBERS": "Deafen Members",
     "EMBED_LINKS": "Embed Links",
-    "KICK_MEMBERS": "Kick Members",
-    "MANAGE_CHANNELS": "Manage Channel",
-    "MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
-    "MANAGE_EVENTS": "Manage Events",
-    "MANAGE_GUILD": "Manage Guild",
+    "KICK_MEMBERS": "Expulsar Membros",
+    "MANAGE_CHANNELS": "Gerenciar Canal",
+    "MANAGE_EMOJIS_AND_STICKERS": "Gerenciar Emojis e Figurinhas",
+    "MANAGE_EVENTS": "Gerenciar Eventos",
+    "MANAGE_GUILD": "Gerenciar Servidor",
     "MANAGE_MESSAGES": "Gerenciar Mensagens",
-    "MANAGE_NICKNAMES": "Manage Nicknames",
-    "MANAGE_ROLES": "Manage Roles",
-    "MANAGE_THREADS": "Manage Threads and Posts",
-    "MANAGE_WEBHOOKS": "Manage Webhooks",
-    "MENTION_EVERYONE": "Mention Everyone",
+    "MANAGE_NICKNAMES": "Gerenciar Apelidos",
+    "MANAGE_ROLES": "Gerenciar Cargos",
+    "MANAGE_THREADS": "Gerenciar Tópicos e Postagens",
+    "MANAGE_WEBHOOKS": "Gerenciar Webhooks",
+    "MENTION_EVERYONE": "Mencionar Todos",
     "MODERATE_MEMBERS": "Membros de Castigo",
-    "MOVE_MEMBERS": "Move Members",
-    "MUTE_MEMBERS": "Mute Members",
-    "NO_LONGER": "You no longer have the required `{perm}` permission",
-    "PRIORITY_SPEAKER": "Priority Speaker",
-    "READ_MESSAGE_HISTORY": "Read Message History",
-    "REQUEST_TO_SPEAK": "Request to Speak",
-    "REQUIRES": "You need the `{perm}` permission",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
-    "SEND_MESSAGES": "Send Messages and Create Posts",
-    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
-    "SEND_TTS_MESSAGES": "Send TTS Messages",
-    "SPEAK": "Speak",
-    "STREAM": "Stream",
-    "USE_APPLICATION_COMMANDS": "Use Application Commands",
-    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
-    "USE_EXTERNAL_EMOJIS": "Use External Emojis",
-    "USE_EXTERNAL_STICKERS": "Use External Stickers",
-    "USE_VAD": "Use Voice Activity Detection",
-    "VIEW_AUDIT_LOG": "View Audit Log",
-    "VIEW_CHANNEL": "View Channel",
-    "VIEW_GUILD_INSIGHTS": "View Guild Insights"
+    "MOVE_MEMBERS": "Mover Membros",
+    "MUTE_MEMBERS": "Silenciar Membros",
+    "NO_LONGER": "Você não tem mais a permissão `{perm}` necessária",
+    "PRIORITY_SPEAKER": "Voz Prioritária",
+    "READ_MESSAGE_HISTORY": "Ver Histórico de Mensagens",
+    "REQUEST_TO_SPEAK": "Pedir para Falar",
+    "REQUIRES": "Você precisa da permissão `{perm}`",
+    "ROLE_REQUIRES": "{role} requer a permissão `{perm}` para que a interação funcione corretamente",
+    "SEND_MESSAGES": "Enviar Mensagens e Criar Postagens",
+    "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Tópicos e Postagens",
+    "SEND_TTS_MESSAGES": "Enviar mensagens em TTS",
+    "SPEAK": "Falar",
+    "STREAM": "Vídeo",
+    "USE_APPLICATION_COMMANDS": "Usar Comandos de Aplicativo",
+    "USE_EMBEDDED_ACTIVITIES": "Usar Atividades",
+    "USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
+    "USE_EXTERNAL_STICKERS": "Usar Figurinhas Externas",
+    "USE_VAD": "Usar Detecção de Voz",
+    "VIEW_AUDIT_LOG": "Ver o Registro de Auditoria",
+    "VIEW_CHANNEL": "Ver Canal",
+    "VIEW_GUILD_INSIGHTS": "Ver Análises do Servidor"
   },
   "PING": {
     "API_LATENCY": "Latência da API",
@@ -534,59 +534,59 @@
     "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este lembrete?",
     "EDITING": "Editando Lembrete",
     "EDITED": "Lembrete Editado",
-    "INFO": "Reminder Information",
+    "INFO": "Informações do Lembrete",
     "LIST": "Lista de Lembretes",
     "NAME": "lembrete",
-    "NEW": "New Reminder",
+    "NEW": "Novo Lembrete",
     "OPTIONS": {
       "CREATE": {
-        "DESCRIPTION": "Creates a new reminder",
+        "DESCRIPTION": "Cria um novo lembrete",
         "NAME": "criar",
         "OPTIONS": {
           "CONTENT": {
-            "DESCRIPTION": "What you'll be reminded about",
+            "DESCRIPTION": "Sobre o que você será lembrado",
             "NAME": "conteúdo"
           },
           "TIME": {
-            "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
+            "DESCRIPTION": "Quando você será lembrado (Mínimo: 3 minutos)",
             "NAME": "tempo"
           }
         }
       },
       "LIST": {
-        "DESCRIPTION": "Lists all of your reminders",
-        "NAME": "list"
+        "DESCRIPTION": "Lista todos os seus lembretes",
+        "NAME": "lista"
       }
     },
     "RECURSIVE": {
-      "DISABLED": "Can't set as recursive because the reminder time should be at least **{time}**",
-      "ON": "You'll be reminded again {timestamp}",
-      "OFF": "You won't be reminded again"
+      "DISABLED": "Não é possível definir como recursivo porque o tempo do lembrete deve ser pelo menos **{time}**",
+      "ON": "Você será lembrado novamente {timestamp}",
+      "OFF": "Você não será lembrado novamente"
     },
-    "SELECT_LIST": "Select a reminder",
-    "TIMESTAMP": "You'll be reminded {timestamp}",
+    "SELECT_LIST": "Selecione um lembrete",
+    "TIMESTAMP": "Você será lembrado {timestamp}",
     "TO": "Lembrete para {userName}"
   },
   "ROLEMENU": {
-    "DESCRIPTION": "Rolemenu related commands",
+    "DESCRIPTION": "Comandos relacionados à menus de cargos",
     "NAME": "rolemenu",
     "OPTIONS": {
       "CREATE": {
-        "DESCRIPTION": "Creates a rolemenu",
-        "NAME": "create",
+        "DESCRIPTION": "Cria um menu de cargos",
+        "NAME": "criar",
         "OPTIONS": {
           "CHANNEL": {
-            "DESCRIPTION": "The channel to create the rolemenu",
-            "NAME": "channel"
+            "DESCRIPTION": "O canal para criar o menu de cargos",
+            "NAME": "canal"
           }
         }
       },
       "EDIT": {
-        "DESCRIPTION": "Edits a rolemenu",
-        "NAME": "edit",
+        "DESCRIPTION": "Edita um menu de cargos",
+        "NAME": "editar",
         "OPTIONS": {
           "ID": {
-            "DESCRIPTION": "The message id of the rolemenu in the channel",
+            "DESCRIPTION": "O id da mensagem do menu de cargo no canal",
             "NAME": "id"
           }
         }
@@ -594,35 +594,35 @@
     }
   },
   "ROLLOUT": {
-    "DESCRIPTION": "Shows information about experiments and their rollouts",
-    "NAME": "rollout",
+    "DESCRIPTION": "Mostra informações sobre experimentos e seus lançamentos",
+    "NAME": "lançamento",
     "OPTIONS": {
       "EXPERIMENT": {
-        "DESCRIPTION": "The experiment to get its information",
-        "NAME": "experiment"
+        "DESCRIPTION": "O experimento para obter suas informações",
+        "NAME": "experimento"
       },
       "GUILD": {
-        "DESCRIPTION": "A guild to get its experiments' information (Default: Invoked guild)",
-        "NAME": "guild"
+        "DESCRIPTION": "Um servidor para obter informações de seus experimentos (Padrão: Servidor invocado)",
+        "NAME": "servidor"
       }
     }
   },
   "SERVER": {
-    "DESCRIPTION": "Server related commands",
-    "NAME": "server",
+    "DESCRIPTION": "Comandos relacionados ao servidor",
+    "NAME": "servidor",
     "OPTIONS": {
       "INFO": {
-        "DESCRIPTION": "Shows information about this server",
+        "DESCRIPTION": "Mostra informações sobre este servidor",
         "NAME": "info",
-        "TITLE": "Server Information"
+        "TITLE": "Informações do Servidor"
       },
       "SETTINGS": {
-        "TITLE": "Server Settings",
-        "DESCRIPTION": "Shows this server's settings",
-        "NAME": "settings",
+        "TITLE": "Configurações do Servidor",
+        "DESCRIPTION": "Mostra as configurações deste servidor",
+        "NAME": "configurações",
         "ALLOW_NON_EPHEMERAL": {
-          "NAME": "Allow Non-Ephemeral Responses",
-          "EDIT": "Edit Ephemerality"
+          "NAME": "Permitir Respostas Não-Efêmeras",
+          "EDIT": "Editar Efemeridade"
         }
       }
     }
@@ -632,7 +632,7 @@
     "NAME": "castigar",
     "OPTIONS": {
       "DURATION": {
-        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}",
+        "DEFAULT": "{default, select, set{{time}} unset{Remover castigo} notMember{Membro não encontrado} other{{time} ou remover castigo}}",
         "DESCRIPTION": "Quanto tempo durará o castigo, até 28 dias (Padrão: 1 hora ou desativar)",
         "NAME": "duração"
       },
@@ -664,12 +664,12 @@
             "NAME": "usuário"
           }
         },
-        "TITLE": "User Information",
+        "TITLE": "Informações do Usuário",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
         },
-        "VIEW_INFO": "View Information"
+        "VIEW_INFO": "Ver Informações"
       },
       "SETTINGS": {
         "TITLE": "Configurações do Usuário",
