@@ -193,6 +193,7 @@
     "RENAMING_LABEL": "Insert the new emoji name",
     "UNALLOWED_SERVER": "You are not allowed to edit an emoji from another server",
     "VIEWING": "Viewing Emoji",
+    "VIEWING_INTEGRATION": "Viewing Integration Emoji",
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
   "ERROR": {
@@ -241,6 +242,7 @@
     "AUTOMATIC": "Automático",
     "ADD": "Add",
     "ALL": "All",
+    "AUTHOR": "Author",
     "BACK": "Voltar",
     "CHANNEL": {
       "CHANNEL": "Canal",
@@ -302,6 +304,7 @@
       "NAME": "Português (Brasil)"
     },
     "MANAGED": "Managed",
+    "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
     "MENTION": "Mention",
