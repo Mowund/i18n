@@ -13,7 +13,7 @@
         "MEMORY_USAGE": "Uso de Memoria",
         "NAME": "info",
         "NODEJS_VERSION": "Versión de Node.JS",
-        "TITLE": "Información de {botName}"
+        "TITLE": "{botName}'s Information"
       }
     }
   },
@@ -237,6 +237,7 @@
     }
   },
   "GENERIC": {
+    "ANIMATED": "Animated",
     "AUTOMATIC": "Automático",
     "ADD": "Add",
     "ALL": "All",
@@ -278,23 +279,28 @@
       "EDITING": "Editando Contenido",
       "EDITING_LABEL": "Inserta el nuevo contenido"
     },
-    "CREATION_DATE": "Creation Date",
+    "COUNT": "{count, number}",
+    "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
     "DELETE": "Delete",
     "DIRECT_MESSAGE": "Direct Message",
+    "DO_NOT_DISTURB": "Do Not Disturb",
     "EDIT": "Edit",
+    "EMOJIS": "Emojis",
     "EPHEMERAL": "Ephemeral",
     "ERROR": "Error",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
     "ID": "ID",
+    "IDLE": "Idle",
     "INTERACTED_BY": "Interactuado por {userName}",
     "LOADING": "Loading",
     "LOCALE": {
       "EMOJI": "🇪🇸",
       "NAME": "Español (España)"
     },
+    "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -305,6 +311,8 @@
     "NOT_DIRECT_MESSAGE": "Not Direct Message",
     "NOT_EPHEMERAL": "Not Ephemeral",
     "NOT_RECURSIVE": "Not Recursive",
+    "OFFLINE": "Offline",
+    "ONLINE": "Online",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
     "REMOVE": "Remove",
@@ -327,6 +335,7 @@
       }
     },
     "SERVERS": "Servers",
+    "STREAMING": "Streaming",
     "SUCCESS": "Success",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
@@ -340,10 +349,13 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
+    "STATIC": "Static",
+    "STICKERS": "Stickers",
     "UPTIME": "Uptime",
     "USER": "Usuario",
     "VIEW": "View",
     "WARNING": "Warning",
+    "WEBHOOKS": "Webhooks",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
     "WIP_FUNCTION": "This function is currently under development",
@@ -516,7 +528,7 @@
     "DELETING_DESCRIPTION": "¿Estás seguro de que quieres eliminar este recordatorio?",
     "EDITING": "Editando Recordatorio",
     "EDITED": "Recordatorio Editado",
-    "INFO": "Reminder Info",
+    "INFO": "Reminder Information",
     "LIST": "Lista de Recordatorios",
     "NAME": "recordatorio",
     "NEW": "New Reminder",
@@ -596,7 +608,7 @@
       "INFO": {
         "DESCRIPTION": "Shows information about this server",
         "NAME": "info",
-        "TITLE": "Server Info"
+        "TITLE": "Server Information"
       },
       "SETTINGS": {
         "TITLE": "Server Settings",
@@ -646,12 +658,12 @@
             "NAME": "usuario"
           }
         },
-        "TITLE": "Información del Usuario",
+        "TITLE": "User Information",
         "USER": {
           "AVATAR": "Avatar",
           "BANNER": "Banner"
         },
-        "VIEW_INFO": "Ver Información"
+        "VIEW_INFO": "View Information"
       },
       "SETTINGS": {
         "TITLE": "Ajustes de Usuario",
