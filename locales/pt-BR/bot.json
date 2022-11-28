@@ -219,7 +219,7 @@
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
       },
-      "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, one{**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, one{**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
+      "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, =1 {**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, =1 {**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
       "ROLE": "Cargo inválido",
       "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Maior que {time}) {input}} less{(Menor que {time}) {input}} other{Tempo inválido}}"
@@ -238,7 +238,7 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "{count, plural, one{Animado} other{Animados}}",
+    "ANIMATED": "{count, plural, =1 {Animado} other {Animados}}",
     "AUTOMATIC": "Automático",
     "ADD": "Adicionar",
     "ALL": "Todos",
@@ -282,7 +282,7 @@
       "EDITING_LABEL": "Insira o novo conteúdo"
     },
     "COUNT": "{count, number}",
-    "COMMON": "Comum",
+    "COMMON": "{count, plural, =1 {Comum} other {Comuns}}",
     "CREATED": "Criado",
     "CURRENT": "Atual",
     "DEFAULT": "Padrão",
@@ -297,13 +297,13 @@
     "FROM": "De",
     "ID": "ID",
     "IDLE": "Ausente",
+    "INTEGRATED": "{count, plural, =1 {Integrado} other {Integrados}}",
     "INTERACTED_BY": "Interagido por {userName}",
     "LOADING": "Carregando",
     "LOCALE": {
       "EMOJI": "🇧🇷",
       "NAME": "Português (Brasil)"
     },
-    "MANAGED": "{count, plural, one{Gerenciado} other{Gerenciados}}",
     "MANAGED_BY": "Gerenciado Por",
     "MAXIMUM": "Máximo",
     "MEMBERS": "Membros",
@@ -329,11 +329,8 @@
       "ROLES": "Cargos",
       "ADD": "Adicionar Cargos",
       "ADDING": "{count, plural, =0 {Adicionando Cargos} one {# Cargo Adicionado} other {# Cargos Adicionados}}",
-      "BOT": "Cargos de Bot",
-      "COMMON": "Cargos Comuns",
       "EDIT": "Editar Cargos",
       "EDITING": "Editando Cargos",
-      "INTEGRATION": "Cargos de Integrações",
       "REMOVE": "Remover Cargos",
       "REMOVING": "{count, plural, =0 {Removendo Cargos} one {# Cargo Removido} other {# Cargos Removidos}}",
       "RESET": "Redefinir Cargos",
@@ -349,16 +346,16 @@
     "TIME": {
       "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
       "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
-      "MINUTES": "{count, plural, =0 {agora} one {# minuto} other {# minutos}}",
-      "MONTHS": "{count, plural, =0 {agora} one {# mês} other {# meses}}",
-      "SECONDS": "{count, plural, =0 {agora} one {# segundo} other {# segundos}}",
-      "YEARS": "{count, plural, =0 {agora} one {# ano} other {# anos}}"
+      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
     },
     "TIMESTAMP": "Horário",
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
-    "STATIC": "{count, plural, one{Estático} other{Estáticos}}",
+    "STATIC": "{count, plural, =1 {Estático} other {Estáticos}}",
     "STICKERS": "Figurinhas",
     "UPTIME": "Tempo Ativo",
     "USER": "Usuário",

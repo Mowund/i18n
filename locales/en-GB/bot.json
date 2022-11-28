@@ -219,7 +219,7 @@
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
-      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, one{**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, one{**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
+      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
@@ -238,7 +238,7 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "{count, plural, one{Animated} other{Animated}}",
+    "ANIMATED": "{count, plural, =1 {Animated} other {Animated}}",
     "AUTOMATIC": "Automatic",
     "ADD": "Add",
     "ALL": "All",
@@ -282,7 +282,7 @@
       "EDITING_LABEL": "Insert the new content"
     },
     "COUNT": "{count, number}",
-    "COMMON": "Common",
+    "COMMON": "{count, plural, =1 {Common} other {Common}}",
     "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
@@ -297,13 +297,13 @@
     "FROM": "From",
     "ID": "ID",
     "IDLE": "Idle",
+    "INTEGRATED": "{count, plural, =1 {Integrated} other {Integrated}}",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
     "LOCALE": {
       "EMOJI": "🇬🇧",
       "NAME": "English (United Kingdom)"
     },
-    "MANAGED": "{count, plural, one{Managed} other{Managed}}",
     "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
@@ -329,11 +329,8 @@
       "ROLES": "Roles",
       "ADD": "Add Roles",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
-      "BOT": "Bot Roles",
-      "COMMON": "Common Roles",
       "EDIT": "Edit Roles",
       "EDITING": "Editing Roles",
-      "INTEGRATION": "Integration Roles",
       "REMOVE": "Remove Roles",
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
@@ -358,7 +355,7 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
-    "STATIC": "{count, plural, one{Static} other{Static}}",
+    "STATIC": "{count, plural, =1 {Static} other {Static}}",
     "STICKERS": "Stickers",
     "UPTIME": "Uptime",
     "USER": "User",
