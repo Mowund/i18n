@@ -280,6 +280,7 @@
       "EDITING_LABEL": "Inserta el nuevo contenido"
     },
     "COUNT": "{count, number}",
+    "COMMON": "Common",
     "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
@@ -300,6 +301,7 @@
       "EMOJI": "🇪🇸",
       "NAME": "Español (España)"
     },
+    "MANAGED": "Managed",
     "MAXIMUM": "Maximum",
     "MEMBERS": "Members",
     "MENTION": "Mention",
