@@ -18,7 +18,7 @@
     }
   },
   "CLEAR": {
-    "DELETE_AFTER_THIS": "Deletar Após Esta",
+    "DELETE_AFTER_THIS": "Excluir Após Esta",
     "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}",
     "DESCRIPTION": "Exclui mensagens do chat de até 2 semanas atrás",
     "NAME": "limpar",
@@ -230,83 +230,83 @@
       "EMPTY_CONTENT": "O conteúdo do lembrete está vazio",
       "NOT_FOUND": "O lembrete `{reminderId}` não foi encontrado"
     },
-    "TIMED_OUT": "Timed out",
+    "TIMED_OUT": "Tempo esgotado",
     "UNALLOWED": {
-      "CHAT": "You are not allowed to use this command in this chat",
-      "COMMAND": "You are not allowed to interact with this command",
-      "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
+      "CHAT": "Você não tem permissão para usar este comando neste chat",
+      "COMMAND": "Você não tem permissão para interagir com este comando",
+      "DELETE_RESPONSE": "Você só pode excluir as respostas dos meus comandos que você acionou"
     }
   },
   "GENERIC": {
-    "ANIMATED": "Animated",
+    "ANIMATED": "Animado",
     "AUTOMATIC": "Automático",
-    "ADD": "Add",
-    "ALL": "All",
-    "AUTHOR": "Author",
+    "ADD": "Adicionar",
+    "ALL": "Todos",
+    "AUTHOR": "Autor",
     "BACK": "Voltar",
     "CHANNEL": {
       "CHANNEL": "Canal",
       "EDIT": "Editar Canal",
       "EDITED": "Canal Editado",
       "EDITING": "Editando Canal",
-      "SELECT_PLACEHOLDER": "Select the channel to change"
+      "SELECT_PLACEHOLDER": "Selecione o canal para alterar"
     },
     "CHANNELS_AND_ROLES": {
-      "ADDING": "Adding Channels & Roles",
-      "EDITING": "Editing Channels & Roles",
-      "REMOVING": "Removing Channels & Roles"
+      "ADDING": "Adicionando Canais e Cargos",
+      "EDITING": "Editando Canais e Cargos",
+      "REMOVING": "Removendo Canais e Cargos"
     },
     "CHANNELS": {
-      "CHANNELS": "Channels",
-      "ADD": "Add channels",
-      "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
-      "EDIT": "Edit Channels",
-      "EDITING": "Editing Channels",
-      "REMOVE": "Remove Channels",
-      "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
-      "RESET": "Reset Channels",
+      "CHANNELS": "Canais",
+      "ADD": "Adicionar canais",
+      "ADDING": "{count, plural, =0 {Adicionando Canais} one {# Canal Adicionado} other {# Canais Adicionados}}",
+      "EDIT": "Editar Canais",
+      "EDITING": "Editando Canais",
+      "REMOVE": "Remover Canais",
+      "REMOVING": "{count, plural, =0 {Removendo Canais} one {# Canal Removido} other {# Canais Removidos}}",
+      "RESET": "Redefinir Canais",
       "SELECT": {
-        "DEFAULT": "Select the channels",
-        "ADD": "Select the channels to add",
-        "REMOVE": "Select the channels to remove"
+        "DEFAULT": "Selecione os canais",
+        "ADD": "Selecione os canais para adicionar",
+        "REMOVE": "Selecione os canais para remover"
       }
     },
     "CHAT": "Chat",
-    "CODEPOINT": "Code Point",
-    "COMMANDS": "Commands",
+    "CODEPOINT": "Ponto de Código",
+    "COMMANDS": "Comandos",
     "CONTENT": {
-      "CONTENT": "Content",
-      "EDIT": "Edit Content",
-      "EDITED": "Edited Content",
+      "CONTENT": "Conteúdo",
+      "EDIT": "Editar Conteúdo",
+      "EDITED": "Conteúdo Editado",
       "EDITING": "Editando Conteúdo",
       "EDITING_LABEL": "Insira o novo conteúdo"
     },
     "COUNT": "{count, number}",
-    "COMMON": "Common",
-    "CREATED": "Created",
-    "CURRENT": "Current",
-    "DEFAULT": "Default",
-    "DELETE": "Delete",
-    "DIRECT_MESSAGE": "Direct Message",
-    "DO_NOT_DISTURB": "Do Not Disturb",
-    "EDIT": "Edit",
+    "COMMON": "Comum",
+    "CREATED": "Criado",
+    "CURRENT": "Atual",
+    "DEFAULT": "Padrão",
+    "DELETE": "Excluir",
+    "DIRECT_MESSAGE": "Mensagem Direta",
+    "DO_NOT_DISTURB": "Não Perturbe",
+    "EDIT": "Editar",
     "EMOJIS": "Emojis",
-    "EPHEMERAL": "Ephemeral",
-    "ERROR": "Error",
-    "FIX_PERMISSIONS": "Fix Permissions",
-    "FROM": "From",
+    "EPHEMERAL": "Efêmero",
+    "ERROR": "Erro",
+    "FIX_PERMISSIONS": "Corrigir Permissões",
+    "FROM": "De",
     "ID": "ID",
-    "IDLE": "Idle",
+    "IDLE": "Ausente",
     "INTERACTED_BY": "Interagido por {userName}",
-    "LOADING": "Loading",
+    "LOADING": "Carregando",
     "LOCALE": {
       "EMOJI": "🇧🇷",
       "NAME": "Português (Brasil)"
     },
-    "MANAGED": "Managed",
-    "MANAGED_BY": "Managed By",
-    "MAXIMUM": "Maximum",
-    "MEMBERS": "Members",
+    "MANAGED": "Gerenciado",
+    "MANAGED_BY": "Gerenciado Por",
+    "MAXIMUM": "Máximo",
+    "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
     "NAME": "Nome",
@@ -379,49 +379,49 @@
     }
   },
   "OWNER": {
-    "DESCRIPTION": "Bot owner only commands",
-    "NAME": "owner",
+    "DESCRIPTION": "Comandos apenas para o dono do bot",
+    "NAME": "dono",
     "OPTIONS": {
       "EVAL": {
-        "DESCRIPTION": "Evaluates a script (Bot owner only)",
-        "NAME": "eval",
+        "DESCRIPTION": "Computa um script (Somente dono do bot)",
+        "NAME": "computar",
         "OPTIONS": {
           "ASYNC": {
-            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
-            "NAME": "async"
+            "DESCRIPTION": "Computa o script de forma assíncrona (Padrão: Verdadeiro)",
+            "NAME": "assíncrono"
           },
           "AWAIT": {
-            "DESCRIPTION": "Awaits the script (Default: True)",
-            "NAME": "await"
+            "DESCRIPTION": "Aguarda o script (Padrão: Verdadeiro)",
+            "NAME": "aguardar"
           },
           "SCRIPT": {
-            "DESCRIPTION": "The script to evaluate",
+            "DESCRIPTION": "O script para computar",
             "NAME": "script"
           }
         }
       },
       "COMMAND": {
         "COMMANDS": {
-          "DELETED": "Deleted Commands",
-          "GLOBAL": "Global Commands",
-          "GUILD": "Guild Commands",
-          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
-          "UPDATED": "Updated Commands"
+          "DELETED": "Comandos Excluídos",
+          "GLOBAL": "Comandos Globais",
+          "GUILD": "Comandos de Servidor",
+          "SPECIFIED_GUILD": "Comandos do Servidor {guildName}",
+          "UPDATED": "Comandos Atualizados"
         },
-        "DESCRIPTION": "Configures commands (Bot owner only)",
-        "NAME": "command",
-        "NO_UPDATE": "No commands have been updated",
+        "DESCRIPTION": "Configura comandos (Somente dono do bot)",
+        "NAME": "comando",
+        "NO_UPDATE": "Nenhum comando foi atualizado",
         "OPTIONS": {
           "UPDATE": {
-            "DESCRIPTION": "Updates bot commands (Bot owner only)",
-            "NAME": "update",
+            "DESCRIPTION": "Atualiza comandos do bot (Somente dono do bot)",
+            "NAME": "atualizar",
             "OPTIONS": {
               "GUILD": {
-                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
-                "NAME": "guild"
+                "DESCRIPTION": "O servidor em que o comando está (Padrão: Servidor atual)",
+                "NAME": "servidor"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID de um comando específico (Padrão: Todos os comandos)",
                 "NAME": "id"
               }
             }
@@ -429,32 +429,32 @@
         }
       },
       "LOCALIZATION": {
-        "NAME": "localization",
-        "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "NAME": "localização",
+        "DESCRIPTION": "Configura localizações (Somente dono do bot)",
         "OPTIONS": {
           "UPDATE": {
-            "NAME": "update",
-            "DESCRIPTION": "Updates localizations (Bot owner only)"
+            "NAME": "atualizar",
+            "DESCRIPTION": "Atualiza as localizações (Somente dono do bot)"
           }
         },
-        "UPDATED": "Updated localizations",
-        "UPDATING": "Updating localizations"
+        "UPDATED": "Localizações atualizadas",
+        "UPDATING": "Atualizando localizações"
       },
       "SHARD": {
-        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "DESCRIPTION": "Configura shards (Somente dono do bot)",
         "NAME": "shard",
         "OPTIONS": {
           "RESPAWN_ALL": {
-            "DESCRIPTION": "Respawns all shards (Bot owner only)",
-            "NAME": "respawn-all",
+            "DESCRIPTION": "Renasce todas as shards (Somente dono do bot)",
+            "NAME": "renascer-todas",
             "OPTIONS": {
               "RESPAWN_DELAY": {
-                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
-                "NAME": "respawn-delay"
+                "DESCRIPTION": "Tempo de espera entre matar o processo de uma shard e reiniciá-lo",
+                "NAME": "atraso-renascer"
               },
               "SHARD_DELAY": {
-                "DESCRIPTION": "Wait time between shards",
-                "NAME": "shard-delay"
+                "DESCRIPTION": "Tempo de espera entre shards",
+                "NAME": "atraso-shard"
               },
               "TIMEOUT": {
                 "DESCRIPTION": "Tempo de espera para uma shard ficar pronta antes de continuar outra",
@@ -463,22 +463,22 @@
             }
           }
         },
-        "RESPAWNING": "Respawning all shards"
+        "RESPAWNING": "Renascendo todas as shards"
       }
     }
   },
   "PERM": {
-    "ADD_REACTIONS": "Add Reactions",
-    "ADMINISTRATOR": "Administrator",
-    "ATTACH_FILES": "Attach Files",
-    "BAN_MEMBERS": "Ban Members",
-    "CHANGE_NICKNAME": "Change Nickname",
-    "CONNECT": "Connect",
-    "CREATE_INSTANT_INVITE": "Create Instant Invite",
-    "CREATE_PRIVATE_THREADS": "Create Private Threads",
-    "CREATE_PUBLIC_THREADS": "Create Public Threads",
-    "DEAFEN_MEMBERS": "Deafen Members",
-    "EMBED_LINKS": "Embed Links",
+    "ADD_REACTIONS": "Adicionar Reações",
+    "ADMINISTRATOR": "Administrador",
+    "ATTACH_FILES": "Anexar Arquivos",
+    "BAN_MEMBERS": "Banir Membros",
+    "CHANGE_NICKNAME": "Alterar Apelido",
+    "CONNECT": "Conectar",
+    "CREATE_INSTANT_INVITE": "Criar Convite",
+    "CREATE_PRIVATE_THREADS": "Criar Tópicos Privados",
+    "CREATE_PUBLIC_THREADS": "Criar Tópicos Públicos",
+    "DEAFEN_MEMBERS": "Ensurdecer Membros",
+    "EMBED_LINKS": "Inserir Links",
     "KICK_MEMBERS": "Expulsar Membros",
     "MANAGE_CHANNELS": "Gerenciar Canal",
     "MANAGE_EMOJIS_AND_STICKERS": "Gerenciar Emojis e Figurinhas",
