@@ -19,7 +19,7 @@
   },
   "CLEAR": {
     "DELETE_AFTER_THIS": "Delete After This",
-    "DELETED": "{count, plural, =0 {No messages were deleted} =1 {`#` message deleted} other {`#` messages deleted}}",
+    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}",
     "DESCRIPTION": "Deletes chat messages from up to 2 weeks ago",
     "NAME": "clear",
     "OPTIONS": {
@@ -259,11 +259,11 @@
     "CHANNELS": {
       "CHANNELS": "Channels",
       "ADD": "Add channels",
-      "ADDING": "{count, plural, =0 {Adding Channels} =1 {# Channel Added} other {# Channels Added}}",
+      "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
       "EDIT": "Edit Channels",
       "EDITING": "Editing Channels",
       "REMOVE": "Remove Channels",
-      "REMOVING": "{count, plural, =0 {Removing Channels} =1 {# Channel Removed} other {# Channels Removed}}",
+      "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
       "RESET": "Reset Channels",
       "SELECT": {
         "DEFAULT": "Select the channels",
@@ -328,11 +328,11 @@
     "ROLES": {
       "ROLES": "Roles",
       "ADD": "Add Roles",
-      "ADDING": "{count, plural, =0 {Adding Roles} =1 {# Role Added} other {# Roles Added}}",
+      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
       "EDIT": "Edit Roles",
       "EDITING": "Editing Roles",
       "REMOVE": "Remove Roles",
-      "REMOVING": "{count, plural, =0 {Removing Roles} =1 {# Role Removed} other {# Roles Removed}}",
+      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
       "SELECT": {
         "DEFAULT": "Select the roles",
@@ -344,12 +344,12 @@
     "STREAMING": "Streaming",
     "SUCCESS": "Success",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} =1 {# day} other {# days}}",
-      "HOURS": "{count, plural, =0 {now} =1 {# hour} other {# hours}}",
-      "MINUTES": "{count, plural, =0 {now} =1 {# minute} other {# minutes}}",
-      "MONTHS": "{count, plural, =0 {now} =1 {# month} other {# months}}",
-      "SECONDS": "{count, plural, =0 {now} =1 {# second} other {# seconds}}",
-      "YEARS": "{count, plural, =0 {now} =1 {# year} other {# years}}"
+      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
+      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
     },
     "TIMESTAMP": "Timestamp",
     "TO": "To",
