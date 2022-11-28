@@ -239,6 +239,7 @@
   "GENERIC": {
     "ANIMATED": "Animated",
     "AUTOMATIC": "Automatic",
+    "AWAY": "Away",
     "ADD": "Add",
     "ALL": "All",
     "BACK": "Back",
@@ -285,6 +286,7 @@
     "DEFAULT": "Default",
     "DELETE": "Delete",
     "DIRECT_MESSAGE": "Direct Message",
+    "DO_NOT_DISTURB": "Do Not Disturb",
     "EDIT": "Edit",
     "EMOJIS": "Emojis",
     "EPHEMERAL": "Ephemeral",
@@ -309,6 +311,7 @@
     "NOT_DIRECT_MESSAGE": "Not Direct Message",
     "NOT_EPHEMERAL": "Not Ephemeral",
     "NOT_RECURSIVE": "Not Recursive",
+    "OFFLINE": "Offline",
     "ONLINE": "Online",
     "OUTPUT": "Output",
     "RECURSIVE": "Recursive",
@@ -332,6 +335,7 @@
       }
     },
     "SERVERS": "Servers",
+    "STREAMING": "Streaming",
     "SUCCESS": "Success",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
