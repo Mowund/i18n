@@ -19,7 +19,7 @@
   },
   "CLEAR": {
     "DELETE_AFTER_THIS": "Excluir Após Esta",
-    "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}",
+    "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}",
     "DESCRIPTION": "Exclui mensagens do chat de até 2 semanas atrás",
     "NAME": "limpar",
     "OPTIONS": {
@@ -219,7 +219,7 @@
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
       },
-      "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
+      "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, =1 {**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, =1 {**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
       "ROLE": "Cargo inválido",
       "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Maior que {time}) {input}} less{(Menor que {time}) {input}} other{Tempo inválido}}"
@@ -238,7 +238,7 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "{count, plural, =1 {Animated} other {Animated}}",
+    "ANIMATED": "{count, plural, =1 {Animado} other {Animados}}",
     "AUTOMATIC": "Automático",
     "ADD": "Adicionar",
     "ALL": "Todos",
@@ -259,11 +259,11 @@
     "CHANNELS": {
       "CHANNELS": "Canais",
       "ADD": "Adicionar canais",
-      "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
+      "ADDING": "{count, plural, =0 {Adicionando Canais} one {# Canal Adicionado} other {# Canais Adicionados}}",
       "EDIT": "Editar Canais",
       "EDITING": "Editando Canais",
       "REMOVE": "Remover Canais",
-      "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
+      "REMOVING": "{count, plural, =0 {Removendo Canais} one {# Canal Removido} other {# Canais Removidos}}",
       "RESET": "Redefinir Canais",
       "SELECT": {
         "DEFAULT": "Selecione os canais",
@@ -282,7 +282,7 @@
       "EDITING_LABEL": "Insira o novo conteúdo"
     },
     "COUNT": "{count, number}",
-    "COMMON": "{count, plural, =1 {Common} other {Common}}",
+    "COMMON": "{count, plural, =1 {Comum} other {Comuns}}",
     "CREATED": "Criado",
     "CURRENT": "Atual",
     "DEFAULT": "Padrão",
@@ -297,7 +297,7 @@
     "FROM": "De",
     "ID": "ID",
     "IDLE": "Ausente",
-    "INTEGRATED": "{count, plural, =1 {Integrated} other {Integrated}}",
+    "INTEGRATED": "{count, plural, =1 {Integrado} other {Integrados}}",
     "INTERACTED_BY": "Interagido por {userName}",
     "LOADING": "Carregando",
     "LOCALE": {
@@ -328,11 +328,11 @@
     "ROLES": {
       "ROLES": "Cargos",
       "ADD": "Adicionar Cargos",
-      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+      "ADDING": "{count, plural, =0 {Adicionando Cargos} one {# Cargo Adicionado} other {# Cargos Adicionados}}",
       "EDIT": "Editar Cargos",
       "EDITING": "Editando Cargos",
       "REMOVE": "Remover Cargos",
-      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
+      "REMOVING": "{count, plural, =0 {Removendo Cargos} one {# Cargo Removido} other {# Cargos Removidos}}",
       "RESET": "Redefinir Cargos",
       "SELECT": {
         "DEFAULT": "Selecione os cargos",
@@ -344,8 +344,8 @@
     "STREAMING": "Transmitindo",
     "SUCCESS": "Sucesso",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
-      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+      "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
+      "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
       "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
       "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
       "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
@@ -355,7 +355,7 @@
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
-    "STATIC": "{count, plural, =1 {Static} other {Static}}",
+    "STATIC": "{count, plural, =1 {Estático} other {Estáticos}}",
     "STICKERS": "Figurinhas",
     "UPTIME": "Tempo Ativo",
     "USER": "Usuário",
