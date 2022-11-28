@@ -282,7 +282,7 @@
       "EDITING_LABEL": "Insert the new content"
     },
     "COUNT": "{count, number}",
-    "COMMON": "{count, plural, one {}=1 {Common} other {Common}}",
+    "COMMON": "{count, plural, =1 {Common} other {Common}}",
     "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
@@ -297,7 +297,7 @@
     "FROM": "From",
     "ID": "ID",
     "IDLE": "Idle",
-    "INTEGRATED": "{count, plural, one {}=1 {Integrated} other {Integrated}}",
+    "INTEGRATED": "{count, plural, =1 {Integrated} other {Integrated}}",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
     "LOCALE": {
