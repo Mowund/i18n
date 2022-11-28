@@ -238,7 +238,7 @@
     }
   },
   "GENERIC": {
-    "ANIMATED": "{count, plural, one{Animated} other{Animated}}",
+    "ANIMATED": "{count, plural, one{Animado} other{Animados}}",
     "AUTOMATIC": "Automático",
     "ADD": "Adicionar",
     "ALL": "Todos",
@@ -303,7 +303,7 @@
       "EMOJI": "🇧🇷",
       "NAME": "Português (Brasil)"
     },
-    "MANAGED": "{count, plural, one{Managed} other{Managed}}",
+    "MANAGED": "{count, plural, one{Gerenciado} other{Gerenciados}}",
     "MANAGED_BY": "Gerenciado Por",
     "MAXIMUM": "Máximo",
     "MEMBERS": "Membros",
@@ -358,7 +358,7 @@
     "TO": "Para",
     "TOTAL": "Total",
     "TYPE": "Tipo",
-    "STATIC": "{count, plural, one{Static} other{Static}}",
+    "STATIC": "{count, plural, one{Estático} other{Estáticos}}",
     "STICKERS": "Figurinhas",
     "UPTIME": "Tempo Ativo",
     "USER": "Usuário",
