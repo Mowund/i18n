@@ -239,7 +239,6 @@
   "GENERIC": {
     "ANIMATED": "Animated",
     "AUTOMATIC": "Automatic",
-    "AWAY": "Away",
     "ADD": "Add",
     "ALL": "All",
     "BACK": "Back",
@@ -294,6 +293,7 @@
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
     "ID": "ID",
+    "IDLE": "Idle",
     "INTERACTED_BY": "Interacted by {userName}",
     "LOADING": "Loading",
     "LOCALE": {
