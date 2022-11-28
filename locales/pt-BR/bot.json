@@ -282,11 +282,11 @@
     },
     "COUNT": "{count, number}",
     "COUNTER": {
-      "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+      "ANIMATED": "{count, plural, =1 {**#** Animado} other {**#** Animados}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
-      "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
-      "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
+      "COMMON": "{count, plural, =1 {**#** Comum} other {**#** Comuns}}",
+      "INTEGRATED": "{count, plural, =1 {**#** Integrado} other {**#** Integrados}}",
+      "STATIC": "{count, plural, =1 {**#** Estático} other {**#** Estáticos}}"
     },
     "CREATED": "Criado",
     "CURRENT": "Atual",
