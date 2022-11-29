@@ -284,7 +284,7 @@
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "CHANNEL_FOLLOWER": "{count, plural =1 {**#** Channel Follower} other {**#** Channel Followers}",
+      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}",
       "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
       "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
