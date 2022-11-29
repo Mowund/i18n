@@ -284,6 +284,7 @@
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animado} other {**#** Animados}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
+      "CHANNEL_FOLLOWER": "{count, plural =1 {**#** Channel Follower} other {**#** Channel Followers}",
       "COMMON": "{count, plural, =1 {**#** Comum} other {**#** Comuns}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrado} other {**#** Integrados}}",
       "STATIC": "{count, plural, =1 {**#** Estático} other {**#** Estáticos}}"
@@ -302,6 +303,7 @@
     "FROM": "De",
     "ID": "ID",
     "IDLE": "Ausente",
+    "INCOMING": "Incoming",
     "INTERACTED_BY": "Interagido por {userName}",
     "LOADING": "Carregando",
     "LOCALE": {
