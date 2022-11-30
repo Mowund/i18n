@@ -243,6 +243,7 @@
     "ALL": "All",
     "AUTHOR": "Author",
     "BACK": "Back",
+    "BOOST_MESSAGES": "Boost Messages",
     "CHANNEL": {
       "CHANNEL": "Channel",
       "EDIT": "Edit Channel",
@@ -284,7 +285,7 @@
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}",
+      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
       "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
       "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
@@ -305,6 +306,7 @@
     "IDLE": "Idle",
     "INCOMING": "Incoming",
     "INTERACTED_BY": "Interacted by {userName}",
+    "JOIN_MESSAGES": "Join Messages",
     "LOADING": "Loading",
     "LOCALE": {
       "EMOJI": "🇬🇧",
@@ -347,8 +349,10 @@
       }
     },
     "SERVERS": "Servers",
+    "SETUP_TIPS": "Setup Tips",
     "STREAMING": "Streaming",
     "SUCCESS": "Success",
+    "SYSTEM_MESSAGES": "System Messages",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
       "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
@@ -366,6 +370,7 @@
     "USER": "User",
     "VIEW": "View",
     "WARNING": "Warning",
+    "WAVE_BUTTON": "Wave Button",
     "WEBHOOKS": "Webhooks",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
