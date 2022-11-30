@@ -243,6 +243,7 @@
     "ALL": "Todos",
     "AUTHOR": "Autor",
     "BACK": "Voltar",
+    "BOOST_MESSAGES": "Boost Messages",
     "CHANNEL": {
       "CHANNEL": "Canal",
       "EDIT": "Editar Canal",
@@ -284,7 +285,7 @@
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animado} other {**#** Animados}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}",
+      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
       "COMMON": "{count, plural, =1 {**#** Comum} other {**#** Comuns}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrado} other {**#** Integrados}}",
       "STATIC": "{count, plural, =1 {**#** Estático} other {**#** Estáticos}}"
@@ -305,6 +306,7 @@
     "IDLE": "Ausente",
     "INCOMING": "Incoming",
     "INTERACTED_BY": "Interagido por {userName}",
+    "JOIN_MESSAGES": "Join Messages",
     "LOADING": "Carregando",
     "LOCALE": {
       "EMOJI": "🇧🇷",
@@ -347,8 +349,10 @@
       }
     },
     "SERVERS": "Servidores",
+    "SETUP_TIPS": "Setup Tips",
     "STREAMING": "Transmitindo",
     "SUCCESS": "Sucesso",
+    "SYSTEM_MESSAGES": "System Messages",
     "TIME": {
       "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
       "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
@@ -366,6 +370,7 @@
     "USER": "Usuário",
     "VIEW": "Visualizar",
     "WARNING": "Aviso",
+    "WAVE_BUTTON": "Wave Button",
     "WEBHOOKS": "Webhooks",
     "WIP": "Trabalho em Progresso",
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
