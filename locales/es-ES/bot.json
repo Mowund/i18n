@@ -243,12 +243,15 @@
     "ALL": "All",
     "AUTHOR": "Author",
     "BACK": "Vuelve",
+    "BANS": "Bans",
     "BOOST_MESSAGES": "Boost Messages",
     "CHANNEL": {
       "CHANNEL": "Canal",
       "EDIT": "Editar Canal",
       "EDITED": "Canal Editado",
       "EDITING": "Editando Canal",
+      "PUBLIC_UPDATES": "Public Updates Channel",
+      "RULES": "Rules Channel",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
     "CHANNELS_AND_ROLES": {
@@ -274,6 +277,7 @@
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
+    "COMMUNITY": "Community",
     "CONTENT": {
       "CONTENT": "Content",
       "EDIT": "Edit Content",
@@ -300,6 +304,7 @@
     "EMOJIS": "Emojis",
     "EPHEMERAL": "Ephemeral",
     "ERROR": "Error",
+    "FEATURES": "Features",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
     "ID": "ID",
@@ -348,6 +353,7 @@
         "REMOVE": "Select the roles to remove"
       }
     },
+    "SECURITY": "Security",
     "SERVERS": "Servers",
     "SETUP_TIPS": "Setup Tips",
     "STREAMING": "Streaming",
