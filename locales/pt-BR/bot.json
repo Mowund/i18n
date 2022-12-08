@@ -238,6 +238,7 @@
     }
   },
   "GENERIC": {
+    "APP": "App",
     "AUTOMATIC": "Automático",
     "ADD": "Adicionar",
     "ALL": "Todos",
@@ -294,6 +295,7 @@
       "INTEGRATED": "{count, plural, =1 {**#** Integrado} other {**#** Integrados}}",
       "STATIC": "{count, plural, =1 {**#** Estático} other {**#** Estáticos}}"
     },
+    "COVER": "Cover",
     "CREATED": "Criado",
     "CURRENT": "Atual",
     "DEFAULT": "Padrão",
@@ -307,6 +309,7 @@
     "FEATURES": "Features",
     "FIX_PERMISSIONS": "Corrigir Permissões",
     "FROM": "De",
+    "ICON": "Icon",
     "ID": "ID",
     "IDLE": "Ausente",
     "INCOMING": "Incoming",
@@ -319,6 +322,7 @@
     },
     "MANAGED_BY": "Gerenciado Por",
     "MAXIMUM": "Máximo",
+    "MEMBER": "Member",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
@@ -667,8 +671,12 @@
     "NAME": "usuário",
     "OPTIONS": {
       "INFO": {
+        "APP": {
+          "TITLE": "App Information"
+        },
         "DESCRIPTION": "Mostra informações sobre um usuário",
         "MEMBER": {
+          "TITLE": "Member Information",
           "AVATAR": "Avatar de Servidor",
           "BANNER": "Banner de Servidor",
           "JOINED": "Entrou no Servidor"
@@ -680,8 +688,8 @@
             "NAME": "usuário"
           }
         },
-        "TITLE": "Informações do Usuário",
         "USER": {
+          "TITLE": "User Information",
           "AVATAR": "Avatar",
           "BANNER": "Banner"
         },
