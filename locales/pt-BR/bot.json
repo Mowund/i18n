@@ -4,10 +4,6 @@
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
-        "COMPONENT": {
-          "INVITE_BOT": "Convidar Bot",
-          "SUPPORT_SERVER": "Servidor de Suporte"
-        },
         "DESCRIPTION": "Mostra informações sobre o bot",
         "DISCORDJS_VERSION": "Versão do Discord.JS",
         "MEMORY_USAGE": "Uso de Memória",
@@ -241,6 +237,7 @@
     "APP": "App",
     "AUTOMATIC": "Automático",
     "ADD": "Adicionar",
+    "ADD_TO_SERVER": "Add to Server",
     "ALL": "Todos",
     "AUTHOR": "Autor",
     "BACK": "Voltar",
@@ -337,6 +334,8 @@
     "ONLINE": "Online",
     "OUTPUT": "Saída",
     "OWNER": "Dono",
+    "PERMISSIONS": "Permissions",
+    "PRIVACY_POLICY": "Privacy Policy",
     "RECURSIVE": "Recursivo",
     "REMOVE": "Remover",
     "RENAME": "Renomear",
@@ -362,7 +361,10 @@
     "SETUP_TIPS": "Setup Tips",
     "STREAMING": "Transmitindo",
     "SUCCESS": "Sucesso",
+    "SUPPORT_SERVER": "Support Server",
     "SYSTEM_MESSAGES": "System Messages",
+    "TAGS": "Tags",
+    "TERMS_OF_SERVICE": "Terms of Service",
     "TIME": {
       "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
       "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
