@@ -5,7 +5,7 @@
     "OPTIONS": {
       "INFO": {
         "TITLE": "App Information",
-        "DESCRIPTION": "Shows information about a user",
+        "DESCRIPTION": "Shows information about an app",
         "NAME": "info",
         "OPTIONS": {
           "APP": {
@@ -698,7 +698,7 @@
     "NAME": "user",
     "OPTIONS": {
       "INFO": {
-        "DESCRIPTION": "Shows information about a user",
+        "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
           "TITLE": "Member Information",
           "AVATAR": "Server Avatar",
