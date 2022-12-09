@@ -260,7 +260,6 @@
     "ALL": "Todos",
     "AUTHOR": "Autor",
     "BACK": "Voltar",
-    "BANS": "Bans",
     "BOOST_MESSAGES": "Boost Messages",
     "BOT": "Bot",
     "CHANNEL": {
@@ -268,8 +267,6 @@
       "EDIT": "Editar Canal",
       "EDITED": "Canal Editado",
       "EDITING": "Editando Canal",
-      "PUBLIC_UPDATES": "Public Updates Channel",
-      "RULES": "Rules Channel",
       "SELECT_PLACEHOLDER": "Selecione o canal para alterar"
     },
     "CHANNELS_AND_ROLES": {
@@ -279,6 +276,7 @@
     },
     "CHANNELS": {
       "CHANNELS": "Canais",
+      "COMMUNITY": "Community Channels",
       "ADD": "Adicionar canais",
       "ADDING": "{count, plural, =0 {Adicionando Canais} one {# Canal Adicionado} other {# Canais Adicionados}}",
       "EDIT": "Editar Canais",
@@ -306,6 +304,7 @@
     "COUNT": "{count, number}",
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animado} other {**#** Animados}}",
+      "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
       "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
       "COMMON": "{count, plural, =1 {**#** Comum} other {**#** Comuns}}",
@@ -362,6 +361,7 @@
     "PERMISSIONS": "Permissions",
     "PRIVACY_POLICY": "Privacy Policy",
     "PUBLIC_BOT": "Public Bot",
+    "PUBLIC_UPDATES": "Public Updates",
     "RECURSIVE": "Recursivo",
     "REMOVE": "Remover",
     "RENAME": "Renomear",
@@ -383,6 +383,7 @@
         "REMOVE": "Selecione os cargos para remover"
       }
     },
+    "RULES": "Rules",
     "SECURITY": "Security",
     "SERVERS": "Servidores",
     "SETUP_TIPS": "Setup Tips",
