@@ -1,15 +1,15 @@
 {
   "APP": {
-    "DESCRIPTION": "App related commands",
+    "DESCRIPTION": "Application related commands",
     "NAME": "app",
     "OPTIONS": {
       "INFO": {
         "TITLE": "App Information",
-        "DESCRIPTION": "Shows information about an app",
+        "DESCRIPTION": "Shows information about an application",
         "NAME": "info",
         "OPTIONS": {
           "APP": {
-            "DESCRIPTION": "The app to get information about",
+            "DESCRIPTION": "The application to get information about",
             "NAME": "app"
           }
         }
@@ -210,6 +210,8 @@
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
   "ERROR": {
+    "APP_NOT_FOUND": "The application was not found",
+    "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
@@ -228,12 +230,12 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
+      "APP": "You must provide a valid bot or application ID",
       "IMAGE": {
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
       "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
-      "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
