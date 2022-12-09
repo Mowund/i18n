@@ -243,6 +243,7 @@
     "BACK": "Voltar",
     "BANS": "Bans",
     "BOOST_MESSAGES": "Boost Messages",
+    "BOT": "Bot",
     "CHANNEL": {
       "CHANNEL": "Canal",
       "EDIT": "Editar Canal",
@@ -310,6 +311,11 @@
     "ID": "ID",
     "IDLE": "Ausente",
     "INCOMING": "Incoming",
+    "INTENT": {
+      "MESSAGE_CONTENT": "Message Content Intent",
+      "PRESENCE": "Presence Intent",
+      "SERVER_MEMBERS": "Server Members Intent"
+    },
     "INTERACTED_BY": "Interagido por {userName}",
     "JOIN_MESSAGES": "Join Messages",
     "LOADING": "Carregando",
@@ -336,11 +342,13 @@
     "OWNER": "Dono",
     "PERMISSIONS": "Permissions",
     "PRIVACY_POLICY": "Privacy Policy",
+    "PUBLIC_BOT": "Public Bot",
     "RECURSIVE": "Recursivo",
     "REMOVE": "Remover",
     "RENAME": "Renomear",
     "REPEAT": "Repetir",
     "REQUESTED_BY": "Solicitado por {userName}",
+    "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
     "ROLES": {
       "ROLES": "Cargos",
       "ADD": "Adicionar Cargos",
