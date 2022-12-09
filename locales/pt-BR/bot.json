@@ -1,15 +1,15 @@
 {
   "APP": {
-    "DESCRIPTION": "App related commands",
+    "DESCRIPTION": "Application related commands",
     "NAME": "app",
     "OPTIONS": {
       "INFO": {
         "TITLE": "App Information",
-        "DESCRIPTION": "Shows information about an app",
+        "DESCRIPTION": "Shows information about an application",
         "NAME": "info",
         "OPTIONS": {
           "APP": {
-            "DESCRIPTION": "The app to get information about",
+            "DESCRIPTION": "The application to get information about",
             "NAME": "app"
           }
         }
@@ -210,6 +210,8 @@
     "VIEWING_UNICODE": "Visualizando Emoji Unicode"
   },
   "ERROR": {
+    "APP_NOT_FOUND": "The application was not found",
+    "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Não é possível enviar mensagens no canal especificado",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Este comando não pode ser usado em mensagens diretas",
@@ -228,12 +230,12 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID": {
+      "APP": "You must provide a valid bot or application ID",
       "IMAGE": {
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
       },
       "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, =1 {**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, =1 {**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
-      "ROLE": "Cargo inválido",
       "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Maior que {time}) {input}} less{(Menor que {time}) {input}} other{Tempo inválido}}"
     },
