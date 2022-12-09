@@ -1,4 +1,21 @@
 {
+  "APP": {
+    "DESCRIPTION": "App related commands",
+    "NAME": "app",
+    "OPTIONS": {
+      "INFO": {
+        "TITLE": "App Information",
+        "DESCRIPTION": "Shows information about an app",
+        "NAME": "info",
+        "OPTIONS": {
+          "APP": {
+            "DESCRIPTION": "The app to get information about",
+            "NAME": "app"
+          }
+        }
+      }
+    }
+  },
   "BOT": {
     "DESCRIPTION": "Comandos relacionados ao bot",
     "NAME": "bot",
@@ -681,10 +698,7 @@
     "NAME": "usuário",
     "OPTIONS": {
       "INFO": {
-        "APP": {
-          "TITLE": "App Information"
-        },
-        "DESCRIPTION": "Mostra informações sobre um usuário",
+        "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
           "TITLE": "Member Information",
           "AVATAR": "Avatar de Servidor",
