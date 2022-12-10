@@ -26,7 +26,17 @@
         "MEMORY_USAGE": "Uso de Memoria",
         "NAME": "info",
         "NODEJS_VERSION": "Versión de Node.JS",
-        "TITLE": "{botName}'s Information"
+        "TITLE": "Bot Information"
+      },
+      "PERMISSIONS": {
+        "DESCRIPTION": "Shows bot's required permissions status",
+        "LEGEND": {
+          "CHECK": "I have the required permission as part of my integrated role",
+          "MAYBE": "I have the required permission as part of another role or a channel overwrite",
+          "NO": "I don't have the required permission"
+        },
+        "NAME": "permissions",
+        "TITLE": "Bot Permissions"
       }
     }
   },
@@ -88,7 +98,7 @@
     "GO_TO": "[Haz clic aquí para ir al mensaje]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Necesitas proporcionar un contenido o una opción que habilite el enlace",
-      "PERMS": "Necesitas el permiso `{perm}` para hacer eco no efímero"
+      "PERMS": "You need the `{perm}` permission to echo non-ephemerally"
     },
     "NAME": "eco",
     "OPTIONS": {
@@ -239,6 +249,28 @@
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
+    "PERM": {
+      "BOT": {
+        "SINGLE": {
+          "NO_LONGER": "I no longer have the required `{perm}` permission",
+          "REQUIRES": "I need the `{perm}` permission"
+        },
+        "MULTIPLE": {
+          "NO_LONGER": "I no longer have the required {perms} permissions",
+          "REQUIRES": "I need the {perms} permissions"
+        }
+      },
+      "USER": {
+        "SINGLE": {
+          "NO_LONGER": "You no longer have the required `{perm}` permission",
+          "REQUIRES": "You need the `{perm}` permission"
+        },
+        "MULTIPLE": {
+          "NO_LONGER": "You no longer have the required {perms} permissions",
+          "REQUIRES": "You need the {perms} permissions"
+        }
+      }
+    },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
       "EMPTY": "No tienes ningún recordatorio",
@@ -336,6 +368,7 @@
     },
     "INTERACTED_BY": "Interactuado por {userName}",
     "JOIN_MESSAGES": "Join Messages",
+    "LEGEND": "Legend",
     "LOADING": "Loading",
     "LOCALE": {
       "EMOJI": "🇪🇸",
@@ -543,12 +576,9 @@
     "MODERATE_MEMBERS": "Aislar Temporalmente a Miembros",
     "MOVE_MEMBERS": "Move Members",
     "MUTE_MEMBERS": "Mute Members",
-    "NO_LONGER": "You no longer have the required `{perm}` permission",
     "PRIORITY_SPEAKER": "Priority Speaker",
     "READ_MESSAGE_HISTORY": "Read Message History",
     "REQUEST_TO_SPEAK": "Request to Speak",
-    "REQUIRES": "You need the `{perm}` permission",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
     "SEND_MESSAGES": "Send Messages and Create Posts",
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Send TTS Messages",
