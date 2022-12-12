@@ -249,8 +249,9 @@
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_BOT_SCOPE": {
-      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix it",
+      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix this",
       "MEMBER": "It looks like I was added to the server without the bot scope. Tell a server admin to add me again correctly"
     },
     "PERM": {
@@ -399,6 +400,7 @@
     "PRIVACY_POLICY": "Privacy Policy",
     "PUBLIC_BOT": "Public Bot",
     "PUBLIC_UPDATES": "Public Updates",
+    "READD_TO_SERVER": "Readd to Server",
     "RECURSIVE": "Recursive",
     "REMOVE": "Remove",
     "RENAME": "Rename",
