@@ -249,8 +249,9 @@
       "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Maior que {time}) {input}} less{(Menor que {time}) {input}} other{Tempo inválido}}"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_BOT_SCOPE": {
-      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix it",
+      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix this",
       "MEMBER": "It looks like I was added to the server without the bot scope. Tell a server admin to add me again correctly"
     },
     "PERM": {
@@ -399,6 +400,7 @@
     "PRIVACY_POLICY": "Privacy Policy",
     "PUBLIC_BOT": "Public Bot",
     "PUBLIC_UPDATES": "Public Updates",
+    "READD_TO_SERVER": "Readd to Server",
     "RECURSIVE": "Recursivo",
     "REMOVE": "Remover",
     "RENAME": "Renomear",
