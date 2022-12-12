@@ -249,6 +249,10 @@
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
     },
+    "NO_BOT_SCOPE": {
+      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix it",
+      "MEMBER": "It looks like I was added to the server without the bot scope. Tell a server admin to add me again correctly"
+    },
     "PERM": {
       "BOT": {
         "SINGLE": {
