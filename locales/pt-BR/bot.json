@@ -92,6 +92,34 @@
     "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor",
     "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema"
   },
+  "COORD": {
+    "DESCRIPTION": "Coordinate related commands",
+    "NAME": "coord",
+    "OPTIONS": {
+      "SEND": {
+        "DESCRIPTION": "Sends a coordinate",
+        "NAME": "send",
+        "OPTIONS": {
+          "DESCRIPTION": {
+            "DESCRIPTION": "The description of the coordinate",
+            "NAME": "description"
+          },
+          "COORDS": {
+            "DESCRIPTION": "The coordinates",
+            "NAME": "coords"
+          },
+          "ATTACHMENT": {
+            "DESCRIPTION": "The image or video of the coordinate",
+            "NAME": "attachment"
+          },
+          "TITLE": {
+            "DESCRIPTION": "The title of the coordinate",
+            "NAME": "title"
+          }
+        }
+      }
+    }
+  },
   "DELETE_RESPONSE": "Excluir Resposta",
   "ECHO": {
     "DESCRIPTION": "Ecoa uma mensagem através do bot (Requer: Gerenciar mensagens caso não-efêmera)",
