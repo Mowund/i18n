@@ -92,6 +92,34 @@
     "TARGET_NO_ROLE": "The mentioned user does not have a color role",
     "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
+  "COORD": {
+    "DESCRIPTION": "Coordinate related commands",
+    "NAME": "coord",
+    "OPTIONS": {
+      "SEND": {
+        "DESCRIPTION": "Sends a coordinate",
+        "NAME": "send",
+        "OPTIONS": {
+          "DESCRIPTION": {
+            "DESCRIPTION": "The description of the coordinate",
+            "NAME": "description"
+          },
+          "COORDS": {
+            "DESCRIPTION": "The coordinates",
+            "NAME": "coords"
+          },
+          "ATTACHMENT": {
+            "DESCRIPTION": "The image or video of the coordinate",
+            "NAME": "attachment"
+          },
+          "TITLE": {
+            "DESCRIPTION": "The title of the coordinate",
+            "NAME": "title"
+          }
+        }
+      }
+    }
+  },
   "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
     "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
