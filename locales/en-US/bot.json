@@ -112,10 +112,6 @@
             "DESCRIPTION": "The coordinates",
             "NAME": "coordinates"
           },
-          "TAGS": {
-            "DESCRIPTION": "The tags of the coordinate",
-            "NAME": "tags"
-          },
           "TITLE": {
             "DESCRIPTION": "The title of the coordinate",
             "NAME": "title"
