@@ -100,6 +100,10 @@
         "DESCRIPTION": "Sends a coordinate",
         "NAME": "send",
         "OPTIONS": {
+          "ATTACHMENT": {
+            "DESCRIPTION": "The image or video of the coordinate",
+            "NAME": "attachment"
+          },
           "DESCRIPTION": {
             "DESCRIPTION": "The description of the coordinate",
             "NAME": "description"
@@ -107,10 +111,6 @@
           "COORDINATES": {
             "DESCRIPTION": "The coordinates",
             "NAME": "coordinates"
-          },
-          "ATTACHMENT": {
-            "DESCRIPTION": "The image or video of the coordinate",
-            "NAME": "attachment"
           },
           "TITLE": {
             "DESCRIPTION": "The title of the coordinate",
