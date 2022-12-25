@@ -104,9 +104,9 @@
             "DESCRIPTION": "The description of the coordinate",
             "NAME": "description"
           },
-          "COORDS": {
+          "COORDINATES": {
             "DESCRIPTION": "The coordinates",
-            "NAME": "coords"
+            "NAME": "coordinates"
           },
           "ATTACHMENT": {
             "DESCRIPTION": "The image or video of the coordinate",
