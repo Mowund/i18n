@@ -454,6 +454,7 @@
     "SECURITY": "Security",
     "SERVERS": "Servidores",
     "SETUP_TIPS": "Setup Tips",
+    "SHARD": "Shard",
     "STREAMING": "Transmitindo",
     "SUCCESS": "Sucesso",
     "SUPPORT_SERVER": "Support Server",
@@ -633,7 +634,6 @@
     "DESCRIPTION": "Mostra a latência do bot",
     "NAME": "ping",
     "RESPONSE_TIME": "Tempo de Resposta",
-    "SHARD": "Shard",
     "TITLE": "Pong!"
   },
   "REMINDER": {
