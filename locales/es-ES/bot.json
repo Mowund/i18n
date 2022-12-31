@@ -683,12 +683,12 @@
   },
   "ROLE_CONNECTION": {
     "LEVEL": {
-      "DESCRIPTION": "Level Greater Than",
-      "NAME": "level"
+      "DESCRIPTION": "Nivel Mayor Que",
+      "NAME": "Level"
     },
     "MOWANS": {
-      "DESCRIPTION": "Amount of Mowans Greater Than",
-      "NAME": "mowans"
+      "DESCRIPTION": "Cantidad de Mowans Mayor Que",
+      "NAME": "Mowans"
     },
     "PLAYING_SINCE": {
       "DESCRIPTION": "Days since playing their first game",
