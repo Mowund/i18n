@@ -681,6 +681,20 @@
     "TIMESTAMP": "Você será lembrado {timestamp}",
     "TO": "Lembrete para {userName}"
   },
+  "ROLE_CONNECTION": {
+    "LEVEL": {
+      "DESCRIPTION": "Level Greater Than",
+      "NAME": "level"
+    },
+    "MOWANS": {
+      "DESCRIPTION": "Amount of Mowans Greater Than",
+      "NAME": "mowans"
+    },
+    "PLAYING_SINCE": {
+      "DESCRIPTION": "Days since playing their first game",
+      "NAME": "Playing Since"
+    }
+  },
   "ROLEMENU": {
     "DESCRIPTION": "Comandos relacionados à menus de cargos",
     "NAME": "rolemenu",
