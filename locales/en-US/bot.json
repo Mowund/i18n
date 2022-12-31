@@ -682,10 +682,7 @@
     "TO": "Reminder to {userName}"
   },
   "ROLE_CONNECTION": {
-    "LEVEL": {
-      "DESCRIPTION": "Level Greater Than",
-      "NAME": "level"
-    },
+    "LEVEL": { "DESCRIPTION": "Level Greater Than", "NAME": "level" },
     "MOWANS": {
       "DESCRIPTION": "Amount of Mowans Greater Than",
       "NAME": "mowans"
