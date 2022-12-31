@@ -684,11 +684,11 @@
   "ROLE_CONNECTION": {
     "LEVEL": {
       "DESCRIPTION": "Level Greater Than",
-      "NAME": "level"
+      "NAME": "Level"
     },
     "MOWANS": {
       "DESCRIPTION": "Amount of Mowans Greater Than",
-      "NAME": "mowans"
+      "NAME": "Mowans"
     },
     "PLAYING_SINCE": {
       "DESCRIPTION": "Days since playing their first game",
