@@ -1,19 +1,42 @@
 {
+  "APP": {
+    "DESCRIPTION": "Application related commands",
+    "NAME": "app",
+    "OPTIONS": {
+      "INFO": {
+        "TITLE": "App Information",
+        "DESCRIPTION": "Shows information about an application",
+        "NAME": "info",
+        "OPTIONS": {
+          "APP": {
+            "DESCRIPTION": "The application to get information about",
+            "NAME": "app"
+          }
+        }
+      }
+    }
+  },
   "BOT": {
     "DESCRIPTION": "Bot related commands",
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
-        "COMPONENT": {
-          "INVITE_BOT": "Invite Bot",
-          "SUPPORT_SERVER": "Support Server"
-        },
         "DESCRIPTION": "Shows information about the bot",
         "DISCORDJS_VERSION": "Discord.JS Version",
         "MEMORY_USAGE": "Memory Usage",
         "NAME": "info",
         "NODEJS_VERSION": "Node.JS Version",
-        "TITLE": "{botName}'s Information"
+        "TITLE": "Bot Information"
+      },
+      "PERMISSIONS": {
+        "DESCRIPTION": "Shows bot's required permissions status",
+        "LEGEND": {
+          "CHECK": "I have the required permission as part of my integrated role",
+          "MAYBE": "I have the required permission as part of another role or a channel overwrite",
+          "NO": "I don't have the required permission"
+        },
+        "NAME": "permissions",
+        "TITLE": "Bot Permissions"
       }
     }
   },
@@ -69,13 +92,41 @@
     "TARGET_NO_ROLE": "The mentioned user does not have a colour role",
     "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
+  "COORD": {
+    "DESCRIPTION": "Coordinate related commands",
+    "NAME": "coord",
+    "OPTIONS": {
+      "SEND": {
+        "DESCRIPTION": "Sends a coordinate",
+        "NAME": "send",
+        "OPTIONS": {
+          "ATTACHMENT": {
+            "DESCRIPTION": "The image or video of the coordinate",
+            "NAME": "attachment"
+          },
+          "DESCRIPTION": {
+            "DESCRIPTION": "The description of the coordinate",
+            "NAME": "description"
+          },
+          "COORDINATES": {
+            "DESCRIPTION": "The coordinates",
+            "NAME": "coordinates"
+          },
+          "TITLE": {
+            "DESCRIPTION": "The title of the coordinate",
+            "NAME": "title"
+          }
+        }
+      }
+    }
+  },
   "DELETE_RESPONSE": "Delete Response",
   "ECHO": {
     "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "You need to provide a content or an option that enables the embed",
-      "PERMS": "You need the `{perm}` permission to echo non-ephemeraly"
+      "PERMS": "You need the `{perm}` permission to echo non-ephemerally"
     },
     "NAME": "echo",
     "OPTIONS": {
@@ -197,6 +248,8 @@
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
   "ERROR": {
+    "APP_NOT_FOUND": "The application was not found",
+    "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
@@ -215,14 +268,41 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID": {
+      "APP": "You must provide a valid bot or application ID",
       "IMAGE": {
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
       "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
-      "ROLE": "Invalid role",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
+    },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
+    "NO_BOT_SCOPE": {
+      "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix this",
+      "MEMBER": "It looks like I was added to the server without the bot scope. Tell a server admin to add me again correctly"
+    },
+    "PERM": {
+      "BOT": {
+        "SINGLE": {
+          "NO_LONGER": "I no longer have the required `{perm}` permission",
+          "REQUIRES": "I need the `{perm}` permission"
+        },
+        "MULTIPLE": {
+          "NO_LONGER": "I no longer have the required {perms} permissions",
+          "REQUIRES": "I need the {perms} permissions"
+        }
+      },
+      "USER": {
+        "SINGLE": {
+          "NO_LONGER": "You no longer have the required `{perm}` permission",
+          "REQUIRES": "You need the `{perm}` permission"
+        },
+        "MULTIPLE": {
+          "NO_LONGER": "You no longer have the required {perms} permissions",
+          "REQUIRES": "You need the {perms} permissions"
+        }
+      }
     },
     "RELOADING_APPLICATION_COMMAND": "An error occured while reloading an application command",
     "REMINDER": {
@@ -238,11 +318,15 @@
     }
   },
   "GENERIC": {
+    "APP": "App",
     "AUTOMATIC": "Automatic",
     "ADD": "Add",
+    "ADD_TO_SERVER": "Add to Server",
     "ALL": "All",
     "AUTHOR": "Author",
     "BACK": "Back",
+    "BOOST_MESSAGES": "Boost Messages",
+    "BOT": "Bot",
     "CHANNEL": {
       "CHANNEL": "Channel",
       "EDIT": "Edit Channel",
@@ -257,6 +341,7 @@
     },
     "CHANNELS": {
       "CHANNELS": "Channels",
+      "COMMUNITY": "Community Channels",
       "ADD": "Add channels",
       "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
       "EDIT": "Edit Channels",
@@ -273,6 +358,7 @@
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
     "COMMANDS": "Commands",
+    "COMMUNITY": "Community",
     "CONTENT": {
       "CONTENT": "Content",
       "EDIT": "Edit Content",
@@ -283,11 +369,14 @@
     "COUNT": "{count, number}",
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+      "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
+      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
       "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
       "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
     },
+    "COVER": "Cover",
     "CREATED": "Created",
     "CURRENT": "Current",
     "DEFAULT": "Default",
@@ -298,11 +387,21 @@
     "EMOJIS": "Emojis",
     "EPHEMERAL": "Ephemeral",
     "ERROR": "Error",
+    "FEATURES": "Features",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
+    "ICON": "Icon",
     "ID": "ID",
     "IDLE": "Idle",
+    "INCOMING": "Incoming",
+    "INTENT": {
+      "MESSAGE_CONTENT": "Message Content Intent",
+      "PRESENCE": "Presence Intent",
+      "SERVER_MEMBERS": "Server Members Intent"
+    },
     "INTERACTED_BY": "Interacted by {userName}",
+    "JOIN_MESSAGES": "Join Messages",
+    "LEGEND": "Legend",
     "LOADING": "Loading",
     "LOCALE": {
       "EMOJI": "🇬🇧",
@@ -310,6 +409,7 @@
     },
     "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
+    "MEMBER": "Member",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -324,11 +424,17 @@
     "ONLINE": "Online",
     "OUTPUT": "Output",
     "OWNER": "Owner",
+    "PERMISSIONS": "Permissions",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "PUBLIC_BOT": "Public Bot",
+    "PUBLIC_UPDATES": "Public Updates",
+    "READD_TO_SERVER": "Readd to Server",
     "RECURSIVE": "Recursive",
     "REMOVE": "Remove",
     "RENAME": "Rename",
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
+    "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
     "ROLES": {
       "ROLES": "Roles",
       "ADD": "Add Roles",
@@ -344,9 +450,17 @@
         "REMOVE": "Select the roles to remove"
       }
     },
+    "RULES": "Rules",
+    "SECURITY": "Security",
     "SERVERS": "Servers",
+    "SETUP_TIPS": "Setup Tips",
+    "SHARD": "Shard",
     "STREAMING": "Streaming",
     "SUCCESS": "Success",
+    "SUPPORT_SERVER": "Support Server",
+    "SYSTEM_MESSAGES": "System Messages",
+    "TAGS": "Tags",
+    "TERMS_OF_SERVICE": "Terms of Service",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
       "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
@@ -364,6 +478,7 @@
     "USER": "User",
     "VIEW": "View",
     "WARNING": "Warning",
+    "WAVE_BUTTON": "Wave Button",
     "WEBHOOKS": "Webhooks",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
@@ -496,12 +611,9 @@
     "MODERATE_MEMBERS": "Timeout Members",
     "MOVE_MEMBERS": "Move Members",
     "MUTE_MEMBERS": "Mute Members",
-    "NO_LONGER": "You no longer have the required `{perm}` permission",
     "PRIORITY_SPEAKER": "Priority Speaker",
     "READ_MESSAGE_HISTORY": "Read Message History",
     "REQUEST_TO_SPEAK": "Request to Speak",
-    "REQUIRES": "You need the `{perm}` permission",
-    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
     "SEND_MESSAGES": "Send Messages and Create Posts",
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
     "SEND_TTS_MESSAGES": "Send TTS Messages",
@@ -522,7 +634,6 @@
     "DESCRIPTION": "Shows the bot's latency",
     "NAME": "ping",
     "RESPONSE_TIME": "Response Time",
-    "SHARD": "Shard",
     "TITLE": "Pong!"
   },
   "REMINDER": {
@@ -569,6 +680,20 @@
     "SELECT_LIST": "Select a reminder",
     "TIMESTAMP": "You'll be reminded {timestamp}",
     "TO": "Reminder to {userName}"
+  },
+  "ROLE_CONNECTION": {
+    "LEVEL": {
+      "DESCRIPTION": "Level Greater Than",
+      "NAME": "Level"
+    },
+    "MOWANS": {
+      "DESCRIPTION": "Amount of Mowans Greater Than",
+      "NAME": "Mowans"
+    },
+    "PLAYING_SINCE": {
+      "DESCRIPTION": "Days since playing their first game",
+      "NAME": "Playing Since"
+    }
   },
   "ROLEMENU": {
     "DESCRIPTION": "Rolemenu related commands",
@@ -654,8 +779,9 @@
     "NAME": "user",
     "OPTIONS": {
       "INFO": {
-        "DESCRIPTION": "Shows information about a user",
+        "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
+          "TITLE": "Member Information",
           "AVATAR": "Server Avatar",
           "BANNER": "Server Banner",
           "JOINED": "Joined Server"
@@ -667,8 +793,8 @@
             "NAME": "user"
           }
         },
-        "TITLE": "User Information",
         "USER": {
+          "TITLE": "User Information",
           "AVATAR": "Avatar",
           "BANNER": "Banner"
         },
