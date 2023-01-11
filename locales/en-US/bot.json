@@ -324,7 +324,9 @@
     "ADD_TO_SERVER": "Add to Server",
     "ALL": "All",
     "AUTHOR": "Author",
+    "AVATAR": "Avatar",
     "BACK": "Back",
+    "BANNER": "Banner",
     "BOOST_MESSAGES": "Boost Messages",
     "BOT": "Bot",
     "CHANNEL": {
@@ -374,7 +376,8 @@
       "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
       "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
       "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
-      "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}"
+      "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}",
+      "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
     },
     "COVER": "Cover",
     "CREATED": "Created",
@@ -382,6 +385,8 @@
     "DEFAULT": "Default",
     "DELETE": "Delete",
     "DIRECT_MESSAGE": "Direct Message",
+    "DISCOVERY": "Discovery",
+    "DISCOVERY_SPLASH": "Discovery Splash",
     "DO_NOT_DISTURB": "Do Not Disturb",
     "EDIT": "Edit",
     "EMOJIS": "Emojis",
@@ -400,6 +405,7 @@
       "SERVER_MEMBERS": "Server Members Intent"
     },
     "INTERACTED_BY": "Interacted by {userName}",
+    "INVITE": "Invite",
     "JOIN_MESSAGES": "Join Messages",
     "LEGEND": "Legend",
     "LOADING": "Loading",
@@ -455,6 +461,7 @@
     "SERVERS": "Servers",
     "SETUP_TIPS": "Setup Tips",
     "SHARD": "Shard",
+    "SPLASH": "Splash",
     "STREAMING": "Streaming",
     "SUCCESS": "Success",
     "SUPPORT_SERVER": "Support Server",
@@ -476,6 +483,7 @@
     "STICKERS": "Stickers",
     "UPTIME": "Uptime",
     "USER": "User",
+    "VANITY_URL": "Vanity URL",
     "VIEW": "View",
     "WARNING": "Warning",
     "WAVE_BUTTON": "Wave Button",
@@ -682,7 +690,10 @@
     "TO": "Reminder to {userName}"
   },
   "ROLE_CONNECTION": {
-    "LEVEL": { "DESCRIPTION": "Level Greater Than", "NAME": "Level" },
+    "LEVEL": {
+      "DESCRIPTION": "Level Greater Than",
+      "NAME": "Level"
+    },
     "MOWANS": {
       "DESCRIPTION": "Amount of Mowans Greater Than",
       "NAME": "Mowans"
@@ -779,8 +790,6 @@
         "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
           "TITLE": "Member Information",
-          "AVATAR": "Server Avatar",
-          "BANNER": "Server Banner",
           "JOINED": "Joined Server"
         },
         "NAME": "info",
@@ -791,9 +800,7 @@
           }
         },
         "USER": {
-          "TITLE": "User Information",
-          "AVATAR": "Avatar",
-          "BANNER": "Banner"
+          "TITLE": "User Information"
         },
         "VIEW_INFO": "View Information"
       },
