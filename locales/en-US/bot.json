@@ -547,7 +547,7 @@
                 "NAME": "guild"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID of an specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
@@ -790,7 +790,8 @@
         "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
           "TITLE": "Member Information",
-          "JOINED": "Joined Server"
+          "JOINED": "Joined Server",
+          "REJOINED": "Rejoined Server"
         },
         "NAME": "info",
         "OPTIONS": {
