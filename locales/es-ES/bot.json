@@ -791,7 +791,9 @@
         "MEMBER": {
           "TITLE": "Member Information",
           "JOINED": "Se Unió al Servidor",
-          "REJOINED": "Rejoined Server"
+          "JOINED_PENDING": "Joined Server (Pending)",
+          "REJOINED": "Rejoined Server",
+          "REJOINED_PENDING": "Rejoined Server (Pending)"
         },
         "NAME": "info",
         "OPTIONS": {
