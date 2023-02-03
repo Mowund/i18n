@@ -547,7 +547,7 @@
                 "NAME": "servidor"
               },
               "ID": {
-                "DESCRIPTION": "ID de um comando específico (Padrão: Todos os comandos)",
+                "DESCRIPTION": "ID of an specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
@@ -790,7 +790,8 @@
         "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
           "TITLE": "Member Information",
-          "JOINED": "Entrou no Servidor"
+          "JOINED": "Entrou no Servidor",
+          "REJOINED": "Rejoined Server"
         },
         "NAME": "info",
         "OPTIONS": {
