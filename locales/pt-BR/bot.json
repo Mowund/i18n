@@ -476,6 +476,7 @@
       "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
       "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
     },
+    "TIMEOUT_ENDS": "Timeout Ends",
     "TIMESTAMP": "Horário",
     "TO": "Para",
     "TOTAL": "Total",
