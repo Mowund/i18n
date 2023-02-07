@@ -766,7 +766,8 @@
         },
         "AUTOROLE": {
           "NAME": "Autorole",
-          "EDIT": "Edit Autorole"
+          "EDIT": "Edit Autorole",
+          "SELECT_PLACEHOLDER": "Select a role to add to autorole"
         }
       }
     }
@@ -818,20 +819,25 @@
       "SETTINGS": {
         "TITLE": "Ajustes de Usuario",
         "DESCRIPTION": "Muestra la configuración de tu bot",
-        "EPHEMERAL_RESPONSES": {
-          "DISABLED": "Las respuestas a sus comandos serán visibles para cualquier persona siempre que sea posible",
-          "ENABLED": "Las respuestas a sus comandos siempre serán efímeras",
-          "NAME": "Respuestas Efímeras"
-        },
-        "IGNORE_EPHEMERAL_ROLES": {
-          "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
-          "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
-          "NAME": "Ignore Ephemeral Roles"
+        "EPHEMERAL": {
+          "EDIT": "Edit Ephemerality",
+          "EDITED": "Edited Ephemerality",
+          "EDITING": "Editing Ephemerality",
+          "IGNORE_ROLES": {
+            "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
+            "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
+            "NAME": "Ignore Ephemeral Roles"
+          },
+          "RESPONSES": {
+            "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
+            "ENABLED": "Responses to your commands will always be ephemeral",
+            "NAME": "Ephemeral Responses"
+          }
         },
         "LOCALE": {
           "EDIT": "Editar Idioma",
-          "EDITING": "Editando Idioma",
           "EDITED": "Idioma Editado",
+          "EDITING": "Editando Idioma",
           "NAME": "Idioma",
           "SELECT_PLACEHOLDER": "Seleccione el idioma para cambiar"
         },
