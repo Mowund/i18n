@@ -359,6 +359,7 @@
     },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
+    "COLOR_ROLE": "Color Role",
     "COMMANDS": "Commands",
     "COMMUNITY": "Community",
     "CONTENT": {
@@ -395,6 +396,8 @@
     "FEATURES": "Features",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FROM": "From",
+    "HIGHEST_ROLE": "Highest Role",
+    "HOIST_ROLE": "Hoist Role",
     "ICON": "Icon",
     "ID": "ID",
     "IDLE": "Idle",
