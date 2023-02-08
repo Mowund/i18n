@@ -282,6 +282,7 @@
       "MANAGER": "It looks like I was added to the server without the bot scope. Add me again to fix this",
       "MEMBER": "It looks like I was added to the server without the bot scope. Tell a server admin to add me again correctly"
     },
+    "NO_LONGER_MEMBER": "This user is no longer a member of the server",
     "PERM": {
       "BOT": {
         "SINGLE": {
