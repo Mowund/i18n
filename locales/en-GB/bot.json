@@ -268,7 +268,7 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server. If you change the mode, you won't be able to go back to the member's information again",
-    "INACCESSIBLE_APP_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server mode, so it was forced to be shown as default. If you change the mode, you won't be able to go back to the member's information again",
+    "INACCESSIBLE_APP_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it was forced to be shown as default. If you change the mode, you won't be able to go back to the member's information again",
     "INACCESSIBLE_APP_AND_MEMBER_INFO": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots. The member's information is inaccessible because I'm not on the server. If you change the mode, you won't be able to go back to the member's information again",
     "INVALID": {
       "APP": "You must provide a valid bot or application ID",
@@ -489,6 +489,8 @@
     "TOTAL": "Total",
     "TYPE": "Type",
     "STICKERS": "Stickers",
+    "SUPPRESS_WARNING": "Suppress Warning",
+    "SUPPRESSED_WARNING": "Suppressed Warning",
     "UPTIME": "Uptime",
     "USER": "User",
     "VANITY_URL": "Vanity URL",
