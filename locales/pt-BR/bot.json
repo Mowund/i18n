@@ -13,6 +13,17 @@
             "NAME": "app"
           }
         }
+      },
+      "PERMISSIONS": {
+        "DESCRIPTION": "Shows app's install permissions status",
+        "LEGEND": {
+          "CHECK": "The app has the required permission as part of its integrated role",
+          "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
+          "NO": "The app has the doesn't have the required permission",
+          "NEUTRAL": "Can't access the permission's status"
+        },
+        "NAME": "permissions",
+        "TITLE": "App Permissions"
       }
     }
   },
@@ -27,16 +38,6 @@
         "NAME": "info",
         "NODEJS_VERSION": "Versão do Node.JS",
         "TITLE": "Bot Information"
-      },
-      "PERMISSIONS": {
-        "DESCRIPTION": "Shows bot's required permissions status",
-        "LEGEND": {
-          "CHECK": "I have the required permission as part of my integrated role",
-          "MAYBE": "I have the required permission as part of another role or a channel overwrite",
-          "NO": "I don't have the required permission"
-        },
-        "NAME": "permissions",
-        "TITLE": "Bot Permissions"
       }
     }
   },
