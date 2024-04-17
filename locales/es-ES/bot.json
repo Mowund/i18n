@@ -4,7 +4,6 @@
     "NAME": "app",
     "OPTIONS": {
       "INFO": {
-        "TITLE": "App Information",
         "DESCRIPTION": "Shows information about an application",
         "NAME": "info",
         "OPTIONS": {
@@ -12,15 +11,16 @@
             "DESCRIPTION": "The application to get information about",
             "NAME": "app"
           }
-        }
+        },
+        "TITLE": "App Information"
       },
       "PERMISSIONS": {
         "DESCRIPTION": "Shows app's install permissions status",
         "LEGEND": {
           "CHECK": "The app has the required permission as part of its integrated role",
           "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
-          "NO": "The app doesn't have the required permission",
-          "NEUTRAL": "Can't access the permission's status"
+          "NEUTRAL": "Can't access the permission's status",
+          "NO": "The app doesn't have the required permission"
         },
         "NAME": "permissions",
         "TITLE": "App Permissions"
@@ -105,13 +105,13 @@
             "DESCRIPTION": "The image or video of the coordinate",
             "NAME": "attachment"
           },
-          "DESCRIPTION": {
-            "DESCRIPTION": "The description of the coordinate",
-            "NAME": "description"
-          },
           "COORDINATES": {
             "DESCRIPTION": "The coordinates",
             "NAME": "coordinates"
+          },
+          "DESCRIPTION": {
+            "DESCRIPTION": "The description of the coordinate",
+            "NAME": "description"
           },
           "TITLE": {
             "DESCRIPTION": "The title of the coordinate",
@@ -268,8 +268,8 @@
     },
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
-    "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INACCESSIBLE_APP_AND_MEMBER_INFO": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots. The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
+    "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INVALID": {
       "APP": "You must provide a valid bot or application ID",
       "IMAGE": {
@@ -289,23 +289,23 @@
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
     "PERM": {
       "BOT": {
-        "SINGLE": {
-          "NO_LONGER": "I no longer have the required `{perm}` permission",
-          "REQUIRES": "I need the `{perm}` permission"
-        },
         "MULTIPLE": {
           "NO_LONGER": "I no longer have the required {perms} permissions",
           "REQUIRES": "I need the {perms} permissions"
+        },
+        "SINGLE": {
+          "NO_LONGER": "I no longer have the required `{perm}` permission",
+          "REQUIRES": "I need the `{perm}` permission"
         }
       },
       "USER": {
-        "SINGLE": {
-          "NO_LONGER": "You no longer have the required `{perm}` permission",
-          "REQUIRES": "You need the `{perm}` permission"
-        },
         "MULTIPLE": {
           "NO_LONGER": "You no longer have the required {perms} permissions",
           "REQUIRES": "You need the {perms} permissions"
+        },
+        "SINGLE": {
+          "NO_LONGER": "You no longer have the required `{perm}` permission",
+          "REQUIRES": "You need the `{perm}` permission"
         }
       }
     },
@@ -323,12 +323,12 @@
     }
   },
   "GENERIC": {
-    "APP": "App",
-    "AUTOMATIC": "Automático",
     "ADD": "Add",
     "ADD_TO_SERVER": "Add to Server",
     "ALL": "All",
+    "APP": "App",
     "AUTHOR": "Author",
+    "AUTOMATIC": "Automático",
     "AVATAR": "Avatar",
     "BACK": "Vuelve",
     "BANNER": "Banner",
@@ -341,26 +341,26 @@
       "EDITING": "Editando Canal",
       "SELECT_PLACEHOLDER": "Select the channel to change"
     },
-    "CHANNELS_AND_ROLES": {
-      "ADDING": "Adding Channels & Roles",
-      "EDITING": "Editing Channels & Roles",
-      "REMOVING": "Removing Channels & Roles"
-    },
     "CHANNELS": {
-      "CHANNELS": "Channels",
-      "COMMUNITY": "Community Channels",
       "ADD": "Add channels",
       "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
+      "CHANNELS": "Channels",
+      "COMMUNITY": "Community Channels",
       "EDIT": "Edit Channels",
       "EDITING": "Editing Channels",
       "REMOVE": "Remove Channels",
       "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
       "RESET": "Reset Channels",
       "SELECT": {
-        "DEFAULT": "Select the channels",
         "ADD": "Select the channels to add",
+        "DEFAULT": "Select the channels",
         "REMOVE": "Select the channels to remove"
       }
+    },
+    "CHANNELS_AND_ROLES": {
+      "ADDING": "Adding Channels & Roles",
+      "EDITING": "Editing Channels & Roles",
+      "REMOVING": "Removing Channels & Roles"
     },
     "CHAT": "Chat",
     "CODEPOINT": "Code Point",
@@ -450,7 +450,6 @@
     "REQUESTED_BY": "Solicitado por {userName}",
     "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
     "ROLES": {
-      "ROLES": "Roles",
       "ADD": "Add Roles",
       "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
       "EDIT": "Edit Roles",
@@ -458,9 +457,10 @@
       "REMOVE": "Remove Roles",
       "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
       "RESET": "Reset Roles",
+      "ROLES": "Roles",
       "SELECT": {
-        "DEFAULT": "Select the roles",
         "ADD": "Select the roles to add",
+        "DEFAULT": "Select the roles",
         "REMOVE": "Select the roles to remove"
       }
     },
@@ -470,9 +470,12 @@
     "SETUP_TIPS": "Setup Tips",
     "SHARD": "Shard",
     "SPLASH": "Splash",
+    "STICKERS": "Stickers",
     "STREAMING": "Streaming",
     "SUCCESS": "Success",
     "SUPPORT_SERVER": "Support Server",
+    "SUPPRESS_WARNING": "Suppress Warning",
+    "SUPPRESSED_WARNING": "Suppressed Warning",
     "SYSTEM_MESSAGES": "System Messages",
     "TAGS": "Tags",
     "TERMS_OF_SERVICE": "Terms of Service",
@@ -489,9 +492,6 @@
     "TO": "To",
     "TOTAL": "Total",
     "TYPE": "Type",
-    "STICKERS": "Stickers",
-    "SUPPRESS_WARNING": "Suppress Warning",
-    "SUPPRESSED_WARNING": "Suppressed Warning",
     "UPTIME": "Uptime",
     "USER": "Usuario",
     "VANITY_URL": "Vanity URL",
@@ -519,24 +519,6 @@
     "DESCRIPTION": "Bot owner only commands",
     "NAME": "owner",
     "OPTIONS": {
-      "EVAL": {
-        "DESCRIPTION": "Evaluates a script (Bot owner only)",
-        "NAME": "eval",
-        "OPTIONS": {
-          "ASYNC": {
-            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
-            "NAME": "async"
-          },
-          "AWAIT": {
-            "DESCRIPTION": "Awaits the script (Default: True)",
-            "NAME": "await"
-          },
-          "SCRIPT": {
-            "DESCRIPTION": "The script to evaluate",
-            "NAME": "script"
-          }
-        }
-      },
       "COMMAND": {
         "COMMANDS": {
           "DELETED": "Deleted Commands",
@@ -565,13 +547,31 @@
           }
         }
       },
+      "EVAL": {
+        "DESCRIPTION": "Evaluates a script (Bot owner only)",
+        "NAME": "eval",
+        "OPTIONS": {
+          "ASYNC": {
+            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
+            "NAME": "async"
+          },
+          "AWAIT": {
+            "DESCRIPTION": "Awaits the script (Default: True)",
+            "NAME": "await"
+          },
+          "SCRIPT": {
+            "DESCRIPTION": "The script to evaluate",
+            "NAME": "script"
+          }
+        }
+      },
       "LOCALIZATION": {
-        "NAME": "localization",
         "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "NAME": "localization",
         "OPTIONS": {
           "UPDATE": {
-            "NAME": "update",
-            "DESCRIPTION": "Updates localizations (Bot owner only)"
+            "DESCRIPTION": "Updates localizations (Bot owner only)",
+            "NAME": "update"
           }
         },
         "UPDATED": "Updated localizations",
@@ -612,8 +612,8 @@
     "CHANGE_NICKNAME": "Change Nickname",
     "CONNECT": "Connect",
     "CREATE_EVENTS": "Create Instant Invite",
+    "CREATE_GUILD_EXPRESSIONS": "Create Expressions",
     "CREATE_INSTANT_INVITE": "Create Instant Invite",
-    "CREATE_EXPRESSIONS": "Create Expressions",
     "CREATE_PRIVATE_THREADS": "Create Private Threads",
     "CREATE_PUBLIC_THREADS": "Create Public Threads",
     "DEAFEN_MEMBERS": "Deafen Members",
@@ -621,8 +621,8 @@
     "KICK_MEMBERS": "Kick Members",
     "MANAGE_CHANNELS": "Manage Channel",
     "MANAGE_EVENTS": "Manage Events",
-    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions",
     "MANAGE_GUILD": "Manage Guild",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions",
     "MANAGE_MESSAGES": "Gestionar Mensajes",
     "MANAGE_NICKNAMES": "Manage Nicknames",
     "MANAGE_ROLES": "Manage Roles",
@@ -637,6 +637,7 @@
     "REQUEST_TO_SPEAK": "Request to Speak",
     "SEND_MESSAGES": "Send Messages and Create Posts",
     "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
+    "SEND_POLLS": "Create Polls",
     "SEND_TTS_MESSAGES": "Send TTS Messages",
     "SEND_VOICE_MESSAGES": "Send Voice Messages",
     "SET_VOICE_CHANNEL_STATUS": "Set Voice Channel Status",
@@ -646,8 +647,8 @@
     "USE_CLYDE_AI": "Use Clyde",
     "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
     "USE_EXTERNAL_EMOJIS": "Use External Emojis",
-    "USE_EXTERNAL_STICKERS": "Use External Stickers",
     "USE_EXTERNAL_SOUNDS": "Use External Sounds",
+    "USE_EXTERNAL_STICKERS": "Use External Stickers",
     "USE_SOUNDBOARD": "Use Soundboard",
     "USE_VAD": "Use Voice Activity Detection",
     "VIEW_AUDIT_LOG": "View Audit Log",
@@ -669,12 +670,12 @@
     },
     "CREATED": "Recordatorio Creado",
     "CREATED_AT": "El recordatorio ha sido creado {timestamp}",
-    "DESCRIPTION": "Comandos relacionados con recordatorios",
     "DELETED": "Recordatorio Eliminado",
     "DELETING": "Eliminando Recordatorio",
     "DELETING_DESCRIPTION": "¿Estás seguro de que quieres eliminar este recordatorio?",
-    "EDITING": "Editando Recordatorio",
+    "DESCRIPTION": "Comandos relacionados con recordatorios",
     "EDITED": "Recordatorio Editado",
+    "EDITING": "Editando Recordatorio",
     "INFO": "Reminder Information",
     "LIST": "Lista de Recordatorios",
     "NAME": "recordatorio",
@@ -701,8 +702,8 @@
     },
     "RECURSIVE": {
       "DISABLED": "Can't set as recursive because the reminder time should be at least **{time}**",
-      "ON": "You'll be reminded again {timestamp}",
-      "OFF": "You won't be reminded again"
+      "OFF": "You won't be reminded again",
+      "ON": "You'll be reminded again {timestamp}"
     },
     "SELECT_LIST": "Select a reminder",
     "TIMESTAMP": "You'll be reminded {timestamp}",
@@ -772,18 +773,18 @@
         "TITLE": "Server Information"
       },
       "SETTINGS": {
-        "TITLE": "Server Settings",
-        "DESCRIPTION": "Shows this server's settings",
-        "NAME": "settings",
         "ALLOW_NON_EPHEMERAL": {
-          "NAME": "Allow Non-Ephemeral Responses",
-          "EDIT": "Edit Ephemerality"
+          "EDIT": "Edit Ephemerality",
+          "NAME": "Allow Non-Ephemeral Responses"
         },
         "AUTOROLE": {
-          "NAME": "Autorole",
           "EDIT": "Edit Autorole",
+          "NAME": "Autorole",
           "SELECT_PLACEHOLDER": "Select a role to add to autorole"
-        }
+        },
+        "DESCRIPTION": "Shows this server's settings",
+        "NAME": "settings",
+        "TITLE": "Server Settings"
       }
     }
   },
@@ -813,11 +814,11 @@
       "INFO": {
         "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
-          "TITLE": "Member Information",
           "JOINED": "Se Unió al Servidor",
           "JOINED_PENDING": "Joined Server (Pending)",
           "REJOINED": "Rejoined Server",
-          "REJOINED_PENDING": "Rejoined Server (Pending)"
+          "REJOINED_PENDING": "Rejoined Server (Pending)",
+          "TITLE": "Member Information"
         },
         "NAME": "info",
         "OPTIONS": {
@@ -832,7 +833,6 @@
         "VIEW_INFO": "View Information"
       },
       "SETTINGS": {
-        "TITLE": "Ajustes de Usuario",
         "DESCRIPTION": "Muestra la configuración de tu bot",
         "EPHEMERAL": {
           "EDIT": "Edit Ephemerality",
@@ -856,7 +856,8 @@
           "NAME": "Idioma",
           "SELECT_PLACEHOLDER": "Seleccione el idioma para cambiar"
         },
-        "NAME": "ajustes"
+        "NAME": "ajustes",
+        "TITLE": "Ajustes de Usuario"
       }
     }
   }
