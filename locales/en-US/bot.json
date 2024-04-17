@@ -364,6 +364,7 @@
       }
     },
     "CHAT": "Chat",
+    "CHECK_PERMISSIONS": "Check Permissions",
     "CODEPOINT": "Code Point",
     "COLOR_ROLE": "Color Role",
     "COMMANDS": "Commands",
