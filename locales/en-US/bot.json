@@ -19,7 +19,7 @@
         "LEGEND": {
           "CHECK": "The app has the required permission as part of its integrated role",
           "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
-          "NO": "The app has the doesn't have the required permission",
+          "NO": "The app doesn't have the required permission",
           "NEUTRAL": "Can't access the permission's status"
         },
         "NAME": "permissions",
