@@ -646,6 +646,7 @@
     "USE_APPLICATION_COMMANDS": "Use Application Commands",
     "USE_CLYDE_AI": "Use Clyde",
     "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
+    "USE_EXTERNAL_APPS": "Use External Apps",
     "USE_EXTERNAL_EMOJIS": "Use External Emojis",
     "USE_EXTERNAL_SOUNDS": "Use External Sounds",
     "USE_EXTERNAL_STICKERS": "Use External Stickers",
