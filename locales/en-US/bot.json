@@ -415,7 +415,17 @@
     },
     "INTERACTED_BY": "Interacted by {userName}",
     "INVITE": "Invite",
+    "INVITED_BY": "Invited by",
     "JOIN_MESSAGES": "Join Messages",
+    "JOIN_METHOD": {
+      "0": "Unknown",
+      "1": "Bot Invite",
+      "3": "Server Discovery",
+      "4": "Student Hub",
+      "5": "Invite",
+      "6": "Vanity URL",
+      "7": "Manual Verification"
+    },
     "LEGEND": "Legend",
     "LOADING": "Loading",
     "LOCALE": {
@@ -428,6 +438,7 @@
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
+    "METHOD": "Method",
     "NAME": "Name",
     "NO": "No",
     "NO_CHANNEL": "No Channel",
