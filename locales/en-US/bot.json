@@ -377,6 +377,7 @@
     "COUNT": "{count, number}",
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+      "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
       "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
       "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
