@@ -377,6 +377,7 @@
     "COUNT": "{count, number}",
     "COUNTER": {
       "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+      "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
       "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
       "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
       "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
@@ -417,15 +418,7 @@
     "INVITE": "Invite",
     "INVITED_BY": "Invited by",
     "JOIN_MESSAGES": "Join Messages",
-    "JOIN_METHOD": {
-      "0": "Unknown",
-      "1": "Bot Invite",
-      "3": "Server Discovery",
-      "4": "Student Hub",
-      "5": "Invite",
-      "6": "Vanity URL",
-      "7": "Manual Verification"
-    },
+    "JOIN_METHOD": "Join Method",
     "LEGEND": "Legend",
     "LOADING": "Loading",
     "LOCALE": {
@@ -828,6 +821,15 @@
       "INFO": {
         "DESCRIPTION": "Shows information about an user",
         "MEMBER": {
+          "JOIN_METHOD": {
+            "0": "Unknown",
+            "1": "Bot Invite",
+            "3": "Server Discovery",
+            "4": "Student Hub",
+            "5": "Invite",
+            "6": "Vanity URL",
+            "7": "Manual Verification"
+          },
           "JOINED": "Joined Server",
           "JOINED_PENDING": "Joined Server (Pending)",
           "REJOINED": "Rejoined Server",
