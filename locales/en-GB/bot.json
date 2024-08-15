@@ -1,62 +1,137 @@
 {
+  "ADD": "Add",
+  "ADD_TO_SERVER": "Add to Server",
+  "ALL": "All",
   "APP": {
-    "DESCRIPTION": "Application related commands",
-    "NAME": "app",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about an application",
-        "NAME": "info",
-        "OPTIONS": {
-          "APP": {
-            "DESCRIPTION": "The application to get information about",
-            "NAME": "app"
-          }
-        },
-        "TITLE": "App Information"
+    "INFO": {
+      "DESC": {
+        "APP": "The application to get information about"
       },
-      "PERMISSIONS": {
-        "DESCRIPTION": "Shows app's install permissions status",
-        "LEGEND": {
-          "CHECK": "The app has the required permission as part of its integrated role",
-          "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
-          "NEUTRAL": "Can't access the permission's status",
-          "NO": "The app doesn't have the required permission"
-        },
-        "NAME": "permissions",
-        "TITLE": "App Permissions"
-      }
+      "TITLE": "App Information"
+    },
+    "NOUN": "App",
+    "PERMISSIONS": {
+      "LEGEND": {
+        "CHECK": "The app has the required permission as part of its integrated role",
+        "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
+        "NEUTRAL": "Can't access the permission's status",
+        "NO": "The app doesn't have the required permission"
+      },
+      "TITLE": "App Permissions"
     }
   },
+  "AUTHOR": "Author",
+  "AUTOMATIC": "Automatic",
+  "AVATAR": "Avatar",
+  "BACK": "Back",
+  "BANNER": "Banner",
+  "BOOST_MESSAGES": "Boost Messages",
   "BOT": {
-    "DESCRIPTION": "Bot related commands",
-    "NAME": "bot",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about the bot",
-        "DISCORDJS_VERSION": "Discord.JS Version",
-        "MEMORY_USAGE": "Memory Usage",
-        "NAME": "info",
-        "NODEJS_VERSION": "Node.JS Version",
-        "TITLE": "Bot Information"
-      }
+    "INFO": {
+      "DISCORDJS_VERSION": "Discord.JS Version",
+      "MEMORY_USAGE": "Memory Usage",
+      "NODEJS_VERSION": "Node.JS Version",
+      "TITLE": "Bot Information"
+    },
+    "NOUN": "Bot"
+  },
+  "CHANNEL": {
+    "EDIT": "Edit Channel",
+    "EDITED": "Edited Channel",
+    "EDITING": "Editing Channel",
+    "NOUN": "Channel",
+    "SELECT_PLACEHOLDER": "Select the channel to change"
+  },
+  "CHANNELS": {
+    "ADD": "Add channels",
+    "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
+    "COMMUNITY": "Community Channels",
+    "EDIT": "Edit Channels",
+    "EDITING": "Editing Channels",
+    "NOUN": "Channels",
+    "REMOVE": "Remove Channels",
+    "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
+    "RESET": "Reset Channels",
+    "SELECT": {
+      "ADD": "Select the channels to add",
+      "DEFAULT": "Select the channels",
+      "REMOVE": "Select the channels to remove"
     }
   },
+  "CHANNELS_AND_ROLES": {
+    "ADDING": "Adding Channels & Roles",
+    "EDITING": "Editing Channels & Roles",
+    "REMOVING": "Removing Channels & Roles"
+  },
+  "CHAT": "Chat",
   "CLEAR": {
     "DELETE_AFTER_THIS": "Delete After This",
     "DELETED": "{count, plural, =0 {No messages were deleted} one {`#` message deleted} other {`#` messages deleted}}",
-    "DESCRIPTION": "Deletes chat messages from up to 2 weeks ago",
-    "NAME": "clear",
-    "OPTIONS": {
-      "COUNT": {
-        "DESCRIPTION": "The number of messages to delete",
-        "NAME": "count"
-      },
-      "DELETE_PINNED": {
-        "DESCRIPTION": "Whether to delete pinned messages (Default: False)",
-        "NAME": "delete-pinned"
-      }
+    "DESC": {
+      "COUNT": "The number of messages to delete",
+      "DELETE_PINNED": "Whether to delete pinned messages (Default: False)"
     }
   },
+  "CMD": {
+    "ADD": "add",
+    "APP": "app",
+    "ASYNC": "async",
+    "ATTACHMENT": "attachment",
+    "AUTHOR": "author",
+    "AWAIT": "await",
+    "BOT": "bot",
+    "CHANNEL": "channel",
+    "CLEAR": "clear",
+    "COLOR": "color",
+    "COMMAND": "command",
+    "CONTENT": "content",
+    "COORD": "coord",
+    "COORDINATES": "coordinates",
+    "COUNT": "count",
+    "CREATE": "create",
+    "DELETE_PINNED": "delete-pinned",
+    "DURATION": "duration",
+    "DESCRIPTION": "description",
+    "ECHO": "echo",
+    "EDIT": "edit",
+    "EMOJI": "emoji",
+    "EVAL": "eval",
+    "EXPERIMENT": "experiment",
+    "FOOTER": "footer",
+    "GUILD": "guild",
+    "ID": "id",
+    "IMAGE": "image",
+    "INFO": "info",
+    "KILL": "kill",
+    "LIST": "list",
+    "LOCALIZATION": "localization",
+    "NAME": "name",
+    "OWNER": "owner",
+    "PERMISSIONS": "permissions",
+    "PING": "ping",
+    "REASON": "reason",
+    "REMINDER": "reminder",
+    "RESPAWN_ALL": "respawn-all",
+    "RESPAWN_DELAY": "respawn-delay",
+    "ROLEMENU": "rolemenu",
+    "ROLLOUT": "rollout",
+    "SCRIPT": "script",
+    "SEND": "send",
+    "SERVER": "server",
+    "SETTINGS": "settings",
+    "SHARD": "shard",
+    "SHARD_DELAY": "shard-delay",
+    "THUMBNAIL": "thumbnail",
+    "TIME": "time",
+    "TIMEOUT": "timeout",
+    "TIMESTAMP": "timestamp",
+    "TITLE": "title",
+    "TTS": "tts",
+    "UPDATE": "update",
+    "URL": "url",
+    "USER": "user"
+  },
+  "CODEPOINT": "Code Point",
   "COLOR": {
     "ALREADY_NO_ROLE": "You already has no colour role",
     "AVATAR_ESTIMATED": "Estimated colour of your avatar",
@@ -93,100 +168,115 @@
     "TARGET_NO_ROLE": "The mentioned user does not have a colour role",
     "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
+  "COLOR_ROLE": "Color Role",
+  "COMMANDS": "Commands",
+  "COMMUNITY": "Community",
+  "CONTENT": {
+    "EDIT": "Edit Content",
+    "EDITED": "Edited Content",
+    "EDITING": "Editing Content",
+    "EDITING_LABEL": "Insert the new content",
+    "NOUN": "Content"
+  },
   "COORD": {
-    "DESCRIPTION": "Coordinate related commands",
-    "NAME": "coord",
-    "OPTIONS": {
-      "SEND": {
-        "DESCRIPTION": "Sends a coordinate",
-        "NAME": "send",
-        "OPTIONS": {
-          "ATTACHMENT": {
-            "DESCRIPTION": "The image or video of the coordinate",
-            "NAME": "attachment"
-          },
-          "COORDINATES": {
-            "DESCRIPTION": "The coordinates",
-            "NAME": "coordinates"
-          },
-          "DESCRIPTION": {
-            "DESCRIPTION": "The description of the coordinate",
-            "NAME": "description"
-          },
-          "TITLE": {
-            "DESCRIPTION": "The title of the coordinate",
-            "NAME": "title"
-          }
-        }
+    "SEND": {
+      "DESC": {
+        "ATTACHMENT": "The image or video of the coordinate",
+        "COORDINATES": "The coordinates",
+        "DESCRIPTION": "The description of the coordinate",
+        "TITLE": "The title of the coordinate"
       }
     }
   },
+  "COUNT": "{count, number}",
+  "COUNTER": {
+    "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+    "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
+    "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
+    "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
+    "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
+    "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
+    "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
+    "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}",
+    "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
+  },
+  "COVER": "Cover",
+  "CREATED": "Created",
+  "CURRENT": "Current",
+  "DEFAULT": "Default",
+  "DELETE": "Delete",
   "DELETE_RESPONSE": "Delete Response",
+  "DESC": {
+    "APP": "Application related commands",
+    "APP_INFO": "Shows information about an application",
+    "APP_PERMISSIONS": "Shows app's install permissions status",
+    "BOT": "Bot related commands",
+    "BOT_INFO": "Shows information about the bot",
+    "CLEAR": "Deletes chat messages from up to 2 weeks ago",
+    "COORD": "Coordinate related commands",
+    "COORD_SEND": "Sends a coordinate",
+    "ECHO": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "EMOJI": "Emoji related commands",
+    "EMOJI_ADD": "Adds a new emoji",
+    "EMOJI_INFO": "Shows info or manages an emoji",
+    "KILL": "Kills someone",
+    "OWNER": "Bot owner only commands",
+    "OWNER_CMD": "Configures commands (Bot owner only)",
+    "OWNER_EVAL": "Evaluates a script (Bot owner only)",
+    "OWNER_LOCALIZATION": "Configures localizations (Bot owner only)",
+    "OWNER_SHARD": "Configures shards (Bot owner only)",
+    "PING": "Shows the bot's latency",
+    "REMINDER": "Reminder related commands",
+    "REMINDER_CREATE": "Creates a new reminder",
+    "REMINDER_LIST": "Lists all of your reminders",
+    "ROLEMENU": "Rolemenu related commands",
+    "ROLEMENU_CREATE": "Creates a rolemenu",
+    "ROLEMENU_EDIT": "Edits a rolemenu",
+    "ROLLOUT": "Shows information about experiments and their rollouts",
+    "SERVER": "Server related commands",
+    "SERVER_INFO": "Shows information about this server",
+    "SERVER_SETTINGS": "Shows this server's settings",
+    "TIMEOUT": "Timeouts a member",
+    "USER": "User related commands",
+    "USER_INFO": "Shows information about an user",
+    "USER_SETTINGS": "Shows your bot settings"
+  },
+  "DESCRIPTION": "Description",
+  "DIRECT_MESSAGE": "Direct Message",
+  "DISCOVERY": "Discovery",
+  "DISCOVERY_SPLASH": "Discovery Splash",
+  "DO_NOT_DISTURB": "Do Not Disturb",
   "ECHO": {
-    "DESCRIPTION": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "DESC": {
+      "ATTACHMENT": "An attachment for the message",
+      "AUTHOR": "Sets the author of the embed (Enables embed)",
+      "CHANNEL": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+      "COLOR": "The color of the embed (Default: Author's display color)",
+      "CONTENT": "The content of the message (Required if embed is disabled)",
+      "DESCRIPTION": "The description of the embed (Enables embed)",
+      "FOOTER": "The footer of the embed (Enables embed)",
+      "IMAGE": "The image of the embed (Enables embed)",
+      "THUMBNAIL": "The thumbnail of the embed (Enables embed)",
+      "TIMESTAMP": "Enables or disabled the timestamp on the embed (Default: Disabled)",
+      "TITLE": "The title of the embed (Enables embed)",
+      "TTS": "Echoes the message in TTS (Default: False)",
+      "URL": "The title's URL of the embed"
+    },
     "GO_TO": "[Click here to go to the message]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "You need to provide a content or an option that enables the embed",
       "PERMS": "You need the `{perm}` permission to echo non-ephemerally"
     },
-    "NAME": "echo",
-    "OPTIONS": {
-      "ATTACHMENT": {
-        "DESCRIPTION": "An attachment for the message",
-        "NAME": "attachment"
-      },
-      "AUTHOR": {
-        "DESCRIPTION": "Sets the author of the embed (Enables embed)",
-        "NAME": "author"
-      },
-      "CHANNEL": {
-        "DESCRIPTION": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
-        "NAME": "channel"
-      },
-      "COLOR": {
-        "DESCRIPTION": "The colour of the embed (Default: Author's display colour)",
-        "NAME": "colour"
-      },
-      "CONTENT": {
-        "DESCRIPTION": "The content of the message (Required if embed is disabled)",
-        "NAME": "content"
-      },
-      "DESCRIPTION": {
-        "DESCRIPTION": "The description of the embed (Enables embed)",
-        "NAME": "description"
-      },
-      "FOOTER": {
-        "DESCRIPTION": "The footer of the embed (Enables embed)",
-        "NAME": "footer"
-      },
-      "IMAGE": {
-        "DESCRIPTION": "The image of the embed (Enables embed)",
-        "NAME": "image"
-      },
-      "THUMBNAIL": {
-        "DESCRIPTION": "The thumbnail of the embed (Enables embed)",
-        "NAME": "thumbnail"
-      },
-      "TIMESTAMP": {
-        "DESCRIPTION": "Enables or disabled the timestamp on the embed (Default: Disabled)",
-        "NAME": "timestamp"
-      },
-      "TITLE": {
-        "DESCRIPTION": "The title of the embed (Enables embed)",
-        "NAME": "title"
-      },
-      "TTS": {
-        "DESCRIPTION": "Echoes the message in TTS (Default: False)",
-        "NAME": "tts"
-      },
-      "URL": {
-        "DESCRIPTION": "The title's URL of the embed",
-        "NAME": "url"
-      }
-    },
     "SENT": "Message Sent"
   },
+  "EDIT": "Edit",
   "EMOJI": {
+    "ADD": {
+      "DESC": {
+        "IMAGE": "The emoji itself (Maximum size: 256kb)",
+        "NAME": "The name of the emoji (Alphanumerical)"
+      }
+    },
     "ADDED": "Added Emoji",
     "ADDED_UNICODE": "Added Unicode Emoji",
     "ADDING": "Adding Emoji",
@@ -199,33 +289,10 @@
     "DELETED": "Emoji Deleted",
     "DELETING": "Deleting Emoji",
     "DELETING_DESCRIPTION": "Are you sure you want to delete this emoji?",
-    "DESCRIPTION": "Emoji related commands",
     "EDITING": "Editing Emoji",
-    "NAME": "emoji",
-    "OPTIONS": {
-      "ADD": {
-        "DESCRIPTION": "Adds a new emoji",
-        "NAME": "add",
-        "OPTIONS": {
-          "IMAGE": {
-            "DESCRIPTION": "The emoji itself (Maximum size: 256kb)",
-            "NAME": "image"
-          },
-          "NAME": {
-            "DESCRIPTION": "The name of the emoji (Alphanumerical)",
-            "NAME": "name"
-          }
-        }
-      },
-      "INFO": {
-        "DESCRIPTION": "Shows info or manages an emoji",
-        "NAME": "info",
-        "OPTIONS": {
-          "EMOJI": {
-            "DESCRIPTION": "ID, mention, unicode or name (if it's on the same server)",
-            "NAME": "emoji"
-          }
-        }
+    "INFO": {
+      "DESC": {
+        "EMOJI": "ID, mention, unicode or name (if it's on the same server)"
       }
     },
     "READDED": "Readded Emoji",
@@ -248,6 +315,8 @@
     "VIEWING_INTEGRATION": "Viewing Integration Emoji",
     "VIEWING_UNICODE": "Viewing Unicode Emoji"
   },
+  "EMOJIS": "Emojis",
+  "EPHEMERAL": "Ephemeral",
   "ERROR": {
     "APP_NOT_FOUND": "The application was not found",
     "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
@@ -287,6 +356,7 @@
     },
     "NO_INSTALL_PARAMS": "The application doesn't have default install permission parameters",
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
+    "NOUN": "Error",
     "PERM": {
       "BOT": {
         "MULTIPLE": {
@@ -322,292 +392,102 @@
       "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
     }
   },
-  "GENERIC": {
-    "ADD": "Add",
-    "ADD_TO_SERVER": "Add to Server",
-    "ALL": "All",
-    "APP": "App",
-    "AUTHOR": "Author",
-    "AUTOMATIC": "Automatic",
-    "AVATAR": "Avatar",
-    "BACK": "Back",
-    "BANNER": "Banner",
-    "BOOST_MESSAGES": "Boost Messages",
-    "BOT": "Bot",
-    "CHANNEL": {
-      "CHANNEL": "Channel",
-      "EDIT": "Edit Channel",
-      "EDITED": "Edited Channel",
-      "EDITING": "Editing Channel",
-      "SELECT_PLACEHOLDER": "Select the channel to change"
-    },
-    "CHANNELS": {
-      "ADD": "Add channels",
-      "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
-      "CHANNELS": "Channels",
-      "COMMUNITY": "Community Channels",
-      "EDIT": "Edit Channels",
-      "EDITING": "Editing Channels",
-      "REMOVE": "Remove Channels",
-      "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
-      "RESET": "Reset Channels",
-      "SELECT": {
-        "ADD": "Select the channels to add",
-        "DEFAULT": "Select the channels",
-        "REMOVE": "Select the channels to remove"
-      }
-    },
-    "CHANNELS_AND_ROLES": {
-      "ADDING": "Adding Channels & Roles",
-      "EDITING": "Editing Channels & Roles",
-      "REMOVING": "Removing Channels & Roles"
-    },
-    "CHAT": "Chat",
-    "CODEPOINT": "Code Point",
-    "COLOR_ROLE": "Color Role",
-    "COMMANDS": "Commands",
-    "COMMUNITY": "Community",
-    "CONTENT": {
-      "CONTENT": "Content",
-      "EDIT": "Edit Content",
-      "EDITED": "Edited Content",
-      "EDITING": "Editing Content",
-      "EDITING_LABEL": "Insert the new content"
-    },
-    "COUNT": "{count, number}",
-    "COUNTER": {
-      "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
-      "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
-      "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
-      "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
-      "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
-      "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
-      "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}",
-      "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
-    },
-    "COVER": "Cover",
-    "CREATED": "Created",
-    "CURRENT": "Current",
-    "DEFAULT": "Default",
-    "DELETE": "Delete",
-    "DESCRIPTION": "Description",
-    "DIRECT_MESSAGE": "Direct Message",
-    "DISCOVERY": "Discovery",
-    "DISCOVERY_SPLASH": "Discovery Splash",
-    "DO_NOT_DISTURB": "Do Not Disturb",
-    "EDIT": "Edit",
-    "EMOJIS": "Emojis",
-    "EPHEMERAL": "Ephemeral",
-    "ERROR": "Error",
-    "FEATURES": "Features",
-    "FIX_PERMISSIONS": "Fix Permissions",
-    "FROM": "From",
-    "HIGHEST_ROLE": "Highest Role",
-    "HOIST_ROLE": "Hoist Role",
-    "ICON": "Icon",
-    "ID": "ID",
-    "IDLE": "Idle",
-    "INCOMING": "Incoming",
-    "INTENT": {
-      "MESSAGE_CONTENT": "Message Content Intent",
-      "PRESENCE": "Presence Intent",
-      "SERVER_MEMBERS": "Server Members Intent"
-    },
-    "INTERACTED_BY": "Interacted by {userName}",
-    "INVITE": "Invite",
-    "INVITED_BY": "Invited by",
-    "JOIN_MESSAGES": "Join Messages",
-    "JOIN_METHOD": "Join Method",
-    "LEGEND": "Legend",
-    "LOADING": "Loading",
-    "LOCALE": {
-      "EMOJI": "🇬🇧",
-      "NAME": "English (United Kingdom)"
-    },
-    "MANAGED_BY": "Managed By",
-    "MAXIMUM": "Maximum",
-    "MEMBER": "Member",
-    "MEMBERS": "Members",
-    "MENTION": "Mention",
-    "MESSAGE": "Message",
-    "METHOD": "Method",
-    "NAME": "Name",
-    "NO": "No",
-    "NO_CHANNEL": "No Channel",
-    "NONE": "None",
-    "NOT_AUTOMATIC": "Not Automatic",
-    "NOT_DIRECT_MESSAGE": "Not Direct Message",
-    "NOT_EPHEMERAL": "Not Ephemeral",
-    "NOT_RECURSIVE": "Not Recursive",
-    "OFFLINE": "Offline",
-    "ONLINE": "Online",
-    "OUTPUT": "Output",
-    "OWNER": "Owner",
-    "PERMISSIONS": "Permissions",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "PUBLIC_BOT": "Public Bot",
-    "PUBLIC_UPDATES": "Public Updates",
-    "READD_TO_SERVER": "Readd to Server",
-    "RECURSIVE": "Recursive",
-    "REMOVE": "Remove",
-    "RENAME": "Rename",
-    "REPEAT": "Repeat",
-    "REQUESTED_BY": "Requested by {userName}",
-    "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
-    "ROLES": {
-      "ADD": "Add Roles",
-      "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
-      "EDIT": "Edit Roles",
-      "EDITING": "Editing Roles",
-      "REMOVE": "Remove Roles",
-      "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
-      "RESET": "Reset Roles",
-      "ROLES": "Roles",
-      "SELECT": {
-        "ADD": "Select the roles to add",
-        "DEFAULT": "Select the roles",
-        "REMOVE": "Select the roles to remove"
-      }
-    },
-    "RULES": "Rules",
-    "SECURITY": "Security",
-    "SERVERS": "Servers",
-    "SETUP_TIPS": "Setup Tips",
-    "SHARD": "Shard",
-    "SPLASH": "Splash",
-    "STICKERS": "Stickers",
-    "STREAMING": "Streaming",
-    "SUCCESS": "Success",
-    "SUPPORT_SERVER": "Support Server",
-    "SUPPRESS_WARNING": "Suppress Warning",
-    "SUPPRESSED_WARNING": "Suppressed Warning",
-    "SYSTEM_MESSAGES": "System Messages",
-    "TAGS": "Tags",
-    "TERMS_OF_SERVICE": "Terms of Service",
-    "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
-      "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
-      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
-      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
-      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
-    },
-    "TIMEOUT_ENDS": "Timeout Ends",
-    "TIMESTAMP": "Timestamp",
-    "TO": "To",
-    "TOTAL": "Total",
-    "TYPE": "Type",
-    "UPTIME": "Uptime",
-    "USER": "User",
-    "VANITY_URL": "Vanity URL",
-    "VIEW": "View",
-    "WARNING": "Warning",
-    "WAVE_BUTTON": "Wave Button",
-    "WEBHOOKS": "Webhooks",
-    "WIP": "Work in Progress",
-    "WIP_COMMAND": "This command is currently under development",
-    "WIP_FUNCTION": "This function is currently under development",
-    "YES": "Yes"
+  "FEATURES": "Features",
+  "FIX_PERMISSIONS": "Fix Permissions",
+  "FROM": "From",
+  "HIGHEST_ROLE": "Highest Role",
+  "HOIST_ROLE": "Hoist Role",
+  "ICON": "Icon",
+  "ID": "ID",
+  "IDLE": "Idle",
+  "INCOMING": "Incoming",
+  "INTENT": {
+    "MESSAGE_CONTENT": "Message Content Intent",
+    "PRESENCE": "Presence Intent",
+    "SERVER_MEMBERS": "Server Members Intent"
   },
+  "INTERACTED_BY": "Interacted by {userName}",
+  "INVITE": "Invite",
+  "INVITED_BY": "Invited by",
+  "JOIN_MESSAGES": "Join Messages",
+  "JOIN_METHOD": "Join Method",
   "KILL": {
-    "DESCRIPTION": "Kills someone",
-    "DIED": "Fell out of the world",
-    "NAME": "kill",
-    "OPTIONS": {
-      "USER": {
-        "DESCRIPTION": "An user to kill",
-        "NAME": "user"
-      }
-    }
+    "DESC": {
+      "USER": "An user to kill"
+    },
+    "DIED": "Fell out of the world"
   },
+  "LEGEND": "Legend",
+  "LOADING": "Loading",
+  "LOCALE": {
+    "EMOJI": "🇺🇸",
+    "NAME": "English (United States)"
+  },
+  "MANAGED_BY": "Managed By",
+  "MAXIMUM": "Maximum",
+  "MEMBER": "Member",
+  "MEMBERS": "Members",
+  "MENTION": "Mention",
+  "MESSAGE": "Message",
+  "METHOD": "Method",
+  "NAME": "Name",
+  "NO": "No",
+  "NO_CHANNEL": "No Channel",
+  "NONE": "None",
+  "NOT_AUTOMATIC": "Not Automatic",
+  "NOT_DIRECT_MESSAGE": "Not Direct Message",
+  "NOT_EPHEMERAL": "Not Ephemeral",
+  "NOT_RECURSIVE": "Not Recursive",
+  "OFFLINE": "Offline",
+  "ONLINE": "Online",
+  "OUTPUT": "Output",
   "OWNER": {
-    "DESCRIPTION": "Bot owner only commands",
-    "NAME": "owner",
-    "OPTIONS": {
-      "COMMAND": {
-        "COMMANDS": {
-          "DELETED": "Deleted Commands",
-          "GLOBAL": "Global Commands",
-          "GUILD": "Guild Commands",
-          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
-          "UPDATED": "Updated Commands"
-        },
-        "DESCRIPTION": "Configures commands (Bot owner only)",
-        "NAME": "command",
-        "NO_UPDATE": "No commands have been updated",
-        "OPTIONS": {
-          "UPDATE": {
-            "DESCRIPTION": "Updates bot commands (Bot owner only)",
-            "NAME": "update",
-            "OPTIONS": {
-              "GUILD": {
-                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
-                "NAME": "guild"
-              },
-              "ID": {
-                "DESCRIPTION": "ID of an specific command (Default: All commands)",
-                "NAME": "id"
-              }
-            }
-          }
+    "CMD": {
+      "COMMANDS": {
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+        "UPDATED": "Updated Commands"
+      },
+      "DESC": {
+        "UPDATE": "Updates bot commands (Bot owner only)"
+      },
+      "NO_UPDATE": "No commands have been updated",
+      "UPDATE": {
+        "DESC": {
+          "GUILD": "The guild the command is at (Default: Invoked guild)",
+          "ID": "ID of an specific command (Default: All commands)"
         }
-      },
-      "EVAL": {
-        "DESCRIPTION": "Evaluates a script (Bot owner only)",
-        "NAME": "eval",
-        "OPTIONS": {
-          "ASYNC": {
-            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
-            "NAME": "async"
-          },
-          "AWAIT": {
-            "DESCRIPTION": "Awaits the script (Default: True)",
-            "NAME": "await"
-          },
-          "SCRIPT": {
-            "DESCRIPTION": "The script to evaluate",
-            "NAME": "script"
-          }
-        }
-      },
-      "LOCALIZATION": {
-        "DESCRIPTION": "Configures localizations (Bot owner only)",
-        "NAME": "localization",
-        "OPTIONS": {
-          "UPDATE": {
-            "DESCRIPTION": "Updates localizations (Bot owner only)",
-            "NAME": "update"
-          }
-        },
-        "UPDATED": "Updated localizations",
-        "UPDATING": "Updating localizations"
-      },
-      "SHARD": {
-        "DESCRIPTION": "Configures shards (Bot owner only)",
-        "NAME": "shard",
-        "OPTIONS": {
-          "RESPAWN_ALL": {
-            "DESCRIPTION": "Respawns all shards (Bot owner only)",
-            "NAME": "respawn-all",
-            "OPTIONS": {
-              "RESPAWN_DELAY": {
-                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
-                "NAME": "respawn-delay"
-              },
-              "SHARD_DELAY": {
-                "DESCRIPTION": "Wait time between shards",
-                "NAME": "shard-delay"
-              },
-              "TIMEOUT": {
-                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
-                "NAME": "timeout"
-              }
-            }
-          }
-        },
-        "RESPAWNING": "Respawning all shards"
       }
+    },
+    "EVAL": {
+      "DESC": {
+        "ASYNC": "Evaluates the script asynchronously (Default: True)",
+        "AWAIT": "Awaits the script (Default: True)",
+        "SCRIPT": "The script to evaluate"
+      }
+    },
+    "LOCALIZATION": {
+      "DESC": {
+        "UPDATE": "Updates localizations (Bot owner only)"
+      },
+      "UPDATED": "Updated localizations",
+      "UPDATING": "Updating localizations"
+    },
+    "NOUN": "Owner",
+    "SHARD": {
+      "DESC": {
+        "RESPAWN_ALL": "Respawns all shards (Bot owner only)"
+      },
+      "RESPAWN_ALL": {
+        "DESC": {
+          "RESPAWN_DELAY": "Wait time between killing a shard's process and restarting it",
+          "SHARD_DELAY": "Wait time between shards",
+          "TIMEOUT": "Wait time for a shard to become ready before continuing to another"
+        }
+      },
+      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
@@ -663,50 +543,38 @@
     "VIEW_CREATOR_MONETIZATION_ANALYTICS": "View Creator Monetization Analytics",
     "VIEW_GUILD_INSIGHTS": "View Guild Insights"
   },
+  "PERMISSIONS": "Permissions",
   "PING": {
     "API_LATENCY": "API Latency",
     "DEFERRED": "Deferred",
-    "DESCRIPTION": "Shows the bot's latency",
-    "NAME": "ping",
     "RESPONSE_TIME": "Response Time",
     "TITLE": "Pong!"
   },
+  "PRIVACY_POLICY": "Privacy Policy",
+  "PUBLIC_BOT": "Public Bot",
+  "PUBLIC_UPDATES": "Public Updates",
+  "READD_TO_SERVER": "Readd to Server",
+  "RECURSIVE": "Recursive",
   "REMINDER": {
     "COMPONENT": {
       "LIST": "List Reminders"
+    },
+    "CREATE": {
+      "DESC": {
+        "CONTENT": "What you'll be reminded about",
+        "TIME": "When you'll be reminded (Minimum: 3 minutes)"
+      }
     },
     "CREATED": "Reminder Created",
     "CREATED_AT": "The reminder was created {timestamp}",
     "DELETED": "Reminder Deleted",
     "DELETING": "Deleting Reminder",
     "DELETING_DESCRIPTION": "Are you sure you want to delete this reminder?",
-    "DESCRIPTION": "Reminder related commands",
     "EDITED": "Reminder Edited",
     "EDITING": "Editing Reminder",
     "INFO": "Reminder Information",
     "LIST": "Reminder List",
-    "NAME": "reminder",
     "NEW": "New Reminder",
-    "OPTIONS": {
-      "CREATE": {
-        "DESCRIPTION": "Creates a new reminder",
-        "NAME": "create",
-        "OPTIONS": {
-          "CONTENT": {
-            "DESCRIPTION": "What you'll be reminded about",
-            "NAME": "content"
-          },
-          "TIME": {
-            "DESCRIPTION": "When you'll be reminded (Minimum: 3 minutes)",
-            "NAME": "time"
-          }
-        }
-      },
-      "LIST": {
-        "DESCRIPTION": "Lists all of your reminders",
-        "NAME": "list"
-      }
-    },
     "RECURSIVE": {
       "DISABLED": "Can't set as recursive because the reminder time should be at least **{time}**",
       "OFF": "You won't be reminded again",
@@ -716,6 +584,11 @@
     "TIMESTAMP": "You'll be reminded {timestamp}",
     "TO": "Reminder to {userName}"
   },
+  "REMOVE": "Remove",
+  "RENAME": "Rename",
+  "REPEAT": "Repeat",
+  "REQUESTED_BY": "Requested by {userName}",
+  "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
   "ROLE_CONNECTION": {
     "LEVEL": {
       "DESCRIPTION": "Level Greater Than",
@@ -731,150 +604,154 @@
     }
   },
   "ROLEMENU": {
-    "DESCRIPTION": "Rolemenu related commands",
-    "NAME": "rolemenu",
-    "OPTIONS": {
-      "CREATE": {
-        "DESCRIPTION": "Creates a rolemenu",
-        "NAME": "create",
-        "OPTIONS": {
-          "CHANNEL": {
-            "DESCRIPTION": "The channel to create the rolemenu",
-            "NAME": "channel"
-          }
-        }
-      },
-      "EDIT": {
-        "DESCRIPTION": "Edits a rolemenu",
-        "NAME": "edit",
-        "OPTIONS": {
-          "ID": {
-            "DESCRIPTION": "The message id of the rolemenu in the channel",
-            "NAME": "id"
-          }
-        }
+    "CREATE": {
+      "DESC": {
+        "CHANNEL": "The channel to create the rolemenu"
       }
+    },
+    "EDIT": {
+      "DESC": {
+        "ID": "The message id of the rolemenu in the channel"
+      }
+    }
+  },
+  "ROLES": {
+    "ADD": "Add Roles",
+    "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+    "EDIT": "Edit Roles",
+    "EDITING": "Editing Roles",
+    "NOUN": "Roles",
+    "REMOVE": "Remove Roles",
+    "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
+    "RESET": "Reset Roles",
+    "SELECT": {
+      "ADD": "Select the roles to add",
+      "DEFAULT": "Select the roles",
+      "REMOVE": "Select the roles to remove"
     }
   },
   "ROLLOUT": {
-    "DESCRIPTION": "Shows information about experiments and their rollouts",
-    "NAME": "rollout",
-    "OPTIONS": {
-      "EXPERIMENT": {
-        "DESCRIPTION": "The experiment to get its information",
-        "NAME": "experiment"
-      },
-      "GUILD": {
-        "DESCRIPTION": "A guild to get its experiments' information (Default: Invoked guild)",
-        "NAME": "guild"
-      }
+    "DESC": {
+      "EXPERIMENT": "The experiment to get its information",
+      "GUILD": "A guild to get its experiments' information (Default: Invoked guild)"
     }
   },
+  "RULES": "Rules",
+  "SECURITY": "Security",
   "SERVER": {
-    "DESCRIPTION": "Server related commands",
-    "NAME": "server",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about this server",
-        "NAME": "info",
-        "TITLE": "Server Information"
+    "INFO": {
+      "TITLE": "Server Information"
+    },
+    "SETTINGS": {
+      "ALLOW_NON_EPHEMERAL": {
+        "EDIT": "Edit Ephemerality",
+        "NAME": "Allow Non-Ephemeral Responses"
       },
-      "SETTINGS": {
-        "ALLOW_NON_EPHEMERAL": {
-          "EDIT": "Edit Ephemerality",
-          "NAME": "Allow Non-Ephemeral Responses"
-        },
-        "AUTOROLE": {
-          "EDIT": "Edit Autorole",
-          "NAME": "Autorole",
-          "SELECT_PLACEHOLDER": "Select a role to add to autorole"
-        },
-        "DESCRIPTION": "Shows this server's settings",
-        "NAME": "settings",
-        "TITLE": "Server Settings"
-      }
+      "AUTOROLE": {
+        "EDIT": "Edit Autorole",
+        "NAME": "Autorole",
+        "SELECT_PLACEHOLDER": "Select a role to add to autorole"
+      },
+      "TITLE": "Server Settings"
     }
+  },
+  "SERVERS": "Servers",
+  "SETUP_TIPS": "Setup Tips",
+  "SHARD": "Shard",
+  "SPLASH": "Splash",
+  "STICKERS": "Stickers",
+  "STREAMING": "Streaming",
+  "SUCCESS": "Success",
+  "SUPPORT_SERVER": "Support Server",
+  "SUPPRESS_WARNING": "Suppress Warning",
+  "SUPPRESSED_WARNING": "Suppressed Warning",
+  "SYSTEM_MESSAGES": "System Messages",
+  "TAGS": "Tags",
+  "TERMS_OF_SERVICE": "Terms of Service",
+  "TIME": {
+    "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
+    "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+    "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+    "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+    "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+    "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
   },
   "TIMEOUT": {
-    "DESCRIPTION": "Timeouts a member",
-    "NAME": "timeout",
-    "OPTIONS": {
-      "DURATION": {
-        "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}",
-        "DESCRIPTION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
-        "NAME": "duration"
-      },
-      "REASON": {
-        "DESCRIPTION": "The reason for timeouting",
-        "NAME": "reason"
-      },
-      "USER": {
-        "DESCRIPTION": "The member to timeout",
-        "NAME": "user"
-      }
+    "DESC": {
+      "DURATION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
+      "REASON": "The reason for timeouting",
+      "USER": "The member to timeout"
+    },
+    "DURATION": {
+      "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}"
     }
   },
+  "TIMEOUT_ENDS": "Timeout Ends",
+  "TIMESTAMP": "Timestamp",
+  "TO": "To",
+  "TOTAL": "Total",
+  "TYPE": "Type",
+  "UPTIME": "Uptime",
   "USER": {
-    "DESCRIPTION": "User related commands",
-    "NAME": "user",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about an user",
-        "MEMBER": {
-          "JOIN_METHOD": {
-            "0": "Unknown",
-            "1": "Bot Invite",
-            "3": "Server Discovery",
-            "4": "Student Hub",
-            "5": "Invite",
-            "6": "Vanity URL",
-            "7": "Manual Verification"
-          },
-          "JOINED": "Joined Server",
-          "JOINED_PENDING": "Joined Server (Pending)",
-          "REJOINED": "Rejoined Server",
-          "REJOINED_PENDING": "Rejoined Server (Pending)",
-          "TITLE": "Member Information"
-        },
-        "NAME": "info",
-        "OPTIONS": {
-          "USER": {
-            "DESCRIPTION": "The user to get information about",
-            "NAME": "user"
-          }
-        },
-        "USER": {
-          "TITLE": "User Information"
-        },
-        "VIEW_INFO": "View Information"
+    "INFO": {
+      "DESC": {
+        "USER": "The user to get information about"
       },
-      "SETTINGS": {
-        "DESCRIPTION": "Shows your bot settings",
-        "EPHEMERAL": {
-          "EDIT": "Edit Ephemerality",
-          "EDITED": "Edited Ephemerality",
-          "EDITING": "Editing Ephemerality",
-          "IGNORE_ROLES": {
-            "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
-            "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
-            "NAME": "Ignore Ephemeral Roles"
-          },
-          "RESPONSES": {
-            "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
-            "ENABLED": "Responses to your commands will always be ephemeral",
-            "NAME": "Ephemeral Responses"
-          }
+      "MEMBER": {
+        "JOIN_METHOD": {
+          "0": "Unknown",
+          "1": "Bot Invite",
+          "3": "Server Discovery",
+          "4": "Student Hub",
+          "5": "Invite",
+          "6": "Vanity URL",
+          "7": "Manual Verification"
         },
-        "LOCALE": {
-          "EDIT": "Edit Locale",
-          "EDITED": "Edited Locale",
-          "EDITING": "Editing Locale",
-          "NAME": "Locale",
-          "SELECT_PLACEHOLDER": "Select the locale to change"
+        "JOINED": "Joined Server",
+        "JOINED_PENDING": "Joined Server (Pending)",
+        "REJOINED": "Rejoined Server",
+        "REJOINED_PENDING": "Rejoined Server (Pending)",
+        "TITLE": "Member Information"
+      },
+      "USER": {
+        "TITLE": "User Information"
+      },
+      "VIEW_INFO": "View Information"
+    },
+    "NOUN": "User",
+    "SETTINGS": {
+      "EPHEMERAL": {
+        "EDIT": "Edit Ephemerality",
+        "EDITED": "Edited Ephemerality",
+        "EDITING": "Editing Ephemerality",
+        "IGNORE_ROLES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
+          "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
+          "NAME": "Ignore Ephemeral Roles"
         },
-        "NAME": "settings",
-        "TITLE": "User Settings"
-      }
+        "RESPONSES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
+          "ENABLED": "Responses to your commands will always be ephemeral",
+          "NAME": "Ephemeral Responses"
+        }
+      },
+      "LOCALE": {
+        "EDIT": "Edit Locale",
+        "EDITED": "Edited Locale",
+        "EDITING": "Editing Locale",
+        "NAME": "Locale",
+        "SELECT_PLACEHOLDER": "Select the locale to change"
+      },
+      "TITLE": "User Settings"
     }
-  }
+  },
+  "VANITY_URL": "Vanity URL",
+  "VIEW": "View",
+  "WARNING": "Warning",
+  "WAVE_BUTTON": "Wave Button",
+  "WEBHOOKS": "Webhooks",
+  "WIP": "Work in Progress",
+  "WIP_COMMAND": "This command is currently under development",
+  "WIP_FUNCTION": "This function is currently under development",
+  "YES": "Yes"
 }
