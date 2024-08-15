@@ -1,62 +1,137 @@
 {
+  "ADD": "Add",
+  "ADD_TO_SERVER": "Add to Server",
+  "ALL": "All",
   "APP": {
-    "DESCRIPTION": "Application related commands",
-    "NAME": "app",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about an application",
-        "NAME": "info",
-        "OPTIONS": {
-          "APP": {
-            "DESCRIPTION": "The application to get information about",
-            "NAME": "app"
-          }
-        },
-        "TITLE": "App Information"
+    "INFO": {
+      "DESC": {
+        "APP": "The application to get information about"
       },
-      "PERMISSIONS": {
-        "DESCRIPTION": "Shows app's install permissions status",
-        "LEGEND": {
-          "CHECK": "The app has the required permission as part of its integrated role",
-          "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
-          "NEUTRAL": "Can't access the permission's status",
-          "NO": "The app doesn't have the required permission"
-        },
-        "NAME": "permissions",
-        "TITLE": "App Permissions"
-      }
+      "TITLE": "App Information"
+    },
+    "NOUN": "App",
+    "PERMISSIONS": {
+      "LEGEND": {
+        "CHECK": "The app has the required permission as part of its integrated role",
+        "MAYBE": "The app has the required permission as part of another role or a channel overwrite",
+        "NEUTRAL": "Can't access the permission's status",
+        "NO": "The app doesn't have the required permission"
+      },
+      "TITLE": "App Permissions"
     }
   },
+  "AUTHOR": "Author",
+  "AUTOMATIC": "Automatic",
+  "AVATAR": "Avatar",
+  "BACK": "Back",
+  "BANNER": "Banner",
+  "BOOST_MESSAGES": "Boost Messages",
   "BOT": {
-    "DESCRIPTION": "Comandos relacionados ao bot",
-    "NAME": "bot",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Mostra informações sobre o bot",
-        "DISCORDJS_VERSION": "Versão do Discord.JS",
-        "MEMORY_USAGE": "Uso de Memória",
-        "NAME": "info",
-        "NODEJS_VERSION": "Versão do Node.JS",
-        "TITLE": "Bot Information"
-      }
+    "INFO": {
+      "DISCORDJS_VERSION": "Discord.JS Version",
+      "MEMORY_USAGE": "Memory Usage",
+      "NODEJS_VERSION": "Node.JS Version",
+      "TITLE": "Bot Information"
+    },
+    "NOUN": "Bot"
+  },
+  "CHANNEL": {
+    "EDIT": "Edit Channel",
+    "EDITED": "Edited Channel",
+    "EDITING": "Editing Channel",
+    "NOUN": "Channel",
+    "SELECT_PLACEHOLDER": "Select the channel to change"
+  },
+  "CHANNELS": {
+    "ADD": "Add channels",
+    "ADDING": "{count, plural, =0 {Adding Channels} one {# Channel Added} other {# Channels Added}}",
+    "COMMUNITY": "Community Channels",
+    "EDIT": "Edit Channels",
+    "EDITING": "Editing Channels",
+    "NOUN": "Channels",
+    "REMOVE": "Remove Channels",
+    "REMOVING": "{count, plural, =0 {Removing Channels} one {# Channel Removed} other {# Channels Removed}}",
+    "RESET": "Reset Channels",
+    "SELECT": {
+      "ADD": "Select the channels to add",
+      "DEFAULT": "Select the channels",
+      "REMOVE": "Select the channels to remove"
     }
   },
+  "CHANNELS_AND_ROLES": {
+    "ADDING": "Adding Channels & Roles",
+    "EDITING": "Editing Channels & Roles",
+    "REMOVING": "Removing Channels & Roles"
+  },
+  "CHAT": "Chat",
   "CLEAR": {
     "DELETE_AFTER_THIS": "Excluir Após Esta",
     "DELETED": "{count, plural, =0 {Nenhuma mensagem foi excluída} one {`#` mensagem excluída} other {`#` mensagens excluídas}}",
-    "DESCRIPTION": "Exclui mensagens do chat de até 2 semanas atrás",
-    "NAME": "limpar",
-    "OPTIONS": {
-      "COUNT": {
-        "DESCRIPTION": "O número de mensagens a serem excluídas",
-        "NAME": "quantidade"
-      },
-      "DELETE_PINNED": {
-        "DESCRIPTION": "Se as mensagens fixadas devem ser excluídas (Padrão: Falso)",
-        "NAME": "excluir-fixadas"
-      }
+    "DESC": {
+      "COUNT": "The number of messages to delete",
+      "DELETE_PINNED": "Whether to delete pinned messages (Default: False)"
     }
   },
+  "CMD": {
+    "ADD": "add",
+    "APP": "app",
+    "ASYNC": "async",
+    "ATTACHMENT": "attachment",
+    "AUTHOR": "author",
+    "AWAIT": "await",
+    "BOT": "bot",
+    "CHANNEL": "channel",
+    "CLEAR": "clear",
+    "COLOR": "color",
+    "COMMAND": "command",
+    "CONTENT": "content",
+    "COORD": "coord",
+    "COORDINATES": "coordinates",
+    "COUNT": "count",
+    "CREATE": "create",
+    "DELETE_PINNED": "delete-pinned",
+    "DURATION": "duration",
+    "DESCRIPTION": "description",
+    "ECHO": "echo",
+    "EDIT": "edit",
+    "EMOJI": "emoji",
+    "EVAL": "eval",
+    "EXPERIMENT": "experiment",
+    "FOOTER": "footer",
+    "GUILD": "guild",
+    "ID": "id",
+    "IMAGE": "image",
+    "INFO": "info",
+    "KILL": "kill",
+    "LIST": "list",
+    "LOCALIZATION": "localization",
+    "NAME": "name",
+    "OWNER": "owner",
+    "PERMISSIONS": "permissions",
+    "PING": "ping",
+    "REASON": "reason",
+    "REMINDER": "reminder",
+    "RESPAWN_ALL": "respawn-all",
+    "RESPAWN_DELAY": "respawn-delay",
+    "ROLEMENU": "rolemenu",
+    "ROLLOUT": "rollout",
+    "SCRIPT": "script",
+    "SEND": "send",
+    "SERVER": "server",
+    "SETTINGS": "settings",
+    "SHARD": "shard",
+    "SHARD_DELAY": "shard-delay",
+    "THUMBNAIL": "thumbnail",
+    "TIME": "time",
+    "TIMEOUT": "timeout",
+    "TIMESTAMP": "timestamp",
+    "TITLE": "title",
+    "TTS": "tts",
+    "UPDATE": "update",
+    "URL": "url",
+    "USER": "user"
+  },
+  "CODEPOINT": "Code Point",
   "COLOR": {
     "ALREADY_NO_ROLE": "Você já não tem um cargo de cor",
     "AVATAR_ESTIMATED": "Cor estimada do seu avatar",
@@ -93,100 +168,115 @@
     "TARGET_NO_ROLE": "O usuário mencionado não tem um cargo de cor",
     "USER_CAN_INTERACT": "{userName} também pode interagir com o sistema"
   },
+  "COLOR_ROLE": "Color Role",
+  "COMMANDS": "Commands",
+  "COMMUNITY": "Community",
+  "CONTENT": {
+    "EDIT": "Edit Content",
+    "EDITED": "Edited Content",
+    "EDITING": "Editing Content",
+    "EDITING_LABEL": "Insert the new content",
+    "NOUN": "Content"
+  },
   "COORD": {
-    "DESCRIPTION": "Coordinate related commands",
-    "NAME": "coord",
-    "OPTIONS": {
-      "SEND": {
-        "DESCRIPTION": "Sends a coordinate",
-        "NAME": "send",
-        "OPTIONS": {
-          "ATTACHMENT": {
-            "DESCRIPTION": "The image or video of the coordinate",
-            "NAME": "attachment"
-          },
-          "COORDINATES": {
-            "DESCRIPTION": "The coordinates",
-            "NAME": "coordinates"
-          },
-          "DESCRIPTION": {
-            "DESCRIPTION": "The description of the coordinate",
-            "NAME": "description"
-          },
-          "TITLE": {
-            "DESCRIPTION": "The title of the coordinate",
-            "NAME": "title"
-          }
-        }
+    "SEND": {
+      "DESC": {
+        "ATTACHMENT": "The image or video of the coordinate",
+        "COORDINATES": "The coordinates",
+        "DESCRIPTION": "The description of the coordinate",
+        "TITLE": "The title of the coordinate"
       }
     }
   },
+  "COUNT": "{count, number}",
+  "COUNTER": {
+    "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+    "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
+    "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
+    "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
+    "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
+    "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
+    "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
+    "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}",
+    "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
+  },
+  "COVER": "Cover",
+  "CREATED": "Created",
+  "CURRENT": "Current",
+  "DEFAULT": "Default",
+  "DELETE": "Delete",
   "DELETE_RESPONSE": "Excluir Resposta",
+  "DESC": {
+    "APP": "Application related commands",
+    "APP_INFO": "Shows information about an application",
+    "APP_PERMISSIONS": "Shows app's install permissions status",
+    "BOT": "Bot related commands",
+    "BOT_INFO": "Shows information about the bot",
+    "CLEAR": "Deletes chat messages from up to 2 weeks ago",
+    "COORD": "Coordinate related commands",
+    "COORD_SEND": "Sends a coordinate",
+    "ECHO": "Echoes a message through the bot (Requires: Manage messages if non-ephemeral)",
+    "EMOJI": "Emoji related commands",
+    "EMOJI_ADD": "Adds a new emoji",
+    "EMOJI_INFO": "Shows info or manages an emoji",
+    "KILL": "Kills someone",
+    "OWNER": "Bot owner only commands",
+    "OWNER_CMD": "Configures commands (Bot owner only)",
+    "OWNER_EVAL": "Evaluates a script (Bot owner only)",
+    "OWNER_LOCALIZATION": "Configures localizations (Bot owner only)",
+    "OWNER_SHARD": "Configures shards (Bot owner only)",
+    "PING": "Shows the bot's latency",
+    "REMINDER": "Reminder related commands",
+    "REMINDER_CREATE": "Creates a new reminder",
+    "REMINDER_LIST": "Lists all of your reminders",
+    "ROLEMENU": "Rolemenu related commands",
+    "ROLEMENU_CREATE": "Creates a rolemenu",
+    "ROLEMENU_EDIT": "Edits a rolemenu",
+    "ROLLOUT": "Shows information about experiments and their rollouts",
+    "SERVER": "Server related commands",
+    "SERVER_INFO": "Shows information about this server",
+    "SERVER_SETTINGS": "Shows this server's settings",
+    "TIMEOUT": "Timeouts a member",
+    "USER": "User related commands",
+    "USER_INFO": "Shows information about an user",
+    "USER_SETTINGS": "Shows your bot settings"
+  },
+  "DESCRIPTION": "Description",
+  "DIRECT_MESSAGE": "Direct Message",
+  "DISCOVERY": "Discovery",
+  "DISCOVERY_SPLASH": "Discovery Splash",
+  "DO_NOT_DISTURB": "Do Not Disturb",
   "ECHO": {
-    "DESCRIPTION": "Ecoa uma mensagem através do bot (Requer: Gerenciar mensagens caso não-efêmera)",
+    "DESC": {
+      "ATTACHMENT": "An attachment for the message",
+      "AUTHOR": "Sets the author of the embed (Enables embed)",
+      "CHANNEL": "Echoes at a channel as a message (Default: Invoked channel as a reply)",
+      "COLOR": "The color of the embed (Default: Author's display color)",
+      "CONTENT": "The content of the message (Required if embed is disabled)",
+      "DESCRIPTION": "The description of the embed (Enables embed)",
+      "FOOTER": "The footer of the embed (Enables embed)",
+      "IMAGE": "The image of the embed (Enables embed)",
+      "THUMBNAIL": "The thumbnail of the embed (Enables embed)",
+      "TIMESTAMP": "Enables or disabled the timestamp on the embed (Default: Disabled)",
+      "TITLE": "The title of the embed (Enables embed)",
+      "TTS": "Echoes the message in TTS (Default: False)",
+      "URL": "The title's URL of the embed"
+    },
     "GO_TO": "[Clique aqui para ir à mensagem]({msgURL})",
     "INSUFFICIENT": {
       "ARGS": "Você precisa fornecer um conteúdo ou uma opção que habilite o embed",
       "PERMS": "You need the `{perm}` permission to echo non-ephemerally"
     },
-    "NAME": "ecoar",
-    "OPTIONS": {
-      "ATTACHMENT": {
-        "DESCRIPTION": "Um anexo para a mensagem",
-        "NAME": "anexo"
-      },
-      "AUTHOR": {
-        "DESCRIPTION": "Define o autor do embed (Habilita o embed)",
-        "NAME": "autor"
-      },
-      "CHANNEL": {
-        "DESCRIPTION": "Ecoa em um canal como uma mensagem (Padrão: Canal invocado como resposta)",
-        "NAME": "canal"
-      },
-      "COLOR": {
-        "DESCRIPTION": "A cor do embed (Padrão: Cor de exibição do autor)",
-        "NAME": "cor"
-      },
-      "CONTENT": {
-        "DESCRIPTION": "O conteúdo da mensagem (Obrigatório se o embed estiver desabilitado)",
-        "NAME": "conteúdo"
-      },
-      "DESCRIPTION": {
-        "DESCRIPTION": "A descrição do embed (Habilita o embed)",
-        "NAME": "descrição"
-      },
-      "FOOTER": {
-        "DESCRIPTION": "O rodapé do embed (Habilita o embed)",
-        "NAME": "rodapé"
-      },
-      "IMAGE": {
-        "DESCRIPTION": "A imagem do embed (Habilita o embed)",
-        "NAME": "imagem"
-      },
-      "THUMBNAIL": {
-        "DESCRIPTION": "A miniatura do embed (Habilita o embed)",
-        "NAME": "miniatura"
-      },
-      "TIMESTAMP": {
-        "DESCRIPTION": "Habilita ou desabilita o horário no embed (Padrão: Desativado)",
-        "NAME": "horário"
-      },
-      "TITLE": {
-        "DESCRIPTION": "O título do embed (Habilita o embed)",
-        "NAME": "título"
-      },
-      "TTS": {
-        "DESCRIPTION": "Ecoa a mensagem em TTS (Padrão: Falso)",
-        "NAME": "tts"
-      },
-      "URL": {
-        "DESCRIPTION": "A URL do título do embed",
-        "NAME": "url"
-      }
-    },
     "SENT": "Mensagem Enviada"
   },
+  "EDIT": "Edit",
   "EMOJI": {
+    "ADD": {
+      "DESC": {
+        "IMAGE": "The emoji itself (Maximum size: 256kb)",
+        "NAME": "The name of the emoji (Alphanumerical)"
+      }
+    },
     "ADDED": "Emoji Adicionado",
     "ADDED_UNICODE": "Emoji Unicode Adicionado",
     "ADDING": "Adicionando Emoji",
@@ -199,33 +289,10 @@
     "DELETED": "Emoji Excluído",
     "DELETING": "Excluindo Emoji",
     "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este emoji?",
-    "DESCRIPTION": "Comandos relacionados com emoji",
     "EDITING": "Editando Emoji",
-    "NAME": "emoji",
-    "OPTIONS": {
-      "ADD": {
-        "DESCRIPTION": "Adiciona um novo emoji",
-        "NAME": "adicionar",
-        "OPTIONS": {
-          "IMAGE": {
-            "DESCRIPTION": "O emoji em si (Tamanho máximo: 256kb)",
-            "NAME": "imagem"
-          },
-          "NAME": {
-            "DESCRIPTION": "O nome do emoji (Alfanumérico)",
-            "NAME": "nome"
-          }
-        }
-      },
-      "INFO": {
-        "DESCRIPTION": "Mostra informações ou gerencia um emoji",
-        "NAME": "info",
-        "OPTIONS": {
-          "EMOJI": {
-            "DESCRIPTION": "ID, menção, unicode ou nome (se estiver no mesmo servidor)",
-            "NAME": "emoji"
-          }
-        }
+    "INFO": {
+      "DESC": {
+        "EMOJI": "ID, mention, unicode or name (if it's on the same server)"
       }
     },
     "READDED": "Emoji Readicionado",
@@ -248,6 +315,8 @@
     "VIEWING_INTEGRATION": "Visualizando Emoji de Integração",
     "VIEWING_UNICODE": "Visualizando Emoji Unicode"
   },
+  "EMOJIS": "Emojis",
+  "EPHEMERAL": "Ephemeral",
   "ERROR": {
     "APP_NOT_FOUND": "The application was not found",
     "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
@@ -287,6 +356,7 @@
     },
     "NO_INSTALL_PARAMS": "The application doesn't have default install permission parameters",
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
+    "NOUN": "Error",
     "PERM": {
       "BOT": {
         "MULTIPLE": {
@@ -322,292 +392,102 @@
       "DELETE_RESPONSE": "Você só pode excluir as respostas dos meus comandos que você acionou"
     }
   },
-  "GENERIC": {
-    "ADD": "Adicionar",
-    "ADD_TO_SERVER": "Add to Server",
-    "ALL": "Todos",
-    "APP": "App",
-    "AUTHOR": "Autor",
-    "AUTOMATIC": "Automático",
-    "AVATAR": "Avatar",
-    "BACK": "Voltar",
-    "BANNER": "Banner",
-    "BOOST_MESSAGES": "Boost Messages",
-    "BOT": "Bot",
-    "CHANNEL": {
-      "CHANNEL": "Canal",
-      "EDIT": "Editar Canal",
-      "EDITED": "Canal Editado",
-      "EDITING": "Editando Canal",
-      "SELECT_PLACEHOLDER": "Selecione o canal para alterar"
-    },
-    "CHANNELS": {
-      "ADD": "Adicionar canais",
-      "ADDING": "{count, plural, =0 {Adicionando Canais} one {# Canal Adicionado} other {# Canais Adicionados}}",
-      "CHANNELS": "Canais",
-      "COMMUNITY": "Community Channels",
-      "EDIT": "Editar Canais",
-      "EDITING": "Editando Canais",
-      "REMOVE": "Remover Canais",
-      "REMOVING": "{count, plural, =0 {Removendo Canais} one {# Canal Removido} other {# Canais Removidos}}",
-      "RESET": "Redefinir Canais",
-      "SELECT": {
-        "ADD": "Selecione os canais para adicionar",
-        "DEFAULT": "Selecione os canais",
-        "REMOVE": "Selecione os canais para remover"
-      }
-    },
-    "CHANNELS_AND_ROLES": {
-      "ADDING": "Adicionando Canais e Cargos",
-      "EDITING": "Editando Canais e Cargos",
-      "REMOVING": "Removendo Canais e Cargos"
-    },
-    "CHAT": "Chat",
-    "CODEPOINT": "Ponto de Código",
-    "COLOR_ROLE": "Color Role",
-    "COMMANDS": "Comandos",
-    "COMMUNITY": "Community",
-    "CONTENT": {
-      "CONTENT": "Conteúdo",
-      "EDIT": "Editar Conteúdo",
-      "EDITED": "Conteúdo Editado",
-      "EDITING": "Editando Conteúdo",
-      "EDITING_LABEL": "Insira o novo conteúdo"
-    },
-    "COUNT": "{count, number}",
-    "COUNTER": {
-      "ANIMATED": "{count, plural, =1 {**#** Animado} other {**#** Animados}}",
-      "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
-      "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
-      "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
-      "CHANNEL_FOLLOWER": "{count, plural, =1 {**#** Channel Follower} other {**#** Channel Followers}}",
-      "COMMON": "{count, plural, =1 {**#** Comum} other {**#** Comuns}}",
-      "INTEGRATED": "{count, plural, =1 {**#** Integrado} other {**#** Integrados}}",
-      "STATIC": "{count, plural, =1 {**#** Estático} other {**#** Estáticos}}",
-      "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
-    },
-    "COVER": "Cover",
-    "CREATED": "Criado",
-    "CURRENT": "Atual",
-    "DEFAULT": "Padrão",
-    "DELETE": "Excluir",
-    "DESCRIPTION": "Description",
-    "DIRECT_MESSAGE": "Mensagem Direta",
-    "DISCOVERY": "Discovery",
-    "DISCOVERY_SPLASH": "Discovery Splash",
-    "DO_NOT_DISTURB": "Não Perturbe",
-    "EDIT": "Editar",
-    "EMOJIS": "Emojis",
-    "EPHEMERAL": "Efêmero",
-    "ERROR": "Erro",
-    "FEATURES": "Features",
-    "FIX_PERMISSIONS": "Corrigir Permissões",
-    "FROM": "De",
-    "HIGHEST_ROLE": "Highest Role",
-    "HOIST_ROLE": "Hoist Role",
-    "ICON": "Icon",
-    "ID": "ID",
-    "IDLE": "Ausente",
-    "INCOMING": "Incoming",
-    "INTENT": {
-      "MESSAGE_CONTENT": "Message Content Intent",
-      "PRESENCE": "Presence Intent",
-      "SERVER_MEMBERS": "Server Members Intent"
-    },
-    "INTERACTED_BY": "Interagido por {userName}",
-    "INVITE": "Invite",
-    "INVITED_BY": "Invited by",
-    "JOIN_MESSAGES": "Join Messages",
-    "JOIN_METHOD": "Join Method",
-    "LEGEND": "Legend",
-    "LOADING": "Carregando",
-    "LOCALE": {
-      "EMOJI": "🇧🇷",
-      "NAME": "Português (Brasil)"
-    },
-    "MANAGED_BY": "Gerenciado Por",
-    "MAXIMUM": "Máximo",
-    "MEMBER": "Member",
-    "MEMBERS": "Membros",
-    "MENTION": "Menção",
-    "MESSAGE": "Mensagem",
-    "METHOD": "Method",
-    "NAME": "Nome",
-    "NO": "Não",
-    "NO_CHANNEL": "No Channel",
-    "NONE": "Nenhum",
-    "NOT_AUTOMATIC": "Não Automático",
-    "NOT_DIRECT_MESSAGE": "Não Mensagem Direta",
-    "NOT_EPHEMERAL": "Não Efêmero",
-    "NOT_RECURSIVE": "Não Recursivo",
-    "OFFLINE": "Offline",
-    "ONLINE": "Online",
-    "OUTPUT": "Saída",
-    "OWNER": "Dono",
-    "PERMISSIONS": "Permissions",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "PUBLIC_BOT": "Public Bot",
-    "PUBLIC_UPDATES": "Public Updates",
-    "READD_TO_SERVER": "Readd to Server",
-    "RECURSIVE": "Recursivo",
-    "REMOVE": "Remover",
-    "RENAME": "Renomear",
-    "REPEAT": "Repetir",
-    "REQUESTED_BY": "Solicitado por {userName}",
-    "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
-    "ROLES": {
-      "ADD": "Adicionar Cargos",
-      "ADDING": "{count, plural, =0 {Adicionando Cargos} one {# Cargo Adicionado} other {# Cargos Adicionados}}",
-      "EDIT": "Editar Cargos",
-      "EDITING": "Editando Cargos",
-      "REMOVE": "Remover Cargos",
-      "REMOVING": "{count, plural, =0 {Removendo Cargos} one {# Cargo Removido} other {# Cargos Removidos}}",
-      "RESET": "Redefinir Cargos",
-      "ROLES": "Cargos",
-      "SELECT": {
-        "ADD": "Selecione os cargos para adicionar",
-        "DEFAULT": "Selecione os cargos",
-        "REMOVE": "Selecione os cargos para remover"
-      }
-    },
-    "RULES": "Rules",
-    "SECURITY": "Security",
-    "SERVERS": "Servidores",
-    "SETUP_TIPS": "Setup Tips",
-    "SHARD": "Shard",
-    "SPLASH": "Splash",
-    "STICKERS": "Figurinhas",
-    "STREAMING": "Transmitindo",
-    "SUCCESS": "Sucesso",
-    "SUPPORT_SERVER": "Support Server",
-    "SUPPRESS_WARNING": "Suppress Warning",
-    "SUPPRESSED_WARNING": "Suppressed Warning",
-    "SYSTEM_MESSAGES": "System Messages",
-    "TAGS": "Tags",
-    "TERMS_OF_SERVICE": "Terms of Service",
-    "TIME": {
-      "DAYS": "{count, plural, =0 {agora} one {# dia} other {# dias}}",
-      "HOURS": "{count, plural, =0 {agora} one {# hora} other {# horas}}",
-      "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
-      "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
-      "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
-      "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
-    },
-    "TIMEOUT_ENDS": "Timeout Ends",
-    "TIMESTAMP": "Horário",
-    "TO": "Para",
-    "TOTAL": "Total",
-    "TYPE": "Tipo",
-    "UPTIME": "Tempo Ativo",
-    "USER": "Usuário",
-    "VANITY_URL": "Vanity URL",
-    "VIEW": "Visualizar",
-    "WARNING": "Aviso",
-    "WAVE_BUTTON": "Wave Button",
-    "WEBHOOKS": "Webhooks",
-    "WIP": "Trabalho em Progresso",
-    "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
-    "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento",
-    "YES": "Sim"
+  "FEATURES": "Features",
+  "FIX_PERMISSIONS": "Fix Permissions",
+  "FROM": "From",
+  "HIGHEST_ROLE": "Highest Role",
+  "HOIST_ROLE": "Hoist Role",
+  "ICON": "Icon",
+  "ID": "ID",
+  "IDLE": "Idle",
+  "INCOMING": "Incoming",
+  "INTENT": {
+    "MESSAGE_CONTENT": "Message Content Intent",
+    "PRESENCE": "Presence Intent",
+    "SERVER_MEMBERS": "Server Members Intent"
   },
+  "INTERACTED_BY": "Interacted by {userName}",
+  "INVITE": "Invite",
+  "INVITED_BY": "Invited by",
+  "JOIN_MESSAGES": "Join Messages",
+  "JOIN_METHOD": "Join Method",
   "KILL": {
-    "DESCRIPTION": "Mata alguém",
-    "DIED": "Caiu para fora do mundo",
-    "NAME": "matar",
-    "OPTIONS": {
-      "USER": {
-        "DESCRIPTION": "Um usuário para matar",
-        "NAME": "usuário"
-      }
-    }
+    "DESC": {
+      "USER": "An user to kill"
+    },
+    "DIED": "Caiu para fora do mundo"
   },
+  "LEGEND": "Legend",
+  "LOADING": "Loading",
+  "LOCALE": {
+    "EMOJI": "🇺🇸",
+    "NAME": "English (United States)"
+  },
+  "MANAGED_BY": "Managed By",
+  "MAXIMUM": "Maximum",
+  "MEMBER": "Member",
+  "MEMBERS": "Members",
+  "MENTION": "Mention",
+  "MESSAGE": "Message",
+  "METHOD": "Method",
+  "NAME": "Name",
+  "NO": "No",
+  "NO_CHANNEL": "No Channel",
+  "NONE": "None",
+  "NOT_AUTOMATIC": "Not Automatic",
+  "NOT_DIRECT_MESSAGE": "Not Direct Message",
+  "NOT_EPHEMERAL": "Not Ephemeral",
+  "NOT_RECURSIVE": "Not Recursive",
+  "OFFLINE": "Offline",
+  "ONLINE": "Online",
+  "OUTPUT": "Output",
   "OWNER": {
-    "DESCRIPTION": "Comandos apenas para o dono do bot",
-    "NAME": "dono",
-    "OPTIONS": {
-      "COMMAND": {
-        "COMMANDS": {
-          "DELETED": "Comandos Excluídos",
-          "GLOBAL": "Comandos Globais",
-          "GUILD": "Comandos de Servidor",
-          "SPECIFIED_GUILD": "Comandos do Servidor {guildName}",
-          "UPDATED": "Comandos Atualizados"
-        },
-        "DESCRIPTION": "Configura comandos (Somente dono do bot)",
-        "NAME": "comando",
-        "NO_UPDATE": "Nenhum comando foi atualizado",
-        "OPTIONS": {
-          "UPDATE": {
-            "DESCRIPTION": "Atualiza comandos do bot (Somente dono do bot)",
-            "NAME": "atualizar",
-            "OPTIONS": {
-              "GUILD": {
-                "DESCRIPTION": "O servidor em que o comando está (Padrão: Servidor atual)",
-                "NAME": "servidor"
-              },
-              "ID": {
-                "DESCRIPTION": "ID of an specific command (Default: All commands)",
-                "NAME": "id"
-              }
-            }
-          }
+    "CMD": {
+      "COMMANDS": {
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+        "UPDATED": "Updated Commands"
+      },
+      "DESC": {
+        "UPDATE": "Updates bot commands (Bot owner only)"
+      },
+      "NO_UPDATE": "No commands have been updated",
+      "UPDATE": {
+        "DESC": {
+          "GUILD": "The guild the command is at (Default: Invoked guild)",
+          "ID": "ID of an specific command (Default: All commands)"
         }
-      },
-      "EVAL": {
-        "DESCRIPTION": "Computa um script (Somente dono do bot)",
-        "NAME": "computar",
-        "OPTIONS": {
-          "ASYNC": {
-            "DESCRIPTION": "Computa o script de forma assíncrona (Padrão: Verdadeiro)",
-            "NAME": "assíncrono"
-          },
-          "AWAIT": {
-            "DESCRIPTION": "Aguarda o script (Padrão: Verdadeiro)",
-            "NAME": "aguardar"
-          },
-          "SCRIPT": {
-            "DESCRIPTION": "O script para computar",
-            "NAME": "script"
-          }
-        }
-      },
-      "LOCALIZATION": {
-        "DESCRIPTION": "Configura localizações (Somente dono do bot)",
-        "NAME": "localização",
-        "OPTIONS": {
-          "UPDATE": {
-            "DESCRIPTION": "Atualiza as localizações (Somente dono do bot)",
-            "NAME": "atualizar"
-          }
-        },
-        "UPDATED": "Localizações atualizadas",
-        "UPDATING": "Atualizando localizações"
-      },
-      "SHARD": {
-        "DESCRIPTION": "Configura shards (Somente dono do bot)",
-        "NAME": "shard",
-        "OPTIONS": {
-          "RESPAWN_ALL": {
-            "DESCRIPTION": "Renasce todas as shards (Somente dono do bot)",
-            "NAME": "renascer-todas",
-            "OPTIONS": {
-              "RESPAWN_DELAY": {
-                "DESCRIPTION": "Tempo de espera entre matar o processo de uma shard e reiniciá-lo",
-                "NAME": "atraso-renascer"
-              },
-              "SHARD_DELAY": {
-                "DESCRIPTION": "Tempo de espera entre shards",
-                "NAME": "atraso-shard"
-              },
-              "TIMEOUT": {
-                "DESCRIPTION": "Tempo de espera para uma shard ficar pronta antes de continuar outra",
-                "NAME": "intervalo"
-              }
-            }
-          }
-        },
-        "RESPAWNING": "Renascendo todas as shards"
       }
+    },
+    "EVAL": {
+      "DESC": {
+        "ASYNC": "Evaluates the script asynchronously (Default: True)",
+        "AWAIT": "Awaits the script (Default: True)",
+        "SCRIPT": "The script to evaluate"
+      }
+    },
+    "LOCALIZATION": {
+      "DESC": {
+        "UPDATE": "Updates localizations (Bot owner only)"
+      },
+      "UPDATED": "Updated localizations",
+      "UPDATING": "Updating localizations"
+    },
+    "NOUN": "Owner",
+    "SHARD": {
+      "DESC": {
+        "RESPAWN_ALL": "Respawns all shards (Bot owner only)"
+      },
+      "RESPAWN_ALL": {
+        "DESC": {
+          "RESPAWN_DELAY": "Wait time between killing a shard's process and restarting it",
+          "SHARD_DELAY": "Wait time between shards",
+          "TIMEOUT": "Wait time for a shard to become ready before continuing to another"
+        }
+      },
+      "RESPAWNING": "Respawning all shards"
     }
   },
   "PERM": {
@@ -663,50 +543,38 @@
     "VIEW_CREATOR_MONETIZATION_ANALYTICS": "View Creator Monetization Analytics",
     "VIEW_GUILD_INSIGHTS": "Ver Análises do Servidor"
   },
+  "PERMISSIONS": "Permissions",
   "PING": {
     "API_LATENCY": "Latência da API",
     "DEFERRED": "Adiado",
-    "DESCRIPTION": "Mostra a latência do bot",
-    "NAME": "ping",
     "RESPONSE_TIME": "Tempo de Resposta",
     "TITLE": "Pong!"
   },
+  "PRIVACY_POLICY": "Privacy Policy",
+  "PUBLIC_BOT": "Public Bot",
+  "PUBLIC_UPDATES": "Public Updates",
+  "READD_TO_SERVER": "Readd to Server",
+  "RECURSIVE": "Recursive",
   "REMINDER": {
     "COMPONENT": {
       "LIST": "Listar Lembretes"
+    },
+    "CREATE": {
+      "DESC": {
+        "CONTENT": "What you'll be reminded about",
+        "TIME": "When you'll be reminded (Minimum: 3 minutes)"
+      }
     },
     "CREATED": "Lembrete Criado",
     "CREATED_AT": "O lembrete foi criado {timestamp}",
     "DELETED": "Lembrete Excluído",
     "DELETING": "Excluindo Lembrete",
     "DELETING_DESCRIPTION": "Tem certeza de que deseja excluir este lembrete?",
-    "DESCRIPTION": "Comandos relacionados à lembretes",
     "EDITED": "Lembrete Editado",
     "EDITING": "Editando Lembrete",
     "INFO": "Informações do Lembrete",
     "LIST": "Lista de Lembretes",
-    "NAME": "lembrete",
     "NEW": "Novo Lembrete",
-    "OPTIONS": {
-      "CREATE": {
-        "DESCRIPTION": "Cria um novo lembrete",
-        "NAME": "criar",
-        "OPTIONS": {
-          "CONTENT": {
-            "DESCRIPTION": "Sobre o que você será lembrado",
-            "NAME": "conteúdo"
-          },
-          "TIME": {
-            "DESCRIPTION": "Quando você será lembrado (Mínimo: 3 minutos)",
-            "NAME": "tempo"
-          }
-        }
-      },
-      "LIST": {
-        "DESCRIPTION": "Lista todos os seus lembretes",
-        "NAME": "lista"
-      }
-    },
     "RECURSIVE": {
       "DISABLED": "Não é possível definir como recursivo porque o tempo do lembrete deve ser pelo menos **{time}**",
       "OFF": "Você não será lembrado novamente",
@@ -716,6 +584,11 @@
     "TIMESTAMP": "Você será lembrado {timestamp}",
     "TO": "Lembrete para {userName}"
   },
+  "REMOVE": "Remove",
+  "RENAME": "Rename",
+  "REPEAT": "Repeat",
+  "REQUESTED_BY": "Requested by {userName}",
+  "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
   "ROLE_CONNECTION": {
     "LEVEL": {
       "DESCRIPTION": "Nível Maior Que",
@@ -731,150 +604,154 @@
     }
   },
   "ROLEMENU": {
-    "DESCRIPTION": "Comandos relacionados à menus de cargos",
-    "NAME": "rolemenu",
-    "OPTIONS": {
-      "CREATE": {
-        "DESCRIPTION": "Cria um menu de cargos",
-        "NAME": "criar",
-        "OPTIONS": {
-          "CHANNEL": {
-            "DESCRIPTION": "O canal para criar o menu de cargos",
-            "NAME": "canal"
-          }
-        }
-      },
-      "EDIT": {
-        "DESCRIPTION": "Edita um menu de cargos",
-        "NAME": "editar",
-        "OPTIONS": {
-          "ID": {
-            "DESCRIPTION": "O id da mensagem do menu de cargo no canal",
-            "NAME": "id"
-          }
-        }
+    "CREATE": {
+      "DESC": {
+        "CHANNEL": "The channel to create the rolemenu"
       }
+    },
+    "EDIT": {
+      "DESC": {
+        "ID": "The message id of the rolemenu in the channel"
+      }
+    }
+  },
+  "ROLES": {
+    "ADD": "Add Roles",
+    "ADDING": "{count, plural, =0 {Adding Roles} one {# Role Added} other {# Roles Added}}",
+    "EDIT": "Edit Roles",
+    "EDITING": "Editing Roles",
+    "NOUN": "Roles",
+    "REMOVE": "Remove Roles",
+    "REMOVING": "{count, plural, =0 {Removing Roles} one {# Role Removed} other {# Roles Removed}}",
+    "RESET": "Reset Roles",
+    "SELECT": {
+      "ADD": "Select the roles to add",
+      "DEFAULT": "Select the roles",
+      "REMOVE": "Select the roles to remove"
     }
   },
   "ROLLOUT": {
-    "DESCRIPTION": "Mostra informações sobre experimentos e seus lançamentos",
-    "NAME": "lançamento",
-    "OPTIONS": {
-      "EXPERIMENT": {
-        "DESCRIPTION": "O experimento para obter suas informações",
-        "NAME": "experimento"
-      },
-      "GUILD": {
-        "DESCRIPTION": "Um servidor para obter informações de seus experimentos (Padrão: Servidor invocado)",
-        "NAME": "servidor"
-      }
+    "DESC": {
+      "EXPERIMENT": "The experiment to get its information",
+      "GUILD": "A guild to get its experiments' information (Default: Invoked guild)"
     }
   },
+  "RULES": "Rules",
+  "SECURITY": "Security",
   "SERVER": {
-    "DESCRIPTION": "Comandos relacionados ao servidor",
-    "NAME": "servidor",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Mostra informações sobre este servidor",
-        "NAME": "info",
-        "TITLE": "Informações do Servidor"
+    "INFO": {
+      "TITLE": "Server Information"
+    },
+    "SETTINGS": {
+      "ALLOW_NON_EPHEMERAL": {
+        "EDIT": "Edit Ephemerality",
+        "NAME": "Allow Non-Ephemeral Responses"
       },
-      "SETTINGS": {
-        "ALLOW_NON_EPHEMERAL": {
-          "EDIT": "Editar Efemeridade",
-          "NAME": "Permitir Respostas Não-Efêmeras"
-        },
-        "AUTOROLE": {
-          "EDIT": "Edit Autorole",
-          "NAME": "Autorole",
-          "SELECT_PLACEHOLDER": "Select a role to add to autorole"
-        },
-        "DESCRIPTION": "Mostra as configurações deste servidor",
-        "NAME": "configurações",
-        "TITLE": "Configurações do Servidor"
-      }
+      "AUTOROLE": {
+        "EDIT": "Edit Autorole",
+        "NAME": "Autorole",
+        "SELECT_PLACEHOLDER": "Select a role to add to autorole"
+      },
+      "TITLE": "Server Settings"
     }
+  },
+  "SERVERS": "Servers",
+  "SETUP_TIPS": "Setup Tips",
+  "SHARD": "Shard",
+  "SPLASH": "Splash",
+  "STICKERS": "Stickers",
+  "STREAMING": "Streaming",
+  "SUCCESS": "Success",
+  "SUPPORT_SERVER": "Support Server",
+  "SUPPRESS_WARNING": "Suppress Warning",
+  "SUPPRESSED_WARNING": "Suppressed Warning",
+  "SYSTEM_MESSAGES": "System Messages",
+  "TAGS": "Tags",
+  "TERMS_OF_SERVICE": "Terms of Service",
+  "TIME": {
+    "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
+    "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
+    "MINUTES": "{count, plural, =0 {now} one {# minute} other {# minutes}}",
+    "MONTHS": "{count, plural, =0 {now} one {# month} other {# months}}",
+    "SECONDS": "{count, plural, =0 {now} one {# second} other {# seconds}}",
+    "YEARS": "{count, plural, =0 {now} one {# year} other {# years}}"
   },
   "TIMEOUT": {
-    "DESCRIPTION": "Coloca um membro de castigo",
-    "NAME": "castigar",
-    "OPTIONS": {
-      "DURATION": {
-        "DEFAULT": "{default, select, set{{time}} unset{Remover castigo} notMember{Membro não encontrado} other{{time} ou remover castigo}}",
-        "DESCRIPTION": "Quanto tempo durará o castigo, até 28 dias (Padrão: 1 hora ou desativar)",
-        "NAME": "duração"
-      },
-      "REASON": {
-        "DESCRIPTION": "O motivo do castigo",
-        "NAME": "motivo"
-      },
-      "USER": {
-        "DESCRIPTION": "O membro a receber o castigo",
-        "NAME": "usuário"
-      }
+    "DESC": {
+      "DURATION": "How long the timeout will last, up to 28 days (Default: 1 hour or disable)",
+      "REASON": "The reason for timeouting",
+      "USER": "The member to timeout"
+    },
+    "DURATION": {
+      "DEFAULT": "{default, select, set{{time}} unset{Remove timeout} notMember{Member not found} other{{time} or remove timeout}}"
     }
   },
+  "TIMEOUT_ENDS": "Timeout Ends",
+  "TIMESTAMP": "Timestamp",
+  "TO": "To",
+  "TOTAL": "Total",
+  "TYPE": "Type",
+  "UPTIME": "Uptime",
   "USER": {
-    "DESCRIPTION": "Comandos relacionados à usuários",
-    "NAME": "usuário",
-    "OPTIONS": {
-      "INFO": {
-        "DESCRIPTION": "Shows information about an user",
-        "MEMBER": {
-          "JOIN_METHOD": {
-            "0": "Unknown",
-            "1": "Bot Invite",
-            "3": "Server Discovery",
-            "4": "Student Hub",
-            "5": "Invite",
-            "6": "Vanity URL",
-            "7": "Manual Verification"
-          },
-          "JOINED": "Entrou no Servidor",
-          "JOINED_PENDING": "Joined Server (Pending)",
-          "REJOINED": "Rejoined Server",
-          "REJOINED_PENDING": "Rejoined Server (Pending)",
-          "TITLE": "Member Information"
-        },
-        "NAME": "info",
-        "OPTIONS": {
-          "USER": {
-            "DESCRIPTION": "O usuário para obter informações sobre",
-            "NAME": "usuário"
-          }
-        },
-        "USER": {
-          "TITLE": "User Information"
-        },
-        "VIEW_INFO": "Ver Informações"
+    "INFO": {
+      "DESC": {
+        "USER": "The user to get information about"
       },
-      "SETTINGS": {
-        "DESCRIPTION": "Mostra suas configurações do bot",
-        "EPHEMERAL": {
-          "EDIT": "Edit Ephemerality",
-          "EDITED": "Edited Ephemerality",
-          "EDITING": "Editing Ephemerality",
-          "IGNORE_ROLES": {
-            "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
-            "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
-            "NAME": "Ignore Ephemeral Roles"
-          },
-          "RESPONSES": {
-            "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
-            "ENABLED": "Responses to your commands will always be ephemeral",
-            "NAME": "Ephemeral Responses"
-          }
+      "MEMBER": {
+        "JOIN_METHOD": {
+          "0": "Unknown",
+          "1": "Bot Invite",
+          "3": "Server Discovery",
+          "4": "Student Hub",
+          "5": "Invite",
+          "6": "Vanity URL",
+          "7": "Manual Verification"
         },
-        "LOCALE": {
-          "EDIT": "Editar Idioma",
-          "EDITED": "Idioma Editado",
-          "EDITING": "Editando Idioma",
-          "NAME": "Idioma",
-          "SELECT_PLACEHOLDER": "Selecione o idioma para alternar"
+        "JOINED": "Joined Server",
+        "JOINED_PENDING": "Joined Server (Pending)",
+        "REJOINED": "Rejoined Server",
+        "REJOINED_PENDING": "Rejoined Server (Pending)",
+        "TITLE": "Member Information"
+      },
+      "USER": {
+        "TITLE": "User Information"
+      },
+      "VIEW_INFO": "View Information"
+    },
+    "NOUN": "User",
+    "SETTINGS": {
+      "EPHEMERAL": {
+        "EDIT": "Edit Ephemerality",
+        "EDITED": "Edited Ephemerality",
+        "EDITING": "Editing Ephemerality",
+        "IGNORE_ROLES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible as long as you have a non-ephemeral role in a server.",
+          "ENABLED": "Responses to your commands will be ephemeral regardless of servers' non-ephemeral roles. Non-ephemeral channels are not included.",
+          "NAME": "Ignore Ephemeral Roles"
         },
-        "NAME": "configurações",
-        "TITLE": "Configurações do Usuário"
-      }
+        "RESPONSES": {
+          "DISABLED": "Responses to your commands will be visible to anyone whenever possible",
+          "ENABLED": "Responses to your commands will always be ephemeral",
+          "NAME": "Ephemeral Responses"
+        }
+      },
+      "LOCALE": {
+        "EDIT": "Edit Locale",
+        "EDITED": "Edited Locale",
+        "EDITING": "Editing Locale",
+        "NAME": "Locale",
+        "SELECT_PLACEHOLDER": "Select the locale to change"
+      },
+      "TITLE": "User Settings"
     }
-  }
+  },
+  "VANITY_URL": "Vanity URL",
+  "VIEW": "View",
+  "WARNING": "Warning",
+  "WAVE_BUTTON": "Wave Button",
+  "WEBHOOKS": "Webhooks",
+  "WIP": "Work in Progress",
+  "WIP_COMMAND": "This command is currently under development",
+  "WIP_FUNCTION": "This function is currently under development",
+  "YES": "Yes"
 }
