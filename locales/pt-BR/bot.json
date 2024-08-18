@@ -640,7 +640,10 @@
   "SECURITY": "Security",
   "SERVER": {
     "INFO": {
-      "TITLE": "Server Information"
+      "TITLE": "Server Information",
+      "DESC": {
+        "GUILD": "The server to get information about"
+      }
     },
     "SETTINGS": {
       "ALLOW_NON_EPHEMERAL": {
