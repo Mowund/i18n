@@ -191,6 +191,7 @@
   "COUNT": "{count, number}",
   "COUNTER": {
     "ANIMATED": "{count, plural, =1 {**#** Animated} other {**#** Animated}}",
+    "ANIMATED_RATIO": "**{count, number} / {limit, plural, =1 {#** Animated} other {#** Animated}}",
     "APPLICATION": "{count, plural, =1 {**#** Application} other {**#** Applications}}",
     "BAN": "{count, plural, =1 {**#** Ban} other {**#** Bans}}",
     "BOT": "{count, plural, =1 {**#** Bot} other {**#** Bots}}",
@@ -198,6 +199,7 @@
     "COMMON": "{count, plural, =1 {**#** Common} other {**#** Common}}",
     "INTEGRATED": "{count, plural, =1 {**#** Integrated} other {**#** Integrated}}",
     "STATIC": "{count, plural, =1 {**#** Static} other {**#** Static}}",
+    "STATIC_RATIO": "**{count, number} / {limit, plural, =1 {#** Static} other {#** Static}}",
     "USES": "{count, plural, =1 {**#** Use} other {**#** Uses}}"
   },
   "COVER": "Cover",
