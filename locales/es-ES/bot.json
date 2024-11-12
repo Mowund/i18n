@@ -394,7 +394,8 @@
       "CHAT": "You are not allowed to use this command in this chat",
       "COMMAND": "You are not allowed to interact with this command",
       "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
-    }
+    },
+    "WARNING_NOT_FOUND": "The warning `{warningId}` was not found"
   },
   "FEATURES": "Features",
   "FIX_PERMISSIONS": "Fix Permissions",
