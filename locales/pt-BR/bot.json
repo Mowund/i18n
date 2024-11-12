@@ -394,7 +394,8 @@
       "CHAT": "Você não tem permissão para usar este comando neste chat",
       "COMMAND": "Você não tem permissão para interagir com este comando",
       "DELETE_RESPONSE": "Você só pode excluir as respostas dos meus comandos que você acionou"
-    }
+    },
+    "WARNING_NOT_FOUND": "The warning `{warningId}` was not found"
   },
   "FEATURES": "Features",
   "FIX_PERMISSIONS": "Fix Permissions",
