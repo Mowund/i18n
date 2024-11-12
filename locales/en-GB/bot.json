@@ -1,4 +1,8 @@
 {
+  "LOCALE": {
+    "EMOJI": "🇬🇧",
+    "NAME": "English (United Kingdom)"
+  },
   "APP": {
     "DESCRIPTION": "Application related commands",
     "NAME": "app",
@@ -403,10 +407,6 @@
     "JOIN_MESSAGES": "Join Messages",
     "LEGEND": "Legend",
     "LOADING": "Loading",
-    "LOCALE": {
-      "EMOJI": "🇬🇧",
-      "NAME": "English (United Kingdom)"
-    },
     "MANAGED_BY": "Managed By",
     "MAXIMUM": "Maximum",
     "MEMBER": "Member",

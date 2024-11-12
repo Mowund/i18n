@@ -1,4 +1,8 @@
 {
+  "LOCALE": {
+    "EMOJI": "🇧🇷",
+    "NAME": "Português (Brasil)"
+  },
   "APP": {
     "DESCRIPTION": "Application related commands",
     "NAME": "app",
@@ -403,10 +407,6 @@
     "JOIN_MESSAGES": "Join Messages",
     "LEGEND": "Legend",
     "LOADING": "Carregando",
-    "LOCALE": {
-      "EMOJI": "🇧🇷",
-      "NAME": "Português (Brasil)"
-    },
     "MANAGED_BY": "Gerenciado Por",
     "MAXIMUM": "Máximo",
     "MEMBER": "Member",
