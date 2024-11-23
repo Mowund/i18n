@@ -1,5 +1,6 @@
 {
   "ADD": "Add",
+  "ADD_TO_ACCOUNT": "Add to Account",
   "ADD_TO_SERVER": "Add to Server",
   "ALL": "All",
   "APP": {
@@ -90,8 +91,8 @@
     "COUNT": "count",
     "CREATE": "create",
     "DELETE_PINNED": "delete-pinned",
-    "DURATION": "duration",
     "DESCRIPTION": "description",
+    "DURATION": "duration",
     "ECHO": "echo",
     "EDIT": "edit",
     "EMOJI": "emoji",
@@ -238,8 +239,8 @@
     "ROLEMENU_EDIT": "Edits a rolemenu",
     "ROLLOUT": "Shows information about experiments and their rollouts",
     "SERVER": "Server related commands",
-    "SERVERINFO": "Shows information about a server",
     "SERVER_SETTINGS": "Shows this server's settings",
+    "SERVERINFO": "Shows information about a server",
     "TIMEOUT": "Timeouts a member",
     "USER": "User related commands",
     "USER_INFO": "Shows information about an user",
@@ -324,6 +325,7 @@
   "ERROR": {
     "APP_NOT_FOUND": "The application was not found",
     "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
+    "CANNOT_DM": "I'm unable to send you DMs, so certain features like reminders won't work. To fix this, enable DMs in the privacy settings of any server I'm in, or add me to your account. Once done, verify to resume functionality.",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Não é possível enviar mensagens no canal especificado",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Este comando não pode ser usado em mensagens diretas",
@@ -385,6 +387,10 @@
     },
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "REMINDER": {
+      "CANNOT_DM": {
+        "CREATE": "You can't create reminders because I can't send you DMs. To fix this, enable DMs in the privacy settings of any server I'm in, or add me to your account. Once done, verify to resume functionality.",
+        "PAUSED": "Your reminders are paused because I can't send you DMs. To fix this, enable DMs in the privacy settings of any server I'm in, or add me to your account. Once done, verify to resume functionality."
+      },
       "EMPTY": "Você não tem nenhum lembrete",
       "EMPTY_CONTENT": "O conteúdo do lembrete está vazio",
       "NOT_FOUND": "O lembrete `{reminderId}` não foi encontrado"
@@ -399,6 +405,7 @@
   },
   "FEATURES": "Features",
   "FIX_PERMISSIONS": "Fix Permissions",
+  "FIXED": "Fixed",
   "FROM": "From",
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
@@ -594,6 +601,7 @@
   "REPEAT": "Repeat",
   "REQUESTED_BY": "Requested by {userName}",
   "REQUIRES_CODE_GRANT": "Requires OAuth2 Code Grant",
+  "REVERIFY": "Reverify",
   "ROLE_CONNECTION": {
     "LEVEL": {
       "DESCRIPTION": "Nível Maior Que",
@@ -645,10 +653,10 @@
   "SECURITY": "Security",
   "SERVER": {
     "INFO": {
-      "TITLE": "Server Information",
       "DESC": {
         "GUILD": "The server to get information about"
-      }
+      },
+      "TITLE": "Server Information"
     },
     "SETTINGS": {
       "ALLOW_NON_EPHEMERAL": {
@@ -754,6 +762,7 @@
     }
   },
   "VANITY_URL": "Vanity URL",
+  "VERIFY": "Verify",
   "VIEW": "View",
   "WARNING": "Warning",
   "WAVE_BUTTON": "Wave Button",
