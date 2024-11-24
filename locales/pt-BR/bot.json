@@ -452,6 +452,7 @@
   "OFFLINE": "Offline",
   "ONLINE": "Online",
   "OPEN": {
+    "GIF": "Open GIF",
     "PNG": "Open PNG",
     "SVG": "Open SVG"
   },
