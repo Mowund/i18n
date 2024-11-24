@@ -288,7 +288,6 @@
     "ADDING_UNICODE": "Adding Unicode Emoji",
     "COMPONENT": {
       "ADD": "Add Emoji",
-      "LINK": "Open Emoji",
       "READD": "Readd Emoji"
     },
     "DELETED": "Emoji Deleted",
@@ -452,6 +451,10 @@
   "NOT_RECURSIVE": "Not Recursive",
   "OFFLINE": "Offline",
   "ONLINE": "Online",
+  "OPEN": {
+    "PNG": "Open PNG",
+    "SVG": "Open SVG"
+  },
   "OUTPUT": "Output",
   "OWNER": {
     "CMD": {
