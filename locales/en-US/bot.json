@@ -760,8 +760,9 @@
           "EDIT": "Edit Game Icon",
           "EDITED": "Edited Game Icon",
           "EDITING": "Editing Game Icon",
-          "NAME": "Game Icon",
-          "INPUT_PLACEHOLDER": "Insert an emoji to use as your icon on games"
+          "EDITING_LABEL": "Insert the new icon",
+          "INPUT_PLACEHOLDER": "Insert an emoji to use as your icon on games",
+          "NAME": "Game Icon"
         }
       },
       "LOCALE": {
