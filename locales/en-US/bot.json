@@ -334,6 +334,7 @@
     "APP_NOT_FOUND": "The application was not found",
     "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
     "CANNOT_DM": "I'm unable to send you DMs, so certain features like reminders won't work. To fix this, enable DMs in the privacy settings of any server I'm in, or add me to your account. Once done, verify to resume functionality.",
+    "CANNOT_PLAY_AGAINST_SELF": "You can't play against yourself",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
@@ -418,6 +419,10 @@
   "FIX_PERMISSIONS": "Fix Permissions",
   "FIXED": "Fixed",
   "FROM": "From",
+  "GAME": {
+    "CONFIRM": "Would you like to play against ${player}?",
+    "DENIED": "The game was denied"
+  },
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
   "ICON": "Icon",
@@ -707,7 +712,7 @@
       "BOARD_RULES": "The board size the rules will be based on (Default: Same as board size)",
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "OPPOSITE": "The player to play against"
+      "OPPONENT": "The player to play against (Default: Myself)"
     },
     "DRAW": "It's a draw!",
     "TITLE": "TicTacToe",
