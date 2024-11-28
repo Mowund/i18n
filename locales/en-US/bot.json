@@ -762,6 +762,14 @@
         "NAME": "Locale",
         "SELECT_PLACEHOLDER": "Select the locale to change"
       },
+      "GAME": {
+        "ICON": {
+          "EDIT": "Edit Game Icon",
+          "EDITED": "Edited Game Icon",
+          "EDITING": "Editing Game Icon",
+          "NAME": "Game Icon",
+          "INPUT_PLACEHOLDER": "Insert an emoji to use as your icon on games"
+        },
       "TITLE": "User Settings"
     }
   },
