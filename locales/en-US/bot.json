@@ -755,13 +755,6 @@
           "NAME": "Ephemeral Responses"
         }
       },
-      "LOCALE": {
-        "EDIT": "Edit Locale",
-        "EDITED": "Edited Locale",
-        "EDITING": "Editing Locale",
-        "NAME": "Locale",
-        "SELECT_PLACEHOLDER": "Select the locale to change"
-      },
       "GAME": {
         "ICON": {
           "EDIT": "Edit Game Icon",
@@ -769,7 +762,15 @@
           "EDITING": "Editing Game Icon",
           "NAME": "Game Icon",
           "INPUT_PLACEHOLDER": "Insert an emoji to use as your icon on games"
-        },
+        }
+      },
+      "LOCALE": {
+        "EDIT": "Edit Locale",
+        "EDITED": "Edited Locale",
+        "EDITING": "Editing Locale",
+        "NAME": "Locale",
+        "SELECT_PLACEHOLDER": "Select the locale to change"
+      },
       "TITLE": "User Settings"
     }
   },
