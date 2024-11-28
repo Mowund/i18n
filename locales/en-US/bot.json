@@ -26,6 +26,8 @@
   "AVATAR": "Avatar",
   "BACK": "Back",
   "BANNER": "Banner",
+  "BOARD_RULES": "Board Rules",
+  "BOARD_SIZE": "Board Size",
   "BOOST_MESSAGES": "Boost Messages",
   "BOT": {
     "INFO": {
@@ -80,6 +82,8 @@
     "ATTACHMENT": "attachment",
     "AUTHOR": "author",
     "AWAIT": "await",
+    "BOARD_RULES": "board-rules",
+    "BOARD_SIZE": "board-size",
     "BOT": "bot",
     "CHANNEL": "channel",
     "CLEAR": "clear",
@@ -92,6 +96,7 @@
     "CREATE": "create",
     "DELETE_PINNED": "delete-pinned",
     "DESCRIPTION": "description",
+    "DIAGONALS": "diagonals",
     "DURATION": "duration",
     "ECHO": "echo",
     "EDIT": "edit",
@@ -107,6 +112,7 @@
     "LIST": "list",
     "LOCALIZATION": "localization",
     "NAME": "name",
+    "OPPONENT": "opponent",
     "OWNER": "owner",
     "PERMISSIONS": "permissions",
     "PING": "ping",
@@ -124,6 +130,7 @@
     "SHARD": "shard",
     "SHARD_DELAY": "shard-delay",
     "THUMBNAIL": "thumbnail",
+    "TICTACTOE": "tictactoe",
     "TIME": "time",
     "TIMEOUT": "timeout",
     "TIMESTAMP": "timestamp",
@@ -241,12 +248,14 @@
     "SERVER": "Server related commands",
     "SERVER_SETTINGS": "Shows this server's settings",
     "SERVERINFO": "Shows information about a server",
+    "TICTACTOE": "Play TicTacToe",
     "TIMEOUT": "Timeouts a member",
     "USER": "User related commands",
     "USER_INFO": "Shows information about an user",
     "USER_SETTINGS": "Shows your bot settings"
   },
   "DESCRIPTION": "Description",
+  "DIAGONALS": "Diagonals",
   "DIRECT_MESSAGE": "Direct Message",
   "DISCOVERY": "Discovery",
   "DISCOVERY_SPLASH": "Discovery Splash",
@@ -350,6 +359,7 @@
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
+      "MOVE": "Invalid move",
       "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
@@ -361,6 +371,7 @@
     },
     "NO_INSTALL_PARAMS": "The application doesn't have default install permission parameters",
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
+    "NOT_YOUR_TURN": "It's not your turn",
     "NOUN": "Error",
     "PERM": {
       "BOT": {
@@ -566,6 +577,7 @@
     "RESPONSE_TIME": "Response Time",
     "TITLE": "Pong!"
   },
+  "PLAYERS": "Players",
   "PRIVACY_POLICY": "Privacy Policy",
   "PUBLIC_BOT": "Public Bot",
   "PUBLIC_UPDATES": "Public Updates",
@@ -676,6 +688,7 @@
     }
   },
   "SERVERS": "Servers",
+  "SETTINGS": "Settings",
   "SETUP_TIPS": "Setup Tips",
   "SHARD": "Shard",
   "SPLASH": "Splash",
@@ -688,6 +701,17 @@
   "SYSTEM_MESSAGES": "System Messages",
   "TAGS": "Tags",
   "TERMS_OF_SERVICE": "Terms of Service",
+  "TICTACTOE": {
+    "DESC": {
+      "BOARD_RULES": "The board size the rules will be based on (Default: Same as board size)",
+      "BOARD_SIZE": "The size of the board (Default: 3x3)",
+      "DIAGONALS": "Whether to allow diagonals (Default: True)",
+      "OPPOSITE": "The player to play against"
+    },
+    "DRAW": "It's a draw!",
+    "TITLE": "TicTacToe",
+    "WINNER": "{player} won the game!"
+  },
   "TIME": {
     "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
     "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
