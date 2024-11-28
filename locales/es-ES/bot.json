@@ -755,6 +755,16 @@
           "NAME": "Ephemeral Responses"
         }
       },
+      "GAME": {
+        "ICON": {
+          "EDIT": "Edit Game Icon",
+          "EDITED": "Edited Game Icon",
+          "EDITING": "Editing Game Icon",
+          "EDITING_LABEL": "Insert the new icon",
+          "INPUT_PLACEHOLDER": "Insert an emoji to use as your icon on games",
+          "NAME": "Game Icon"
+        }
+      },
       "LOCALE": {
         "EDIT": "Edit Locale",
         "EDITED": "Edited Locale",
