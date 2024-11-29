@@ -1,4 +1,5 @@
 {
+  "ACCEPT": "Accept",
   "ADD": "Add",
   "ADD_TO_ACCOUNT": "Add to Account",
   "ADD_TO_SERVER": "Add to Server",
@@ -214,6 +215,7 @@
   "COVER": "Cover",
   "CREATED": "Created",
   "CURRENT": "Current",
+  "DECLINE": "Decline",
   "DECORATION": "Decoration",
   "DEFAULT": "Default",
   "DELETE": "Delete",
@@ -356,7 +358,7 @@
     "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INVALID": {
       "APP": "You must provide a valid bot or application ID",
-      "BOARD_RULES": "The provided size `{size}` is invalid. It must be within the range `1x1` to `${maxRow}x${maxCol}`, excluding `1x1`",
+      "BOARD_RULES": "The provided size `{size}` is invalid. It must be within the range `1x1` to `{maxRow}x{maxCol}`, excluding `1x1`",
       "IMAGE": {
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
@@ -420,8 +422,8 @@
   "FIXED": "Fixed",
   "FROM": "From",
   "GAME": {
-    "CONFIRM": "Would you like to play against ${player}?",
-    "DENIED": "The game was denied"
+    "CONFIRM": "Would you like to play against {player}?",
+    "DECLINED": "The game was declined"
   },
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
