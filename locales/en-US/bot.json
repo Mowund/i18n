@@ -218,6 +218,7 @@
   "DEFAULT": "Default",
   "DELETE": "Delete",
   "DELETE_RESPONSE": "Delete Response",
+  "DENY": "Deny",
   "DESC": {
     "APP": "Application related commands",
     "APP_INFO": "Shows information about an application",
