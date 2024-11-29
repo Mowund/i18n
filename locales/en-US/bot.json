@@ -1,4 +1,5 @@
 {
+  "ACCEPT": "Accept",
   "ADD": "Add",
   "ADD_TO_ACCOUNT": "Add to Account",
   "ADD_TO_SERVER": "Add to Server",
@@ -214,11 +215,11 @@
   "COVER": "Cover",
   "CREATED": "Created",
   "CURRENT": "Current",
+  "DECLINE": "Decline",
   "DECORATION": "Decoration",
   "DEFAULT": "Default",
   "DELETE": "Delete",
   "DELETE_RESPONSE": "Delete Response",
-  "DENY": "Deny",
   "DESC": {
     "APP": "Application related commands",
     "APP_INFO": "Shows information about an application",
