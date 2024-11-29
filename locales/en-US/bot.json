@@ -26,6 +26,8 @@
   "AVATAR": "Avatar",
   "BACK": "Back",
   "BANNER": "Banner",
+  "BOARD_RULES": "Board Rules",
+  "BOARD_SIZE": "Board Size",
   "BOOST_MESSAGES": "Boost Messages",
   "BOT": {
     "INFO": {
@@ -80,6 +82,8 @@
     "ATTACHMENT": "attachment",
     "AUTHOR": "author",
     "AWAIT": "await",
+    "BOARD_RULES": "board-rules",
+    "BOARD_SIZE": "board-size",
     "BOT": "bot",
     "CHANNEL": "channel",
     "CLEAR": "clear",
@@ -92,6 +96,7 @@
     "CREATE": "create",
     "DELETE_PINNED": "delete-pinned",
     "DESCRIPTION": "description",
+    "DIAGONALS": "diagonals",
     "DURATION": "duration",
     "ECHO": "echo",
     "EDIT": "edit",
@@ -107,6 +112,7 @@
     "LIST": "list",
     "LOCALIZATION": "localization",
     "NAME": "name",
+    "OPPONENT": "opponent",
     "OWNER": "owner",
     "PERMISSIONS": "permissions",
     "PING": "ping",
@@ -124,6 +130,7 @@
     "SHARD": "shard",
     "SHARD_DELAY": "shard-delay",
     "THUMBNAIL": "thumbnail",
+    "TICTACTOE": "tictactoe",
     "TIME": "time",
     "TIMEOUT": "timeout",
     "TIMESTAMP": "timestamp",
@@ -241,12 +248,14 @@
     "SERVER": "Server related commands",
     "SERVER_SETTINGS": "Shows this server's settings",
     "SERVERINFO": "Shows information about a server",
+    "TICTACTOE": "Play TicTacToe",
     "TIMEOUT": "Timeouts a member",
     "USER": "User related commands",
     "USER_INFO": "Shows information about an user",
     "USER_SETTINGS": "Shows your bot settings"
   },
   "DESCRIPTION": "Description",
+  "DIAGONALS": "Diagonals",
   "DIRECT_MESSAGE": "Direct Message",
   "DISCOVERY": "Discovery",
   "DISCOVERY_SPLASH": "Discovery Splash",
@@ -325,6 +334,7 @@
     "APP_NOT_FOUND": "The application was not found",
     "BOT_APP_NOT_FOUND": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots",
     "CANNOT_DM": "I'm unable to send you DMs, so certain features like reminders won't work. To fix this, enable DMs in the privacy settings of any server I'm in, or add me to your account. Once done, verify to resume functionality.",
+    "CANNOT_PLAY_AGAINST_SELF": "You can't play against yourself",
     "CANNOT_SEND_CHANNEL_MESSAGES": "Cannot send messages on specified channel",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
@@ -346,10 +356,12 @@
     "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INVALID": {
       "APP": "You must provide a valid bot or application ID",
+      "BOARD_RULES": "The provided size `{size}` is invalid. It must be within the range `1x1` to `${maxRow}x${maxCol}`, excluding `1x1`",
       "IMAGE": {
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
+      "MOVE": "Invalid move",
       "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
       "TIME_AUTOCOMPLETE": "{condition, select, greater{(Greater than {time}) {input}} less{(Less than {time}) {input}} other{Invalid time}}"
@@ -361,6 +373,7 @@
     },
     "NO_INSTALL_PARAMS": "The application doesn't have default install permission parameters",
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
+    "NOT_YOUR_TURN": "It's not your turn",
     "NOUN": "Error",
     "PERM": {
       "BOT": {
@@ -406,6 +419,10 @@
   "FIX_PERMISSIONS": "Fix Permissions",
   "FIXED": "Fixed",
   "FROM": "From",
+  "GAME": {
+    "CONFIRM": "Would you like to play against ${player}?",
+    "DENIED": "The game was denied"
+  },
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
   "ICON": "Icon",
@@ -566,6 +583,7 @@
     "RESPONSE_TIME": "Response Time",
     "TITLE": "Pong!"
   },
+  "PLAYERS": "Players",
   "PRIVACY_POLICY": "Privacy Policy",
   "PUBLIC_BOT": "Public Bot",
   "PUBLIC_UPDATES": "Public Updates",
@@ -676,6 +694,7 @@
     }
   },
   "SERVERS": "Servers",
+  "SETTINGS": "Settings",
   "SETUP_TIPS": "Setup Tips",
   "SHARD": "Shard",
   "SPLASH": "Splash",
@@ -688,6 +707,17 @@
   "SYSTEM_MESSAGES": "System Messages",
   "TAGS": "Tags",
   "TERMS_OF_SERVICE": "Terms of Service",
+  "TICTACTOE": {
+    "DESC": {
+      "BOARD_RULES": "The board size the rules will be based on (Default: Same as board size)",
+      "BOARD_SIZE": "The size of the board (Default: 3x3)",
+      "DIAGONALS": "Whether to allow diagonals (Default: True)",
+      "OPPONENT": "The player to play against (Default: Myself)"
+    },
+    "DRAW": "It's a draw!",
+    "TITLE": "TicTacToe",
+    "WINNER": "{player} won the game!"
+  },
   "TIME": {
     "DAYS": "{count, plural, =0 {now} one {# day} other {# days}}",
     "HOURS": "{count, plural, =0 {now} one {# hour} other {# hours}}",
