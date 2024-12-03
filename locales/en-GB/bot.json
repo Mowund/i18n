@@ -353,6 +353,11 @@
       "NOT_FOUND": "The emoji `{input}` was not found"
     },
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EXTERNAL": {
+      "APPS": "I can't send messages here since you can't use external apps in this channel",
+      "COMMANDS": "I can't send messages here since you can't use commands in this channel",
+      "EMBEDS": "I can't send messages here since you can't send embeds in this channel"
+    },
     "GUILD_NOT_FOUND": "Guild not found",
     "INACCESSIBLE_APP_AND_MEMBER_INFO": "The bot's application was not found. This may be caused by the bot being created a long time ago when app IDs were different from bots. The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
