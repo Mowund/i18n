@@ -377,6 +377,10 @@
     "NO_LONGER_MEMBER": "This user is no longer a member of the server",
     "NOT_YOUR_TURN": "It's not your turn",
     "NOUN": "Error",
+    "EXTERNAL": {
+      "APPS": "I can't send messages since you can't use external apps here",
+      "EMBEDS": "I can't send messages since you can't send embeds here"
+    },
     "PERM": {
       "BOT": {
         "MULTIPLE": {
