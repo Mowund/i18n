@@ -429,8 +429,10 @@
   "FIXED": "Fixed",
   "FROM": "From",
   "GAME": {
+    "ACCEPTED": "The game was accepted",
     "CONFIRM": "Would you like to play against {player}?",
-    "DECLINED": "The game was declined"
+    "DECLINED": "The game was declined",
+    "TURN": "{player}'s turn"
   },
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
