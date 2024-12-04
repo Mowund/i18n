@@ -180,6 +180,7 @@
     "USER_CAN_INTERACT": "{userName} can also interact with the system"
   },
   "COLOR_ROLE": "Color Role",
+  "COMBINATIONS": "Combinations",
   "COMMANDS": "Commands",
   "COMMUNITY": "Community",
   "CONTENT": {
@@ -719,8 +720,8 @@
     "DESC": {
       "BOARD_RULES": "The board size the rules will be based on (Default: Same as board size)",
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
+      "COMBINATIONS": "The amount of combinations to win (Default: 1)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "MATCHES": "The amount of matches to play (Default: 1)",
       "OPPONENT": "The player to play against (Default: Myself)"
     },
     "DRAW": "It's a draw!",
