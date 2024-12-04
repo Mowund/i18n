@@ -432,7 +432,8 @@
     "ACCEPTED": "The game was accepted",
     "CONFIRM": "Would you like to play against {player}?",
     "DECLINED": "The game was declined",
-    "TURN": "{player}'s turn"
+    "TURN": "{player}'s turn",
+    "YOUR_TURN": "It's your turn"
   },
   "HIGHEST_ROLE": "Highest Role",
   "HOIST_ROLE": "Hoist Role",
