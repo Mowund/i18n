@@ -115,6 +115,7 @@
     "LOCALIZATION": "localization",
     "NAME": "name",
     "OPPONENT": "opponent",
+    "OVERLAPS": "overlaps",
     "OWNER": "owner",
     "PERMISSIONS": "permissions",
     "PING": "ping",
@@ -370,6 +371,8 @@
         "SIZE": "The image size is bigger than `{maxSize, number}kb`",
         "TYPE": "The image type should be either `png`, `jpeg`, or `gif`"
       },
+      "MAX_OVERLAPS": "The provided amount of `{overlaps}` maximum overlaps is invalid. It must be within the range `0` to `{maxOverlaps}`",
+      "MAX_OVERLAPS_NONE": "You can't provide any maximum overlaps for this board size",
       "MOVE": "Invalid move",
       "NAME": "The name `{input}` {condition, select, longer{is longer than {maxLength, plural, =1 {**# character**} other{**# characters**}}} shorter{is shorter than {minLength, plural, =1 {**# character**} other{**# characters**}}} other{}}{alphanum, select, also{ and also contains **non-alphanumerical characters**} only{contains **non-alphanumerical characters**} other{}}",
       "TIME": "The time `{input}` {condition, select, greater{is greater than **{time}**} less{is less than **{time}**} other{is not valid}}",
@@ -725,7 +728,8 @@
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
       "COMBINATIONS": "The amount of combinations to win (Default: 1)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "OPPONENT": "The player to play against (Default: Myself)"
+      "OPPONENT": "The player to play against (Default: Myself)",
+      "OVERLAPS": "The maximum amount of overlaps allowed (Default: Maximum possible)"
     },
     "DRAW": "It's a draw!",
     "TITLE": "TicTacToe",
