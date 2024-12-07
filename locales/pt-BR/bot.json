@@ -115,6 +115,7 @@
     "LOCALIZATION": "localization",
     "NAME": "name",
     "OPPONENT": "opponent",
+    "OVERLAPS": "overlaps",
     "OWNER": "owner",
     "PERMISSIONS": "permissions",
     "PING": "ping",
@@ -370,6 +371,8 @@
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
       },
+      "MAX_OVERLAPS": "The provided amount of `{overlaps}` maximum overlaps is invalid. It must be within the range `0` to `{maxOverlaps}`",
+      "MAX_OVERLAPS_NONE": "You can't provide any maximum overlaps for this board size",
       "MOVE": "Invalid move",
       "NAME": "A entrada `{input}` {condition, select, longer{é maior que {maxLength, plural, =1 {**# caractere**} other{**# caracteres**}}} shorter{é menor que {minLength, plural, =1 {**# caractere**} other{**# caracteres**}}} other{}}{alphanum, select, also{ e também contém **caracteres não alfanúmericos**} only{contém **caracteres não alfanúmericos**} other{}}",
       "TIME": "O tempo `{input}` {condition, select, greater{é maior que **{time}**} less{é menor que **{time}**} other{não é válido}}",
@@ -486,6 +489,7 @@
     "SVG": "Open SVG"
   },
   "OUTPUT": "Output",
+  "OVERLAPS": "Overlaps",
   "OWNER": {
     "CMD": {
       "COMMANDS": {
@@ -725,7 +729,8 @@
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
       "COMBINATIONS": "The amount of combinations to win (Default: 1)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "OPPONENT": "The player to play against (Default: Myself)"
+      "OPPONENT": "The player to play against (Default: Myself)",
+      "OVERLAPS": "The maximum amount of overlaps allowed (Default: Maximum possible)"
     },
     "DRAW": "It's a draw!",
     "TITLE": "TicTacToe",
