@@ -489,6 +489,7 @@
     "SVG": "Open SVG"
   },
   "OUTPUT": "Output",
+  "OVERLAPS": "Overlaps",
   "OWNER": {
     "CMD": {
       "COMMANDS": {
