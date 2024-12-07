@@ -365,7 +365,7 @@
     "INACCESSIBLE_MEMBER_INFO": "The member's information is inaccessible because I'm not on the server, so it won't be updated by switching modes",
     "INVALID": {
       "APP": "You must provide a valid bot or application ID",
-      "BOARD_RULES": "The provided size `{size}` is invalid. It must be within the range `1x1` to `{maxRow}x{maxCol}`, excluding `1x1`",
+      "BOARD_RULES": "The provided size `{size}` is invalid. It must be within the range `1x1` to `{maxSize}`, excluding `1x1`",
       "IMAGE": {
         "SIZE": "O tamanho da imagem é maior que `{maxSize, number}kb`",
         "TYPE": "O tipo de imagem deve ser `png`, `jpeg`, ou `gif`"
