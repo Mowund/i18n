@@ -115,6 +115,7 @@
     "LOCALIZATION": "localization",
     "NAME": "name",
     "OPPONENT": "opponent",
+    "OPPONENT_STARTS": "opponent-starts",
     "OVERLAPS": "overlaps",
     "OWNER": "owner",
     "PERMISSIONS": "permissions",
@@ -729,7 +730,8 @@
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
       "COMBINATIONS": "The amount of combinations to win (Default: 1)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "OPPONENT": "The player to play against (Default: Myself)",
+      "OPPONENT": "The player to play against (Default: Myself or the DM recipient)",
+      "OPPONENT_STARTS": "Whether the opponent should start (Default: False)",
       "OVERLAPS": "The maximum amount of overlaps allowed (Default: Maximum possible)"
     },
     "DRAW": "It's a draw!",
