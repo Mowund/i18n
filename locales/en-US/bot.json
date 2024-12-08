@@ -730,7 +730,7 @@
       "BOARD_SIZE": "The size of the board (Default: 3x3)",
       "COMBINATIONS": "The amount of combinations to win (Default: 1)",
       "DIAGONALS": "Whether to allow diagonals (Default: True)",
-      "OPPONENT": "The player to play against (Default: Myself or the DM recipient)",
+      "OPPONENT": "The player to play against (Default: Myself)",
       "OPPONENT_STARTS": "Whether the opponent should start (Default: False)",
       "OVERLAPS": "The maximum amount of overlaps allowed (Default: Maximum possible)"
     },
